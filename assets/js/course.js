@@ -1,6 +1,11 @@
 class Course {
-    constructor(courseCode, requirementsText) {
+    constructor(courseCode, courseTitle, majorRestrictions, requirementsText, classRestrictions, lessons) {
         this.courseCode = courseCode;
+        this.courseTitle = courseTitle;
+        this.majorRestrictions = majorRestrictions;
+        this.classRestrictions = classRestrictions;
+        this.lessons = lessons;
+
         this.createRequirements(requirementsText);
     }
 
@@ -8,7 +13,7 @@ class Course {
         this.requirementNames = [];
 
         // If there are no requirements, return an empty list.
-        if (requirementsText == "<td>Yok/None</td>") {
+        if (requirementsText == "Yok/None" || requirementsText.includes("planının")) {
             return;
         }
 
