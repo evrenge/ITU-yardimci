@@ -1,0 +1,312 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>BBY Bİlgi Yarışması</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<script>
+			var oyuncu_sayisi=0;
+			function ekle() {
+			  oyuncu_sayisi++;
+			
+			  var table = document.getElementById("tablexxx");
+			  var row = table.insertRow(oyuncu_sayisi);
+			  var cell1 = row.insertCell(0);
+			  var cell2 = row.insertCell(1);
+			
+			  cell1.align="center";
+			  cell1.innerHTML = "<input class='inputLeft' type='text' id='S"+(oyuncu_sayisi)+"'>";
+			  cell1.id="X"+(oyuncu_sayisi);
+			
+			  cell2.align="center";
+			  cell2.innerHTML = "<input class='inputRight' type='text' id='K"+(oyuncu_sayisi)+"'>";
+			
+			}
+			function sil() {
+			  if(oyuncu_sayisi>0){
+				document.getElementById("tablexxx").deleteRow(oyuncu_sayisi);
+				oyuncu_sayisi--;
+			  }
+			  else{
+				window.alert("Silinecek takım bulunamadı");
+			  }
+			}
+			
+			var kisilerHazir=[
+			{sube:"Gönüllü", ad:"Velihan"},
+			{sube:"Gönüllü", ad:"Belinay"},
+			{sube:"Gönüllü", ad:"Elif Tüba"},
+			{sube:"Gönüllü", ad:"Furkan"},
+			{sube:"Gönüllü", ad:"Nezihe"},
+			{sube:"Gönüllü", ad:"Sevdenur"},
+			{sube:"Gönüllü", ad:"Ömer"},
+			{sube:"Gönüllü", ad:"Fulya"},
+			{sube:"Gönüllü", ad:"Melis"},
+
+			];
+			
+			function otomatik_doldur(){
+			  for(var i=0; i<kisilerHazir.length; i++){
+				ekle();
+				document.getElementById("S"+(i+1)).value=kisilerHazir[i].sube;
+				document.getElementById("K"+(i+1)).value=kisilerHazir[i].ad;
+			  }
+			}
+			
+			Math.randi = (X)=>Math.floor(Math.random()*X);
+			
+			function takim_olustur(kisilerOrj, K){ //K=grup başına kişi sayısı
+			 var N=kisilerOrj.length;
+			 var kisiler=new Array(N);
+			 for(var i=0; i<N; ){
+			  var id = Math.floor(Math.random()*N);
+			  if(kisiler[id] == null){
+			   kisiler[id]=kisilerOrj[i];
+			   i++;
+			  }
+			 }
+			
+			 var takimlar = [];
+			
+			
+			  //////////////// Takım kontenjanları:   2-2-3-3-3-3-3-3-3-3-3...  ////////////////
+			 /*
+			 while(N>0){
+			  if(N%K==0){
+			   takimlar.push(new Array(K));
+			   N-=K;
+			  }
+			  else if(K-1 <= N){
+			   takimlar.push(new Array(K-1));
+			   N-=K-1;
+			  }
+			  else{
+			   takimlar.push(new Array(N));
+			   N-=N;
+			  }
+			 }
+			 */
+			
+			 //////////////// Takım kontenjanları:   4-4-3-3-3-3-3-3-3-3-3...  ////////////////
+			
+			 while(N>0){
+			  if(N%K==0){
+			   takimlar.push(new Array(K));
+			   N-=K;
+			  }
+			  else if(K+1 <= N){
+			   takimlar.push(new Array(K+1));
+			   N-=K+1;
+			  }
+			  else{
+			   takimlar.push(new Array(N));
+			   N-=N;
+			  }
+			 }
+			
+			 var N=kisiler.length;
+			 var k=0;
+			 for(var i=0; i<takimlar.length; i++){
+			  for(var j=0; j<takimlar[i].length; j++){
+			   takimlar[i][j]=kisiler[k];
+			   k++;
+			  }
+			 }
+			
+			 function subeKontrol(){
+			  var sonuc={basarili:0, basarisiz:0};
+			
+			  var takim, kisi, sube;
+			  var i,j,k,l,m;
+			  var id;
+			  for(i=0; i<takimlar.length; i++){
+			   takim=takimlar[i];
+			   for(j=1; j<takim.length; j++){
+				for(k=0; k<j; k++){
+				 if(takim[j].sube==takim[k].sube){
+				  id=j;
+				  kisi=takim[id];
+				  sube=kisi.sube;
+			
+			
+			   for(l=0; l<1000; l++){ //Denemeye devam
+				var takim2=takimlar[Math.randi(takimlar.length)];
+				if(takim2==takim) continue;
+			
+				var id2=Math.randi(takim2.length);
+				var kisi2=takim2[id2];
+				if(kisi2==kisi) continue;
+			
+				var sube2=kisi2.sube;
+				if(sube2==sube) continue;
+			
+				for(m=0; m<takim2.length; m++){
+				 if(takim2[m].sube == sube) break;
+				}
+				if(m!=takim2.length) continue;
+			
+				for(m=0; m<takim.length; m++){
+				 if(takim[m].sube == sube2) break;
+				}
+				if(m!=takim.length) continue;
+			
+			
+				takim.splice(id,1);
+				takim.push(kisi2);
+			
+				takim2.splice(id2,1);
+				takim2.push(kisi);
+			
+				break;
+			   }
+			   if(l<1000){
+				sonuc.basarili++;
+			   }
+			   else{
+				sonuc.basarisiz++;
+			   }
+			
+			
+				 }
+				}
+			   }
+			  }
+			  return sonuc;
+			 }
+			
+			 for(var startTime=performance.now(); performance.now()<startTime+1000; ){ //En fazla 1 saniye dene
+			  var ret=subeKontrol();
+			  //console.log("ret: "+ret.basarili+" "+ret.basarisiz);
+			  if(ret.basarili==0 && ret.basarisiz==0) break;
+			 }
+			 var res=son_kontrol(kisilerOrj,takimlar);
+			 if(res==0) console.log("Success");
+			 else console.log("Fail: "+res);
+			 return takimlar;
+			}
+			
+			
+			function son_kontrol(kisiler, takimlar){
+			 var toplamSayi=kisiler.length;
+			 for(var i=0; i<takimlar.length; i++){
+			  var takim=takimlar[i];
+			  for(var j=1; j<takim.length; j++){
+			   for(var k=0; k<j; k++){
+				if(takim[j].sube==takim[k].sube)return -1;
+			   }
+			  }
+			  toplamSayi-=takim.length;
+			 }
+			 if(toplamSayi!=0) return -2;
+			 return 0;
+			}
+			
+			function takimla(){
+			  var K=0;
+			  K = parseInt( prompt("Bir takımdaki üye sayısı kaç olsun?") );
+			  if(K == NaN)  return -1;
+			  if(K <= 1 || K>=100) return -1;
+			  var kisiler=[];
+			  for(var i=0; i<oyuncu_sayisi; i++){
+				var sube=document.getElementById("S"+(i+1)).value;
+				var ad=document.getElementById("K"+(i+1)).value;
+				kisiler.push({sube:sube, ad:ad});
+				console.log(sube+" "+ad);
+			  }
+			  var takimlar=takim_olustur(kisiler, K);
+			  console.log(takimlar);
+			  var ana_div=document.getElementById("D1");
+			  ana_div.innerHTML="";
+			  for(var i=0; i<takimlar.length; i++){
+				ana_div.innerHTML += "<div class='takimlar' id='T"+(i+1)+"'></div>";
+			  }
+			  for(var i=0; i<takimlar.length; i++){
+				var takim=takimlar[i];
+				var div=document.getElementById("T"+(i+1));
+				div.innerHTML += "<u>Takım "+(i+1)+"<br></u>";
+				for(var j=0; j<takim.length; j++){
+				  div.innerHTML += takim[j].ad+"<br>";
+				}
+			  }
+			}
+		</script>
+		<style>
+
+			.inputLeft {
+			  width: 60px;
+			}
+			.inputRight {
+			  width: 200px;
+			}
+			
+			.takimlar{
+			  min-width: 200px;
+			  margin: 5px;
+			  display: inline-grid;
+			  background-color: #05052b;
+			  font-size: x-large;
+			}
+			</style>
+	</head>
+	<body class="is-preload" onload="otomatik_doldur();">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<img src="images/Screenshot 2021-02-01 170330.png" style="height: 8rem; width: 8rem;" >
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>2020-2021 BBY Bİlgİ Yarışması Takımları</h1>
+								<h3><a href="index.html">Sorulara Dön</a></h3>
+							</div>
+
+							<img src="" height="250"><br><br>
+							<button type="button" onclick="ekle()"><font id="Ekle" size="3">Yarışmacı ekle</font></button>&nbsp;&nbsp;&nbsp;&nbsp;
+							<button type="button" onclick="sil()"><font id="Sil" size="3">Yarışmacı sil</font></button><br><br>
+							<table id="tablexxx" border="6">
+							<tr>
+							<td align="center" style="width:63px;">Sınıf</td>
+							<td align="center" style="width:203px;">Yarışmacı</td>
+							</tr>
+							</table>
+							<br>
+							<button type="button" onclick="takimla()"><font id="Oluştur" size="4">Takımları Oluştur</font></button>
+							<br><br>
+							<div id="D1"></div>
+							
+							<br><br><br><br><br><br>
+							
+
+            			</div>
+            
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Copyright. Design: <a href="https://html5up.net">HTML5 UP</a>. Designed by: Evren Geydirici</p>
+					</footer>
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
