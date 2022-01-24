@@ -6,7 +6,7 @@ from tqdm import tqdm
 SLEEP_DUR = .05
 
 
-class Scraper:
+class CourseScraper:
     def __init__(self, driver: webdriver.Chrome) -> None:
         self.webdriver = driver
 
@@ -36,28 +36,35 @@ class Scraper:
             return self.webdriver.find_elements(
                 By.TAG_NAME, "li"), self.find_elements_by_class("button")[0]
 
-        dropdownOptionsParents, submitButton = update_dropdown_refereces()
+        dropdown_options_parents, submit_button = update_dropdown_refereces()
 
         courses = []
-        for i in tqdm(range(71, len(dropdownOptionsParents))):
-            dropdownOption = dropdownOptionsParents[i].find_elements(By.TAG_NAME, "a")[
+        option_parent_tqdms = tqdm(range(71, len(dropdown_options_parents)))
+        print("Scraping All Available Lessons...")
+        for i in option_parent_tqdms:
+            dropdown_option = dropdown_options_parents[i].find_elements(By.TAG_NAME, "a")[
                 0]
 
-            if dropdownOption is None:
+            if dropdown_option is None:
                 continue
-            if dropdownOption.get_attribute("role") != "option":
+            if dropdown_option.get_attribute("role") != "option":
                 continue
 
+            course_name = dropdown_option.find_elements(By.TAG_NAME, "span")[
+                0].get_attribute("innerHTML")
+            option_parent_tqdms.set_description(
+                f"Scraping \"{course_name}\" lessons")
+
             for i in range(200):
-                if dropdownOption.is_displayed():
+                if dropdown_option.is_displayed():
                     break
                 sleep(SLEEP_DUR)
 
-            dropdownOption.click()
-            submitButton.click()
+            dropdown_option.click()
+            submit_button.click()
             sleep(SLEEP_DUR)
 
             courses += self.scrap_current_table()
-            dropdownOptionsParents, submitButton = update_dropdown_refereces()
+            dropdown_options_parents, submit_button = update_dropdown_refereces()
 
         return courses
