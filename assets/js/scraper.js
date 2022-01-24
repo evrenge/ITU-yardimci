@@ -13,15 +13,13 @@ function scrapAllCourses() {
     let courses = [];
     for (let i = 0; i < dropdownOptions.length; i++) {
         let dropdownOption = dropdownOptions[i];
-        console.log(dropdownOption.textContent);
 
         dropdownOption.parentElement.click();
         submitButton.click();
 
-        courses = courses.join(scrapTable());
+        newCourses = scrapTable();
+        courses = courses.concat(newCourses);
     }
-
-    console.log(courses);
 }
 
 function scrapTable() {
@@ -83,3 +81,5 @@ function scrapTable() {
 
     return courses;
 }
+
+scrapAllCourses();
