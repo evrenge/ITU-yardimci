@@ -1,5 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
 from time import sleep
 
 
@@ -8,6 +11,7 @@ class Scraper:
 
     def __init__(self, driver: webdriver.Chrome) -> None:
         self.webdriver = driver
+        self.webdriver_wait = WebDriverWait(self.webdriver, 10)
 
     def find_elements_by_class(self, class_name: str) -> list:
         return self.webdriver.find_elements(
@@ -20,11 +24,8 @@ class Scraper:
     def wait(self, mult: int = 1):
         sleep(self.SLEEP_DUR * mult)
 
-    def wait_until_loaded(self, element, max_tries=500):
-        for _ in range(max_tries):
-            if element.is_displayed():
-                break
-            self.wait()
+    def wait_until_loaded(self, element):
+        self.webdriver_wait.until(EC.visibility_of(element))
 
     def get_dropdown_option_if_available(self, option):
         if len(option.find_elements(By.TAG_NAME, "a")) <= 0:

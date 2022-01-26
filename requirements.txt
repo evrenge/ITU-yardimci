@@ -1,3 +1,4 @@
 selenium==4.1.0
 tqdm==4.62.2
 webdriver_manager==3.5.2
+rich==10.9.0
