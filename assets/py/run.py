@@ -1,8 +1,9 @@
 from selenium import webdriver
-from time import sleep
+from time import sleep, perf_counter
+from rich import print as rprint
 from os import path, mkdir
 from tqdm import tqdm
-from create_driver import create_driver
+from driver_manager import DriverManager
 
 from course_scraper import CourseScraper
 from course_plan_scraper import CoursePlanScraper
@@ -78,19 +79,21 @@ def save_course_plans(faculties):
 
 
 if __name__ == "__main__":
+    t0 = perf_counter()
+
     # Create the driver.
-    driver = create_driver()
+    driver = DriverManager.create_driver()
 
-    # # Open the site, then wait for it to be loaded.
-    # driver.get(LESSONS_URL)
-    # sleep(3)
+    # Open the site, then wait for it to be loaded.
+    driver.get(LESSONS_URL)
+    sleep(3)
 
-    # # Scrap and save the courses.
-    # course_scraper = CourseScraper(driver)
-    # rows = course_scraper.scrap_tables()
-    # save_rows(rows)
+    # Scrap and save the courses.
+    course_scraper = CourseScraper(driver)
+    rows = course_scraper.scrap_tables()
+    save_rows(rows)
 
-    # print("")
+    print("")
 
     # Open the site, then wait for it to be loaded.
     driver.get(COURSE_PLANS_URL)
@@ -101,4 +104,8 @@ if __name__ == "__main__":
     faculties = course_plan_scraper.scrap_course_plans()
     save_course_plans(faculties)
 
-    driver.close()
+    t1 = perf_counter()
+    rprint(
+        f"Scraping & Saving Completed in [green]{round(t1 - t0, 2)}[white] seconds")
+
+    driver.quit()
