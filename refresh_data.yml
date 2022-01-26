@@ -1,0 +1,44 @@
+name: Refresh Data
+
+# Controls when the workflow will run
+on:
+  # schedule:
+        # Runs every 15 and 45th minute.
+        # - cron: "15,45 * * * *"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "refresh_data"
+  refresh_data:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: checkout repo content
+        uses: actions/checkout@v2
+
+      # Sets up python
+      - name: python setup
+        uses: actions/setup-python@v2.3.1
+        with:
+          python-version: 3.9
+
+       # install the python requirements via pip
+      - name: install requirements
+        run: pip install -r requirements.txt 
+        
+        # run the python script
+      - name: python run
+        run: python assets/py/run.py
+        
+        # Commits the changes back to the repo
+      - name: Git Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v4.13.1
+        with:
+          commit_message: Refreshed Data
+          file_pattern: data/*.txt
