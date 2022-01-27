@@ -34,7 +34,9 @@ jobs:
 
         # run the python script
       - name: python run
-        run: python assets/py/run.py
+      - run: |
+          cd assets/py
+          python run.py
 
         # Commits the changes back to the repo
       - name: Git Auto Commit
