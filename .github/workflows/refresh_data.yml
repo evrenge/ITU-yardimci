@@ -34,7 +34,7 @@ jobs:
 
         # run the python script
       - name: python run
-      - run: |
+        run: |
           cd assets/py
           python run.py
 
