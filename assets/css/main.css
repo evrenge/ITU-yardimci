@@ -895,6 +895,11 @@ input, select, textarea {
 
 /* Icons */
 
+	.logo {
+		height: 100%;
+		width: 100%;
+	}
+
 	ul.icons {
 		cursor: default;
 		list-style: none;
