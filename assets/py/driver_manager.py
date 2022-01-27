@@ -7,18 +7,18 @@ from sys import platform
 
 class DriverManager:
 
-    DRIVER_WIN_PATH = "../webdrivers/chromedriver_win.exe"
-    DRIVER_MAC_PATH = "../webdrivers/chromedriver_mac"
-    DRIVER_LINUX_PATH = "../webdrivers/chromedriver_linux"
+    DRIVER_WIN_PATH = r"../webdrivers/chromedriver_win.exe"
+    DRIVER_MAC_PATH = r"../webdrivers/chromedriver_mac"
+    DRIVER_LINUX_PATH = r"../webdrivers/chromedriver_linux"
 
     @staticmethod
     def get_driver_path():
-        if platform == "linux":
-            return DriverManager.DRIVER_LINUX_PATH
-        elif platform == "darwin":
+        if platform == "darwin":
             return DriverManager.DRIVER_MAC_PATH
         elif platform == "win32":
             return DriverManager.DRIVER_WIN_PATH
+        else:
+            return DriverManager.DRIVER_LINUX_PATH
 
     @staticmethod
     def create_driver():

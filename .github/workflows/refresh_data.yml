@@ -35,6 +35,7 @@ jobs:
         # run the python script
       - name: python run
         run: |
+          chmod 755 assets/webdrivers/chromedriver_linux
           cd assets/py
           python run.py
 
