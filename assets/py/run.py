@@ -3,8 +3,8 @@ from time import sleep, perf_counter
 from rich import print as rprint
 from os import path, mkdir
 from tqdm import tqdm
-from driver_manager import DriverManager
 
+from driver_manager import DriverManager
 from course_scraper import CourseScraper
 from course_plan_scraper import CoursePlanScraper
 
@@ -15,6 +15,30 @@ LESSONS_FILE_NAME = "lesson_rows"
 COURSE_PLANS_FILE_NAME = "course_plans"
 
 
+def process_row(row):
+    def extract_from_a(a):
+        return a.split(">")[1].split("<")[0].strip()
+    data = row.replace("<tr>", "").replace(
+        "</tr>", "").replace("</td>", "").replace("<br>", "").replace("</br>", "").split("<td>")[1:]
+
+    processed_row = data[0] + "|"  # CRN
+    processed_row += extract_from_a(data[1]) + "|"  # Course Code
+    processed_row += data[2] + "|"  # Course Title
+    processed_row += data[3] + "|"  # Teaching Method
+    processed_row += data[4] + "|"  # Instructor
+    processed_row += extract_from_a(data[5]) + "|"  # Building
+    processed_row += data[6] + "|"  # Day
+    processed_row += data[7] + "|"  # Time
+    processed_row += data[8] + "|"  # Room
+    processed_row += data[9] + "|"  # Capacity
+    processed_row += data[10] + "|"  # Enrolled
+    processed_row += extract_from_a(data[12]) + "|"  # Major Rest.
+    processed_row += data[13] + "|"  # Preq.
+    processed_row += data[14]  # Class Rest.
+
+    return processed_row
+
+
 def save_rows(rows):
     print("====== Saving Lesson Rows ======")
     # Create the data folder if it does not exist.
@@ -23,7 +47,7 @@ def save_rows(rows):
 
     # Save each row to a different line.
     with open(f"{DATA_PATH}/{LESSONS_FILE_NAME}.txt", "w", encoding="utf-16") as f:
-        f.writelines([row + "\n" for row in rows])
+        f.writelines([process_row(row) + "\n" for row in rows])
 
 
 def save_course_plans(faculties):
