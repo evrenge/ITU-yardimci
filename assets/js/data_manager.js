@@ -76,7 +76,6 @@ class DataManager {
         if (course == undefined)
         {
             course = new Course(courseCode, "Auto Generated Course", "", "");
-            console.log(courseCode);
             this._courses.push(course);
             this.coursesDict[courseCode] = course;
         }
