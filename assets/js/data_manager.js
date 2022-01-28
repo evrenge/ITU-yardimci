@@ -4,6 +4,7 @@ class DataManager {
 
     constructor() {
         this._courses = [];
+        this._semesters = {};
     }
 
     get courses() {
@@ -15,8 +16,16 @@ class DataManager {
         return this._courses;
     }
 
+    get semesters() {
+        if (Object.keys(this._semesters).length <= 0) {
+            this.createSemesters();
+        }
+
+        return this._semesters;
+    }
+
     createCourses() {
-        var lines = this.readTextFile(this.LESSON_PATH).split('\n');
+        let lines = this.readTextFile(this.LESSON_PATH);
         this._courses = [];
         let cachedCourseName = "-";
         let cachedLessonDataArray = [];
@@ -71,9 +80,75 @@ class DataManager {
     }
 
     connectAllCourses() {
-        this._courses.forEach(course => {
-            course.connectCourses(this._courses);
-        });
+        this._courses.forEach(course => course.connectCourses);
+    }
+
+    findCourseByCode(courseCode) {
+        for (let i = 0; i < this.courses.length; i++) {
+            const course = this.courses[i];
+            if (course.courseCode === courseCode) {
+                return course;
+            }
+        }
+        return new Course(courseCode,"-", null, "", null, []);
+    }
+
+    createSemesters() {
+        let currentFaculty = "";
+        let currentProgram = "";
+        let currentIteration = "";
+        let currentSemesters = [];
+        this._semesters = [];
+
+
+        let lines = this.readTextFile(this.COURSE_PLAN_PATH);
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].replace("\r", "").trim();
+            if (line.includes('# ')) {
+                currentSemesters = [];
+                let hashtagCount = line.split(' ')[0].length;
+                let title = line.slice(hashtagCount + 1).trim();
+                if (hashtagCount == 1){
+                    currentFaculty = title;
+                    this._semesters[currentFaculty] = {};
+                }
+                if (hashtagCount == 2){
+                    currentProgram = title;
+                    this._semesters[currentFaculty][currentProgram] = {};
+                }
+                if (hashtagCount == 3)
+                    currentIteration = title;
+            }
+            else {
+                let semester = [];
+                let courses = line.split('=');
+                for (let j = 0; j < courses.length; j++) {
+                    let course = courses[j];
+                    // Course
+                    if (course[0] !== "[") {
+                        let courseObject = this.findCourseByCode(course);
+                        semester.push(courseObject);
+                    }
+                    // Course Group
+                    else {
+                        course = course.replace("[", "").replace("]", "");
+                        let courseGroupData = course.split(":");
+                        courseGroupData[1] = courseGroupData[1].replace("(", "").replace(")", "");
+                        let selectiveCourseNames = line.split('|');
+                        let selectiveCourses = [];
+                        selectiveCourseNames.forEach(selectiveCourseName => {
+                            selectiveCourses.push(this.findCourseByCode(selectiveCourseName));
+                        });
+                        semester.push(new CourseGroup(selectiveCourses, courseGroupData[0]));
+                    }
+                }
+
+                currentSemesters.push(semester);
+
+                if (currentSemesters.length == 8)
+                    this._semesters[currentFaculty][currentProgram][currentIteration] = currentSemesters;
+            }
+        }
     }
 
     readTextFile(file) {
@@ -88,6 +163,6 @@ class DataManager {
             }
         }
         rawFile.send(null);
-        return allText;
+        return allText.split('\n');
     }
 }

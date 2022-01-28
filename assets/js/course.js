@@ -57,18 +57,14 @@ class Course {
         }
     }
 
-    connectCourses(allCourses) {
+    connectCourses() {
         this.requirements = [];
         for (let i = 0; i < this._requirementNames.length; i++) {
             this.requirements.push([]);
             for (let j = 0; j < this._requirementNames[i].length; j++) {
-                for (let k = 0; k < allCourses.length; k++) {
-                    const course = allCourses[k];
-                    if (course.courseCode === this._requirementNames[i][j]) {
-                        this.requirements[i].push(course);
-                        break;
-                    }
-                }
+                course = dataManager.findCourseByCode(this._requirementNames[i][j]);
+                if (course != null)
+                    this.requirements[i].push(course);
             }
         }
     }

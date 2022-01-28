@@ -1,0 +1,1 @@
+var dataManager = new DataManager();

@@ -85,14 +85,14 @@ def save_course_plans(faculties):
                                     line += f"{selective_course}"
 
                                     if k != len(course[selective_course_title]) - 1:
-                                        line += "-"
+                                        line += "|"
                                     else:
                                         line += ")]"
                         else:
                             line += course
 
                         if j != len(semester) - 1:
-                            line += "-"
+                            line += "="
 
                     lines.append(line + "\n")
 
