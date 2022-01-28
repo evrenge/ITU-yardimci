@@ -76,7 +76,6 @@ def save_course_plans(faculties):
             for faculty_plan_iter in faculties[faculty][faculty_plan]:
                 lines.append(f"### {faculty_plan_iter}\n")
                 for i, semester in enumerate(faculties[faculty][faculty_plan][faculty_plan_iter]):
-                    lines.append(f"#### {i + 1}\n")
                     line = ""
                     for j, course in enumerate(semester):
                         if type(course) is dict:
