@@ -10,33 +10,35 @@ class Course {
     }
 
     createRequirements(requirementsText) {
-        this.requirementNames = [];
+        //  (MAT 201 MIN DDveya MAT 201E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)ve (EHB 211 MIN DDveya EHB 211E MIN DD)
+        //  FIZ 102 MIN DDveya FIZ 102E MIN DDveya EHB 211 MIN DDveya EHB 211E MIN DD
+        this._requirementNames = [];
 
         // If there are no requirements, return an empty list.
-        if (requirementsText == "Yok/None" || requirementsText.includes("planının")) {
+        if (requirementsText.includes("Yok/None")) {
+            return;
+        }
+        else if (requirementsText.includes("planının") || requirementsText.includes("Diğer") || requirementsText.includes("Özel")) {
+            // TODO: Implement this.
             return;
         }
 
-        // Example of an un-filtered requirementsText:
-        // '<td> (FIZ 101 MIN DD<br>veya FIZ 101E MIN DD)<br>ve (STA 201 MIN DD<br>veya STA 201E MIN DD<br>veya MAK 118 MIN DD<br>veya MAK 118E MIN DD)<br></td>'
+        requirementsText = requirementsText
+            .replaceAll("veya", "\nveya")
+            .replaceAll("ve", "\nve")
+            .replaceAll("(", "")
+            .replaceAll(")", "");
 
-        // Get rid of table rows.
-        requirementsText = requirementsText.replaceAll("<td> ", "").replaceAll("</td>", "");
-        // Get rid of paranthesis.
-        requirementsText = requirementsText.replaceAll("(", "").replaceAll(")", "")
-
-        // Seperate lines.
-        let lines = requirementsText.split("<br>");
-
+        var lines = requirementsText.split("\n");
         for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
-            const words = line.split(" ");
+            var line = lines[i].trim();
+            var words = line.split(" ");
 
             // If this is the first line, then there
             // is no "ve" or "veya" in the line.
-            // ex: '(FIZ 101 MIN DD'
+            // ex: '(FIZ 101 MIN DD' ...
             if (i == 0) {
-                this.requirementNames.push([words[0] + " " + words[1]]);
+                this._requirementNames.push([words[0] + " " + words[1]]);
                 continue
             }
 
@@ -48,10 +50,26 @@ class Course {
 
             // Append to the last array.
             if (logicGate == "veya")
-                this.requirementNames[this.requirementNames.length - 1].push(requirementName);
+                this._requirementNames[this._requirementNames.length - 1].push(requirementName);
             // Create a new array.
             else if (logicGate == "ve")
-                this.requirementNames.push([requirementName]);
+                this._requirementNames.push([requirementName]);
+        }
+    }
+
+    connectCourses(allCourses) {
+        this.requirements = [];
+        for (let i = 0; i < this._requirementNames.length; i++) {
+            this.requirements.push([]);
+            for (let j = 0; j < this._requirementNames[i].length; j++) {
+                for (let k = 0; k < allCourses.length; k++) {
+                    const course = allCourses[k];
+                    if (course.courseCode === this._requirementNames[i][j]) {
+                        this.requirements[i].push(course);
+                        break;
+                    }
+                }
+            }
         }
     }
 }

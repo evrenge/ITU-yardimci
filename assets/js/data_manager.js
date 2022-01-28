@@ -1,99 +1,93 @@
-class DataManager{
+class DataManager {
     LESSON_PATH = "../../data/lesson_rows.txt";
-    CLASS_PATH = "../../data/course_plans.txt";
+    COURSE_PLAN_PATH = "../../data/course_plans.txt";
 
-    constructor(){
-        this.initialisedLessons = false;
-        this.initialisedClasses = false;
+    constructor() {
+        this._courses = [];
     }
 
-    readCourses(){
-        const fs = require('fs')
-        fs.readFile(LESSON_PATH, (err, data) => {
-            if (err) throw err;
-            this.courses = this.generateCoursesArray(data.toString());
-        })
+    get courses() {
+        if (this._courses.length <= 0) {
+            this.createCourses();
+            this.connectAllCourses();
+        }
+
+        return this._courses;
     }
 
-    readClass(){
-        if(!this.initialisedClasses) return;
-
-        const fs = require('fs')
-        fs.readFile(CLASS_PATH, (err, data) => {
-            if (err) throw err;
-            this.classData = data.toString();
-            this.initialisedClasses = true;
-        })
-
-    }
-
-    generateCoursesArray(lines) {
-        let courses = [];
+    createCourses() {
+        var lines = this.readTextFile(this.LESSON_PATH).split('\n');
+        this._courses = [];
         let cachedCourseName = "-";
-        let cachedCellArrays = [];
-    
-        let rows = lines.split("\n");
-        for (let i = 0; i < rows.length; i++) {
-            let row = rows[i];
-    
-            // Skip the header rows.
-            if (row.className == "table-baslik") continue;
-    
-            let cells = row.getElementsByTagName("td");
-            let currentCourseName = cells[1].textContent;
-            // If the course is the same.
+        let cachedLessonDataArray = [];
+
+        for (let i = 0; i < lines.length; i++) {
+            let line = lines[i].replace("\r", "");
+
+            let data = line.split("|");
+            let currentCourseName = data[1];
+
+            // If the lesson belongs to the same course.
             let isSameCourse = currentCourseName == cachedCourseName || cachedCourseName == "-";
             if (isSameCourse) {
                 cachedCourseName = currentCourseName;
-                cachedCellArrays.push(cells);
+                cachedLessonDataArray.push(data);
             }
             // If the course has changed.
-            if (!isSameCourse || i == rows.length - 1) {
+            if (!isSameCourse || i == lines.length - 1) {
                 // Save the previous cache.
                 let lessons = [];
-                for (let j = 0; j < cachedCellArrays.length; j++) {
-                    let cachedCellArray = cachedCellArrays[j];
-    
+                for (let j = 0; j < cachedLessonDataArray.length; j++) {
+                    let cachedCellArray = cachedLessonDataArray[j];
+
                     lessons.push(new Lesson(
-                        cachedCellArray[0].textContent,
-                        cachedCellArray[3].textContent,
-                        cachedCellArray[4].textContent,
-                        cachedCellArray[5].textContent,
-                        cachedCellArray[6].textContent,
-                        cachedCellArray[7].textContent,
-                        cachedCellArray[8].textContent,
-                        cachedCellArray[9].textContent,
-                        cachedCellArray[10].textContent,
+                        cachedCellArray[0],
+                        cachedCellArray[3],
+                        cachedCellArray[4],
+                        cachedCellArray[5],
+                        cachedCellArray[6],
+                        cachedCellArray[7],
+                        cachedCellArray[8],
+                        cachedCellArray[9],
+                        cachedCellArray[10],
                     ));
                 }
-    
+
                 let course = new Course(
-                    cachedCellArrays[0][1].textContent,
-                    cachedCellArrays[0][2].textContent,
-                    cachedCellArrays[0][12].textContent,
-                    cachedCellArrays[0][13].outerHTML,
-                    cachedCellArrays[0][14].textContent,
+                    cachedLessonDataArray[0][1],
+                    cachedLessonDataArray[0][2],
+                    cachedLessonDataArray[0][11],
+                    cachedLessonDataArray[0][12],
+                    cachedLessonDataArray[0][13],
                     lessons);
-    
-                console.log(course);
-                courses.push(course)
-    
+
+                this._courses.push(course)
+
                 // Create new cache.
                 cachedCourseName = currentCourseName;
-                cachedCellArrays = [cells];
+                cachedLessonDataArray = [data];
             }
         }
-    
-        return courses;
     }
 
-}
-
-class FacultyProgram{
-    constructor(name, iterations){
-        this.name = name;
-        //this.iterations = iterations;
+    connectAllCourses() {
+        this._courses.forEach(course => {
+            course.connectCourses(this._courses);
+        });
     }
 
-
+    readTextFile(file) {
+        var rawFile = new XMLHttpRequest();
+        rawFile.open("GET", file, false);
+        var allText = "";
+        rawFile.onreadystatechange = function () {
+            if (rawFile.readyState === 4) {
+                if (rawFile.status === 200 || rawFile.status == 0) {
+                    allText = rawFile.responseText;
+                }
+            }
+        }
+        rawFile.send(null);
+        return allText;
+    }
 }
