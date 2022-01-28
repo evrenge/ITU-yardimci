@@ -7,6 +7,8 @@ class DataManager {
         this._courses = [];
         this._semesters = {};
         this.coursesDict = {};
+
+        this.fileLoadStatus = 0;
     }
 
     get courses() {
@@ -31,8 +33,29 @@ class DataManager {
         return this._semesters;
     }
 
+    readAllTextFiles() {
+        this.readTextFile(this.LESSON_PATH, (txt) => {
+            this.lesson_lines = txt.split("\n");
+            this.onFileLoadSuccess();
+        });
+        this.readTextFile(this.COURSE_PATH, (txt) => {
+            this.course_lines = txt.split("\n");
+            this.onFileLoadSuccess();
+        });
+        this.readTextFile(this.COURSE_PLAN_PATH, (txt) => {
+            this.course_plan_lines = txt.split("\n");
+            this.onFileLoadSuccess();
+        });
+    }
+
+    onFileLoadSuccess() {
+        this.fileLoadStatus++;
+        if (this.fileLoadStatus >= 3)
+            generateDropdowns();
+    }
+
     createCourses() {
-        let lines = this.readTextFile(this.COURSE_PATH);
+        let lines = this.course_lines;
         this._courses = [];
         this.coursesDict = {};
 
@@ -48,7 +71,7 @@ class DataManager {
     }
 
     createLessons() {
-        let lines = this.readTextFile(this.LESSON_PATH);
+        let lines = this.lesson_lines;
         for (let i = 0; i < lines.length; i++) {
             let line = lines[i].replace("\r", "");
 
@@ -73,13 +96,12 @@ class DataManager {
 
     findCourseByCode(courseCode) {
         let course = this.coursesDict[courseCode];
-        if (course == undefined)
-        {
+        if (course == undefined) {
             course = new Course(courseCode, "Auto Generated Course", "", "");
             this._courses.push(course);
             this.coursesDict[courseCode] = course;
         }
-        
+
         return course;
     }
 
@@ -90,7 +112,7 @@ class DataManager {
         let currentSemesters = [];
         this._semesters = [];
 
-        let lines = this.readTextFile(this.COURSE_PLAN_PATH);
+        let lines = this.course_plan_lines;
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i].replace("\r", "").trim();
             if (line.includes('# ')) {
@@ -140,19 +162,12 @@ class DataManager {
         }
     }
 
-    readTextFile(file) {
-        var rawFile = new XMLHttpRequest();
-        rawFile.open("GET", file, false);
-        var allText = "";
-        rawFile.onreadystatechange = function () {
-            if (rawFile.readyState === 4) {
-                if (rawFile.status === 200 || rawFile.status == 0) {
-                    allText = rawFile.responseText;
-                }
-            }
-        }
-        rawFile.send(null);
-        return allText.split('\n');
+    readTextFile(path, onSuccess) {
+        $.ajax({
+            url: path,
+            type: 'get',
+            success: onSuccess,
+        });
     }
 }
 

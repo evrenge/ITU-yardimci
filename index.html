@@ -31,37 +31,39 @@
 				<div style="width: 75%;">
 					<nav>
 						<form action="./prerequisitory.html">
-							<table style="table-layout: fixed;">
-								<tr>
-									<th>
-										<label for="faculty" style="display: inline; text-align: center;">Fakülte</label>
-									</th>
-									<th>
-										<label for="program" style="display: inline; text-align: center;">Program</label>
-									</th> 
-									<th>
-										<label for="iteration" style="display: inline; text-align: center;">Ders Planı</label>
-									</th>
-								</tr>
-								<tr>
-									<td>
-										<select name="faculty" id="faculty">
-											<option value="default">-- Seçiniz --</option>
-										</select>
-									</td>
-									<td>
-										<select name="program" id="program">
-											<option value="default">-- Seçiniz --</option>
-										</select>
-									</td>
-									<td>
-										<select name="iteration" id="iteration">
-											<option value="default">-- Seçiniz --</option>
-										</select>
-									</td>
-								</tr>
-							</table>
-							<input type="submit" value="Göster">
+							<fieldset disabled id="formfieldset">
+								<table style="table-layout: fixed;">
+									<tr>
+										<th>
+											<label for="faculty" style="display: inline; text-align: center;">Fakülte</label>
+										</th>
+										<th>
+											<label for="program" style="display: inline; text-align: center;">Program</label>
+										</th> 
+										<th>
+											<label for="iteration" style="display: inline; text-align: center;">Ders Planı</label>
+										</th>
+									</tr>
+									<tr>
+										<td>
+											<select name="faculty" id="faculty">
+												<option value="default">-- Seçiniz --</option>
+											</select>
+										</td>
+										<td>
+											<select name="program" id="program">
+												<option value="default">-- Seçiniz --</option>
+											</select>
+										</td>
+										<td>
+											<select name="iteration" id="iteration">
+												<option value="default">-- Seçiniz --</option>
+											</select>
+										</td>
+									</tr>
+								</table>
+								<input type="submit" value="Göster">
+							</fieldset>
 						</form>
 					</nav>
 				</div>
@@ -69,9 +71,6 @@
 
 			<!-- Main -->
 			<div id="main">
-				<embed src="data/course_plans.txt">
-				<embed src="data/lesson_rows.txt">
-				<embed src="data/course_rows.txt">
 			</div>
 
 			<!-- Footer -->
@@ -106,6 +105,9 @@
 		<script src="assets/js/cascading_dropdown.js"></script>
 		<script src="assets/js/data_manager.js"></script>
 		<script src="assets/js/course_group.js"></script>
+		<script src="assets/js/onload.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
 
 	</body>
 
