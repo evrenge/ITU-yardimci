@@ -4,26 +4,31 @@ from rich import print as rprint
 from os import path, mkdir
 from tqdm import tqdm
 
-from driver_manager import DriverManager
 from course_scraper import CourseScraper
+from driver_manager import DriverManager
+from lesson_scraper import LessonScraper
 from course_plan_scraper import CoursePlanScraper
 
 LESSONS_URL = 'https://www.sis.itu.edu.tr/TR/ogrenci/ders-programi/ders-programi.php?seviye=LS'
+COURSES_URL = 'https://www.sis.itu.edu.tr/TR/ogrenci/lisans/onsartlar/onsartlar.php'
 COURSE_PLANS_URL = 'https://www.sis.itu.edu.tr/TR/ogrenci/lisans/ders-planlari/ders-planlari.php?fakulte='
+
 DATA_PATH = "../../data"
 LESSONS_FILE_NAME = "lesson_rows"
+COURSE_FILE_NAME = "course_rows"
 COURSE_PLANS_FILE_NAME = "course_plans"
 
 
-def process_row(row):
-    def extract_from_a(a):
-        return a.split(">")[1].split("<")[0].strip()
+def extract_from_a(a):
+    return a.split(">")[1].split("<")[0].strip()
+
+
+def process_lesson_row(row):
     data = row.replace("<tr>", "").replace(
         "</tr>", "").replace("</td>", "").replace("<br>", "").replace("</br>", "").split("<td>")[1:]
 
     processed_row = data[0] + "|"  # CRN
     processed_row += extract_from_a(data[1]) + "|"  # Course Code
-    processed_row += data[2] + "|"  # Course Title
     processed_row += data[3] + "|"  # Teaching Method
     processed_row += data[4] + "|"  # Instructor
     processed_row += extract_from_a(data[5]) + "|"  # Building
@@ -32,22 +37,47 @@ def process_row(row):
     processed_row += data[8] + "|"  # Room
     processed_row += data[9] + "|"  # Capacity
     processed_row += data[10] + "|"  # Enrolled
-    processed_row += extract_from_a(data[12]) + "|"  # Major Rest.
-    processed_row += data[13] + "|"  # Preq.
-    processed_row += data[14]  # Class Rest.
+    processed_row += extract_from_a(data[12])  # Major Rest.
 
     return processed_row
 
 
-def save_rows(rows):
-    print("====== Saving Lesson Rows ======")
+def save_lesson_rows(rows):
+    print("Saving Lesson Rows...")
     # Create the data folder if it does not exist.
     if not path.exists(DATA_PATH):
         mkdir(DATA_PATH)
 
     # Save each row to a different line.
+    lines = [process_lesson_row(row) + "\n" for row in rows]
+    lines.sort()
     with open(f"{DATA_PATH}/{LESSONS_FILE_NAME}.txt", "w", encoding="utf-16") as f:
-        f.writelines([process_row(row) + "\n" for row in rows])
+        f.writelines(lines)
+
+
+def process_course_row(row):
+    data = row.replace("<tr>", "").replace(
+        "</tr>", "").replace("</td>", "").replace("<br>", "").replace("</br>", "").split("<td>")[1:]
+
+    processed_row = extract_from_a(data[0]) + "|"  # Course Code
+    processed_row += data[1] + "|"  # Course Title
+    processed_row += data[2] + "|"  # Requirements
+    processed_row += data[3]  # Class Restrictions
+
+    return processed_row
+
+
+def save_course_rows(rows):
+    print("Saving Course Rows...")
+    # Create the data folder if it does not exist.
+    if not path.exists(DATA_PATH):
+        mkdir(DATA_PATH)
+
+    # Save each row to a different line.
+    lines = [process_course_row(row) + "\n" for row in rows]
+    lines.sort()
+    with open(f"{DATA_PATH}/{COURSE_FILE_NAME}.txt", "w", encoding="utf-16") as f:
+        f.writelines(lines)
 
 
 def save_course_plans(faculties):
@@ -108,13 +138,22 @@ if __name__ == "__main__":
     driver = DriverManager.create_driver()
 
     # Open the site, then wait for it to be loaded.
-    driver.get(LESSONS_URL)
+    driver.get(COURSES_URL)
     sleep(3)
 
     # Scrap and save the courses.
     course_scraper = CourseScraper(driver)
-    rows = course_scraper.scrap_tables()
-    save_rows(rows)
+    course_rows = course_scraper.scrap_tables()
+    save_course_rows(course_rows)
+
+    # Open the site, then wait for it to be loaded.
+    driver.get(LESSONS_URL)
+    sleep(3)
+
+    # Scrap and save the courses.
+    lesson_scraper = LessonScraper(driver)
+    lesson_rows = lesson_scraper.scrap_tables()
+    save_lesson_rows(lesson_rows)
 
     print("")
 

@@ -39,14 +39,8 @@ jobs:
           cd assets/py
           python run.py
 
-      # This step will evaluate the repo status and report the change
-      - name: Check for Changes
-        id: changes
-        uses: UnicornGlobal/has-changes-action@v1.0.11
-        
         # Commits the changes back to the repo
       - name: Git Auto Commit
-        if: steps.changes.outputs.changed == 1
         uses: stefanzweifel/git-auto-commit-action@v4.13.1
         with:
           commit_message: Refreshed Data
