@@ -30,39 +30,39 @@
 				</div>
 				<div style="width: 75%;">
 					<nav>
-						<table style="table-layout: fixed;">
-							<tr>
-								<th>
-									<label for="faculty" style="display: inline; text-align: center;">Fakülte</label>
-								</th>
-								<th>
-									<label for="program" style="display: inline; text-align: center;">Program</label>
-								</th> 
-								<th>
-									<label for="iteration" style="display: inline; text-align: center;">Ders Planı</label>
-								</th>
-							</tr>
-							<tr>
-								<td>
-									<select name="faculty" id="faculty">
-										<option value="default">-- Seçiniz --</option>
-									</select>
-								</td>
-								<td>
-									<select name="program" id="program">
-										<option value="default">-- Seçiniz --</option>
-									</select>
-								</td>
-								<td>
-									<select name="iteration" id="iteration">
-										<option value="default">-- Seçiniz --</option>
-									</select>
-								</td>
-							</tr>
-						</table>
-						<a href="./prerequisitory.html" target="_blank" style="border-bottom: 0em;">
+						<form action="./prerequisitory.html">
+							<table style="table-layout: fixed;">
+								<tr>
+									<th>
+										<label for="faculty" style="display: inline; text-align: center;">Fakülte</label>
+									</th>
+									<th>
+										<label for="program" style="display: inline; text-align: center;">Program</label>
+									</th> 
+									<th>
+										<label for="iteration" style="display: inline; text-align: center;">Ders Planı</label>
+									</th>
+								</tr>
+								<tr>
+									<td>
+										<select name="faculty" id="faculty">
+											<option value="default">-- Seçiniz --</option>
+										</select>
+									</td>
+									<td>
+										<select name="program" id="program">
+											<option value="default">-- Seçiniz --</option>
+										</select>
+									</td>
+									<td>
+										<select name="iteration" id="iteration">
+											<option value="default">-- Seçiniz --</option>
+										</select>
+									</td>
+								</tr>
+							</table>
 							<input type="submit" value="Göster">
-						</a>
+						</form>
 					</nav>
 				</div>
 			</header>
@@ -103,9 +103,7 @@
 		<script src="assets/js/lesson.js"></script>
 		<script src="assets/js/cascading_dropdown.js"></script>
 		<script src="assets/js/data_manager.js"></script>
-		<script src="assets/js/data.js"></script>
 		<script src="assets/js/course_group.js"></script>
-		<script src="assets/js/backend.js"></script>
 
 	</body>
 

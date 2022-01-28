@@ -166,3 +166,5 @@ class DataManager {
         return allText.split('\n');
     }
 }
+
+var dataManager = new DataManager();
