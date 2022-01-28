@@ -1,10 +1,11 @@
 class Course {
-    constructor(courseCode, courseTitle, majorRestrictions, requirementsText, classRestrictions, lessons) {
+    constructor(courseCode, courseTitle, requirementsText, classRestrictions) {
         this.courseCode = courseCode;
         this.courseTitle = courseTitle;
-        this.majorRestrictions = majorRestrictions;
         this.classRestrictions = classRestrictions;
-        this.lessons = lessons;
+
+        this.majorRestrictions = "";
+        this.lessons = [];
 
         this.createRequirements(requirementsText);
     }
@@ -15,7 +16,7 @@ class Course {
         this._requirementNames = [];
 
         // If there are no requirements, return an empty list.
-        if (requirementsText.includes("Yok/None")) {
+        if (requirementsText.includes("Yok")) {
             return;
         }
         else if (requirementsText.includes("planının") || requirementsText.includes("Diğer") || requirementsText.includes("Özel")) {
@@ -62,7 +63,7 @@ class Course {
         for (let i = 0; i < this._requirementNames.length; i++) {
             this.requirements.push([]);
             for (let j = 0; j < this._requirementNames[i].length; j++) {
-                course = dataManager.findCourseByCode(this._requirementNames[i][j]);
+                let course = dataManager.findCourseByCode(this._requirementNames[i][j]);
                 if (course != null)
                     this.requirements[i].push(course);
             }

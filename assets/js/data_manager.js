@@ -1,15 +1,21 @@
 class DataManager {
     LESSON_PATH = "../../data/lesson_rows.txt";
+    COURSE_PATH = "../../data/course_rows.txt";
     COURSE_PLAN_PATH = "../../data/course_plans.txt";
 
     constructor() {
         this._courses = [];
         this._semesters = {};
+        this.coursesDict = {};
     }
 
     get courses() {
         if (this._courses.length <= 0) {
             this.createCourses();
+            this._courses.forEach(course => {
+                this.coursesDict[course.courseCode] = course;
+            });
+            this.createLessons();
             this.connectAllCourses();
         }
 
@@ -18,6 +24,7 @@ class DataManager {
 
     get semesters() {
         if (Object.keys(this._semesters).length <= 0) {
+            this.courses;
             this.createSemesters();
         }
 
@@ -25,72 +32,56 @@ class DataManager {
     }
 
     createCourses() {
-        let lines = this.readTextFile(this.LESSON_PATH);
+        let lines = this.readTextFile(this.COURSE_PATH);
         this._courses = [];
-        let cachedCourseName = "-";
-        let cachedLessonDataArray = [];
+        this.coursesDict = {};
 
+        for (let i = 0; i < lines.length; i++) {
+            let line = lines[i].replace("\r", "");
+            if (line.length == 0) continue;
+
+            let data = line.split("|");
+            let course = new Course(data[0], data[1], data[2], data[3]);
+
+            this._courses.push(course);
+        }
+    }
+
+    createLessons() {
+        let lines = this.readTextFile(this.LESSON_PATH);
         for (let i = 0; i < lines.length; i++) {
             let line = lines[i].replace("\r", "");
 
             let data = line.split("|");
-            let currentCourseName = data[1];
+            let courseCode = data[1];
+            let majorRest = data[9];
+            let currentLesson = new Lesson(data[0], data[2], data[3], data[4],
+                data[5], data[6], data[7], data[8]);
 
-            // If the lesson belongs to the same course.
-            let isSameCourse = currentCourseName == cachedCourseName || cachedCourseName == "-";
-            if (isSameCourse) {
-                cachedCourseName = currentCourseName;
-                cachedLessonDataArray.push(data);
-            }
-            // If the course has changed.
-            if (!isSameCourse || i == lines.length - 1) {
-                // Save the previous cache.
-                let lessons = [];
-                for (let j = 0; j < cachedLessonDataArray.length; j++) {
-                    let cachedCellArray = cachedLessonDataArray[j];
+            let course = this.findCourseByCode(courseCode);
 
-                    lessons.push(new Lesson(
-                        cachedCellArray[0],
-                        cachedCellArray[3],
-                        cachedCellArray[4],
-                        cachedCellArray[5],
-                        cachedCellArray[6],
-                        cachedCellArray[7],
-                        cachedCellArray[8],
-                        cachedCellArray[9],
-                        cachedCellArray[10],
-                    ));
-                }
-
-                let course = new Course(
-                    cachedLessonDataArray[0][1],
-                    cachedLessonDataArray[0][2],
-                    cachedLessonDataArray[0][11],
-                    cachedLessonDataArray[0][12],
-                    cachedLessonDataArray[0][13],
-                    lessons);
-
-                this._courses.push(course)
-
-                // Create new cache.
-                cachedCourseName = currentCourseName;
-                cachedLessonDataArray = [data];
-            }
+            course.lessons.push(currentLesson);
+            course.majorRest = majorRest;
         }
     }
 
     connectAllCourses() {
-        this._courses.forEach(course => course.connectCourses);
+        this._courses.forEach(course => {
+            course.connectCourses();
+        });
     }
 
     findCourseByCode(courseCode) {
-        for (let i = 0; i < this.courses.length; i++) {
-            const course = this.courses[i];
-            if (course.courseCode === courseCode) {
-                return course;
-            }
+        let course = this.coursesDict[courseCode];
+        if (course == undefined)
+        {
+            course = new Course(courseCode, "Auto Generated Course", "", "");
+            console.log(courseCode);
+            this._courses.push(course);
+            this.coursesDict[courseCode] = course;
         }
-        return new Course(courseCode,"-", null, "", null, []);
+        
+        return course;
     }
 
     createSemesters() {
@@ -100,7 +91,6 @@ class DataManager {
         let currentSemesters = [];
         this._semesters = [];
 
-
         let lines = this.readTextFile(this.COURSE_PLAN_PATH);
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i].replace("\r", "").trim();
@@ -108,11 +98,11 @@ class DataManager {
                 currentSemesters = [];
                 let hashtagCount = line.split(' ')[0].length;
                 let title = line.slice(hashtagCount + 1).trim();
-                if (hashtagCount == 1){
+                if (hashtagCount == 1) {
                     currentFaculty = title;
                     this._semesters[currentFaculty] = {};
                 }
-                if (hashtagCount == 2){
+                if (hashtagCount == 2) {
                     currentProgram = title;
                     this._semesters[currentFaculty][currentProgram] = {};
                 }
@@ -124,22 +114,22 @@ class DataManager {
                 let courses = line.split('=');
                 for (let j = 0; j < courses.length; j++) {
                     let course = courses[j];
-                    // Course
-                    if (course[0] !== "[") {
-                        let courseObject = this.findCourseByCode(course);
-                        semester.push(courseObject);
-                    }
                     // Course Group
-                    else {
+                    if (course[0] === "[") {
                         course = course.replace("[", "").replace("]", "");
-                        let courseGroupData = course.split(":");
+                        let courseGroupData = course.split("*");
                         courseGroupData[1] = courseGroupData[1].replace("(", "").replace(")", "");
-                        let selectiveCourseNames = line.split('|');
+                        let selectiveCourseNames = courseGroupData[1].split('|');
                         let selectiveCourses = [];
                         selectiveCourseNames.forEach(selectiveCourseName => {
                             selectiveCourses.push(this.findCourseByCode(selectiveCourseName));
                         });
                         semester.push(new CourseGroup(selectiveCourses, courseGroupData[0]));
+                    }
+                    // Course
+                    else {
+                        let courseObject = this.findCourseByCode(course);
+                        semester.push(courseObject);
                     }
                 }
 

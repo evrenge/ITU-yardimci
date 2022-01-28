@@ -57,7 +57,9 @@ def save_lesson_rows(rows):
 
 def process_course_row(row):
     data = row.replace("<tr>", "").replace(
-        "</tr>", "").replace("</td>", "").replace("<br>", "").replace("</br>", "").split("<td>")[1:]
+        "</tr>", "").replace("</td>", "").replace(
+            "<br>", "").replace("</br>", "").replace(
+                '<font color="#FF0000">', "").replace("</font>", "").split("<td>")[1:]
 
     processed_row = extract_from_a(data[0]) + "|"  # Course Code
     processed_row += data[1] + "|"  # Course Title
@@ -110,7 +112,7 @@ def save_course_plans(faculties):
                     for j, course in enumerate(semester):
                         if type(course) is dict:
                             for selective_course_title in course.keys():
-                                line += f"[{selective_course_title}:("
+                                line += f"[{selective_course_title}*("
                                 for k, selective_course in enumerate(course[selective_course_title]):
                                     line += f"{selective_course}"
 
