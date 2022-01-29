@@ -20,6 +20,7 @@ function generateDropdowns() {
         for (var y in subjectObject[this.value]) {
             programSel.options[programSel.options.length] = new Option(y, y);
         }
+        buttonClickability();
     }
 
     programSel.onchange = function () {
@@ -30,9 +31,12 @@ function generateDropdowns() {
         for (var z in subjectObject[facultySel.value][this.value]) {
             iterationSel.options[iterationSel.options.length] = new Option(z, z);
         }
+        buttonClickability();
     }
 
-    iterationSel.onchange = function () {
+    iterationSel.onchange = buttonClickability;
+    
+    function buttonClickability() {
         document.getElementById("submitButton").disabled = iterationSel.selectedIndex == 0;
     }
 }
