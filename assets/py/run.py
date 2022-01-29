@@ -148,6 +148,8 @@ if __name__ == "__main__":
     course_rows = course_scraper.scrap_tables()
     save_course_rows(course_rows)
 
+    print("")
+
     # Open the site, then wait for it to be loaded.
     driver.get(LESSONS_URL)
     sleep(3)

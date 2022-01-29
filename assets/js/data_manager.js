@@ -9,6 +9,7 @@ class DataManager {
         this.coursesDict = {};
 
         this.fileLoadStatus = 0;
+        this.onFileLoad = () => { };
     }
 
     get courses() {
@@ -51,7 +52,7 @@ class DataManager {
     onFileLoadSuccess() {
         this.fileLoadStatus++;
         if (this.fileLoadStatus >= 3)
-            generateDropdowns();
+            this.onFileLoad();
     }
 
     createCourses() {
