@@ -2159,15 +2159,15 @@
 22339|MTO 462E||Filiz  Türk Katırcıoğlu|UUB|Salı |1430/1729 |D213 |10|0|MTO, MTOE
 22340|MAT 271||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|UUB|Pazartesi |0830/1129 |D214 |40|0|MTO, UCK, UZB
 22341|ISL 233E||İbrahim Öner Günçavdı|FEB|Pazartesi |1130/1429 |D104 |80|0|ISL, ISLE, MMD
-22342|ISL 234E||Zeynep  Erden Bayazıt|MED|Pazartesi |1430/1729 |A16 |70|0|GID, GIDE, ISL, ISLE
-22343|ISL 234E||Zeynep  Erden Bayazıt|MED|Salı |1130/1429 |A31 |80|0|GID, GIDE, ISL, ISLE
+22342|ISL 234E||Zeynep  Erden Bayazıt|MED|Pazartesi |1430/1729 |A16 |70|0|ECNE, GID, GIDE, ISL, ISLE
+22343|ISL 234E||Zeynep  Erden Bayazıt|MED|Salı |1130/1429 |A31 |80|0|ECNE, GID, GIDE, ISL, ISLE
 22344|ISL 244E||İpek  İlkkaracan Ajas, Derya  Karakaş|MED|Salı |1430/1729 |A31 |90|0|ISL, ISLE
 22345|MTO 344||Şükran Sibel Menteş|UUBUUB|Salı Perşembe |0930/1129 0830/1129 |D215 D210 |60|0|MTO, MTOM
 22346|ISL 244E||İpek  İlkkaracan Ajas, Derya  Karakaş|MED|Çarşamba |1130/1429 |A11 |90|0|ISL, ISLE
 22347|MTO 460||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|UUB|Çarşamba |0830/1129 |D113 |10|0|MTO
-22348|ISL 343E|Çevrimiçi/Online|Nihan  Yıldırım|----|Perşembe |1430/1729 |---- |200|0|ISL, ISLE
+22348|ISL 343E|Çevrimiçi/Online|Nihan  Yıldırım|----|Perşembe |1430/1729 |---- |200|0|ECNE, ISL, ISLE
 22349|MTO 351E||Sevinç  Asilhan|UUB|Salı |1430/1729 |D215 |10|0|MTO, MTOE
-22350|ISL 353E||Huriye Şebnem Burnaz|MED|Pazartesi |0830/1129 |A11 |100|0|ENTE, EUT, EUTE, ISL, ISLE
+22350|ISL 353E||Huriye Şebnem Burnaz|MED|Pazartesi |0830/1129 |A11 |100|0|ECNE, ENTE, EUT, EUTE, ISL, ISLE
 22351|MTO 229E||Sevinç  Asilhan|UUB|Perşembe |1130/1429 |D214 |70|0|MTO, MTOM
 22352|ISL 354E||Tolga  Kaya|MED|Çarşamba |0830/1129 |A31 |100|0|ISL, ISLE
 22353|MTO 340||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|UUBUUB|Pazartesi Çarşamba |1530/1729 1130/1329 |D109 D113 |35|0|MTO, MTOM
