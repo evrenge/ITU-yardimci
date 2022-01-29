@@ -182,7 +182,7 @@ class CoursePlanScraper(Scraper):
     def scrap_course_plans(self):
         def get_faculty_dropdown_options():
             self.generate_dropdown_options_faculty(self.webdriver)
-            return self.find_elements_by_tag("li")[69:84]
+            return self.find_elements_by_tag("li")[69:85]
 
         t0 = perf_counter()
         self.faculties = dict()

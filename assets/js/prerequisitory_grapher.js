@@ -1,5 +1,5 @@
 class PrerequisitoryGrapher {
-    ASPECT_RATIO = .25;
+    ASPECT_RATIO = .15;
     constructor(semesters) {
         this.semesters = semesters;
         this.graph = undefined;
@@ -57,7 +57,7 @@ class PrerequisitoryGrapher {
     }
 
     getNodeSize(w) {
-        return w * .1;
+        return w * .1 * this.ASPECT_RATIO * 4;
     }
 
     getNodesAndEdges() {

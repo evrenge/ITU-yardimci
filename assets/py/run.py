@@ -51,7 +51,7 @@ def save_lesson_rows(rows):
     # Save each row to a different line.
     lines = [process_lesson_row(row) + "\n" for row in rows]
     lines.sort()
-    with open(f"{DATA_PATH}/{LESSONS_FILE_NAME}.txt", "w", encoding="utf-16") as f:
+    with open(f"{DATA_PATH}/{LESSONS_FILE_NAME}.txt", "w", encoding="utf-8") as f:
         f.writelines(lines)
 
 
@@ -78,7 +78,7 @@ def save_course_rows(rows):
     # Save each row to a different line.
     lines = [process_course_row(row) + "\n" for row in rows]
     lines.sort()
-    with open(f"{DATA_PATH}/{COURSE_FILE_NAME}.txt", "w", encoding="utf-16") as f:
+    with open(f"{DATA_PATH}/{COURSE_FILE_NAME}.txt", "w", encoding="utf-8") as f:
         f.writelines(lines)
 
 
@@ -129,7 +129,7 @@ def save_course_plans(faculties):
                     lines.append(line + "\n")
 
     # Save elines.
-    with open(f"{DATA_PATH}/{COURSE_PLANS_FILE_NAME}.txt", "w", encoding="utf-16") as f:
+    with open(f"{DATA_PATH}/{COURSE_PLANS_FILE_NAME}.txt", "w", encoding="utf-8") as f:
         f.writelines(lines)
 
 
