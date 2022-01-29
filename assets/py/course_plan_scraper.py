@@ -184,6 +184,9 @@ class CoursePlanScraper(Scraper):
             self.generate_dropdown_options_faculty(self.webdriver)
             return self.find_elements_by_tag("li")[69:85]
 
+        faculty_order = [x.find_element(By.TAG_NAME, "span").get_attribute("innerHTML")
+                         for x in get_faculty_dropdown_options()]
+
         t0 = perf_counter()
         self.faculties = dict()
         print("====== Scraping Course Programs ======")
@@ -210,4 +213,4 @@ class CoursePlanScraper(Scraper):
         t1 = perf_counter()
         rprint(
             f"Scraping Course Plans Completed in [green]{round(t1 - t0, 2)}[white] seconds.")
-        return self.faculties
+        return self.faculties, faculty_order

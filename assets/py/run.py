@@ -82,7 +82,7 @@ def save_course_rows(rows):
         f.writelines(lines)
 
 
-def save_course_plans(faculties):
+def save_course_plans(faculties, faculty_order):
     print("====== Saving Course Plans ======")
     # Create the data folder if it does not exist.
     if not path.exists(DATA_PATH):
@@ -99,7 +99,7 @@ def save_course_plans(faculties):
 
     # Generate Lines
     lines = []
-    faculties_tqdm = tqdm(faculties.keys())
+    faculties_tqdm = tqdm(faculty_order)
     for faculty in faculties_tqdm:
         faculties_tqdm.set_description(f"Saving Course Plans of \"{faculty}\"")
         lines.append(f"# {faculty}\n")
@@ -167,8 +167,8 @@ if __name__ == "__main__":
 
     # Scrap and save the courses.
     course_plan_scraper = CoursePlanScraper(driver)
-    faculties = course_plan_scraper.scrap_course_plans()
-    save_course_plans(faculties)
+    faculties, faculty_order = course_plan_scraper.scrap_course_plans()
+    save_course_plans(faculties, faculty_order)
 
     t1 = perf_counter()
     rprint(
