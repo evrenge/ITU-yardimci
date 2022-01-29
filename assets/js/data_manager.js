@@ -83,6 +83,7 @@ class DataManager {
                 data[5], data[6], data[7], data[8]);
 
             let course = this.findCourseByCode(courseCode);
+            if (course) continue;
 
             course.lessons.push(currentLesson);
             course.majorRest = majorRest;
@@ -98,6 +99,7 @@ class DataManager {
     findCourseByCode(courseCode) {
         let course = this.coursesDict[courseCode];
         if (course == undefined) {
+            if (courseCode === "") return null;
             course = new Course(courseCode, "Auto Generated Course", "", "");
             this._courses.push(course);
             this.coursesDict[courseCode] = course;
@@ -151,6 +153,8 @@ class DataManager {
                     // Course
                     else {
                         let courseObject = this.findCourseByCode(course);
+                        if (courseObject == null) continue;
+
                         semester.push(courseObject);
                     }
                 }
