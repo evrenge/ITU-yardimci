@@ -1,9 +1,6 @@
 function getFormValues(name) {
-    if (name = (new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(location.search)) {
-        let formValue = decodeURIComponent(name[1]).replaceAll("+", " ");
-        return formValue;
-    }
-    return "";
+    var getValue = document.getElementById(name).selectedOptions[0].value;
+    return getValue;
 }
 
 function graphPrerequistoryGraph() {
