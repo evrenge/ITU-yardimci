@@ -1,7 +1,7 @@
 class DataManager {
-    LESSON_PATH = "../../data/lesson_rows.txt";
-    COURSE_PATH = "../../data/course_rows.txt";
-    COURSE_PLAN_PATH = "../../data/course_plans.txt";
+    LESSON_PATH = "https://evrenge.github.io/ITU-yardimci/data/lesson_rows.txt";
+    COURSE_PATH = "https://evrenge.github.io/ITU-yardimci/data/course_rows.txt";
+    COURSE_PLAN_PATH = "https://evrenge.github.io/ITU-yardimci/data/course_plans.txt";
 
     constructor() {
         this._courses = [];
