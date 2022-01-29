@@ -9,6 +9,13 @@ function graphPrerequistoryGraph() {
     let semesters = dataManager.semesters[getFormValues("faculty")][getFormValues("program")][getFormValues("iteration")];
     let prereqGrapher = new PrerequisitoryGrapher(semesters);
 
-    prereqGrapher.createGraph();
+    prereqGrapher.createGraph(() => {
+        let parent = document.getElementById("mountNode");
+        let size = [parent.clientWidth, parent.clientWidth * prereqGrapher.ASPECT_RATIO * 8];
+
+        parent.clientHeight = size[1];
+
+        return size;
+    });
     prereqGrapher.graph.render();
 }
