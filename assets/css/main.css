@@ -1294,6 +1294,10 @@ input, select, textarea {
 				display: none;
 			}
 
+			#header div.canvas:before {
+				display: none;
+			}
+
 		#header .logo {
 			width: 8rem;
 			height: 8rem;

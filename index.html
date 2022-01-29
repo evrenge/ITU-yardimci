@@ -64,11 +64,12 @@
 										</td>
 									</tr>
 								</table>
-								<input type="submit" value="Göster" id="submitButton" disabled>
+								<input type="button" value="Göster" id="submitButton" onclick="graphPrerequistoryGraph()" disabled>
 							</fieldset>
 						</form>
 					</nav>
 				</div>
+				<div id="mountNode" class="canvas" style="width: 85%;"></div>
 			</header>
 
 			<!-- Main -->
@@ -98,6 +99,7 @@
 
 		<!-- Scripts -->
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.7.1/dist/g6.min.js"></script>
 
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/browser.min.js"></script>
@@ -109,7 +111,10 @@
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/lesson.js"></script>
         <script src="assets/js/main.js"></script>
-		<script src="assets/js/util.js"></script>
+        <script src="assets/js/prerequisitory.js"></script>
+        <script src="assets/js/prerequisitory_grapher.js"></script>
+        <script src="assets/js/util.js"></script>
+
 	
 	</body>
 
