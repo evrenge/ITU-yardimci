@@ -44,6 +44,7 @@ class PrerequisitoryGrapher {
             this.coordToNode[coord].x = nodePos[0];
             this.coordToNode[coord].y = nodePos[1];
             this.coordToNode[coord].size = this.getNodeSize(w);
+            this.coordToNode[coord].labelCfg.style.fontSize = this.getNodeSize(w) * .15;
         }
         this.graph.refresh();
     }
@@ -127,6 +128,7 @@ class PrerequisitoryGrapher {
                 position: 'center',
                 style: {
                     fill: "white",
+                    fontSize: 20,
                 },
             },
         }

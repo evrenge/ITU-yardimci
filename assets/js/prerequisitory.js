@@ -12,7 +12,8 @@ function graphPrerequistoryGraph() {
 
     prereqGrapher.createGraph(() => {
         let parent = document.getElementById("mountNode");
-        let size = [parent.clientWidth, parent.clientWidth * prereqGrapher.ASPECT_RATIO * 8];
+        let width = parent.clientWidth * .9;
+        let size = [width, width * prereqGrapher.ASPECT_RATIO * 8];
 
         parent.clientHeight = size[1];
 
