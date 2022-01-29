@@ -31,4 +31,8 @@ function generateDropdowns() {
             iterationSel.options[iterationSel.options.length] = new Option(z, z);
         }
     }
+
+    iterationSel.onchange = function () {
+        document.getElementById("submitButton").disabled = iterationSel.selectedIndex == 0;
+    }
 }

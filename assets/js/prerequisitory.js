@@ -3,6 +3,7 @@ function getFormValues(name) {
         let formValue = decodeURIComponent(name[1]).replaceAll("+", " ");
         return formValue;
     }
+    return "";
 }
 
 function graphPrerequistoryGraph() {
