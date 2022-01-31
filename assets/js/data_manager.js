@@ -101,6 +101,7 @@ class DataManager {
         if (course == undefined) {
             if (courseCode === "") return null;
             course = new Course(courseCode, "Auto Generated Course", "", "");
+            course.requirements = [];
             this._courses.push(course);
             this.coursesDict[courseCode] = course;
         }

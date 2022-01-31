@@ -1,10 +1,19 @@
 class PrerequisitoryGrapher {
     INVERSE_ASPECT_RATIO = .15;
     HORIZONTAL_NODE_RATIO = .8;
+
     constructor(semesters) {
         this.semesters = semesters;
         this.graph = undefined;
         this.coordToNode = {};
+        this.edges = [];
+        this.nodes = [];
+        this.takenLessonNodes = [];
+
+        // graphMode Values:
+        // 0: Choose Taken Lessons.
+        // 1: Choose Lessons to Take.
+        this.graphMode = 0;
 
         this.courses = [];
         this.maxCourseCountInSemesters = 9;
@@ -21,23 +30,154 @@ class PrerequisitoryGrapher {
     createGraph(calculateSize) {
         let [w, h] = calculateSize();
         this.graph = new G6.Graph({
-            // String | HTMLElement, required, the id of DOM element or an HTML node
             container: 'mountNode',
             width: w,
             height: h,
         });
 
         let [nodes, edges] = this.getNodesAndEdges();
+        this.edges = edges;
+        this.nodes = nodes;
         this.graph.data({
             nodes: nodes,
             edges: edges,
         });
+
+        this.graph.on('node:click', (e) => this.onNodeClick(e.item._cfg.model));
 
         this.updateGraphSize(w, h);
         window.onresize = () => {
             let [w, h] = calculateSize();
             this.updateGraphSize(w, h);
         }
+    }
+
+    updateNodeStyles() {
+        for (let i = 0; i < this.nodes.length; i++) {
+            let node = this.nodes[i];
+            if (this.isInfoNode(node)) continue;
+
+            if (this.takenLessonNodes.includes(node))
+                node.style = NODE_STYLES[1];
+            else
+                node.style = NODE_STYLES[0];
+
+        }
+    }
+
+    updateEdgeStyles() {
+        for (let i = 0; i < this.edges.length; i++) {
+            let target = this.edges[i].target;
+            let source = this.edges[i].source;
+            let styleToUse = 0;
+
+            for (let j = 0; j < this.takenLessonNodes.length; j++) {
+                if (this.graphMode == 0) {
+                    const takenLesson = this.takenLessonNodes[j];
+                    // if (source == takenLesson.id) {
+                    //     styleToUse = 1;
+                    //     break;
+                    // }
+
+                    if (target == takenLesson.id) {
+                        styleToUse = 1;
+                        break;
+                    }
+                }
+            }
+
+            this.edges[i].style = EDGE_STYLES[styleToUse];
+        }
+    }
+
+    nodeToCourse(course) {
+        let index = -1;
+        for (let i = 0; i < this.nodes.length; i++) {
+            if (this.nodes[i].id == this.courseToNodeId(course)) {
+                index = i;
+                break;
+            }
+        }
+        if (index == -1) return null;
+        return this.nodes[index];
+    }
+
+    courseToNode(node) {
+        let index = -1;
+
+        for (let i = 0; i < this.courses.length; i++) {
+            if (this.courses[i].courseCode == undefined) continue;
+            if (this.courses[i].courseCode == node.label) {
+                index = i;
+                break;
+            }
+        }
+        if (index == -1) return null;
+        return this.courses[index];
+    }
+
+    addLessonToTakenLessons(node) {
+        if (node == null) return;
+        if (this.takenLessonNodes.includes(node)) return;
+
+        this.takenLessonNodes.push(node);
+        const courseOfNode = this.courseToNode(node);
+
+        for (let i = 0; i < courseOfNode.requirements.length; i++) {
+            for (let j = 0; j < courseOfNode.requirements[i].length; j++) {
+                const course = courseOfNode.requirements[i][j];
+                var isReqValid = true;
+                for (let k = 0; k < this.semesters.length; k++) {
+                    if (this.semesters[k].includes(course) && this.semesters[k].includes(courseOfNode)) {
+                        isReqValid = false;
+                        break;
+                    }
+                }
+                if (!isReqValid) continue;
+                this.addLessonToTakenLessons(this.nodeToCourse(course));
+            }
+
+        }
+    }
+
+    removeLessonFromTakenLessons(node) {
+        if (node == null) return;
+        if (!this.takenLessonNodes.includes(node)) return;
+
+        this.takenLessonNodes.splice(this.takenLessonNodes.indexOf(node), 1);
+        const courseOfNode = this.courseToNode(node);
+
+        for (let i = 0; i < this.courses.length; i++) {
+            if (this.courses[i].requirements == undefined) continue;
+            if (this.courses[i].constructor.name != "Course") continue;
+            for (let j = 0; j < this.courses[i].requirements.length; j++) {
+                if (this.courses[i].requirements[j].includes(courseOfNode)) {
+                    this.removeLessonFromTakenLessons(this.nodeToCourse(this.courses[i]));
+                }
+            }
+        }
+    }
+
+    onNodeClick(node) {
+        if (this.isInfoNode(node)) return;
+
+        // Choose Taken Lessons.
+        if (this.graphMode == 0) {
+            if (this.takenLessonNodes.includes(node)) {
+                this.removeLessonFromTakenLessons(node);
+            } else {
+                this.addLessonToTakenLessons(node);
+            }
+        }
+        // Choose Lessons to Take.
+        else if (this.graphMode == 1) {
+
+        }
+
+        this.updateNodeStyles();
+        this.updateEdgeStyles();
+        this.graph.refresh();
+        this.updateGraphSize(this.graph.cfg.width, this.graph.cfg.height);
     }
 
     updateGraphSize(w, h) {
@@ -65,6 +205,7 @@ class PrerequisitoryGrapher {
             node.style.radius = [nodeSize[1] * .2];
             node.labelCfg.style.fontSize = this.getNodeSize(w)[1] * .15 * (this.isInfoNode(node) ? 1.5 : 1);
         }
+
         this.graph.refresh();
     }
 
@@ -146,7 +287,6 @@ class PrerequisitoryGrapher {
                         const requiredCourse = course.requirements[y][x];
                         if (this.courses.includes(requiredCourse) && !this.semesters[i].includes(requiredCourse)) {
                             edges.push(this.getEdge(this.courseToNodeId(requiredCourse), this.courseToNodeId(course)))
-                            break;
                         }
                     }
                 }
@@ -209,12 +349,7 @@ class PrerequisitoryGrapher {
             label: course.courseCode, // The label of the node
             size: [50, 50],
             type: "rect",
-            style: {
-                fill: 'steelblue', // The filling color of nodes
-                stroke: 'grey', // The stroke color of nodes
-                lineWidth: 2, // The line width of the stroke of nodes
-                radius: [10],
-            },
+            style: NODE_STYLES[0],
             labelCfg: {
                 position: 'center',
                 style: {
@@ -234,12 +369,7 @@ class PrerequisitoryGrapher {
             source: s,
             target: t,
             type: 'cubic-vertical',
-            style: {
-                endArrow: true,
-                lineWidth: 1,
-                stroke: 'grey',
-                // lineDash: [5],
-            },
+            style: EDGE_STYLES[0],
         }
     }
 }

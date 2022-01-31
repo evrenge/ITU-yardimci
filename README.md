@@ -5,6 +5,8 @@
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/evrenge/ITU-yardimci/Refresh%20Data?label=Refresh%20Data&style=flat-square)](https://github.com/evrenge/ITU-yardimci/actions/workflows/refresh_data.yml)
 ![GitHub Repo stars](https://img.shields.io/github/stars/evrenge/ITU-yardimci?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/evrenge/ITU-yardimci?style=flat-square)
+![GitHub](https://img.shields.io/github/license/evrenge/ITU-yardimci?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues-raw/evrenge/ITU-yardimci)
 
 
 # **İTÜ Yardımcı**
