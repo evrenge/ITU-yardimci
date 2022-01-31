@@ -8,11 +8,13 @@ class PrerequisitoryGrapher {
         this.coordToNode = {};
         this.edges = [];
         this.nodes = [];
-        this.takenLessonNodes = [];
+        this.takenCourseNodes = [];
+        this.takeableCourses = [];
+        this.coursesToTake = [];
 
         // graphMode Values:
-        // 0: Choose Taken Lessons.
-        // 1: Choose Lessons to Take.
+        // 0: Choose Taken Courses.
+        // 1: Choose Courses to Take.
         this.graphMode = 0;
 
         this.courses = [];
@@ -24,6 +26,55 @@ class PrerequisitoryGrapher {
 
             for (let j = 0; j < courseCount; j++)
                 this.courses.push(this.semesters[i][j]);
+        }
+    }
+
+    switchGraphMode(desiredMode) {
+        if (desiredMode == 0) {
+            this.graphMode = 0;
+            this.takeableCourses = [];
+            this.coursesToTake = [];
+        } else if (desiredMode == 1) {
+            this.graphMode = 1;
+            this.updateTakeableCourses();
+        }
+
+        this.refreshGraph();
+    }
+
+    updateTakeableCourses() {
+        let takenCourses = [];
+        for (let i = 0; i < this.takenCourseNodes.length; i++) {
+            const course = this.nodeToCourse(this.takenCourseNodes[i]);
+            if (course != null)
+                takenCourses.push(course);
+        }
+
+        this.takeableCourses = [];
+        for (let i = 0; i < this.courses.length; i++) {
+            let satisifiesRequirements = true;
+            if (this.courses[i].requirements == undefined) continue;
+
+            if (this.courses[i].requirements.length == 0)
+                this.takeableCourses.push(this.courses[i]);
+
+            for (let j = 0; j < this.courses[i].requirements.length; j++) {
+                let satisifiesRequirement = false;
+                for (let k = 0; k < this.courses[i].requirements[j].length; k++) {
+                    const requiredCourse = this.courses[i].requirements[j][k];
+                    if (takenCourses.includes(requiredCourse)) {
+                        satisifiesRequirement = true;
+                        break;
+                    }
+                }
+                if (!satisifiesRequirement) {
+                    satisifiesRequirements = false;
+                    break;
+                }
+            }
+            if (satisifiesRequirements)
+                this.takeableCourses.push(this.courses[i]);
+
         }
     }
 
@@ -56,9 +107,14 @@ class PrerequisitoryGrapher {
         for (let i = 0; i < this.nodes.length; i++) {
             let node = this.nodes[i];
             if (this.isInfoNode(node)) continue;
+            const course = this.nodeToCourse(node);
 
-            if (this.takenLessonNodes.includes(node))
+            if (this.coursesToTake.includes(course))
+                node.style = NODE_STYLES[3];
+            else if (this.takenCourseNodes.includes(node))
                 node.style = NODE_STYLES[1];
+            else if (this.takeableCourses.includes(course))
+                node.style = NODE_STYLES[2];
             else
                 node.style = NODE_STYLES[0];
 
@@ -68,19 +124,33 @@ class PrerequisitoryGrapher {
     updateEdgeStyles() {
         for (let i = 0; i < this.edges.length; i++) {
             let target = this.edges[i].target;
-            let source = this.edges[i].source;
+            // let source = this.edges[i].source;
             let styleToUse = 0;
 
-            for (let j = 0; j < this.takenLessonNodes.length; j++) {
-                if (this.graphMode == 0) {
-                    const takenLesson = this.takenLessonNodes[j];
-                    // if (source == takenLesson.id) {
-                    //     styleToUse = 1;
-                    //     break;
-                    // }
-
-                    if (target == takenLesson.id) {
+            // Course to Take
+            for (let j = 0; j < this.coursesToTake.length; j++) {
+                const courseToTakeNode = this.courseToNode(this.coursesToTake[j]);
+                if (target == courseToTakeNode.id) {
+                    styleToUse = 3;
+                    break;
+                }
+            }
+            // Taken Course
+            if (styleToUse < 1) {
+                for (let j = 0; j < this.takenCourseNodes.length; j++) {
+                    const takenCourseNode = this.takenCourseNodes[j];
+                    if (target == takenCourseNode.id) {
                         styleToUse = 1;
+                        break;
+                    }
+                }
+            }
+            // Takeable Course
+            if (styleToUse == 0) {
+                for (let j = 0; j < this.takeableCourses.length; j++) {
+                    const takeableCourseNode = this.courseToNode(this.takeableCourses[j]);;
+                    if (target == takeableCourseNode.id) {
+                        styleToUse = 2;
                         break;
                     }
                 }
@@ -90,7 +160,7 @@ class PrerequisitoryGrapher {
         }
     }
 
-    nodeToCourse(course) {
+    courseToNode(course) {
         let index = -1;
         for (let i = 0; i < this.nodes.length; i++) {
             if (this.nodes[i].id == this.courseToNodeId(course)) {
@@ -102,7 +172,7 @@ class PrerequisitoryGrapher {
         return this.nodes[index];
     }
 
-    courseToNode(node) {
+    nodeToCourse(node) {
         let index = -1;
 
         for (let i = 0; i < this.courses.length; i++) {
@@ -116,12 +186,15 @@ class PrerequisitoryGrapher {
         return this.courses[index];
     }
 
-    addLessonToTakenLessons(node) {
+    addCourseToTakenCourse(node) {
         if (node == null) return;
-        if (this.takenLessonNodes.includes(node)) return;
+        if (this.takenCourseNodes.includes(node)) return;
 
-        this.takenLessonNodes.push(node);
-        const courseOfNode = this.courseToNode(node);
+        this.takenCourseNodes.push(node);
+        const courseOfNode = this.nodeToCourse(node);
+
+        // TODO: Implement Selective Courses.
+        if (courseOfNode == null) return;
 
         for (let i = 0; i < courseOfNode.requirements.length; i++) {
             for (let j = 0; j < courseOfNode.requirements[i].length; j++) {
@@ -134,46 +207,96 @@ class PrerequisitoryGrapher {
                     }
                 }
                 if (!isReqValid) continue;
-                this.addLessonToTakenLessons(this.nodeToCourse(course));
+                this.addCourseToTakenCourse(this.courseToNode(course));
             }
 
         }
     }
 
-    removeLessonFromTakenLessons(node) {
+    removeCourseFromTakenCourses(node) {
         if (node == null) return;
-        if (!this.takenLessonNodes.includes(node)) return;
+        if (!this.takenCourseNodes.includes(node)) return;
 
-        this.takenLessonNodes.splice(this.takenLessonNodes.indexOf(node), 1);
-        const courseOfNode = this.courseToNode(node);
+        this.takenCourseNodes.splice(this.takenCourseNodes.indexOf(node), 1);
+        const courseOfNode = this.nodeToCourse(node);
 
         for (let i = 0; i < this.courses.length; i++) {
             if (this.courses[i].requirements == undefined) continue;
             if (this.courses[i].constructor.name != "Course") continue;
             for (let j = 0; j < this.courses[i].requirements.length; j++) {
                 if (this.courses[i].requirements[j].includes(courseOfNode)) {
-                    this.removeLessonFromTakenLessons(this.nodeToCourse(this.courses[i]));
+                    this.removeCourseFromTakenCourses(this.courseToNode(this.courses[i]));
                 }
             }
         }
     }
 
-    onNodeClick(node) {
-        if (this.isInfoNode(node)) return;
+    getNodesOnInfoNode(infoNode) {
+        let nodesOnInfoNode = [];
+        const y = infoNode.id.split(" ")[1];
+        for (let i = 0; i < Object.keys(this.coordToNode).length; i++) {
+            const key = Object.keys(this.coordToNode)[i];
 
-        // Choose Taken Lessons.
-        if (this.graphMode == 0) {
-            if (this.takenLessonNodes.includes(node)) {
-                this.removeLessonFromTakenLessons(node);
-            } else {
-                this.addLessonToTakenLessons(node);
+            if (!key.includes(":")) continue;
+
+            if (key.split(":")[1] == y && !this.isInfoNode(this.coordToNode[key]))
+                nodesOnInfoNode.push(this.coordToNode[key]);
+        }
+
+        return nodesOnInfoNode;
+    }
+
+    onNodeClick(node) {
+        // Info Node
+        if (this.isInfoNode(node)) {
+            const nodesOnInfoNode = this.getNodesOnInfoNode(node);
+
+            // Choose Taken Course.
+            if (this.graphMode == 0) {
+                let rowContainsTakenCourse = false;
+                for (let i = 0; i < nodesOnInfoNode.length; i++) {
+                    if (this.takenCourseNodes.includes(nodesOnInfoNode[i])) {
+                        rowContainsTakenCourse = true;
+                        break;
+                    }
+                }
+                for (let i = 0; i < nodesOnInfoNode.length; i++) {
+                    if (rowContainsTakenCourse)
+                        this.removeCourseFromTakenCourses(nodesOnInfoNode[i]);
+                    else
+                        this.addCourseToTakenCourse(nodesOnInfoNode[i]);
+                }
+
+            }
+            // Choose Courses to Take.
+            else if (this.graphMode == 1) {
+
+            }
+
+        }
+        // Course Node
+        else {
+            // Choose Taken Course.
+            if (this.graphMode == 0) {
+                if (this.takenCourseNodes.includes(node)) {
+                    this.removeCourseFromTakenCourses(node);
+                } else {
+                    this.addCourseToTakenCourse(node);
+                }
+            }
+            // Choose Courses to Take.
+            else if (this.graphMode == 1) {
+                const course = this.nodeToCourse(node);
+                if (this.takeableCourses.includes(course)) {
+                    this.coursesToTake.push(course);
+                }
             }
         }
-        // Choose Lessons to Take.
-        else if (this.graphMode == 1) {
 
-        }
+        this.refreshGraph();
+    }
 
+    refreshGraph() {
         this.updateNodeStyles();
         this.updateEdgeStyles();
         this.graph.refresh();
