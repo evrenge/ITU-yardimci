@@ -6,6 +6,9 @@ function getFormValues(name) {
 }
 
 function graphPrerequistoryGraph() {
+    $("#prerequisitoryChains").show();
+    stickyNavBar();
+
     if (prereqGrapher != undefined) {
         prereqGrapher.graph.destroy();
     }
@@ -15,7 +18,7 @@ function graphPrerequistoryGraph() {
 
     prereqGrapher.createGraph(() => {
         let parent = document.getElementById("mountNode");
-        let width = parent.clientWidth * .9;
+        let width = parent.clientWidth * 0.9;
         let size = [width, prereqGrapher.calculateSemesterHeight(width) * 8];
 
         parent.clientHeight = size[1];
@@ -23,4 +26,6 @@ function graphPrerequistoryGraph() {
         return size;
     });
     prereqGrapher.graph.render();
+
+    document.getElementById("navbar").scrollIntoView({ behavior: "smooth" });
 }

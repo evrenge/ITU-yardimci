@@ -1,5 +1,6 @@
 //Cascading Dropdown List Configuration
 function generateDropdowns() {
+    //After the page is loaded
     document.getElementById("formfieldset").disabled = false;
 
     var facultySel = document.getElementById("faculty");
@@ -8,8 +9,7 @@ function generateDropdowns() {
 
     var subjectObject = dataManager.semesters;
     for (var x in subjectObject) {
-        facultySel
-            .options[facultySel.options.length] = new Option(x, x);
+        facultySel.options[facultySel.options.length] = new Option(x, x);
     }
 
     facultySel.onchange = function () {
@@ -21,7 +21,7 @@ function generateDropdowns() {
             programSel.options[programSel.options.length] = new Option(y, y);
         }
         buttonClickability();
-    }
+    };
 
     programSel.onchange = function () {
         //empty iteration dropdown
@@ -32,11 +32,12 @@ function generateDropdowns() {
             iterationSel.options[iterationSel.options.length] = new Option(z, z);
         }
         buttonClickability();
-    }
+    };
 
     iterationSel.onchange = buttonClickability;
-    
+
     function buttonClickability() {
-        document.getElementById("submitButton").disabled = iterationSel.selectedIndex == 0;
+        document.getElementById("submitPreqButton").disabled = iterationSel.selectedIndex == 0;
+        document.getElementById("submitProgButton").disabled = iterationSel.selectedIndex == 0;
     }
 }
