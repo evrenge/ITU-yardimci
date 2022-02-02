@@ -48,9 +48,14 @@ class CoursePlanScraper(Scraper):
         for i in range(len(tables)):
             semester_program = []
 
-            def get_rows():
+            def get_rows(trial_count=0):
+                tables = get_tables()
+                if len(tables) == 0 and trial_count < 50:
+                    self.wait()
+                    return get_rows(trial_count + 1)
+
                 # First row is just the header.
-                return get_tables()[i].find_elements(By.TAG_NAME, "tr")[1:]
+                return tables[i].find_elements(By.TAG_NAME, "tr")[1:]
 
             rows = get_rows()
             for j in range(len(rows)):

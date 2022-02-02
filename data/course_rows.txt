@@ -3429,6 +3429,7 @@ ING 105|English I|<a class="link1" title="Dersin Önşartı İçin Tıklayınız
 ING 106|English II|<a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/ingonsart.html"> Önşartı için tıklayınız.</a>|Yok
 ING 112A|Basics of Academic Writing|<a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/ingonsart.html"> Önşartı için tıklayınız.</a>|Yok
 ING 112|English I|<a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/ingonsart.html"> Önşartı için tıklayınız.</a>|Yok
+ING 201A|Essentials of Res.Paper Writ.|<a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/ingonsart.html"> Önşartı için tıklayınız.</a>|Yok
 ING 201|English III|<a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/ingonsart.html"> Önşartı için tıklayınız.</a>|Yok
 ING 205|English III|<a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/ingonsart.html"> Önşartı için tıklayınız.</a>|Yok
 ING 206|English IV|<a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/ingonsart.html"> Önşartı için tıklayınız.</a>|Yok
