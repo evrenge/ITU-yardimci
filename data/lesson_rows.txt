@@ -2375,7 +2375,7 @@
 22562|MAD 4901||Cüneyt Atilla Öztürk|MDB|---- |/ |--- |500|0|MAD
 22563|MAD 4902||Cüneyt Atilla Öztürk|MDB|---- |/ |--- |500|0|MAD
 22564|MAD 442E||Türker  Hüdaverdi|MDB|Pazartesi |1130/1429 |A205 |50|0|MAD, MADE
-22566|MAT 202||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MDB|Pazartesi |1430/1729 |A205 |50|0|MAD
+22566|MAT 202||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MDB|Pazartesi |1430/1729 |A205 |50|0|CHZ, MAD
 22567|CAB 422||Şeymanur  Kandaz|TMB|---- |/ |--- |5|0|CAB, CEB
 22568|MAD 408||Abdullah  Fişne|MDB|Salı |1330/1629 |B205 |50|0|MAD
 22569|MAD 422E||Cüneyt Atilla Öztürk|MDB|Cuma |1430/1729 |B205 |50|0|MADE
@@ -3244,8 +3244,8 @@
 24790|DUI 472||Ayşe  Nak|DZB|Çarşamba |1330/1529 |--- |45|0|DUI
 24791|DUI 472||Ayşe  Nak|DZB|Cuma |1530/1729 |--- |45|0|DUI
 24792|DAN 102||Celale  Kırkın Gözükırmızı|KMB|Çarşamba |1530/1729 |D304 |300|0|GID
-24793|DAN 102||Fatma Elif Genceli Güner|KMB|Çarşamba |1530/1729 |D201 |300|0|BIOE, BLG, BLGE, CEV, CEVE, CHZ, DEN, DUI, ECNE, EHB, EHBE, ELK, ELKE, END, ENDE, ENTE, FIZ, GEM, GEO, GEOE, GID, GMI, ICM, IML, INS, INSE, ISL, ISLE, JEF, JEO, KIM, KMM, KOM, KOME, MAD, MAK, MAT, MET, METE, MIM, MIME, MTO, PEME, PETE, SBP, SBPE, TEKE, UCK, UZBE, YZVE
-24794|DAN 102||Mohammadreza  Nofar|KMB|Çarşamba |1530/1729 |D301 |300|0|BIOE, BLG, BLGE, CEV, CEVE, CHZ, DEN, DUI, ECNE, EHB, EHBE, ELK, ELKE, END, ENDE, ENTE, FIZ, GEM, GEO, GEOE, GID, GMI, ICM, IML, INS, INSE, ISL, ISLE, JEF, JEO, KIM, KMM, KOM, KOME, MAD, MAK, MAT, MET, METE, MIM, MIME, MTO, PEME, PETE, SBP, SBPE, TEKE, UCK, UZBE, YZVE
+24793|DAN 102||Fatma Elif Genceli Güner|KMB|Çarşamba |1530/1729 |D201 |300|0|KMM
+24794|DAN 102||Mohammadreza  Nofar|KMB|Çarşamba |1530/1729 |D301 |300|0|MET, METE
 24795|MTH 104||Sezgin  Altay Demirbağ|FEBFEB|Pazartesi Salı |1530/1729 0830/1129 |--- --- |40|0|MBI, MCB, SCE, SED, SEN, SIN
 24796|DAN 301||Mohammadreza  Nofar|KMB|Çarşamba |1530/1729 |D302 |300|0|MET, METE
 24797|MTH 105||Burak Yıldıran Stodolsky|FEB|Salı |0830/1129 |--- |40|0|SEK, SIS
