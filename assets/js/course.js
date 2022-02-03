@@ -19,7 +19,7 @@ class Course {
         if (requirementsText.includes("Yok")) {
             return;
         }
-        else if (requirementsText.includes("planının") || requirementsText.includes("Diğer") || requirementsText.includes("Özel")) {
+        else if (requirementsText.includes("planının") || requirementsText.includes("Diğer") || requirementsText.includes("Özel") || requirementsText.includes("için")) {
             // TODO: Implement this.
             return;
         }

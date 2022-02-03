@@ -35,6 +35,16 @@ NODE_STYLES = [
         lineWidth: 4,
         radius: [10],
     },
+    // Un Selected Selective Course
+    {
+        fill: '#41505b',
+        fillOpacity: 0,
+        stroke: 'white',
+        strokeOpacity: 1,
+        lineWidth: 1,
+        radius: [10],
+        lineDash: [2],
+    },
 ];
 EDGE_STYLES = [
     // Default

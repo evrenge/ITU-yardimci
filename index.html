@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>İTÜ Yardımcı</title>
         <link rel="icon" href="images/favicon.png" />
@@ -24,7 +25,8 @@
                 <div class="content" style="width: 85%">
                     <div class="inner">
                         <h1>İTÜ Yardımcı</h1>
-                        <p>İTÜ YARDIMCI İLE ÖNŞART LİSTELERİNİ GÖRSELLEŞTİRMEK VE DERS PROGRAMI YAPMAK ARTIK ÇOK KOLAY!</p>
+                        <p>İTÜ YARDIMCI İLE ÖNŞART LİSTELERİNİ GÖRSELLEŞTİRMEK VE DERS PROGRAMI YAPMAK ARTIK ÇOK KOLAY!
+                        </p>
                     </div>
                 </div>
                 <div style="width: 75%">
@@ -34,13 +36,16 @@
                                 <table style="table-layout: fixed">
                                     <tr>
                                         <th>
-                                            <label for="faculty" style="display: inline; text-align: center">Fakülte</label>
+                                            <label for="faculty"
+                                                style="display: inline; text-align: center">Fakülte</label>
                                         </th>
                                         <th>
-                                            <label for="program" style="display: inline; text-align: center">Program</label>
+                                            <label for="program"
+                                                style="display: inline; text-align: center">Program</label>
                                         </th>
                                         <th>
-                                            <label for="iteration" style="display: inline; text-align: center">Ders Planı</label>
+                                            <label for="iteration" style="display: inline; text-align: center">Ders
+                                                Planı</label>
                                         </th>
                                     </tr>
                                     <tr>
@@ -61,20 +66,10 @@
                                         </td>
                                     </tr>
                                 </table>
-                                <input
-                                    type="button"
-                                    value="Önşart Grafiği ile Ders Programı Oluştur"
-                                    id="submitPreqButton"
-                                    onclick="graphPrerequistoryGraph()"
-                                    disabled
-                                />
-                                <input
-                                    type="button"
-                                    value="Ders Programı Oluştur"
-                                    id="submitProgButton"
-                                    onclick="location.href='#CoursePlanCreator';"
-                                    disabled
-                                />
+                                <input type="button" value="Önşart Grafiği ile Ders Programı Oluştur"
+                                    id="submitPreqButton" onclick="graphPrerequistoryGraph()" disabled />
+                                <input type="button" value="Ders Programı Oluştur" id="submitProgButton"
+                                    onclick="location.href='#CoursePlanCreator';" disabled />
                             </fieldset>
                         </form>
                     </nav>
@@ -99,6 +94,15 @@
                     <p>İsmi Windows'tan Çaldım. Umarım Telif Gelmez. :D</p>
                     <div class="close">Close</div>
                 </article>
+                <article id="SelectiveCourseSelection">
+                    <h3 class="major" id="selCourseTitle">Title Title Title: Subtitle</h3>
+                    <label for="courseSel">Ders Seçiniz</label>
+                    <select name="courseSel" id="selCourseDropdown">
+                        <option value="default">-- Seçiniz --</option>
+                    </select>
+                    <input type="button" value="Onayla" id="courseSelSubmt" onclick="location.href='#mountNode';" />
+                    <div class="close">Close</div>
+                </article>
             </div>
 
             <!-- Footer -->
@@ -111,12 +115,17 @@
                         </p>
                     </div>
                     <div style="flex: 50%; align-self: center">
-                        <div><p class="copyright">-İTÜ'lüler için İTÜ'lülerden-</p></div>
-                        <div><p class="copyright">Ata Türkoğlu & Evren Geydirici</p></div>
+                        <div>
+                            <p class="copyright">-İTÜ'lüler için İTÜ'lülerden-</p>
+                        </div>
+                        <div>
+                            <p class="copyright">Ata Türkoğlu & Evren Geydirici</p>
+                        </div>
                     </div>
                     <div style="flex: 25%; align-self: flex-end">
                         <p class="copyright">
-                            <i class="fab fa-github"></i><a href="https://github.com/evrenge/ITU-prerequisite-detector"> Github</a>
+                            <i class="fab fa-github"></i><a href="https://github.com/evrenge/ITU-prerequisite-detector">
+                                Github</a>
                         </p>
                     </div>
                 </div>
@@ -144,6 +153,8 @@
         <script src="assets/js/prerequisitory_grapher.js"></script>
         <script src="assets/js/prerequisitory_grapher_styles.js"></script>
         <script src="assets/js/sticky_nav_bar.js"></script>
-        <script src="assets/js/util.js"></script>
+        <script src="assets/js/utilities.js"></script>
+        <script src="assets/js/jquery_utilities.js"></script>
     </body>
+
 </html>

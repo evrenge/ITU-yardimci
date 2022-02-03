@@ -45,7 +45,7 @@ class PrerequisitoryGrapher {
     updateTakeableCourses() {
         let takenCourses = [];
         for (let i = 0; i < this.takenCourseNodes.length; i++) {
-            const course = this.nodeToCourse(this.takenCourseNodes[i]);
+            const course = this.takenCourseNodes[i].course;
             if (course != null)
                 takenCourses.push(course);
         }
@@ -95,6 +95,7 @@ class PrerequisitoryGrapher {
         });
 
         this.graph.on('node:click', (e) => this.onNodeClick(e.item._cfg.model));
+        this.graph.on('node:dblclick', (e) => this.onNodeDoubleClick(e.item._cfg.model));
 
         this.updateGraphSize(w, h);
         window.onresize = () => {
@@ -106,8 +107,10 @@ class PrerequisitoryGrapher {
     updateNodeStyles() {
         for (let i = 0; i < this.nodes.length; i++) {
             let node = this.nodes[i];
+
             if (this.isInfoNode(node)) continue;
-            const course = this.nodeToCourse(node);
+
+            const course = node.course;
 
             if (this.coursesToTake.includes(course))
                 node.style = NODE_STYLES[3];
@@ -118,6 +121,13 @@ class PrerequisitoryGrapher {
             else
                 node.style = NODE_STYLES[0];
 
+            if (this.isSelectiveNode(node)) {
+                if (node.selectedCourse != undefined)
+                    node.label = node.selectedCourse.courseCode;
+                else {
+                    node.style = NODE_STYLES[4];
+                }
+            }
         }
     }
 
@@ -172,26 +182,12 @@ class PrerequisitoryGrapher {
         return this.nodes[index];
     }
 
-    nodeToCourse(node) {
-        let index = -1;
-
-        for (let i = 0; i < this.courses.length; i++) {
-            if (this.courses[i].courseCode == undefined) continue;
-            if (this.courses[i].courseCode == node.label) {
-                index = i;
-                break;
-            }
-        }
-        if (index == -1) return null;
-        return this.courses[index];
-    }
-
     addCourseToTakenCourse(node) {
         if (node == null) return;
         if (this.takenCourseNodes.includes(node)) return;
 
         this.takenCourseNodes.push(node);
-        const courseOfNode = this.nodeToCourse(node);
+        const courseOfNode = node.course;
 
         // TODO: Implement Selective Courses.
         if (courseOfNode == null) return;
@@ -218,7 +214,7 @@ class PrerequisitoryGrapher {
         if (!this.takenCourseNodes.includes(node)) return;
 
         this.takenCourseNodes.splice(this.takenCourseNodes.indexOf(node), 1);
-        const courseOfNode = this.nodeToCourse(node);
+        const courseOfNode = node.course;
 
         for (let i = 0; i < this.courses.length; i++) {
             if (this.courses[i].requirements == undefined) continue;
@@ -246,9 +242,92 @@ class PrerequisitoryGrapher {
         return nodesOnInfoNode;
     }
 
+    nodeToCourseGroup(node) {
+        if (node == undefined) return null;
+        if (!this.isSelectiveNode(node)) return null;
+
+        for (let i = 0; i < this.courses.length; i++) {
+            if (this.courses[i].constructor.name != "CourseGroup") continue;
+            if (this.courses[i] == node.courseGroup)
+                return this.courses[i];
+        }
+    }
+
+    onNodeDoubleClick(node) {
+        if (this.graphMode != 0) return;
+        if (!this.isSelectiveNode(node)) return;
+
+        let courseGroup = this.nodeToCourseGroup(node);
+        location.href = "#SelectiveCourseSelection";
+        document.getElementById("selCourseTitle").innerHTML = courseGroup.title;
+        let dropdown = document.getElementById("selCourseDropdown");
+
+        let previousSelectionExists = node.selectedCourse != undefined;
+
+        $("#selCourseDropdown").empty();
+        dropdown.options[0] = new Option("-- Seçiniz -- ");
+
+        let maxCourseCodeLength = 0;
+        for (let i = 0; i < courseGroup.courses.length; i++) {
+            const course = courseGroup.courses[i];
+            const currentLength = course.courseCode.length;
+            if (currentLength > maxCourseCodeLength)
+                maxCourseCodeLength = currentLength;
+        }
+
+        for (let i = 0; i < courseGroup.courses.length; i++) {
+            const course = courseGroup.courses[i];
+            const index = i + (previousSelectionExists ? 0 : 1);
+
+            console.log(course.courseCode.padEnd(maxCourseCodeLength).length);
+            dropdown.options[index] = new Option(course.courseCode.padEnd(maxCourseCodeLength).replaceAll(" ", " \xa0") + " [" + fixPunctuation(course.courseTitle) + "]");
+            if (course == node.selectedCourse)
+                dropdown.selectedIndex = index;
+        }
+
+
+        document.getElementById("courseSelSubmt").onclick = async (_) => {
+            const selectedIndex = dropdown.selectedIndex - (previousSelectionExists ? 0 : 1);
+
+            // -- Seçiniz --
+            if (selectedIndex != 0) {
+                node.selectedCourse = courseGroup.courses[dropdown.selectedIndex - (previousSelectionExists ? 0 : 1)];
+                this.refreshGraph();
+            }
+
+            location.href = "#";
+            await new Promise(r => setTimeout(r, 600));
+            document.getElementById("navbar").scrollIntoView({ behavior: "smooth" });
+        };
+
+
+    }
+
     onNodeClick(node) {
+        // Selective Course Node
+        if (this.isSelectiveNode(node)) {
+            let courseGroup = this.nodeToCourseGroup(node);
+            if (node.selectedCourse == undefined) {
+
+                this.onNodeDoubleClick(node);
+                return;
+            }
+            let selectedCourse = node.selectedCourse;
+
+            // Choose Taken Course.
+            if (this.graphMode == 0) {
+                if (this.takenCourseNodes.includes(node)) {
+                    this.removeCourseFromTakenCourses(node);
+                } else {
+                    this.addCourseToTakenCourse(node);
+                }
+            }// Choose Courses to Take.
+            else if (this.graphMode == 1) {
+
+            }
+        }
         // Info Node
-        if (this.isInfoNode(node)) {
+        else if (this.isInfoNode(node)) {
             const nodesOnInfoNode = this.getNodesOnInfoNode(node);
 
             // Choose Taken Course.
@@ -286,8 +365,11 @@ class PrerequisitoryGrapher {
             }
             // Choose Courses to Take.
             else if (this.graphMode == 1) {
-                const course = this.nodeToCourse(node);
-                if (this.takeableCourses.includes(course)) {
+                const course = node.course;
+                if (this.coursesToTake.includes(course)) {
+                    this.coursesToTake.splice(this.coursesToTake.indexOf(course));
+                }
+                else if (this.takeableCourses.includes(course) && !this.coursesToTake.includes(course)) {
                     this.coursesToTake.push(course);
                 }
             }
@@ -376,10 +458,10 @@ class PrerequisitoryGrapher {
         this.coordToNode = {};
         let nodes = [];
         let edges = [];
-        let usedSelectiveCourseCodes = [];
         for (let i = 0; i < this.semesters.length; i++) {
-            let infoNode = this.getInfoNode(0, i,
-                this.semesters[i].length == 0 ? "Bu Dönem İçin Program Bulunmamaktadır" : "");
+            const title = this.semesters[i].length == 0 ? "Bu Dönem İçin Program Bulunmamaktadır" : "";
+            let infoNode = this.getInfoNode(0, i, title, this.semesters[i]);
+
             this.coordToNode["-0:" + i.toString()] = infoNode;
             nodes.push(infoNode);
 
@@ -387,13 +469,7 @@ class PrerequisitoryGrapher {
                 let course = this.semesters[i][j];
                 if (course.constructor.name === "CourseGroup") {
                     // TEMP CODE
-                    let courseCode = "";
-                    for (let i = 0; i < course.courses.length; i++) {
-                        courseCode = course.courses[i].courseCode;
-                        if (!usedSelectiveCourseCodes.includes(courseCode)) break;
-                    }
-                    usedSelectiveCourseCodes.push(courseCode);
-                    let node = this.getNode(new Course("#" + courseCode + "#", course.title, "", ""), j, i);
+                    let node = this.getSelectiveNode(course, j, i);
                     this.coordToNode[j.toString() + ":" + i.toString()] = node;
                     nodes.push(node);
                     // TODO: Implement Selective Courses.
@@ -442,16 +518,17 @@ class PrerequisitoryGrapher {
         return node.id.includes("info_node");
     }
 
-    getInfoNode(x, y, label) {
+    getInfoNode(x, y, label, courses) {
         return {
-            id: "info_node " + y.toString(), // String, unique and required
-            x: x, // Number, the x coordinate
-            y: y * 10, // Number, the y coordinate
-            label: label, // The label of the node
+            id: "info_node " + y.toString(),
+            x: x,
+            y: y * 10,
+            label: label,
+            courses: courses,
             size: this.graph.width,
             type: "rect",
             style: {
-                fill: 'white', // The filling color of nodes
+                fill: 'white',
                 opacity: .05,
             },
             labelCfg: {
@@ -464,17 +541,56 @@ class PrerequisitoryGrapher {
         }
     }
 
+    isSelectiveNode(node) {
+        return node.id.includes("sel_");
+    }
+
+    getNodeLabel(labelObj) {
+        if (labelObj.constructor.name == "CourseGroup") {
+            return wrap(fixPunctuation(labelObj.title), 15)
+        } else if (labelObj.constructor.name == "Course") {
+            return wrap(labelObj.courseCode + "\n" + fixPunctuation(labelObj.courseTitle), 15);
+        }
+    }
+
+    getSelectiveNode(courseGroup, x, y) {
+        return {
+            id: "sel_" + courseGroup.title + y.toString() + x.toString(),
+            x: x,
+            y: y,
+            label: this.getNodeLabel(courseGroup),
+            courseGroup: courseGroup,
+            selectedCourse: undefined,
+            size: [50, 50],
+            type: "rect",
+            style: NODE_STYLES[4],
+            labelCfg: {
+                position: 'center',
+                style: {
+                    fill: "white",
+                    fontSize: 20,
+                },
+            },
+            anchorPoints: [
+                [.5, 1],
+                [.5, 0],
+            ],
+        }
+    }
+
     getNode(course, x, y) {
         return {
-            id: this.courseToNodeId(course), // String, unique and required
-            x: x, // Number, the x coordinate
-            y: y, // Number, the y coordinate
-            label: course.courseCode, // The label of the node
+            id: this.courseToNodeId(course),
+            x: x,
+            y: y,
+            label: this.getNodeLabel(course),
+            course: course,
             size: [50, 50],
             type: "rect",
             style: NODE_STYLES[0],
             labelCfg: {
                 position: 'center',
+                wrap: "break-word",
                 style: {
                     fill: "white",
                     fontSize: 20,

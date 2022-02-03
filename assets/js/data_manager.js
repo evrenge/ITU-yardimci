@@ -105,7 +105,7 @@ class DataManager {
             this._courses.push(course);
             this.coursesDict[courseCode] = course;
 
-            console.warn("[Course Generation] " + courseCode + " got auto-generated.");
+            // console.warn("[Course Generation] " + courseCode + " got auto-generated.");
         }
 
         return course;
