@@ -44,3 +44,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4.13.1
         with:
           commit_message: Refreshed Data
+          commit_user_name: GitHub Actions
+          commit_user_email: actions@github.com
+          commit_author: Data Refresher <actions@github.com>

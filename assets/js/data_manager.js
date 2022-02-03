@@ -104,6 +104,8 @@ class DataManager {
             course.requirements = [];
             this._courses.push(course);
             this.coursesDict[courseCode] = course;
+
+            console.warn("[Course Generation] " + courseCode + " got auto-generated.");
         }
 
         return course;
@@ -128,6 +130,13 @@ class DataManager {
                     this._semesters[currentFaculty] = {};
                 }
                 if (hashtagCount == 2) {
+                    // Check if the last program had any iterations
+                    // If not delete it.
+                    if (this._semesters[currentFaculty][currentProgram] != undefined) {
+                        if (!Object.keys(this._semesters[currentFaculty][currentProgram]).length)
+                            delete this._semesters[currentFaculty][currentProgram];
+                    }
+
                     currentProgram = title;
                     this._semesters[currentFaculty][currentProgram] = {};
                 }
