@@ -10,4 +10,3 @@ function fixPunctuation(text) {
         .replaceAll("  &", " &").replaceAll("&  ", "& ")
         .replaceAll("-", " - ").replaceAll("  -  ", " - ");
 }
-

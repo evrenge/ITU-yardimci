@@ -12,7 +12,7 @@ function generateDropdowns() {
         facultySel.options[facultySel.options.length] = new Option(x, x);
     }
 
-    facultySel.onchange = function () {
+    facultySel.onchange = function() {
         //empty program- and iteration- dropdowns
         iterationSel.length = 1;
         programSel.length = 1;
@@ -23,7 +23,7 @@ function generateDropdowns() {
         buttonClickability();
     };
 
-    programSel.onchange = function () {
+    programSel.onchange = function() {
         //empty iteration dropdown
         iterationSel.length = 1;
         //display correct values
