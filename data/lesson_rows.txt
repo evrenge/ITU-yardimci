@@ -864,8 +864,8 @@
 20948|JEF 4901E||Mustafa Emin Demirbağ|MDB|---- |/ |--- |500|0|JEF
 20949|JEF 4902||Mustafa Emin Demirbağ|MDB|---- |/ |--- |500|0|JEF
 20950|JEF 4902E||Mustafa Emin Demirbağ|MDB|---- |/ |--- |500|0|JEF
-20951|JEF 232||--|MDB|Perşembe |0830/1229 |A102 |0|0|CHZ, JEF
-20952|JEF 232E||--|MDB|Perşembe |0830/1229 |B205 |0|0|CHZE, JEFE
+20951|JEF 232||--|MDB|Perşembe |0830/1229 |--- |0|0|CHZ, JEF
+20952|JEF 232E||--|MDB|Perşembe |0830/1229 |--- |0|0|CHZE, JEFE
 20953|JEO 121||Ömer  Ündül, Şaziye Özge Dinç Göğüş|MDB|Cuma |0830/1129 |A101 |60|0|JEF, JEFM
 20954|JEO 254||Cenk  Yaltırak|MDB|Perşembe |1330/1529 |A102 |50|0|JEF
 20955|JEF 312E||Gürşat  Altun|MDB|Salı |0830/1129 |B205 |80|0|JEF, JEFE, JEFM
@@ -2171,13 +2171,13 @@
 22351|MTO 229E||Sevinç  Asilhan|UUB|Perşembe |1130/1429 |D214 |70|0|MTO, MTOM
 22352|ISL 354E||Tolga  Kaya|MED|Çarşamba |0830/1129 |A31 |100|0|ISL, ISLE
 22353|MTO 340||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|UUBUUB|Pazartesi Çarşamba |1530/1729 1130/1329 |D109 D113 |35|0|MTO, MTOM
-22354|ISL 360E||Kemal Burç Ülengin, Elif  Karaosmanoğlu|MED|Cuma |1400/1759 |A11 |160|0|ISL, ISLE
+22354|ISL 360E||Kemal Burç Ülengin|MED|Cuma |1400/1759 |A14 |80|0|ISL, ISLE
 22355|MTO 338||Ali  Deniz|UUB|Pazartesi |1130/1429 |D210 |70|0|MTO
 22356|MTO 459E||Deniz  Demirhan Barı|UUB|Salı |1130/1429 |D109 |10|0|MTO, MTOE
 22357|MTO 337E||Elçin  Tan|UUBUUB|Pazartesi Çarşamba |1530/1729 1130/1329 |D110 D214 |35|0|MTO
 22358|ISL 363E||İdil Vedia Evcimen|MED|Pazartesi |1430/1729 |A33 |80|0|ISL, ISLE
 22359|ISL 364E||Çiçek  Ersoy Kekevi, Özgür  Öztürk|MED|Cuma |0830/1129 |A32 |100|0|ISL, ISLE
-22360|ISL 374E||Mehmet  Erçek, Deniz  Tunçalp, Çiğdem  Kaya Pazarbaşı|MED|Perşembe |1130/1429 |A31 |180|0|ISL, ISLE
+22360|ISL 374E||Çiğdem  Kaya Pazarbaşı, Deniz  Tunçalp|MED|Perşembe |1130/1429 |A16 |80|0|ISL, ISLE
 22361|ISL 384E|Çevrimiçi/Online|Hatice  Camgöz Akdağ|----|Salı |0830/1129 |---- |200|0|ISL, ISLE
 22362|ISL 432E||Tuncay  Özcan|MED|Perşembe |0830/1129 |A11 |100|0|ISL, ISLE
 22363|ISL 433||Ulaş  Baysal|MED|Çarşamba |1330/1529 |A13 |100|0|ISL, ISLE
@@ -3249,3 +3249,5 @@
 24795|MTH 104||Sezgin  Altay Demirbağ|FEBFEB|Pazartesi Salı |1530/1729 0830/1129 |--- --- |40|0|MBI, MCB, SCE, SED, SEN, SIN
 24796|DAN 301||Mohammadreza  Nofar|KMB|Çarşamba |1530/1729 |D302 |300|0|MET, METE
 24797|MTH 105||Burak Yıldıran Stodolsky|FEB|Salı |0830/1129 |--- |40|0|SEK, SIS
+24804|ISL 360E||Elif  Karaosmanoğlu|MED|Cuma |1400/1759 |A15 |80|0|ISL, ISLE
+24805|ISL 374E||Mehmet  Erçek, Çiğdem  Kaya Pazarbaşı|MED|Perşembe |0830/1129 |A15 |80|0|ISL, ISLE
