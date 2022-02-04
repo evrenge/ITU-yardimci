@@ -1591,8 +1591,8 @@
 21762|KMP 198||Ayhan  Gunca|TMB|Pazartesi |1030/1229 |--- |25|0|CAB, CEB, MTR
 21763|KMP 458||Recep  Gül|TMB|Perşembe |0830/1029 |--- |10|0|MTR
 21764|KMP 116||Şirin  Karadeniz Güney|TMB|Perşembe |1030/1229 |--- |10|0|BST, KMP
-21765|KMP 114||Nail  Yavuzoğlu|TMB|Çarşamba |1330/1529 |--- |15|0|BST, KMP
-21766|KMP 102||Eray  Altınbüken|TMB|Salı |1030/1229 |--- |15|0|BST, KMP
+21765|KMP 114||Nail  Yavuzoğlu|TMB|Salı |1030/1229 |--- |15|0|BST, KMP
+21766|KMP 102||Eray  Altınbüken|TMB|Salı |0830/1029 |--- |15|0|BST, KMP
 21767|KMP 202||Eray  Altınbüken|TMBTMB|Pazartesi Çarşamba |1030/1229 1330/1529 |--- --- |15|0|BST, KMP
 21768|KMP 204||Neşe Yeşim Altınel Çoban|TMB|Salı |1030/1229 |--- |15|0|BST, KMP
 21769|KMP 206||Nail  Yavuzoğlu|TMB|Salı |0830/1029 |--- |15|0|BST, KMP
@@ -3175,7 +3175,7 @@
 24237|PHY 108L||Banu  Tansel Büyükçelebi|DZB|Çarşamba |1130/1329 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, NAE
 24238|MST 102||Levent  Beden|DZB|Perşembe |0830/1229 |--- |30|0|DUIK, GMIK, MEN, MTM
 24239|MST 102||Levent  Beden|DZB|Perşembe |1330/1729 |--- |30|0|DUIK, GMIK, MEN, MTM
-24240|TDW 102||Burak  Zincir|DZB|Salı |0830/1129 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, NAE, NAEM
+24240|TDW 102||Burak  Zincir|DZB|Cuma |1430/1629 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, NAE, NAEM
 24241|ENR 112||Vural  Ateş|DZB|Pazartesi |0830/1229 |--- |60|0|GEMK, GMIK, MEN, MENM, NAE
 24242|ENR 102||Yasin  Arslanoğlu|DZB|Pazartesi |1230/1429 |--- |60|0|GEMK, GMIK, MEN, MENM, NAE
 24243|MTM 122||Tuba  Keçeci|DZB|Pazartesi |0830/1129 |--- |60|0|DUIK, MTM, MTTM
@@ -3215,8 +3215,8 @@
 24329|MEN 412||Kemal  Demirel|DZB|Perşembe |0830/1129 |--- |60|0|GMIK, MEN
 24330|MEN 402||Cumali Seçkin Mengeçin|DZB|---- |/ |--- |60|0|GMIK, MEN
 24331|MST 472||Cemil  Yurtören|DZB|Salı |0830/1029 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, NAE
-24332|MTM 412||Cemil  Yurtören|DZBDZB|Salı Çarşamba |1030/1329 1130/1229 |--- --- |60|0|DUIK, MTM, MTTM
-24333|MST 402||Yunus Emre Şenol|DZB|Cuma |1430/1629 |--- |60|0|DUIK, GMIK, MEN, MENM, MTM, MTTM
+24332|MTM 412||Cemil  Yurtören|DZBDZB|Salı Cuma |1030/1329 1130/1229 |--- --- |60|0|DUIK, MTM, MTTM
+24333|MST 402||Yunus Emre Şenol|DZB|Cuma |1630/1829 |--- |60|0|DUIK, GMIK, MEN, MENM, MTM, MTTM
 24334|MST 432||Emre  Akyüz|DZB|Perşembe |1530/1729 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, NAE
 24335|ENR 401||Gazi  Koçak|DZB|Perşembe |1230/1429 |--- |60|0|GEMK, GMIK, MEN, NAE
 24336|MST 422||Nuri Koray Kurun|DZB|Çarşamba |0830/1129 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, NAE
@@ -3251,3 +3251,6 @@
 24797|MTH 105||Burak Yıldıran Stodolsky|FEB|Salı |0830/1129 |--- |40|0|SEK, SIS
 24804|ISL 360E||Elif  Karaosmanoğlu|MED|Cuma |1400/1759 |A15 |80|0|ISL, ISLE
 24805|ISL 374E||Mehmet  Erçek, Çiğdem  Kaya Pazarbaşı|MED|Perşembe |0830/1129 |A15 |80|0|ISL, ISLE
+24806|DAN 301||Himmet  Karaman|INB|Çarşamba |1530/1729 |--- |50|0|GEO, GEOE
+24808|TEB 2112||Ferda Cengiz Ünal|TMBTMB|Pazartesi Salı |1530/1729 1530/1729 |--- --- |10|0|MUT, MUZ, SES, TEB, THO
+24809|MUZ 4314||Serhan Dilhan Konan|TMB|Pazartesi |1330/1529 |--- |5|0|MUZ
