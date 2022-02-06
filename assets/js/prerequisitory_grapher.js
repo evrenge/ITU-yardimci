@@ -43,12 +43,25 @@ class PrerequisitoryGrapher {
         this.refreshGraph();
     }
 
+    getAllCourses() {
+        let selectiveCourses = [];
+        for (let i = 0; i < this.nodes.length; i++) {
+            const node = this.nodes[i];
+            if (this.isSelectiveNode(node)) {
+                const selectedCourse = node.selectedCourse;
+                if (selectedCourse == undefined) continue;
+                selectiveCourses.push(selectedCourse);
+            }
+        }
+        return this.courses.concat(selectiveCourses);
+    }
+
     updateTakeableCourses() {
         let takenCourses = [];
         for (let i = 0; i < this.takenCourseNodes.length; i++) {
             const node = this.takenCourseNodes[i];
             if (this.isSelectiveNode(node)) {
-                const selectiveCourse = this.takenCourseNodes[i].courseGroup;
+                const selectiveCourse = this.takenCourseNodes[i].selectedCourse;
                 if (selectiveCourse != null)
                     takenCourses.push(selectiveCourse);
             }
@@ -61,17 +74,18 @@ class PrerequisitoryGrapher {
         }
 
         this.takeableCourses = [];
-        for (let i = 0; i < this.courses.length; i++) {
+        let allCourses = this.getAllCourses();
+        for (let i = 0; i < allCourses.length; i++) {
             let satisifiesRequirements = true;
-            if (this.courses[i].requirements == undefined) continue;
+            if (allCourses[i].requirements == undefined) continue;
 
-            if (this.courses[i].requirements.length == 0)
-                this.takeableCourses.push(this.courses[i]);
+            if (allCourses[i].requirements.length == 0)
+                this.takeableCourses.push(allCourses[i]);
 
-            for (let j = 0; j < this.courses[i].requirements.length; j++) {
+            for (let j = 0; j < allCourses[i].requirements.length; j++) {
                 let satisifiesRequirement = false;
-                for (let k = 0; k < this.courses[i].requirements[j].length; k++) {
-                    const requiredCourse = this.courses[i].requirements[j][k];
+                for (let k = 0; k < allCourses[i].requirements[j].length; k++) {
+                    const requiredCourse = allCourses[i].requirements[j][k];
                     if (takenCourses.includes(requiredCourse)) {
                         satisifiesRequirement = true;
                         break;
@@ -120,7 +134,8 @@ class PrerequisitoryGrapher {
 
             if (this.isInfoNode(node)) continue;
 
-            const course = node.course;
+            var course = node.course;
+            if (this.isSelectiveNode(node)) course = node.selectedCourse;
 
             if (this.coursesToTake.includes(course))
                 node.style = NODE_STYLES[3];
@@ -196,6 +211,10 @@ class PrerequisitoryGrapher {
         let index = -1;
         for (let i = 0; i < this.nodes.length; i++) {
             if (this.nodes[i].course == course) {
+                index = i;
+                break;
+            }
+            if (this.nodes[i].selectedCourse == course) {
                 index = i;
                 break;
             }
@@ -329,7 +348,6 @@ class PrerequisitoryGrapher {
         // Selective Course Node
         if (this.isSelectiveNode(node)) {
             if (node.selectedCourse == undefined) {
-
                 this.onNodeDoubleClick(node);
                 return;
             }
@@ -346,9 +364,9 @@ class PrerequisitoryGrapher {
             else if (this.graphMode == 1) {
                 if (selectedCourse != undefined) {
                     if (this.coursesToTake.includes(selectedCourse)) {
-                        this.coursesToTake.splice(this.coursesToTake.indexOf(selectedCourse));
+                        this.coursesToTake.splice(this.coursesToTake.indexOf(selectedCourse), 1);
                     }
-                    else if (this.takeableCourses.includes(selectedCourse) && !this.coursesToTake.includes(selectedCourse)) {
+                    else if (this.takeableCourses.includes(selectedCourse)) {
                         this.coursesToTake.push(selectedCourse);
                     }
                 }
@@ -395,7 +413,7 @@ class PrerequisitoryGrapher {
             else if (this.graphMode == 1) {
                 const course = node.course;
                 if (this.coursesToTake.includes(course)) {
-                    this.coursesToTake.splice(this.coursesToTake.indexOf(course));
+                    this.coursesToTake.splice(this.coursesToTake.indexOf(course), 1);
                 }
                 else if (this.takeableCourses.includes(course) && !this.coursesToTake.includes(course)) {
                     this.coursesToTake.push(course);
