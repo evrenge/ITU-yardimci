@@ -1,6 +1,7 @@
 class PrerequisitoryGrapher {
     INVERSE_ASPECT_RATIO = .15;
     HORIZONTAL_NODE_RATIO = .8;
+    SELECTIVE_COURSE_SELECTION_LOC = "#SelectiveCourseSelection";
 
     constructor(semesters) {
         this.semesters = semesters;
@@ -45,9 +46,18 @@ class PrerequisitoryGrapher {
     updateTakeableCourses() {
         let takenCourses = [];
         for (let i = 0; i < this.takenCourseNodes.length; i++) {
-            const course = this.takenCourseNodes[i].course;
-            if (course != null)
-                takenCourses.push(course);
+            const node = this.takenCourseNodes[i];
+            if (this.isSelectiveNode(node)) {
+                const selectiveCourse = this.takenCourseNodes[i].courseGroup;
+                if (selectiveCourse != null)
+                    takenCourses.push(selectiveCourse);
+            }
+            else if (!this.isInfoNode(node)) {
+                const course = this.takenCourseNodes[i].course;
+                if (course != null)
+                    takenCourses.push(course);
+            }
+
         }
 
         this.takeableCourses = [];
@@ -123,7 +133,7 @@ class PrerequisitoryGrapher {
 
             if (this.isSelectiveNode(node)) {
                 if (node.selectedCourse != undefined)
-                    node.label = node.selectedCourse.courseCode;
+                    node.label = this.getNodeLabel(node.selectedCourse);
                 else {
                     node.style = NODE_STYLES[4];
                 }
@@ -170,10 +180,22 @@ class PrerequisitoryGrapher {
         }
     }
 
+    courseGroupToNode(courseGroup) {
+        let index = -1;
+        for (let i = 0; i < this.nodes.length; i++) {
+            if (this.nodes[i].courseGroup == courseGroup) {
+                index = i;
+                break;
+            }
+        }
+        if (index == -1) return null;
+        return this.nodes[index];
+    }
+
     courseToNode(course) {
         let index = -1;
         for (let i = 0; i < this.nodes.length; i++) {
-            if (this.nodes[i].id == this.courseToNodeId(course)) {
+            if (this.nodes[i].course == course) {
                 index = i;
                 break;
             }
@@ -187,25 +209,29 @@ class PrerequisitoryGrapher {
         if (this.takenCourseNodes.includes(node)) return;
 
         this.takenCourseNodes.push(node);
-        const courseOfNode = node.course;
+        if (this.isSelectiveNode(node)) {
+            this.takenCourseNodes.push(node);
+        }
+        else if (!this.isInfoNode(node)) {
+            const courseOfNode = node.course;
 
-        // TODO: Implement Selective Courses.
-        if (courseOfNode == null) return;
+            // TODO: Implement Selective Courses.
+            if (courseOfNode == null) return;
 
-        for (let i = 0; i < courseOfNode.requirements.length; i++) {
-            for (let j = 0; j < courseOfNode.requirements[i].length; j++) {
-                const course = courseOfNode.requirements[i][j];
-                var isReqValid = true;
-                for (let k = 0; k < this.semesters.length; k++) {
-                    if (this.semesters[k].includes(course) && this.semesters[k].includes(courseOfNode)) {
-                        isReqValid = false;
-                        break;
+            for (let i = 0; i < courseOfNode.requirements.length; i++) {
+                for (let j = 0; j < courseOfNode.requirements[i].length; j++) {
+                    const course = courseOfNode.requirements[i][j];
+                    var isReqValid = true;
+                    for (let k = 0; k < this.semesters.length; k++) {
+                        if (this.semesters[k].includes(course) && this.semesters[k].includes(courseOfNode)) {
+                            isReqValid = false;
+                            break;
+                        }
                     }
+                    if (!isReqValid) continue;
+                    this.addCourseToTakenCourse(this.courseToNode(course));
                 }
-                if (!isReqValid) continue;
-                this.addCourseToTakenCourse(this.courseToNode(course));
             }
-
         }
     }
 
@@ -214,6 +240,8 @@ class PrerequisitoryGrapher {
         if (!this.takenCourseNodes.includes(node)) return;
 
         this.takenCourseNodes.splice(this.takenCourseNodes.indexOf(node), 1);
+        if (this.isSelectiveNode(node)) return;
+
         const courseOfNode = node.course;
 
         for (let i = 0; i < this.courses.length; i++) {
@@ -242,23 +270,14 @@ class PrerequisitoryGrapher {
         return nodesOnInfoNode;
     }
 
-    nodeToCourseGroup(node) {
-        if (node == undefined) return null;
-        if (!this.isSelectiveNode(node)) return null;
-
-        for (let i = 0; i < this.courses.length; i++) {
-            if (this.courses[i].constructor.name != "CourseGroup") continue;
-            if (this.courses[i] == node.courseGroup)
-                return this.courses[i];
-        }
-    }
-
     onNodeDoubleClick(node) {
         if (this.graphMode != 0) return;
         if (!this.isSelectiveNode(node)) return;
 
-        let courseGroup = this.nodeToCourseGroup(node);
-        location.href = "#SelectiveCourseSelection";
+        const courseGroup = node.courseGroup;
+        const startScrollTop = document.documentElement.scrollTop;
+
+        location.href = this.SELECTIVE_COURSE_SELECTION_LOC;
         document.getElementById("selCourseTitle").innerHTML = courseGroup.title;
         let dropdown = document.getElementById("selCourseDropdown");
 
@@ -279,14 +298,13 @@ class PrerequisitoryGrapher {
             const course = courseGroup.courses[i];
             const index = i + (previousSelectionExists ? 0 : 1);
 
-            console.log(course.courseCode.padEnd(maxCourseCodeLength).length);
             dropdown.options[index] = new Option(course.courseCode.padEnd(maxCourseCodeLength).replaceAll(" ", " \xa0") + " [" + fixPunctuation(course.courseTitle) + "]");
             if (course == node.selectedCourse)
                 dropdown.selectedIndex = index;
         }
 
 
-        document.getElementById("courseSelSubmt").onclick = async (_) => {
+        dropdown.onchange = async (_) => {
             const selectedIndex = dropdown.selectedIndex - (previousSelectionExists ? 0 : 1);
 
             // -- Seçiniz --
@@ -297,7 +315,11 @@ class PrerequisitoryGrapher {
 
             location.href = "#";
             await new Promise(r => setTimeout(r, 600));
-            document.getElementById("navbar").scrollIntoView({ behavior: "smooth" });
+            window.scrollTo({
+                top: startScrollTop,
+                left: 0,
+                behavior: "smooth",
+            });
         };
 
 
@@ -306,7 +328,6 @@ class PrerequisitoryGrapher {
     onNodeClick(node) {
         // Selective Course Node
         if (this.isSelectiveNode(node)) {
-            let courseGroup = this.nodeToCourseGroup(node);
             if (node.selectedCourse == undefined) {
 
                 this.onNodeDoubleClick(node);
@@ -323,7 +344,14 @@ class PrerequisitoryGrapher {
                 }
             }// Choose Courses to Take.
             else if (this.graphMode == 1) {
-
+                if (selectedCourse != undefined) {
+                    if (this.coursesToTake.includes(selectedCourse)) {
+                        this.coursesToTake.splice(this.coursesToTake.indexOf(selectedCourse));
+                    }
+                    else if (this.takeableCourses.includes(selectedCourse) && !this.coursesToTake.includes(selectedCourse)) {
+                        this.coursesToTake.push(selectedCourse);
+                    }
+                }
             }
         }
         // Info Node
@@ -549,7 +577,7 @@ class PrerequisitoryGrapher {
         if (labelObj.constructor.name == "CourseGroup") {
             return wrap(fixPunctuation(labelObj.title), 15)
         } else if (labelObj.constructor.name == "Course") {
-            return wrap(labelObj.courseCode + "\n" + fixPunctuation(labelObj.courseTitle), 15);
+            return wrap(labelObj.courseCode + "\n\n" + fixPunctuation(labelObj.courseTitle), 15);
         }
     }
 

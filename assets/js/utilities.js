@@ -4,9 +4,10 @@ function wrap(text, wordWidth) {
 
 function fixPunctuation(text) {
     return text
-        .replaceAll(":", ": ").replaceAll(":  ", ": ")
-        .replaceAll(".", ". ").replaceAll(".  ", ". ")
+        .replaceAll(":", ": ")
+        .replaceAll(".", ". ")
         .replaceAll("&amp;", " & ")
-        .replaceAll("  &", " &").replaceAll("&  ", "& ")
-        .replaceAll("-", " - ").replaceAll("  -  ", " - ");
+        .replaceAll("-", " - ")
+        .replaceAll("(", " (").replaceAll(")", ") ")
+        .replaceAll("  ", " ");
 }

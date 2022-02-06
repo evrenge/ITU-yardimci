@@ -10,8 +10,8 @@ NODE_STYLES = [
     },
     // A Taken Lesson
     {
-        fill: '#41505b',
-        fillOpacity: 1,
+        fill: '#FFFFFF',
+        fillOpacity: .2,
         stroke: 'white',
         strokeOpacity: 1,
         lineWidth: 4,
@@ -19,8 +19,8 @@ NODE_STYLES = [
     },
     // A Takeable Lesson
     {
-        fill: '#FEB265',
-        fillOpacity: .2,
+        fill: '#41505b',
+        fillOpacity: 1,
         stroke: 'white',
         strokeOpacity: 1,
         lineWidth: 1,
@@ -28,7 +28,7 @@ NODE_STYLES = [
     },
     // A Lesson to Take
     {
-        fill: '#ccb350',
+        fill: '#39819e',
         fillOpacity: 1,
         stroke: 'white',
         strokeOpacity: 1,
@@ -65,14 +65,14 @@ EDGE_STYLES = [
     {
         endArrow: false,
         lineWidth: 1,
-        stroke: '#887052',
+        stroke: '#41505b',
         lineDash: [2]
     },
     // A Lesson to Take
     {
         endArrow: false,
         lineWidth: 4,
-        stroke: '#ccb350',
+        stroke: '#39819e',
         lineDash: [0]
     },
 ];
