@@ -119,7 +119,6 @@ class PrerequisitoryGrapher {
         });
 
         this.graph.on('node:click', (e) => this.onNodeClick(e.item._cfg.model));
-        this.graph.on('node:dblclick', (e) => this.onNodeDoubleClick(e.item._cfg.model));
 
         this.updateGraphSize(w, h);
         window.onresize = () => {
@@ -150,6 +149,7 @@ class PrerequisitoryGrapher {
                 if (node.selectedCourse != undefined)
                     node.label = this.getNodeLabel(node.selectedCourse);
                 else {
+                    node.label = this.getNodeLabel(node.courseGroup);
                     node.style = NODE_STYLES[4];
                 }
             }
@@ -165,6 +165,7 @@ class PrerequisitoryGrapher {
             // Course to Take
             for (let j = 0; j < this.coursesToTake.length; j++) {
                 const courseToTakeNode = this.courseToNode(this.coursesToTake[j]);
+                if (courseToTakeNode == null) continue;
                 if (target == courseToTakeNode.id) {
                     styleToUse = 3;
                     break;
@@ -289,18 +290,15 @@ class PrerequisitoryGrapher {
         return nodesOnInfoNode;
     }
 
-    onNodeDoubleClick(node) {
-        if (this.graphMode != 0) return;
-        if (!this.isSelectiveNode(node)) return;
+    selectSelectiveCourse(selectiveCourseNode) {
+        if (!this.isSelectiveNode(selectiveCourseNode)) return;
 
-        const courseGroup = node.courseGroup;
+        const courseGroup = selectiveCourseNode.courseGroup;
         const startScrollTop = document.documentElement.scrollTop;
 
         location.href = this.SELECTIVE_COURSE_SELECTION_LOC;
         document.getElementById("selCourseTitle").innerHTML = courseGroup.title;
         let dropdown = document.getElementById("selCourseDropdown");
-
-        let previousSelectionExists = node.selectedCourse != undefined;
 
         $("#selCourseDropdown").empty();
         dropdown.options[0] = new Option("-- Seçiniz -- ");
@@ -315,61 +313,68 @@ class PrerequisitoryGrapher {
 
         for (let i = 0; i < courseGroup.courses.length; i++) {
             const course = courseGroup.courses[i];
-            const index = i + (previousSelectionExists ? 0 : 1);
+            const paddedCourseCode = course.courseCode.padEnd(maxCourseCodeLength).replaceAll(" ", " \xa0");
 
-            dropdown.options[index] = new Option(course.courseCode.padEnd(maxCourseCodeLength).replaceAll(" ", " \xa0") + " [" + fixPunctuation(course.courseTitle) + "]");
-            if (course == node.selectedCourse)
-                dropdown.selectedIndex = index;
+            dropdown.options[i + 1] = new Option(paddedCourseCode + " [" + fixPunctuation(course.courseTitle) + "]");
+            if (course == selectiveCourseNode.selectedCourse)
+                dropdown.selectedIndex = i + 1;
         }
 
-
         dropdown.onchange = async (_) => {
-            const selectedIndex = dropdown.selectedIndex - (previousSelectionExists ? 0 : 1);
-
             // -- Seçiniz --
-            if (selectedIndex != 0) {
-                node.selectedCourse = courseGroup.courses[dropdown.selectedIndex - (previousSelectionExists ? 0 : 1)];
-                this.refreshGraph();
-            }
+            if (dropdown.selectedIndex != 0)
+                selectiveCourseNode.selectedCourse = courseGroup.courses[dropdown.selectedIndex - 1];
+            else
+                selectiveCourseNode.selectedCourse = undefined;
+
+            this.selectiveCourseClick(selectiveCourseNode);
+            this.refreshGraph();
 
             location.href = "#";
-            await new Promise(r => setTimeout(r, 600));
+            await new Promise(r => setTimeout(r, 300));
             window.scrollTo({
                 top: startScrollTop,
                 left: 0,
-                behavior: "smooth",
             });
         };
+    }
 
+    selectiveCourseClick(node) {
+        let selectedCourse = node.selectedCourse;
 
+        // Choose Taken Course.
+        if (this.graphMode == 0) {
+            if (this.takenCourseNodes.includes(node)) {
+                this.removeCourseFromTakenCourses(node);
+            } else {
+                this.addCourseToTakenCourse(node);
+            }
+        }
+        // Choose Courses to Take.
+        else if (this.graphMode == 1) {
+            console.log(selectedCourse);
+            if (selectedCourse != undefined) {
+                if (this.coursesToTake.includes(selectedCourse)) {
+                    this.coursesToTake.splice(this.coursesToTake.indexOf(selectedCourse), 1);
+                }
+                else {
+                    this.coursesToTake.push(selectedCourse);
+                }
+            }
+        }
     }
 
     onNodeClick(node) {
         // Selective Course Node
         if (this.isSelectiveNode(node)) {
-            if (node.selectedCourse == undefined) {
-                this.onNodeDoubleClick(node);
-                return;
-            }
-            let selectedCourse = node.selectedCourse;
-
-            // Choose Taken Course.
             if (this.graphMode == 0) {
-                if (this.takenCourseNodes.includes(node)) {
-                    this.removeCourseFromTakenCourses(node);
-                } else {
-                    this.addCourseToTakenCourse(node);
-                }
-            }// Choose Courses to Take.
+                this.selectSelectiveCourse(node);
+            }
             else if (this.graphMode == 1) {
-                if (selectedCourse != undefined) {
-                    if (this.coursesToTake.includes(selectedCourse)) {
-                        this.coursesToTake.splice(this.coursesToTake.indexOf(selectedCourse), 1);
-                    }
-                    else if (this.takeableCourses.includes(selectedCourse)) {
-                        this.coursesToTake.push(selectedCourse);
-                    }
-                }
+                if (node.selectedCourse == undefined)
+                    this.selectSelectiveCourse(node);
+                else
+                    this.selectiveCourseClick(node);
             }
         }
         // Info Node
