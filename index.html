@@ -25,7 +25,8 @@
                 <div class="content" style="width: 85%">
                     <div class="inner">
                         <h1>İTÜ Yardımcı</h1>
-                        <p>İTÜ YARDIMCI İLE ÖN ŞART LİSTELERİNİ GÖRSELLEŞTİRMEK VE DERS PROGRAMI YAPMAK ARTIK ÇOK KOLAY!</p>
+                        <p>İTÜ YARDIMCI İLE ÖN ŞART LİSTELERİNİ GÖRSELLEŞTİRMEK VE DERS PROGRAMI YAPMAK ARTIK ÇOK KOLAY!
+                        </p>
                     </div>
                 </div>
                 <div style="width: 75%">
@@ -35,13 +36,16 @@
                                 <table style="table-layout: fixed">
                                     <tr>
                                         <th>
-                                            <label for="faculty" style="display: inline; text-align: center">Fakülte</label>
+                                            <label for="faculty"
+                                                style="display: inline; text-align: center">Fakülte</label>
                                         </th>
                                         <th>
-                                            <label for="program" style="display: inline; text-align: center">Program</label>
+                                            <label for="program"
+                                                style="display: inline; text-align: center">Program</label>
                                         </th>
                                         <th>
-                                            <label for="iteration" style="display: inline; text-align: center">Ders Planı</label>
+                                            <label for="iteration" style="display: inline; text-align: center">Ders
+                                                Planı</label>
                                         </th>
                                     </tr>
                                     <tr>
@@ -62,8 +66,10 @@
                                         </td>
                                     </tr>
                                 </table>
-                                <input type="button" value="Ön şart Grafiği ile Ders Programı Oluştur" id="submitPreqButton" onclick="graphPrerequistoryGraph()" disabled />
-                                <input type="button" value="Ders Programı Oluştur" id="submitProgButton" onclick="location.href='#CoursePlanCreator';" disabled />
+                                <input type="button" value="Ön şart Grafiği ile Ders Programı Oluştur"
+                                    id="submitPreqButton" onclick="graphPrerequistoryGraph()" disabled />
+                                <input type="button" value="Ders Programı Oluştur" id="submitProgButton"
+                                    onclick="location.href='#CoursePlanCreator';" disabled />
                             </fieldset>
                         </form>
                     </nav>
@@ -72,7 +78,8 @@
                     <div id="navbar" class="content">
                         <div style="display: flex">
                             <div style="flex: 25%; align-self: center">
-                                <input type="button" value="Önceki Adıma Dön" id="previousStep" onclick="previousStep()" disabled />
+                                <input type="button" value="Önceki Adıma Dön" id="previousStep" onclick="previousStep()"
+                                    disabled />
                             </div>
                             <div style="flex: 50%; align-self: center">
                                 <h3>Bulunduğunuz Adım:</h3>
@@ -92,6 +99,7 @@
                 <article id="CoursePlanCreator" style="display: none; width: 100%">
                     <h2 class="major">Ders Programın</h2>
                     <p>Buraya bir şeyler koyalım.</p>
+                    <p>Bencede.</p>
                     <div class="close">Close</div>
                 </article>
                 <article id="SelectiveCourseSelection">
@@ -136,17 +144,17 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.7.1/dist/g6.min.js"></script>
 
-        <script src="assets/js/data_classification/course.js"></script>
-        <script src="assets/js/data_classification/course_group.js"></script>
-        <script src="assets/js/data_classification/data_manager.js"></script>
-        <script src="assets/js/data_classification/lesson.js"></script>
+        <script src="assets/js/data/course.js"></script>
+        <script src="assets/js/data/course_group.js"></script>
+        <script src="assets/js/data/data_manager.js"></script>
+        <script src="assets/js/data/lesson.js"></script>
         <script src="assets/js/index_onload.js"></script>
-        <script src="assets/js/prerequisitory.js"></script>
-        <script src="assets/js/prerequisitory_grapher.js"></script>
-        <script src="assets/js/prerequisitory_grapher_styles.js"></script>
-        <script src="assets/js/ui_elements/cascading_dropdown.js"></script>
-        <script src="assets/js/ui_elements/sticky_navbar.js"></script>
-        <script src="assets/js/ui_elements/sticky_navbar_content.js"></script>
+        <script src="assets/js/prerequisitory/prerequisitory.js"></script>
+        <script src="assets/js/prerequisitory/prerequisitory_grapher.js"></script>
+        <script src="assets/js/prerequisitory/prerequisitory_grapher_styles.js"></script>
+        <script src="assets/js/ui/cascading_dropdown.js"></script>
+        <script src="assets/js/ui/sticky_navbar.js"></script>
+        <script src="assets/js/ui/sticky_navbar_content.js"></script>
         <script src="assets/js/utilities.js"></script>
         <script src="assets/js/website_template/breakpoints.min.js"></script>
         <script src="assets/js/website_template/browser.min.js"></script>
