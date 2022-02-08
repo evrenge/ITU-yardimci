@@ -203,7 +203,7 @@
 20280|ITA 201|Çevrimiçi/Online|Valentina  Elmetti|----|Çarşamba |0830/1229 |---- |20|0|Tüm Lisans ve Lisansüstü Programlar
 20281|ITA 201|Çevrimiçi/Online|Lina  Calogera|----|Salı |1330/1729 |---- |20|0|Tüm Lisans ve Lisansüstü Programlar
 20282|ITA 202|Çevrimiçi/Online|Lina  Calogera|----|Pazartesi |1330/1729 |---- |20|0|Tüm Lisans ve Lisansüstü Programlar
-20283|ITA 301|Çevrimiçi/Online|Lina  Calogera|----|Perşembe |0830/1229 |---- |20|0|Tüm Lisans ve Lisansüstü Programlar
+20283|ITA 301|Çevrimiçi/Online|--|----|Perşembe |0830/1229 |---- |0|0|Tüm Lisans ve Lisansüstü Programlar
 20284|ITA 301|Çevrimiçi/Online|Valentina  Elmetti|----|Cuma |0830/1229 |---- |20|0|Tüm Lisans ve Lisansüstü Programlar
 20285|JPN 101|Çevrimiçi/Online|Salih  Kirazoğlu|----|Salı |1330/1729 |---- |20|0|Tüm Lisans ve Lisansüstü Programlar
 20286|JPN 102|Çevrimiçi/Online|Salih  Kirazoğlu|----|Çarşamba |0830/1229 |---- |20|0|Tüm Lisans ve Lisansüstü Programlar
@@ -820,13 +820,13 @@
 21105|BIO 215E||Fatih  Bildik|KMB|Perşembe |0930/1229 |D105 |20|0|GID, GIDE
 21106|KMM 102E||Reha  Yavuz|KMB|Pazartesi |1330/1629 |BIL.LAB1 |60|0|KMM
 21107|KMM 102E||Reha  Yavuz|KMB|Salı |0930/1229 |BIL.LAB1 |60|0|KMM
-21108|KMM 220||Fatma Seniha Güner|KMBKMB|Pazartesi Perşembe |1030/1229 1130/1229 |D103 D302 |55|0|KMM
-21109|KMM 220||Şerife Birgül Ersolmaz|KMBKMB|Pazartesi Perşembe |1030/1229 1130/1229 |D105 D304 |55|0|KMM
+21108|KMM 220||Fatma Seniha Güner|KMBKMB|Pazartesi Perşembe |0930/1129 1130/1229 |D103 D302 |55|0|KMM
+21109|KMM 220||Şerife Birgül Ersolmaz|KMBKMB|Pazartesi Perşembe |0930/1129 1130/1229 |D105 D304 |55|0|KMM
 21110|KMM 222E||Melek Mümine Erol Taygun|KMBKMB|Perşembe Cuma |1430/1629 1100/1259 |D303 D204 |55|0|KMM
 21111|KMM 222E||Ayşe Özge Kürkçüoğlu Levitas|KMBKMBKMB|Perşembe Cuma Cuma |1430/1629 1100/1159 1200/1259 |D304 D303 BIL.LAB1 |55|0|KMM
 21112|KMM 224||Reha  Yavuz, Ayşegül  Meriçboyu|KMBKMB|Çarşamba Perşembe |0930/1229 0930/1129 |D201 D201 |92|0|KMM, KMMM
 21113|KMM 308E||Ahmet  Sirkecioğlu, Gamze  Gümüşlü Gür|KMBKMB|Perşembe Perşembe |0930/1229 1530/1729 |D301 D201 |80|0|KMM, KMMM
-21114|KMM 312E||Ayşe  Erdem, Alper  Sarıoğlan|KMB|Perşembe |0930/1229 |D102 |30|0|KMM, KMME, KMMM, PETE
+21114|KMM 312E||Alper  Sarıoğlan|KMB|Perşembe |0930/1229 |D102 |30|0|KMM, KMME, KMMM
 21115|KMM 332||Gülhayat  Saygılı, Fatoş Yüksel Güvenilir|KMBKMB|Pazartesi Çarşamba |1030/1229 1030/1229 |D301 D302 |90|0|KMM, KMMM
 21116|KMM 342E||Ayşe Özge Kürkçüoğlu Levitas|KMBKMB|Çarşamba Cuma |1330/1529 1500/1559 |D204 D204 |55|0|KMM, KMME, KMMM
 21117|KMM 342E||Devrim Barış Kaymak|KMBKMB|Çarşamba Cuma |1330/1529 1500/1559 |D203 D202 |55|0|KMM, KMME, KMMM
@@ -842,7 +842,7 @@
 21127|KMM 466||Hale  Gürbüz|KMB|Salı |1330/1629 |D305 |25|0|KMM
 21128|KMM 468||Serdar  Yaman|KMB|Salı |1330/1629 |D106 |25|0|KMM
 21129|KMM 468E||Serdar  Yaman|KMB|Salı |0930/1229 |D302 |25|0|KMM, KMME
-21130|KMM 474||Melek  Tüter|KMB|Salı |1330/1629 |D205 |25|0|KMM
+21130|KMM 474||Melek  Tüter|KMB|Salı |0930/1229 |D203 |25|0|KMM
 21131|KMM 477||Hanzade  Açma|KMB|Salı |0930/1229 |D305 |25|0|KMM
 21132|KMM 4902E||Devrim Barış Kaymak, Mehmet Ferhat Yardım|KMBKMB|Pazartesi Çarşamba |0830/1029 0930/1229 |D301 D303 |500|0|KMM, KMME, KMMM
 21133|KMM 492||Gülhayat  Saygılı|KMB|---- |/ |--- |500|0|KMM
@@ -1615,7 +1615,7 @@
 21935|CAB 344||Devlet Devrim Öztaş|TMB|Çarşamba |1030/1229 |--- |17|0|BST, CAB, CEB, KMP, SES
 21936|MUT 376||Şafak  Köksal|TMB|---- |/ |--- |10|0|MUT, MZT
 21937|SES 414||Tuğçem  Kar|TMB|---- |/ |--- |7|0|SES
-21938|MUT 402||Ahmet Tunç Buyruklar|TMB|---- |/ |--- |10|0|MTMY, MUT, MZT
+21938|MUT 402||Mehmet  Tangör|TMB|---- |/ |--- |10|0|MTMY, MUT, MZT
 21939|MUT 412||Şafak  Köksal|TMB|---- |/ |--- |10|0|MTMM, MUT, MZT
 21940|SES 414||Fidan  Kurt Kasapbaşı|TMB|---- |/ |--- |8|0|SES
 21941|CAB 190||Ayşegül  Kostak Toksoy, Ahmet Hakan Şensoy, Cem  Önertürk, Cenk  Öztürk|TMB|Cuma |1030/1229 |--- |15|0|BST, KMP
@@ -2330,7 +2330,7 @@
 22674|GMI 115||Burak  Zincir|DZB|Pazartesi |0830/1129 |--- |50|0|GMI
 22675|MRE 463||Yasin  Arslanoğlu|DZB|Pazartesi |0830/1129 |--- |10|0|SGM
 22676|MRE 386||Ata  Bilgili|DZB|Pazartesi |0830/1129 |--- |10|0|SGM
-22677|GMI 270E||Müjgan  Özenir|DZB|Pazartesi |1030/1229 |--- |50|0|GMI, GMIE
+22677|GMI 270E||--|DZB|Pazartesi |1030/1229 |--- |0|0|GMI, GMIE
 22678|GMI 210||İsmail  Çiçek|DZB|Pazartesi |1030/1229 |--- |35|0|GMI
 22679|MRE 442||Fırat  Bolat|DZB|Pazartesi |1230/1529 |--- |10|0|SGM
 22680|GMI 270E||Müjgan  Özenir|DZB|Pazartesi |1330/1529 |--- |35|0|GMI, GMIE
@@ -3079,7 +3079,7 @@
 24387|ITB 020|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Çarşamba |1130/1429 |---- |35|0|BIO, BLG, BST, CAB, CEB, CEV, CHZ, DEN, EHB, ELE, ELH, ELK, END, EUT, FIZ, GEM, GEO, GID, ICM, INS, ISL, JDF, JEF, JEO, KIM, KMM, KMP, KOM, MAD, MAK, MAT, MET, MIM, MTO, MTR, MUT, MUZ, PEM, PET, SBP, SES, TEB, TEK, TEL, THO, UCK, UZB
 24388|CAB 786||Pınar  Tezişçi|TMBTMB|Pazartesi Cuma |1330/1529 0830/1029 |--- --- |10|0|CAB, CEB
 24389|ITB 020|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Çarşamba |0830/1129 |---- |35|0|BIO, BLG, BST, CAB, CEB, CEV, CHZ, DEN, EHB, ELE, ELH, ELK, END, EUT, FIZ, GEM, GEO, GID, ICM, INS, ISL, JDF, JEF, JEO, KIM, KMM, KMP, KOM, MAD, MAK, MAT, MET, MIM, MTO, MTR, MUT, MUZ, PEM, PET, SBP, SES, TEB, TEK, TEL, THO, UCK, UZB
-24390|DAN 301||Mert  Gür|MKB|Çarşamba |1530/1729 |--- |100|0|MAK
+24390|DAN 301||Mert  Gür|MKB|Çarşamba |1530/1729 |--- |100|0|IML, MAK
 24391|DAN 102||Mert  Gür|MKB|Çarşamba |1530/1729 |--- |300|0|MAK
 24733|DAN 301||Mustafa Erden Yıldızdağ|GDB|Çarşamba |1530/1729 |--- |100|0|GEM
 24734|MTH 132||Gülçin  Çivi|EEBEEB|Pazartesi Salı |1530/1729 0830/1129 |5101 2104 |30|0|EHN
@@ -3299,3 +3299,7 @@
 25007|DAN 301||Emre  Akyüz|DZB|Çarşamba |1530/1729 |--- |30|0|DUI, DUIE
 25008|BLG 368E|Çevrimiçi/Online|Nizamettin  Bayyurt|----|Salı |1230/1529 |---- |100|0|BLG, BLGE, EHB, EHBE, ELE, KOM, KOME, TEL, YZVE
 25010|CHE 101||Caner  Ünlü|ISBISB|Pazartesi Perşembe |0830/1129 0830/1029 |--- --- |10|0|SED, SEN
+25011|GMI 491E||Müjgan  Özenir|DZB|Pazartesi |1030/1229 |--- |5|0|GMI, GMIE
+25012|GMI 432E||--|DZB|Perşembe |1030/1229 |--- |0|0|GMI, GMIE
+25013|GMI 301||Hakan  Muran|DZB|Cuma |0930/1129 |--- |5|0|GMI
+25014|ITA 101|Çevrimiçi/Online|Lina  Calogera|----|Perşembe |0830/1229 |---- |20|0|Tüm Lisans ve Lisansüstü Programlar
