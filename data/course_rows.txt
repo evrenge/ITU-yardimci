@@ -229,6 +229,7 @@ BLG 4902E|Computer Engineering Design II|BLG 4901 MIN BBveya BLG 4901E MIN BB|Yo
 BLG 4902|Bilgisayar Mühen. Tasarımı II|BLG 4901 MIN BBveya BLG 4901E MIN BB|Yok
 BLG 492E|Graduation Project| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 BLG 492|Bitirme Çalışması| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
+BLG YLT|Tez Çalışması|Yok  |Yok
 BUS 101|Organizational Behavior|BUS 103 MIN DD|Yok
 BUS 102|Business Law|Yok  |Yok
 BUS 103|Principles of Management|Yok  |Yok
@@ -1141,6 +1142,8 @@ CEV 204E|Comp. App. İn Environm. Eng.|BIL 100E MIN DDveya BIL 101E MIN DD|Yok
 CEV 204|Çevre Müh. Bilg. Uyg.|BIL 100E MIN DDveya BIL 101E MIN DD|Yok
 CEV 205E|Environmental Ecology|Yok  |Yok
 CEV 205|Çevre Ekolojisi|Yok  |Yok
+CEV 210E|Engineering Mathematics|MAT 104 MIN DDveya MAT 104E MIN DD|Yok
+CEV 210|Mühendislik Matematiği|MAT 104 MIN DDveya MAT 104E MIN DD|Yok
 CEV 211E|Enviromental Chemistry I|KIM 101 MIN DDveya KIM 101E MIN DD|Yok
 CEV 211|Çevre Kimyası I|KIM 101 MIN DDveya KIM 101E MIN DD|Yok
 CEV 212E|Enviromental Chemistry II|CEV 211 MIN DDveya CEV 211E MIN DD|Yok
@@ -1149,6 +1152,8 @@ CEV 213E|Environmental Microbiology|Yok  |Yok
 CEV 213|Çevre Mikrobiyolojisi|Yok  |Yok
 CEV 214E|Environmental Ecology|Yok  |Yok
 CEV 214|Çevre Ekolojisi|Yok  |Yok
+CEV 216E|Comp. App. in Environment.Eng.|BIL 100E MIN DDveya BIL 101E MIN DD|Yok
+CEV 216|Çevre Müh. Bilg. Uyg.|BIL 100E MIN DDveya BIL 101E MIN DD|Yok
 CEV 218E|Marine and Lake Sciences|Yok  |Yok
 CEV 220E|Air Pollution Chemistry|KIM 101 MIN DDveya KIM 101E MIN DD|Yok
 CEV 220|Hava Kirlenmesi Kimyası|KIM 101 MIN DDveya KIM 101E MIN DD|Yok
@@ -1358,6 +1363,9 @@ CHZ 104|Mineraloji ve Petrografi|Yok  |Yok
 CHZ 211E|Particle Technology|Yok  |Yok
 CHZ 211|Parça Mekaniği|Yok  |Yok
 CHZ 212|Tanecik Teknolojisi|Yok  |Yok
+CHZ 213|Zenginlstirme Önc.Haz. İşlml.|Yok  |Yok
+CHZ 214|Tanecik Teknolojisi|Yok  |Yok
+CHZ 216|Fiziksel Zeng. Yöntemleri|CHZ 213 MIN DDveya CHZ 232 MIN DDveya CHZ 232E MIN DD|Yok
 CHZ 222E|Surface&amp;Colloid Chemistry|Yok  |Yok
 CHZ 224E|Surface and Colloid Chemistry|Yok  |Yok
 CHZ 232E|Processes Prior to Concentrtn|Yok  |Yok
@@ -1388,12 +1396,12 @@ CHZ 352E|Coal Technology|Yok  |Yok
 CHZ 352|Kömür Teknolojisi|Yok  |Yok
 CHZ 354E|Dewatering and Drying|Yok  |Yok
 CHZ 354|Susuzlandırma ve Kurutma|Yok  |Yok
-CHZ 356E|Aggregate Preparation &amp;Tech.|CHZ 232 MIN DDveya CHZ 232E MIN DD|Yok
-CHZ 356|Agrega Haz. ve Teknolojisi|CHZ 232 MIN DDveya CHZ 232E MIN DD|Yok
+CHZ 356E|Aggregate Preparation &amp;Tech.|CHZ 232 MIN DDveya CHZ 232E MIN DDveya CHZ 213 MIN DD|Yok
+CHZ 356|Agrega Haz. ve Teknolojisi|CHZ 232 MIN DDveya CHZ 232E MIN DDveya CHZ 213 MIN DD|Yok
 CHZ 358E|Perform. Eva.in Coal Prp.Plnts|Yok  |Yok
 CHZ 411E|Metallurgy II|CHZ 312E MIN DD|Yok
-CHZ 421E|Process Dsg.in Min.Beneficiat.|CHZ 232 MIN DDveya CHZ 232E MIN DD|Yok
-CHZ 421|Cevher Haz. Proses Tasarımı|CHZ 232 MIN DDveya CHZ 232E MIN DD|Yok
+CHZ 421E|Process Dsg.in Min.Beneficiat.|CHZ 232 MIN DDveya CHZ 232E MIN DDveya CHZ 213 MIN DD|Yok
+CHZ 421|Cevher Haz. Proses Tasarımı|CHZ 232 MIN DDveya CHZ 232E MIN DDveya CHZ 213 MIN DD|Yok
 CHZ 422E|Mng.&amp;Eco.inMineral Procs.Plnts|Yok  |Yok
 CHZ 422|Cev.Haz.Tesis Yönetimi ve Ekon|Yok  |Yok
 CHZ 424|Cev.Haz.Tesis Yönetimi ve Ekon|Yok  |Yok
@@ -1422,10 +1430,11 @@ CHZ 452E|Mineral Process. &amp; Environment|Yok  |Yok
 CHZ 454E|Dewatering and Drying|Yok  |Yok
 CHZ 454|Susuzlandırma ve Kurutma|Yok  |Yok
 CHZ 458E|Remdtn of Indus.&amp;Minerl Wastes|Yok  |Yok
-CHZ 4901|Cevher Hazırl. Müh. Tasarımı I|(CHZ 311 MIN DDve CHZ 332 MIN DD)veya (CHZ 311E MIN DDve CHZ 332E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından (ITB ve/veya SNT seçmeli paket dersleri hariç) başarılı olmak|4.Sınıf ,3.Sınıf
+CHZ 4901|Cevher Hazırl. Müh. Tasarımı I|(CHZ 216 MIN DDveya CHZ 311 MIN DDveya CHZ 311E MIN DD)ve (CHZ 332 MIN DDveya CHZ 332E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından (ITB ve/veya SNT seçmeli paket dersleri hariç) başarılı olmak|4.Sınıf ,3.Sınıf
 CHZ 4902|Cevher Hazırl. Müh.Tasarımı II|CHZ 4901 MIN BBveya CHZ 4901E MIN BB|4.Sınıf
 CHZ 492E|Graduation Thesis| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 CHZ 492|Bitirme Çalışması| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
+CHZ YLT|Tez Çalışması|Yok  |Yok
 CIE 111|Global Environment|Yok  |Yok
 CIE 177|Civil Engineering CAD|Yok  |Yok
 CIE 303|Geodesy, GPS and GIS|EAS 150 MIN DD|Yok
@@ -1460,8 +1469,10 @@ CMP 111|Intr.to Engineering and Comput|Yok  |Yok
 CMP 113|Intr.to Business Computing|Yok  |Yok
 COM 101|Compt.&amp; Eng. Programming|Yok  |Yok
 DEN 101|Gemi&amp;Deniz Tek.Müh.Giriş&amp;Etik|Yok  |Yok
+DEN 102|Bilgisayar Destek.Teknik Resim|Yok  |Yok
 DEN 111E|Intr.to Naval Arc.&amp; Ocean Eng.|Yok  |Yok
 DEN 111|Gemi ve Deniz Müh Giriş|Yok  |Yok
+DEN 208E|Const.of Ship&amp;Offshore Strc.|MUK 203 MIN DDveya MUK 203E MIN DDveya MUK 201 MIN DDveya MUK 201E MIN DD|Yok
 DEN 211|Mühendislik Tasarımına Giriş|Yok  |Yok
 DEN 216E|Measurement Techniques|Yok  |Yok
 DEN 216|Ölçme Tekniği|Yok  |Yok
@@ -1748,8 +1759,9 @@ ECN 207E|Mathematical Economics|Yok  |Yok
 ECN 208E|Public Economics|ECN 101E MIN DD|Yok
 ECN 209E|Statistics I|Yok  |Yok
 ECN 210E|Financial Accounting|Yok  |Yok
+ECN 211E|Statistical Meth. in Economics|Yok  |Yok
 ECN 212E|Statistics II|Yok  |Yok
-ECN 301E|Econometrics I|ECN 206E MIN DDveya ECN 205E MIN DDveya ECN 209E MIN DDveya ECN 212E MIN DD|Yok
+ECN 301E|Econometrics I|ECN 206E MIN DDveya ECN 205E MIN DDveya ECN 209E MIN DDveya ECN 212E MIN DDveya ECN 211E MIN DD|Yok
 ECN 302E|Econometrics II|ECN 301E MIN DD|Yok
 ECN 303E|Development Economics|ECN 201E MIN DD|Yok
 ECN 304E|Economics of Growth|ECN 102E MIN DD|Yok
@@ -1779,7 +1791,7 @@ ECN 430E|Income Distribution &amp; Poverty|ECN 202E MIN DD|Yok
 ECN 431E|Europ.Economics &amp; Institutions|ECN 202E MIN DD|Yok
 ECN 432E|Labor Economics|ECN 201E MIN DD|Yok
 ECN 433E|Regulatory Econ.&amp; Reg. Markets|ECN 201E MIN DD|Yok
-ECN 4902E|Economic Design|ECN 301E MIN DD <a class="link1" target="_blank" href="https://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
+ECN 4902E|Graduation Project|ECN 301E MIN DD <a class="link1" target="_blank" href="https://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 ECN 492E|Graduation Project| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 ECO 101|Principles of Microeconomics|Yok  |Yok
 ECO 102|Principles of Macroeconomics|Yok  |Yok
@@ -2174,9 +2186,13 @@ END 113E|Int.to Industrial Eng.&amp; Ethics|Yok  |Yok
 END 113|Endüstri Müh. Giriş ve Etik|Yok  |Yok
 END 122E|Sel. Topics Ind. Eng. &amp; Ethics|Yok  |Yok
 END 201E|Industrial Eng.Appl. in Python|BIL 110E MIN DDveya BIL 100E MIN DD|Yok
+END 210E|Linear Algebra for Indust.Eng.|MAT 104 MIN DDveya MAT 104E MIN DD|Yok
+END 210|End. Müh.için Doğrusal Cebir|MAT 104 MIN DDveya MAT 104E MIN DD|Yok
 END 211E|System Thinking &amp; Analysis|Yok  |Yok
 END 211|Sistem Düşüncesi ve  Analizi|Yok  |Yok
 END 213E|Data Manag.in Industrial Syst.|Yok  |Yok
+END 215E|System Thinking and Analysis|Yok  |Yok
+END 215|Sistem Düşüncesi ve  Analizi|Yok  |Yok
 END 222E|Management Accounting|Yok  |Yok
 END 222|Yönetim Muhasebesi|Yok  |Yok
 END 232E|Ergonomics|Yok  |Yok
@@ -2212,8 +2228,8 @@ END 327E|Decision Theory|(END 252E MIN DDveya END 252 MIN DD)ve (END 331 MIN DDv
 END 327|Karar Teorisi|(END 252E MIN DDveya END 252 MIN DD)ve (END 331 MIN DDveya END 331E MIN DD)|Yok
 END 328|Stokastik Süreçler|END 311E MIN DDveya END 311 MIN DD|Yok
 END 329E|Quality Management Tools&amp;Tech.|Yok  |Yok
-END 331E|Operations Research I|MAT 121 MIN DDveya MAT 121E MIN DDveya MAT 261 MIN DDveya MAT 261E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD|Yok
-END 331|Yöneylem Araştırması I|MAT 261 MIN DDveya MAT 261E MIN DDveya MAT 121 MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD|Yok
+END 331E|Operations Research I|MAT 121 MIN DDveya MAT 121E MIN DDveya MAT 261 MIN DDveya MAT 261E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DDveya END 210 MIN DDveya END 210E MIN DD|Yok
+END 331|Yöneylem Araştırması I|MAT 261 MIN DDveya MAT 261E MIN DDveya MAT 121 MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DDveya END 210 MIN DDveya END 210E MIN DD|Yok
 END 332E|Operations Research II|END 331 MIN DDveya END 331E MIN DD|Yok
 END 334E|Productivity Analysis|Yok  |Yok
 END 334|Verimlilik Analizi|Yok  |Yok
@@ -2250,6 +2266,7 @@ END 369E|Game Theory|END 252E MIN DDve (END 331 MIN DDveya END 331E MIN DD)|Yok
 END 369|Oyun Teorisi|END 252 MIN DDve (END 331 MIN DDveya END 331E MIN DD)|Yok
 END 374E|Competition Management|Yok  |Yok
 END 374|Rekabet Yönetimi|Yok  |Yok
+END 375E|Human-Computer Interaction|END 232 MIN DDveya END 232E MIN DD|Yok
 END 381E|Tech.Design for IndusT. Eng.|Yok  |Yok
 END 382E|Production Methods|END 112E MIN DD|Yok
 END 382|Üretim Yöntemleri|END 112E MIN DD|Yok
@@ -2308,7 +2325,7 @@ END 451|Lojistik Yönetimi|(END 331 MIN DDveya END 331E MIN DD)ve (END 252 MIN D
 END 452E|Purchasing Management|Yok  |Yok
 END 452|Satınalma Yönetimi|Yok  |Yok
 END 453E|Indus.4.0 &amp; Digital Transform.|Yok  |Yok
-END 454E|Energy Markets &amp; Optimization|(END 331 MIN DDveya END 331E MIN DD)ve (END 312 MIN DDveya END 312E MIN DD)|Yok
+END 454E|Energy Markets &amp; Optimization|END 331 MIN DDveya END 331E MIN DDveya ISL 323 MIN DDveya ISL 323E MIN DD|3.Sınıf ,4.Sınıf
 END 457E|Heuristic Optimization|END 331 MIN DDveya END 331E MIN DD|Yok
 END 457|Sezgisel Optimizasyon|END 331 MIN DDveya END 331E MIN DD|Yok
 END 458E|Nonlinear Optimization|END 331 MIN DDveya END 331E MIN DD|Yok
@@ -3981,6 +3998,7 @@ JDF 492|Tasarım Projesi| <a class="link1" title="Dersin Önşartı İçin Tıkl
 JEF 111E|Intr.to Geophysical Eng.|Yok  |Yok
 JEF 111|Jeofizik Mühendisliğine Giriş|Yok  |Yok
 JEF 205E|Physics of the Earth|Yok  |Yok
+JEF 207E|Physics of the Earth|Yok  |Yok
 JEF 208E|Comp. Appl. in Geophy.|Yok  |Yok
 JEF 212E|Data Processing|MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 102 MIN DDveya MAT 102E MIN DD|Yok
 JEF 222E|Fundamentals of Exp.Geophysics|Yok  |Yok
@@ -4825,14 +4843,16 @@ MAK 220|Mukavemet II|MAK 219 MIN DDveya MAK 219E MIN DDveya MUK 209 MIN DDveya M
 MAK 224E|Engineering Materials|(MAK 213 MIN DDveya MAK 213E MIN DDveya MAL 201 MIN DDveya MAL 201E MIN DD)ve (MAK 200 MIN DDveya MAK 200E MIN DD)|Yok
 MAK 226|Termodinamik II|MAK 215 MIN DDveya MAK 215E MIN DDveya TER 205 MIN DDveya TER 205E MIN DD|Yok
 MAK 228|Akışkanlar Mekaniği I|(MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 201 MIN DDveya MAT 201E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)ve (TER 205 MIN DDveya TER 205E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 215 MIN DDveya MAK 215E MIN DD)|Yok
+MAK 229E|Fluid Mechanics II|MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 208 MIN DDveya AKM 208E MIN DD|Yok
 MAK 229|Akışkanlar Mekaniği II|MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 208 MIN DDveya AKM 208E MIN DD|Yok
 MAK 230E|Alg.Dev.&amp; Comp.App.with Python|(MAT 104 MIN DDveya MAT 104E MIN DD)ve (MAK 114 MIN DDveya MAK 114E MIN DD)ve (MAK 101 MIN DDveya MAK 101E MIN DDveya IML 110 MIN DDveya IML 110E MIN DD)|Yok
 MAK 311E|Heat Transfer|(MAK 212E MIN DDveya MAK 212 MIN DDveya TEK 314 MIN DDveya FIZ 331 MIN DDveya FIZ 331E MIN DDveya PET 311E MIN DD)ve (MAT 201E MIN DDveya MAT 201 MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)|Yok
 MAK 311|Isı Geçişi|(MAK 212 MIN DDveya MAK 212E MIN DDveya TEK 314 MIN DDveya FIZ 331 MIN DDveya PET 311E MIN DD)ve (MAT 201 MIN DDveya MAT 201E MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)|Yok
-MAK 312E|Measurement Systems|(MUK 209 MIN DDveya MUK 209E MIN DDveya MUK 205 MIN DDveya MUK 205E MIN DDveya MEK 205 MIN DDveya MEK 205E MIN DDveya MEK 207 MIN DDveya MEK 207E MIN DDveya MAK 219 MIN DDveya MAK 219E MIN DD)ve (TER 205 MIN DDveya TER 205E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 216 MIN DDveya MAK 216E MIN DDveya MAK 218 MIN DDveya MAK 218E MIN DDveya MAK 215 MIN DDveya MAK 215E MIN DD)ve (MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 208 MIN DDveya AKM 208E MIN DDveya IML 206 MIN DDveya IML 206E MIN DD)ve (MAK 211 MIN DDveya MAK 211E MIN DDveya MAT 271 MIN DDveya MAT 271E MIN DD)|Yok
-MAK 312|Ölçme Değerlendirme|(MUK 209 MIN DDveya MUK 209E MIN DDveya MUK 205 MIN DDveya MUK 205E MIN DDveya MEK 205 MIN DDveya MEK 205E MIN DDveya MEK 207 MIN DDveya MEK 207E MIN DDveya MAK 219 MIN DDveya MAK 219E MIN DD)ve (TER 205 MIN DDveya TER 205E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 216 MIN DDveya MAK 216E MIN DDveya MAK 218 MIN DDveya MAK 218E MIN DDveya MAK 215 MIN DDveya MAK 215E MIN DD)ve (MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 208 MIN DDveya AKM 208E MIN DDveya IML 206 MIN DDveya IML 206E MIN DD)ve (MAK 211 MIN DDveya MAK 211E MIN DDveya MAT 271 MIN DDveya MAT 271E MIN DD)|Yok
-MAK 313E|Heat Transfer|(MAT 201E MIN DDveya MAT 201 MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)ve (TER 206 MIN DDveya TER 206E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 226 MIN DDveya MAK 226E MIN DD)ve (AKM 208 MIN DDveya AKM 208E MIN DDveya MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DD)|Yok
-MAK 313|Isı Geçişi|(MAT 201E MIN DDveya MAT 201 MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)ve (TER 206 MIN DDveya TER 206E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 226 MIN DDveya MAK 226E MIN DD)ve (AKM 208 MIN DDveya AKM 208E MIN DDveya MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DD)|Yok
+MAK 312E|Measurement Systems|(MUK 209 MIN DDveya MUK 209E MIN DDveya MUK 205 MIN DDveya MUK 205E MIN DDveya MEK 205 MIN DDveya MEK 205E MIN DDveya MEK 207 MIN DDveya MEK 207E MIN DDveya MAK 219 MIN DDveya MAK 219E MIN DD)ve (TER 205 MIN DDveya TER 205E MIN DDveya IML 205 MIN DDveya IML 205E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 216 MIN DDveya MAK 216E MIN DDveya MAK 218 MIN DDveya MAK 218E MIN DDveya MAK 215 MIN DDveya MAK 215E MIN DD)ve (MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 208 MIN DDveya AKM 208E MIN DDveya IML 206 MIN DDveya IML 206E MIN DD)ve (MAK 211 MIN DDveya MAK 211E MIN DDveya MAT 271 MIN DDveya MAT 271E MIN DD)|Yok
+MAK 312|Ölçme Değerlendirme|(MUK 209 MIN DDveya MUK 209E MIN DDveya MUK 205 MIN DDveya MUK 205E MIN DDveya MEK 205 MIN DDveya MEK 205E MIN DDveya MEK 207 MIN DDveya MEK 207E MIN DDveya MAK 219 MIN DDveya MAK 219E MIN DD)ve (TER 205 MIN DDveya TER 205E MIN DDveya IML 205 MIN DDveya IML 205E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 216 MIN DDveya MAK 216E MIN DDveya MAK 218 MIN DDveya MAK 218E MIN DDveya MAK 215 MIN DDveya MAK 215E MIN DD)ve (MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DDveya AKM 208 MIN DDveya AKM 208E MIN DDveya IML 206 MIN DDveya IML 206E MIN DD)ve (MAK 211 MIN DDveya MAK 211E MIN DDveya MAT 271 MIN DDveya MAT 271E MIN DD)|Yok
+MAK 313E|Heat Transfer|(MAT 201E MIN DDveya MAT 201 MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)ve (TER 206 MIN DDveya TER 206E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 226 MIN DDveya MAK 226E MIN DD)ve (AKM 208 MIN DDveya AKM 208E MIN DDveya AKM 204 MIN DDveya AKM 204E MIN DDveya MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DD)|Yok
+MAK 313|Isı Geçişi|(MAT 201E MIN DDveya MAT 201 MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)ve (TER 206 MIN DDveya TER 206E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 226 MIN DDveya MAK 226E MIN DD)ve (AKM 208 MIN DDveya AKM 208E MIN DDveya AKM 204 MIN DDveya AKM 204E MIN DDveya MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DD)|Yok
+MAK 314E|Biomaterials and Biomechanical|(MAK 224 MIN DDveya MAK 224E MIN DDveya MAK 214 MIN DDveya MAK 214E MIN DD)ve (MAK 220 MIN DDveya MAK 220E MIN DDveya MUK 210 MIN DDveya MUK 210E MIN DD)|Yok
 MAK 314|Biyomalzemeler ve Biyomekanik|(MAK 224 MIN DDveya MAK 224E MIN DDveya MAK 214 MIN DDveya MAK 214E MIN DD)ve (MAK 220 MIN DDveya MAK 220E MIN DDveya MUK 210 MIN DDveya MUK 210E MIN DD)|Yok
 MAK 315E|Mechanical Vibrations|(DNK 205 MIN DDveya DNK 205E MIN DDveya DNK 203 MIN DDveya DNK 203E MIN DDveya MEK 205 MIN DDveya MEK 205E MIN DDveya MEK 207 MIN DDveya MEK 207E MIN DDveya DNK 201 MIN DDveya DNK 201E MIN DDveya MAK 217 MIN DDveya MAK 217E MIN DD)ve (MAT 201 MIN DDveya MAT 201E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DD)ve (MAT 261 MIN DDveya MAT 261E MIN DDveya MAK 114 MIN DDveya MAK 114E MIN DD)|Yok
 MAK 315|Mekanik Titreşimler|(DNK 205 MIN DDveya DNK 205E MIN DDveya DNK 203 MIN DDveya DNK 203E MIN DDveya MEK 205 MIN DDveya MEK 205E MIN DDveya MEK 207 MIN DDveya MEK 207E MIN DDveya DNK 201 MIN DDveya DNK 201E MIN DDveya MAK 217 MIN DDveya MAK 217E MIN DD)ve (MAT 201 MIN DDveya MAT 201E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DD)ve (MAT 261 MIN DDveya MAT 261E MIN DDveya MAK 114 MIN DDveya MAK 114E MIN DD)|Yok
@@ -4844,6 +4864,7 @@ MAK 331E|System Dynamics and Control|MAT 201 MIN DDveya MAT 201E MIN DDveya MAK 
 MAK 333E|System Dynamics and Control|MAT 201 MIN DDveya MAT 201E MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD|Yok
 MAK 333|Sistem Dinamiği ve Kontrol|MAT 201 MIN DDveya MAT 201E MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD|Yok
 MAK 336E|Finite Elements Method|MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 201 MIN DDveya MAT 201E MIN DDveya MAT 102 MIN DDveya MAT 102E MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DD|Yok
+MAK 339E|Machine Design I|(MAK 110 MIN DDveya MAK 110E MIN DDveya RES 112 MIN DDveya RES 112E MIN DDveya MAK 112 MIN DDveya MAK 112E MIN DD)ve (MUK 220 MIN DDveya MUK 220E MIN DDveya MUK 205 MIN DDveya MUK 205E MIN DDveya MUK 210 MIN DDveya MUK 210E MIN DDveya MAK 220 MIN DDveya MAK 220E MIN DD)ve (MAK 213 MIN DDveya MAK 213E MIN DDveya MAL 201 MIN DDveya MAL 201E MIN DD)|Yok
 MAK 339|Makina Elemanları I|(MAK 110 MIN DDveya MAK 110E MIN DDveya RES 112 MIN DDveya RES 112E MIN DDveya MAK 112 MIN DDveya MAK 112E MIN DD)ve (MUK 220 MIN DDveya MUK 220E MIN DDveya MUK 205 MIN DDveya MUK 205E MIN DDveya MUK 210 MIN DDveya MUK 210E MIN DDveya MAK 220 MIN DDveya MAK 220E MIN DD)ve (MAK 213 MIN DDveya MAK 213E MIN DDveya MAL 201 MIN DDveya MAL 201E MIN DD)|Yok
 MAK 341E|Machine Design I|(RES 112E MIN DDveya MAK 110 MIN DDveya MAK 110E MIN DDveya MAK 112E MIN DDveya MAK 112 MIN DD)ve (MUK 205 MIN DDveya MUK 205E MIN DDveya MUK 220 MIN DDveya MUK 220E MIN DDveya MUK 210 MIN DDveya MUK 210E MIN DDveya MAK 220 MIN DDveya MAK 220E MIN DD)ve (MAL 201 MIN DDveya MAL 201E MIN DDveya MAK 213 MIN DDveya MAK 213E MIN DD)|Yok
 MAK 341|Makina Elemanları I|(RES 112E MIN DDveya RES 112 MIN DDveya MAK 112E MIN DDveya MAK 112 MIN DDveya MAK 110 MIN DDveya MAK 110E MIN DD)ve (MUK 205 MIN DDveya MUK 205E MIN DDveya MUK 220 MIN DDveya MUK 220E MIN DDveya MUK 210 MIN DDveya MUK 210E MIN DDveya MAK 220 MIN DDveya MAK 220E MIN DD)ve (MAL 201 MIN DDveya MAL 201E MIN DDveya MAK 213 MIN DDveya MAK 213E MIN DD)|Yok
@@ -4877,11 +4898,13 @@ MAK 374E|Industrial Acoustics and Noise|Yok  |4.Sınıf
 MAK 374|Endüstriyel Akustik ve Gürültü|Yok  |4.Sınıf
 MAK 376E|Computational Fluid Dynamics|(AKM 209 MIN DDveya AKM 209E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DDveya AKM 204 MIN DDveya AKM 204E MIN DDveya MAK 229 MIN DDveya MAK 229E MIN DD)ve (MAT 201E MIN DDveya MAT 201 MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DD)ve (MAT 202 MIN DDveya MAT 202E MIN DDveya MAK 202 MIN DDveya MAK 202E MIN DD)ve (BIL 104E MIN DDveya BIL 106E MIN DDveya BIL 108E MIN DDveya MAK 104E MIN DD)|Yok
 MAK 378E|Intr.to Nanotech.&amp; Nanosyst.|(MAL 201 MIN DDveya MAL 201E MIN DDveya MAK 213 MIN DDveya MAK 213E MIN DD)ve (MAK 313 MIN DDveya MAK 313E MIN DDveya MAK 311 MIN DDveya MAK 311E MIN DDveya MAK 216 MIN DDveya MAK 216E MIN DDveya MAK 218 MIN DDveya MAK 218E MIN DDveya IML 305 MIN DDveya IML 305E MIN DD)|Yok
+MAK 380E|Heat and Mass Exchangers|(MAK 313 MIN DDveya MAK 313E MIN DDveya MAK 311 MIN DDveya MAK 311E MIN DD)ve (MAK 229 MIN DDveya MAK 229E MIN DDveya AKM 209 MIN DDveya AKM 209E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DD)|Yok
 MAK 380|Isı ve Kütle Değiştiriciler|(MAK 313 MIN DDveya MAK 313E MIN DDveya MAK 311 MIN DDveya MAK 311E MIN DD)ve (MAK 229 MIN DDveya MAK 229E MIN DDveya AKM 209 MIN DDveya AKM 209E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DD)|Yok
 MAK 383E|Textile Engineering|Yok  |4.Sınıf
 MAK 383|Tekstil Mühendisliği|Yok  |4.Sınıf
 MAK 385E|Pumping Systems|(AKM 202 MIN DDveya AKM 202E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DDveya AKM 204 MIN DDveya AKM 204E MIN DD)|4.Sınıf
 MAK 385|Pompalama Sistemleri|(AKM 202 MIN DDveya AKM 202E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DDveya AKM 204 MIN DDveya AKM 204E MIN DD)|4.Sınıf
+MAK 390E|Applied Heat Transfer|(MAK 313 MIN DDveya MAK 313E MIN DDveya MAK 311 MIN DDveya MAK 311E MIN DD)ve (AKM 209 MIN DDveya AKM 209E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DDveya MAK 229 MIN DDveya MAK 229E MIN DD)|Yok
 MAK 390|Uygulamalı Isı Geçişi|(MAK 313 MIN DDveya MAK 313E MIN DDveya MAK 311 MIN DDveya MAK 311E MIN DD)ve (AKM 209 MIN DDveya AKM 209E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DDveya MAK 229 MIN DDveya MAK 229E MIN DD)|Yok
 MAK 395E|Applied Machine Project|MAK 341 MIN DDveya MAK 341E MIN DD|4.Sınıf
 MAK 395|Uygulamalı Makina Projesi|MAK 341 MIN DDveya MAK 341E MIN DD|4.Sınıf
@@ -4978,7 +5001,8 @@ MAK 4057E|Vehicle Systems Design|MAK 342 MIN DDveya MAK 342E MIN DDveya MAK 322 
 MAK 4058E|Power Transmission in Vehicles|MAK 342 MIN DDveya MAK 342E MIN DD|4.Sınıf
 MAK 4058|Taşıtlarda Aktarma Organları|MAK 342 MIN DDveya MAK 342E MIN DD|4.Sınıf
 MAK 4059E|Precision Machine Design|MAK 342 MIN DDveya MAK 342E MIN DD|4.Sınıf
-MAK 405|Mak. Müh. Yenilikçi Tas. Yönt.|MAK 341 MIN DDveya MAK 341E MIN DDveya MAK 339 MIN DDveya MAK 339E MIN DD|4.Sınıf
+MAK 405E|Innov. Dsgn.Meth.inMech.Eng.|MAK 341 MIN DDveya MAK 341E MIN DDveya MAK 339 MIN DDveya MAK 339E MIN DDveya IML 320 MIN DD|Yok
+MAK 405|Mak. Müh. Yenilikçi Tas. Yönt.|MAK 341 MIN DDveya MAK 341E MIN DDveya MAK 339 MIN DDveya MAK 339E MIN DDveya IML 320 MIN DD|4.Sınıf
 MAK 4060E|Vibrt. Anlys.byFinite Elm.Mth.|MAK 324 MIN DDveya MAK 324E MIN DDveya MAK 322 MIN DDveya MAK 322E MIN DD|4.Sınıf
 MAK 4060|Sonlu Eleman.Ynt.Titreşim Anlz|MAK 324 MIN DDveya MAK 324E MIN DDveya MAK 322 MIN DDveya MAK 322E MIN DD|4.Sınıf
 MAK 4061E|Exhaust Gas Emmision|TER 206 MIN DDveya TER 206E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya UCK 212 MIN DDveya UCK 212E MIN DDveya MAK 226 MIN DDveya MAK 226E MIN DD|4.Sınıf
@@ -5083,7 +5107,9 @@ MAK 483E|Thermal Env Engineering|MAK 311 MIN DDveya MAK 311E MIN DDveya UCK 234 
 MAK 484E|Control of Fluid Power|Yok  |4.Sınıf
 MAK 484|Akışkan Gücü Kontrolü|Yok  |4.Sınıf
 MAK 487E|Introduction to Robotics|MAK 331E MIN DDveya MAK 331 MIN DDveya TEK 464E MIN DDveya TEK 464 MIN DDveya UCK 362E MIN DDveya UCK 362 MIN DD|4.Sınıf
+MAK 4901E|Mechanical Eng. Design I|(MAK 313 MIN DDveya MAK 313E MIN DDveya MAK 311 MIN DDveya MAK 311E MIN DD)ve (MAK 333 MIN DDveya MAK 333E MIN DDveya MAK 331 MIN DDveya MAK 331E MIN DD)ve (MAK 342 MIN DDveya MAK 342E MIN DD)ve (MAK 322 MIN DDveya MAK 322E MIN DDveya MAK 324 MIN DDveya MAK 324E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından (ITB ve/veya SNT seçmeli paket dersleri hariç) başarılı olmak|Yok
 MAK 4901|Makina Müh. Tasarımı I|(MAK 313 MIN DDveya MAK 313E MIN DDveya MAK 311 MIN DDveya MAK 311E MIN DD)ve (MAK 333 MIN DDveya MAK 333E MIN DDveya MAK 331 MIN DDveya MAK 331E MIN DD)ve (MAK 342 MIN DDveya MAK 342E MIN DD)ve (MAK 322 MIN DDveya MAK 322E MIN DDveya MAK 324 MIN DDveya MAK 324E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından (ITB ve/veya SNT seçmeli paket dersleri hariç) başarılı olmak|3.Sınıf ,4.Sınıf
+MAK 4902E|Mechanical Eng. Design II|MAK 4901 MIN BBveya MAK 4901E MIN BB|Yok
 MAK 4902|Makina Müh. Tasarımı II|MAK 4901 MIN BBveya MAK 4901E MIN BB|Yok
 MAK 492E|Senior Design Project| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 MAK 492|Bitirme Tasarım Projesi| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
@@ -5426,6 +5452,8 @@ MIM 101E|History of Art and Culture|Yok  |Yok
 MIM 103E|Strenght of Materials|MIM 113 MIN DDveya MIM 113E MIN DDveya MIM 125 MIN DDveya MIM 125E MIN DD|Yok
 MIM 103|Mukavemet|MIM 113 MIN DDveya MIM 113E MIN DDveya MIM 125 MIN DDveya MIM 125E MIN DD|Yok
 MIM 105E|Int Politic Econ&amp;Sustain Manag|Yok  |Yok
+MIM 106E|Structural Mechanics|Yok  |Yok
+MIM 106|Yapı Mekaniği|Yok  |Yok
 MIM 107E|Concepts of Cultural Heritage|Yok  |Yok
 MIM 109E|Art and Architecture|Yok  |Yok
 MIM 109|Sanat ve Mimarlık|Yok  |Yok
@@ -5464,10 +5492,18 @@ MIM 203E|Building and Const inArch.|Yok  |Yok
 MIM 203|Mimarlıkta Yapı ve Yapım|Yok  |Yok
 MIM 204E|Arch.Building Element Design|MIM 203 MIN DDveya MIM 203E MIN DDveya MIM 261 MIN DDveya MIM 261E MIN DDveya MIM 231 MIN DDveya MIM 231E MIN DDveya MIM 263 MIN DDveya MIM 263E MIN DDveya ICM 231 MIN DDveya ICM 231E MIN DD|Yok
 MIM 204|Mimarlık. Yapı Elemanları Tas.|MIM 203 MIN DDveya MIM 203E MIN DDveya MIM 261 MIN DDveya MIM 261E MIN DDveya MIM 231 MIN DDveya MIM 231E MIN DDveya MIM 263 MIN DDveya MIM 263E MIN DDveya ICM 231 MIN DDveya ICM 231E MIN DD|Yok
-MIM 211E|Architectural Design III|MIM 112 MIN DDveya MIM 112E MIN DDveya MIM 116 MIN DDveya MIM 116E MIN DD|Yok
-MIM 211|Mimari Proje III|MIM 112 MIN DDveya MIM 112E MIN DDveya MIM 116 MIN DDveya MIM 116E MIN DD|Yok
+MIM 208E|Structural Analysis&amp; Design I|MIM 106 MIN DDveya MIM 106E MIN DD|Yok
+MIM 208|Yapısal Analiz ve Tasarım I|MIM 106 MIN DDveya MIM 106E MIN DD|Yok
+MIM 209E|History of Architecture I|Yok  |Yok
+MIM 209|Mimarlık Tarihi I|Yok  |Yok
+MIM 210E|History of Architecture II|MIM 122 MIN DDveya MIM 122E MIN DDveya MIM 209 MIN DDveya MIM 209E MIN DD|Yok
+MIM 210|Mimarlık Tarihi II|MIM 122 MIN DDveya MIM 122E MIN DDveya MIM 209 MIN DDveya MIM 209E MIN DD|Yok
+MIM 211E|Architectural Design III|MIM 112 MIN DDveya MIM 112E MIN DDveya MIM 116 MIN DDveya MIM 116E MIN DDveya TES 121 MIN DDveya TES 121E MIN DD|Yok
+MIM 211|Mimari Proje III|MIM 112 MIN DDveya MIM 112E MIN DDveya MIM 116 MIN DDveya MIM 116E MIN DDveya TES 121 MIN DDveya TES 121E MIN DD|Yok
 MIM 212E|Architectural Design IV|MIM 211 MIN DDveya MIM 211E MIN DDveya TES 211E MIN DD|Yok
 MIM 212|Mimari Proje IV|MIM 211 MIN DDveya MIM 211E MIN DDveya TES 211E MIN DD|Yok
+MIM 213E|Structural Analysis&amp; Design II|MIM 152 MIN DDveya MIM 152E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DDveya MIM 208 MIN DDveya MIM 208E MIN DD|Yok
+MIM 213|Yapısal Analiz ve Tasarım II|MIM 152 MIN DDveya MIM 152E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DDveya MIM 208 MIN DDveya MIM 208E MIN DD|Yok
 MIM 221E|Hstry of Turkish Architecture|MIM 122 MIN DDveya MIM 122E MIN DD|Yok
 MIM 221|Türk Mimarlık Tarihi|MIM 122 MIN DDveya MIM 122E MIN DD|Yok
 MIM 222E|Histry of Europn Architecture|MIM 221 MIN DDveya MIM 221E MIN DD|Yok
@@ -5490,16 +5526,20 @@ MIM 246|Çevre Kontrolü Stüdyosu|Yok  |Yok
 MIM 251|Yapı Statiği|MIM 152 MIN DDveya MIM 152E MIN DD|Yok
 MIM 252E|Theories of Architectural Dsgn|Yok  |Yok
 MIM 252|Mimari Tasarım Kuramları|Yok  |Yok
-MIM 253E|Steel Structures|MIM 152 MIN DDveya MIM 152E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DD|Yok
-MIM 253|Çelik Yapılar|MIM 152 MIN DDveya MIM 152E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DD|Yok
+MIM 253E|Steel Structures|MIM 152 MIN DDveya MIM 152E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DDveya MIM 106 MIN DDveya MIM 106E MIN DD|Yok
+MIM 253|Çelik Yapılar|MIM 152 MIN DDveya MIM 152E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DDveya MIM 106 MIN DDveya MIM 106E MIN DD|Yok
 MIM 261E|Building Construction Methods|MIM 162 MIN DDveya MIM 162E MIN DDveya MIM 132 MIN DDveya MIM 132E MIN DD|Yok
 MIM 261|Yapı ve Yapım Yöntemleri|MIM 162 MIN DDveya MIM 162E MIN DDveya MIM 132 MIN DDveya MIM 132E MIN DD|Yok
 MIM 263E|Building Construction Methods|MIM 162 MIN DDveya MIM 162E MIN DDveya MIM 132 MIN DDveya MIM 132E MIN DD|Yok
 MIM 263|Yapı ve Yapım Yöntemleri|MIM 162 MIN DDveya MIM 162E MIN DDveya MIM 132 MIN DDveya MIM 132E MIN DD|Yok
-MIM 271E|Theory of Structures|MIM 152 MIN DDveya MIM 152E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DD|Yok
-MIM 271|Yapı Statiği|MIM 152 MIN DDveya MIM 152E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DD|Yok
+MIM 271E|Theory of Structures|MIM 152 MIN DDveya MIM 152E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DDveya MIM 106 MIN DDveya MIM 106E MIN DD|Yok
+MIM 271|Yapı Statiği|MIM 152 MIN DDveya MIM 152E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DDveya MIM 106 MIN DDveya MIM 106E MIN DD|Yok
+MIM 304E|History of Architecture III|MIM 221 MIN DDveya MIM 221E MIN DDveya MIM 209 MIN DDveya MIM 209E MIN DD|Yok
+MIM 304|Mimarlık Tarihi III|MIM 221 MIN DDveya MIM 221E MIN DDveya MIM 209 MIN DDveya MIM 209E MIN DD|Yok
 MIM 305E|Statistics|Yok  |Yok
 MIM 305|İstatistik|Yok  |Yok
+MIM 306E|Urbanism and Planning Law|Yok  |Yok
+MIM 306|Şehircilik ve İmar Hukuku|Yok  |Yok
 MIM 311|Mimari Proje V (Uygulama Pr)|MIM 212 MIN DDveya MIM 212E MIN DD|Yok
 MIM 312E|Architectural Design VI|MIM 311 MIN DDveya MIM 311E MIN DDveya MIM 351 MIN DDveya MIM 351E MIN DD|Yok
 MIM 312|Mimari Proje VI|MIM 311 MIN DDveya MIM 311E MIN DDveya MIM 351 MIN DDveya MIM 351E MIN DD|Yok
@@ -5589,6 +5629,80 @@ MIM 392E|Contents of Architecture|Yok  |Yok
 MIM 392|Mimarlık Konuları|Yok  |Yok
 MIM 394|Güneş Mimarisi|MIM 242 MIN DDveya MIM 242E MIN DDveya MIM 246 MIN DDveya MIM 246E MIN DD|Yok
 MIM 398|Kültür &amp; Sanat Merkezl Aydınlm|MIM 242 MIN DDveya MIM 242E MIN DDveya MIM 246 MIN DDveya MIM 246E MIN DDveya (ICM 331 MIN DDve ICM 332 MIN DD)veya (ICM 331E MIN DDve ICM 332E MIN DD)|Yok
+MIM 4010E|Theories of Architectural Dsgn|Yok  |Yok
+MIM 4010|Mimari Tasarım Kuramları|Yok  |Yok
+MIM 4011E|Photography|Yok  |Yok
+MIM 4011|Fotoğraf|Yok  |Yok
+MIM 4012E|Envir.Dsg.for the Dis.&amp;Elderly|Yok  |Yok
+MIM 4012|Özürlüler ve Yaş.İçin Çev.Tas|Yok  |Yok
+MIM 4013E|Architecture and Its Effects|Yok  |Yok
+MIM 4013|Mimari ve Etkileri|Yok  |Yok
+MIM 4014E|Design with Natural Aspects|Yok  |Yok
+MIM 4014|Doğal Verilerle Tasarım|Yok  |Yok
+MIM 4015|Konutta Mekan Kullanımı &amp; Değ|Yok  |Yok
+MIM 4016|Bilg ile Yapma Çevrede Perf Dğ|MIM 242 MIN DDveya MIM 242E MIN DDveya MIM 246 MIN DDveya MIM 246E MIN DD|Yok
+MIM 4017|Çağdaş Yapı Malzemeleri|Yok  |Yok
+MIM 4018|Mimarlıkta Mekan Analizi &amp; Tek|Yok  |Yok
+MIM 4019|Detay Tasrm &amp; Temel İlkeleri|MIM 231 MIN DDveya MIM 231E MIN DDveya ICM 231 MIN DDveya ICM 231E MIN DD|Yok
+MIM 4020|Peyzaj Tasarımı &amp; Uyg.İlkeleri|Yok  |Yok
+MIM 4021|Mimarlıkta Enfrm Teknolojileri|BIL 101 MIN DDveya BIL 101E MIN DDveya BIL 101E MIN BLveya BIL 100E MIN DDveya MIM 120E MIN DD|Yok
+MIM 4022|Bina, İklim, Enerji İlişkileri|MIM 242 MIN DDveya MIM 242E MIN DDveya MIM 246 MIN DDveya MIM 246E MIN DDveya (ICM 331 MIN DDve ICM 332 MIN DD)veya (ICM 331E MIN DDve ICM 332E MIN DD)|Yok
+MIM 4023|Yapıda Malzeme Seçimi|MIM 231 MIN DDveya MIM 231E MIN DDveya ICM 231 MIN DDveya ICM 231E MIN DD|Yok
+MIM 4024|Taşıyıcı Sistem Tasarımı|MIM 232 MIN DDveya MIM 232E MIN DDveya MIM 234 MIN DDveya MIM 234E MIN DDveya MIM 213 MIN DDveya MIM 213E MIN DD|Yok
+MIM 4025|Taşıyıcı Yapı Malzemeleri|MIM 231 MIN DDveya MIM 231E MIN DD|Yok
+MIM 4026|Mim.Çiz.Stand.&amp;Tek.Şartnameler|Yok  |Yok
+MIM 4027|Eskiçağ Anad.Kent.Yerl.ve Mim.|MIM 122 MIN DDveya MIM 122E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DDveya MIM 209 MIN DDveya MIM 209E MIN DD|Yok
+MIM 4028|Mimari Tasarım &amp; Yapımda Ahşap|MIM 244 MIN DDveya MIM 244E MIN DDveya SBP 227E MIN DDveya MIM 204 MIN DDveya MIM 204E MIN DD|Yok
+MIM 4029|Güneş Mimarisi|MIM 242 MIN DDveya MIM 242E MIN DDveya MIM 246 MIN DDveya MIM 246E MIN DD|Yok
+MIM 4030|Kültür&amp;Sanat Merkez.Aydınlatma|MIM 242 MIN DDveya MIM 242E MIN DDveya MIM 246 MIN DDveya MIM 246E MIN DDveya (ICM 331 MIN DDve ICM 332 MIN DD)veya (ICM 331E MIN DDve ICM 332E MIN DD)|Yok
+MIM 4031E|Architect Sinan|MIM 221 MIN DDveya MIM 221E MIN DDveya MIM 210 MIN DDveya MIM 210E MIN DD|Yok
+MIM 4031|Mimar Sinan|MIM 221 MIN DDveya MIM 221E MIN DDveya MIM 210 MIN DDveya MIM 210E MIN DD|Yok
+MIM 4032|Tarihte Bahçe Tasarımları&amp;Mim.|MIM 222 MIN DDveya MIM 222E MIN DDveya MIM 304 MIN DDveya MIM 304E MIN DD|Yok
+MIM 4033|İstanbul'da Koruma Sorunları|MIM 322 MIN DDveya MIM 322E MIN DD|Yok
+MIM 4034|Koruma Bilimine Giriş|Yok  |Yok
+MIM 4035|Arkeolojik Sit. Koruma Uyg.|Yok  |Yok
+MIM 4036|Mimarlıkta Temsil ve Sunum|Yok  |Yok
+MIM 4037|Bina Yapımında IK Yönetimi|Yok  |Yok
+MIM 4038|Konut Planlaması &amp; Tasrm Sorn|Yok  |Yok
+MIM 4039|Antik Çağ'da Mimarlık &amp; Toplum|MIM 122 MIN DDveya MIM 122E MIN DDveya MIM 209 MIN DDveya MIM 209E MIN DD|Yok
+MIM 4040|Programlama Mantığına Giriş|BIL 100 MIN DDveya BIL 101E MIN DDveya BIL 101E MIN BLveya BIL 100E MIN DDveya MIM 120E MIN DD|Yok
+MIM 4041|Yüksek Binaların Mimari Tas.|Yok  |Yok
+MIM 4042|Geç Osmanlı Mimarlığı|Yok  |Yok
+MIM 4043|İstanbul Katmanları|(MIM 122 MIN DDveya MIM 122E MIN DDveya MIM 209 MIN DDveya MIM 209E MIN DD)ve (MIM 221 MIN DDveya MIM 221E MIN DDveya MIM 210 MIN DDveya MIM 210E MIN DD)|Yok
+MIM 4044|Mimarlıkta Morfoloji|Yok  |Yok
+MIM 4045|Tasarım Ekonomisi|MIM 332 MIN DDveya MIM 332E MIN DDveya MIM 359 MIN DDveya MIM 359 MIN DD|Yok
+MIM 4046E|Social Psychology|Yok  |Yok
+MIM 4047E|Energy Efficient Housing|MIM 242 MIN DDveya MIM 242E MIN DDveya MIM 246 MIN DDveya MIM 246E MIN DD|Yok
+MIM 4048E|Archit.&amp;Interdıscıplınary Std.|Yok  |Yok
+MIM 4049E|Dsgn Princ of Buildng Elements|MIM 244 MIN DDveya MIM 244E MIN DDveya MIM 241 MIN DDveya MIM 241E MIN DDveya MIM 204 MIN DDveya MIM 204E MIN DD|Yok
+MIM 4050E|Free Hand Draw.in Architecture|Yok  |Yok
+MIM 4051E|Utl.ofConcrete Tech.in Arch|MIM 231 MIN DDveya MIM 231E MIN DDveya ICM 231 MIN DDveya ICM 231E MIN DD|Yok
+MIM 4052E|Cities and Architecture|Yok  |Yok
+MIM 4053E|Tall Building Structures|MIM 152 MIN DDveya MIM 152E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DDveya MIM 106 MIN DDveya MIM 106E MIN DD|Yok
+MIM 4055E|Art of the 20th Century|Yok  |Yok
+MIM 4056E|Design &amp; Fabric.Tech. in Arch.|Yok  |Yok
+MIM 4057E|Logic and Theory of Design|Yok  |Yok
+MIM 4058E|Architecture After 1960|Yok  |Yok
+MIM 4059E|Architecture Today|Yok  |Yok
+MIM 4060E|Restoration of Cultural Prop.|Yok  |Yok
+MIM 4061E|Desg.Draw.:Pract.&amp;Concep.Appr.|Yok  |Yok
+MIM 4062E|Topog.Pract.:Arch.,Art&amp;theCity|Yok  |Yok
+MIM 4063E|Infill Prob.in Urban Hist.Site|MIM 322 MIN DDveya MIM 322E MIN DD|Yok
+MIM 4064E|Mdrn Cncpts of Archtctrl Consv|MIM 322 MIN DDveya MIM 322E MIN DD|Yok
+MIM 4065E|Arch.Survey&amp;Rese.in Hist.Sites|Yok  |Yok
+MIM 4066E|Generating Livable Environment|Yok  |Yok
+MIM 4067E|Det.Dsgn.Meth.ofContemp.Arch.|Yok  |Yok
+MIM 4068E|Buildng Sub-Structure &amp; Ground|MIM 244 MIN DDveya MIM 244E MIN DDveya MIM 241 MIN DDveya MIM 241E MIN DDveya MIM 204 MIN DDveya MIM 204E MIN DD|Yok
+MIM 4069E|Earthquake Resist.Building Dsg|(MIM 271 MIN DDveya MIM 271E MIN DDveya MIM 208 MIN DDveya MIM 208E MIN DD)ve (MIM 232 MIN DDveya MIM 232E MIN DDveya MIM 234 MIN DDveya MIM 234E MIN DDveya MIM 213 MIN DDveya MIM 213E MIN DD)ve (MIM 253 MIN DDveya MIM 253E MIN DDveya MIM 208 MIN DDveya MIM 208E MIN DD)|Yok
+MIM 4070E|Computational Space Anlaysis|Yok  |Yok
+MIM 4071E|The Changing Workplace|Yok  |Yok
+MIM 4072E|Architecture,Cities and Cinema|Yok  |Yok
+MIM 4073E|Building Constructn Techniques|MIM 244 MIN DDveya MIM 244E MIN DDveya MIM 241 MIN DDveya MIM 241E MIN DDveya MIM 204 MIN DDveya MIM 204E MIN DD|Yok
+MIM 4074E|Stru.Sys.Pro.of Mon.&amp;Hist.Cons|MIM 126 MIN DDveya MIM 126E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DDveya MIM 106 MIN DDveya MIM 106E MIN DD|Yok
+MIM 4075E|Spec.Top.of Const.Proj.Manag.|MIM 332 MIN DDveya MIM 332E MIN DDveya MIM 359 MIN DDveya MIM 359E MIN DD|Yok
+MIM 4076E|Time Mng.in Building Prod.|MIM 332 MIN DDveya MIM 332E MIN DDveya MIM 359 MIN DDveya MIM 359E MIN DD|Yok
+MIM 4077E|Design Comp. by Natural Syst.|Yok  |Yok
+MIM 4078E|History of Art and Culture|Yok  |Yok
 MIM 410E|Architect Sinan|MIM 221 MIN DDveya MIM 221E MIN DD|Yok
 MIM 411E|Architectural Design VII|MIM 312 MIN DDveya MIM 312E MIN DD|Yok
 MIM 411|Mimari Proje VII|MIM 312 MIN DDveya MIM 312E MIN DD|Yok
@@ -5664,8 +5778,8 @@ MIM 479|Yapılarda Ses Yalıtımının Değ|MIM 242 MIN DDveya MIM 242E MIN DDve
 MIM 480E|The Changing Workplace|Yok  |Yok
 MIM 481|İstanbul Katmanları|(MIM 122 MIN DDveya MIM 122E MIN DD)ve (MIM 221 MIN DDveya MIM 221E MIN DD)|Yok
 MIM 482E|Architecture,Cities and Cinema|Yok  |Yok
-MIM 484E|Construction Project|(MIM 232 MIN DDveya MIM 232E MIN DDveya MIM 234 MIN DDveya MIM 234E MIN DD)ve (MIM 242 MIN DDveya MIM 242E MIN DDveya MIM 246 MIN DDveya MIM 246E MIN DD)ve (MIM 204 MIN DDveya MIM 204E MIN DDveya MIM 244 MIN DDveya MIM 244E MIN DD)|Yok
-MIM 484|Uygulama Projesi|(MIM 232 MIN DDveya MIM 232E MIN DDveya MIM 234 MIN DDveya MIM 234E MIN DD)ve (MIM 242 MIN DDveya MIM 242E MIN DDveya MIM 246 MIN DDveya MIM 246E MIN DD)ve (MIM 204 MIN DDveya MIM 204E MIN DDveya MIM 244 MIN DDveya MIM 244E MIN DD)|Yok
+MIM 484E|Construction Project|(MIM 232 MIN DDveya MIM 232E MIN DDveya MIM 213 MIN DDveya MIM 213E MIN DDveya MIM 234 MIN DDveya MIM 234E MIN DD)ve (MIM 242 MIN DDveya MIM 242E MIN DDveya MIM 246 MIN DDveya MIM 246E MIN DD)ve (MIM 204 MIN DDveya MIM 204E MIN DDveya MIM 244 MIN DDveya MIM 244E MIN DD)|Yok
+MIM 484|Uygulama Projesi|(MIM 232 MIN DDveya MIM 232E MIN DDveya MIM 213 MIN DDveya MIM 213E MIN DDveya MIM 234 MIN DDveya MIM 234E MIN DD)ve (MIM 242 MIN DDveya MIM 242E MIN DDveya MIM 246 MIN DDveya MIM 246E MIN DD)ve (MIM 204 MIN DDveya MIM 204E MIN DDveya MIM 244 MIN DDveya MIM 244E MIN DD)|Yok
 MIM 485E|Building Constructn Techniques|MIM 244 MIN DDveya MIM 244E MIN DDveya MIM 241 MIN DDveya MIM 241E MIN DDveya MIM 204 MIN DDveya MIM 204E MIN DD|Yok
 MIM 485|Yapım Teknikleri|MIM 244 MIN DDveya MIM 244E MIN DDveya MIM 241 MIN DDveya MIM 241E MIN DDveya MIM 204 MIN DDveya MIM 204E MIN DD|Yok
 MIM 486E|Stru.Sys.Pro.of Mon.&amp;Hist.Cons|MIM 126 MIN DDveya MIM 126E MIN DDveya MIM 103 MIN DDveya MIM 103E MIN DD|Yok
@@ -5673,8 +5787,8 @@ MIM 486|Anıt.&amp;Tar.Yapı.Taş.Sist. Özel.|MIM 126 MIN DDveya MIM 126E MIN D
 MIM 487|Binalarda Rüzgar Etkileri|MIM 242 MIN DDveya MIM 242E MIN DDveya MIM 246 MIN DDveya MIM 246E MIN DDveya (ICM 331 MIN DDve ICM 332 MIN DD)veya (ICM 331E MIN DDve ICM 332E MIN DD)|Yok
 MIM 489E|Housing Prod. Models in Turkey|Yok  |Yok
 MIM 489|Türkiye'de Konut Üretim Modl|Yok  |Yok
-MIM 4902E|Diploma Project|(MIM 321 MIN DDveya MIM 321E MIN DD)ve (MIM 333 MIN DDveya MIM 333E MIN DDveya MIM 331 MIN DDveya MIM 331E MIN DD)ve (MIM 343 MIN DDveya MIM 343E MIN DDveya MIM 341 MIN DDveya MIM 341E MIN DD)ve (MIM 359 MIN DDveya MIM 359E MIN DDveya MIM 332 MIN DDveya MIM 332E MIN DD)ve (MIM 361 MIN DDveya MIM 361E MIN DDveya MIM 421 MIN DDveya MIM 421E MIN DD)ve (MIM 411 MIN DDveya MIM 411E MIN DD)ve (MIM 484 MIN DDveya MIM 484E MIN DDveya MIM 431 MIN DDveya MIM 431E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|Yok
-MIM 4902|Diploma Projesi|(MIM 321 MIN DDveya MIM 321E MIN DD)ve (MIM 333 MIN DDveya MIM 333E MIN DDveya MIM 331 MIN DDveya MIM 331E MIN DD)ve (MIM 343 MIN DDveya MIM 343E MIN DDveya MIM 341 MIN DDveya MIM 341E MIN DD)ve (MIM 359 MIN DDveya MIM 359E MIN DDveya MIM 332 MIN DDveya MIM 332E MIN DD)ve (MIM 361 MIN DDveya MIM 361E MIN DDveya MIM 421 MIN DDveya MIM 421E MIN DD)ve (MIM 411 MIN DDveya MIM 411E MIN DD)ve (MIM 484 MIN DDveya MIM 484E MIN DDveya MIM 431 MIN DDveya MIM 431E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|4.Sınıf
+MIM 4902E|Diploma Project|(MIM 321 MIN DDveya MIM 321E MIN DDveya MIM 210 MIN DDveya MIM 210E MIN DD)ve (MIM 321 MIN DDveya MIM 321E MIN DDveya MIM 304 MIN DDveya MIM 304E MIN DD)ve (MIM 333 MIN DDveya MIM 333E MIN DDveya MIM 331 MIN DDveya MIM 331E MIN DD)ve (MIM 343 MIN DDveya MIM 343E MIN DDveya MIM 341 MIN DDveya MIM 341E MIN DDveya MIM 306 MIN DDveya MIM 306E MIN DD)ve (MIM 359 MIN DDveya MIM 359E MIN DDveya MIM 332 MIN DDveya MIM 332E MIN DD)ve (MIM 361 MIN DDveya MIM 361E MIN DDveya MIM 421 MIN DDveya MIM 421E MIN DD)ve (MIM 411 MIN DDveya MIM 411E MIN DD)ve (MIM 484 MIN DDveya MIM 484E MIN DDveya MIM 431 MIN DDveya MIM 431E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|Yok
+MIM 4902|Diploma Projesi|(MIM 321 MIN DDveya MIM 321E MIN DDveya MIM 210 MIN DDveya MIM 210E MIN DD)ve (MIM 321 MIN DDveya MIM 321E MIN DDveya MIM 304 MIN DDveya MIM 304E MIN DD)ve (MIM 333 MIN DDveya MIM 333E MIN DDveya MIM 331 MIN DDveya MIM 331E MIN DD)ve (MIM 343 MIN DDveya MIM 343E MIN DDveya MIM 341 MIN DDveya MIM 341E MIN DDveya MIM 306 MIN DDveya MIM 306E MIN DD)ve (MIM 359 MIN DDveya MIM 359E MIN DDveya MIM 332 MIN DDveya MIM 332E MIN DD)ve (MIM 361 MIN DDveya MIM 361E MIN DDveya MIM 421 MIN DDveya MIM 421E MIN DD)ve (MIM 411 MIN DDveya MIM 411E MIN DD)ve (MIM 484 MIN DDveya MIM 484E MIN DDveya MIM 431 MIN DDveya MIM 431E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|4.Sınıf
 MIM 491|Mimarlıkta Morfoloji|Yok  |Yok
 MIM 492E|Graduation Project|(MIM 431 MIN DDveya MIM 431E MIN DDveya MIM 484 MIN DDveya MIM 484E MIN DD)ve (MIM 411 MIN DDveya MIM 411E MIN DD)ve (MIM 321 MIN DDveya MIM 321E MIN DD)ve (MIM 333 MIN DDveya MIM 333E MIN DDveya MIM 331 MIN DDveya MIM 331E MIN DD)ve (MIM 343 MIN DDveya MIM 343E MIN DDveya MIM 341 MIN DDveya MIM 341E MIN DD)ve (MIM 359 MIN DDveya MIM 359E MIN DDveya MIM 332 MIN DDveya MIM 332E MIN DD)ve (MIM 361 MIN DDveya MIM 361E MIN DDveya MIM 421 MIN DDveya MIM 421E MIN DD) <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 MIM 492|Bitirme Çalışması|(MIM 431 MIN DDveya MIM 431E MIN DDveya MIM 484 MIN DDveya MIM 484E MIN DD)ve (MIM 411 MIN DDveya MIM 411E MIN DD)ve (MIM 321 MIN DDveya MIM 321E MIN DD)ve (MIM 333 MIN DDveya MIM 333E MIN DDveya MIM 331 MIN DDveya MIM 331E MIN DD)ve (MIM 343 MIN DDveya MIM 343E MIN DDveya MIM 341 MIN DDveya MIM 341E MIN DD)ve (MIM 359 MIN DDveya MIM 359E MIN DDveya MIM 332 MIN DDveya MIM 332E MIN DD)ve (MIM 361 MIN DDveya MIM 361E MIN DDveya MIM 421 MIN DDveya MIM 421E MIN DD) <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
@@ -7062,6 +7176,7 @@ PEM 492|Bitirme Çalışması|PEM 411 MIN DCveya PEM 411E MIN DCve (PEM 405E MIN
 PET 111E|Intro to Pet &amp; Nat Gas Eng|Yok  |Yok
 PET 112|Beden Eğitimi|Yok  |Yok
 PET 113E|Intr.to Petr.&amp;Nat Gas.Eng.|Yok  |Yok
+PET 114E|Physical Education|Yok  |Yok
 PET 211E|Petroleum Fluid Properties|Yok  |Yok
 PET 212E|Rock Properties|Yok  |Yok
 PET 309E|Fluid and Rock Properties Lab.|PET 211E MIN DDve PET 212E MIN DD|Yok
@@ -7076,6 +7191,7 @@ PET 321|Petrol &amp; Doğal Gaz Laboratuarı|Yok  |Yok
 PET 322E|Drilling Laboratory|Yok  |Yok
 PET 322|Sondaj Laboratuvarı|Yok  |Yok
 PET 326|Tortul Kayaç Petrografisi|Yok  |Yok
+PET 328E|Geo-Energy Data Analytics|Yok  |Yok
 PET 331E|Drilling Engineering I|(STA 204 MIN DDveya STA 204E MIN DD)ve (AKM 204 MIN DDveya AKM 204E MIN DD)|Yok
 PET 331|Sondaj Mühendisliği I|(STA 204 MIN DDveya STA 204E MIN DD)ve (AKM 204 MIN DDveya AKM 204E MIN DD)|Yok
 PET 332E|Prod. Eng.&amp;Surface Facilities|(PET 311E MIN DDveya PET 211E MIN DD)ve PET 212E MIN DD|Yok
