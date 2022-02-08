@@ -718,7 +718,7 @@
 20950|JEF 4902E||Mustafa Emin Demirbağ|MDB|---- |/ |--- |500|0|JEF
 20951|JEF 232||--|MDB|Perşembe |0830/1229 |--- |0|0|CHZ, JEF
 20952|JEF 232E||--|MDB|Perşembe |0830/1229 |--- |0|0|CHZE, JEFE
-20953|JEO 121||Ömer  Ündül, Şaziye Özge Dinç Göğüş|MDB|Cuma |0830/1129 |A101 |60|0|JEF, JEFM
+20953|JEO 121||Ömer  Ündül, Şaziye Özge Dinç Göğüş|MDB|Cuma |0830/1129 |A101 |65|0|JEF, JEFM
 20954|JEO 254||Cenk  Yaltırak|MDB|Perşembe |1330/1529 |A102 |50|0|JEF
 20955|JEF 312E||Gürşat  Altun|MDB|Salı |0830/1129 |B205 |80|0|JEF, JEFE, JEFM
 20956|JEO 315||Ufuk  Tarı|MDB|Çarşamba |1230/1529 |--- |50|0|JEF
@@ -2100,7 +2100,7 @@
 22432|PET 310E||Yıldıray  Palabıyık|MDB|Salı |1130/1329 |--- |14|0|PETE
 22433|PET 310E||Yıldıray  Palabıyık|MDB|Çarşamba |0930/1129 |--- |14|0|PETE
 22434|PET 310E||Yıldıray  Palabıyık|MDB|Perşembe |1130/1329 |--- |14|0|PETE
-22435|JEO 420E||Emin  Çiftçi|MDB|Perşembe |0830/1129 |A203 |30|0|JEO
+22435|JEO 420E||Emin  Çiftçi|MDB|Perşembe |0830/1129 |A203 |35|0|JEO
 22436|JEO 436E|Çevrimiçi/Online|Cengiz  Zabcı|----|Perşembe |0830/1129 |---- |20|0|JEO, JEOE
 22437|JEO 445E||Sedat  İnan|MDB|Salı |1330/1629 |A205 |30|0|JEF, JEFE, JEO, JEOE, PET, PETE
 22438|JEO 444E||Gülsen  Uçarkuş, Nilgün  Okay|MDB|Salı |1330/1629 |A203 |30|0|JEF, JEFE, JEO, JEOE
