@@ -1820,11 +1820,11 @@
 22143|CAB 180||Eyüp  Uzunkaya|TMB|Pazartesi |1330/1529 |--- |7|0|THO
 22144|CAB 188||Tufan  Kurdoğlu|TMB|Pazartesi |1330/1529 |--- |5|0|CGM2, CGM6, CGM7, CGM8, MTR, MUT, MUZ, MZT
 22147|ICM 246E||Seniye Banu Garip|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |20|0|ICM
-22148|ICM 246E||Özge  Cordan|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |20|0|ICM
+22148|ICM 246E||Özge  Cordan, Ahmet  Gün|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |20|0|ICM
 22149|ICM 246E||Zeynep  Birgönül|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |20|0|ICM
 22150|ICM 206E||Zeynep  Birgönül|MMB|Cuma |0830/1229 |--- |80|0|ICM
 22151|ICM 349E||Seniye Banu Garip|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|ICM
-22152|ICM 349E||Özge  Cordan|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|ICM
+22152|ICM 349E||Özge  Cordan, Ahmet  Gün|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|ICM
 22153|ICM 349E||Zeynep  Birgönül|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|ICM, ICMM
 22154|ICM 374||Gülfer  Oraz|MMB|Pazartesi |0830/1229 |--- |80|0|ICM
 22155|ICM 368E||Mehmet Serkan Yatağan|MMB|Perşembe |0830/1329 |--- |80|0|ICM
@@ -2475,7 +2475,7 @@
 22855|ELK 346E||Ahmet  Tekin|EEB|Çarşamba |1230/1529 |1301 |40|0|ELK, ELKE
 22856|ELK 356||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |1301 |35|0|ELK, KOM
 22857|ELK 356||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5101 |35|0|ELK, KOM
-22858|ELK 356E||Lale  Ergene|EEB|Çarşamba |0830/1129 |5103 |35|0|ELK, ELKE, KOM, KOME
+22858|ELK 356E||Lale  Ergene|EEB|Çarşamba |0830/1129 |5203 |35|0|ELK, ELKE, KOM, KOME
 22859|ELK 364E||Ahmet  Cansız|EEB|Çarşamba |1230/1529 |5101 |40|0|ELK, ELKE
 22860|ELK 414||Güven  Kömürgöz Kırış|EEB|Cuma |1430/1729 |5103 |40|0|ELK
 22861|ELK 418||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |0830/1129 |1301 |35|0|ELK
@@ -2531,7 +2531,7 @@
 22912|KON 409||Hakan  Temeltaş|EEB|Cuma |1430/1629 |5303 |40|0|KOM
 22913|KON 409E||Hakan  Temeltaş|EEB|Perşembe |1230/1429 |5203 |40|0|KOM, KOME
 22914|KON 417||Metin  Gökaşan|EEB|Çarşamba |0930/1229 |2104 |80|0|KOM, MKN
-22915|KON 417E||Ovsanna Seta Estrada|EEB|Çarşamba |0930/1229 |5203 |40|0|KOM, KOME, MKN
+22915|KON 417E||Ovsanna Seta Estrada|EEB|Çarşamba |0930/1229 |5103 |40|0|KOM, KOME, MKN
 22916|EHB 110E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEBEEB|Salı Salı |0830/1029 1030/1229 |5205 5205 |0|0|EHB, EHBE
 22917|KON 421||Sıddık Murat Yeşiloğlu|EEB|Perşembe |0930/1229 |5205 |50|0|KOM
 22918|KON 421E||Ovsanna Seta Estrada|EEB|Perşembe |0930/1229 |5303 |30|0|KOM, KOME
@@ -2759,7 +2759,7 @@
 23319|PEM 212E||Meliz  Akyol|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |20|0|PEM, PEME
 23321|EUT 108E||Miray  Boğa|MMBMMB|Salı Perşembe |1030/1229 1330/1529 |--- --- |100|0|ENTE, EUT, EUTE
 23324|PEM 222||Meltem  Erdem Kaya|MMB|Perşembe |0830/1029 |--- |2|0|PEM
-23325|PEM 311E||Hayriye  Eşbah Tunçay|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |15|0|PEM, PEME
+23325|PEM 311E||Mert  Ekşi|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |15|0|PEM, PEME
 23326|PEM 312E||Ebru  Erbaş Gürler|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |20|0|PEM, PEME
 23327|EUT 126E||Demet  Günal Ertaş|MMB|Perşembe |1330/1729 |--- |60|0|ENTE, EUT, EUTE
 23328|PEM 312E||Melih  Bozkurt|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |20|0|PEM, PEME
@@ -3279,7 +3279,7 @@
 24987|ICM 104||Deniz  Çalışır Pençe|MMB|Cuma |0830/1129 |--- |100|0|ICM
 24988|ICM 205||Deniz  Çalışır Pençe|MMB|Salı |0830/1129 |--- |100|0|ICM
 24989|ICM 209E||Seniye Banu Garip|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|ICM
-24991|ICM 209E||Özge  Cordan|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|ICM
+24991|ICM 209E||Özge  Cordan, Ahmet  Gün|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|ICM
 24994|GEM 409|Çevrimiçi/Online|Ahmet  Ergin|----|Perşembe |1330/1629 |---- |50|0|GEM
 24995|MIM 212E||Sevgi  Türkkan|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |6|0|MIM, MIME
 24996|MIM 212E||Arzu İrem Mollaahmetoğlu|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |6|0|MIM, MIME
@@ -3306,21 +3306,44 @@
 25031|FIZ 310||Ferid  Salehli|FEBFEBFEB|Salı Çarşamba Perşembe |1030/1229 1130/1229 1030/1229 |D205 D103 D103 |50|0|FIZ, FIZM
 25032|MDN 210||Şenel  Özdamar|MDB|Cuma |0830/1229 |B205 |60|0|CHZ, JEF
 25033|FIZ 443||Zuhal  Er|FEB|Perşembe |1430/1729 |D104 |0|0|FIZ, FIZM
-25034|PHY 126||Ali  Gelir|KMB|Salı |0830/1129 |D202 |0|0|MBI, SBL, SED, SEN, SGI, SIN
-25035|PHY 126L||Ali  Gelir|FEB|Cuma |1030/1229 |--- |0|0|MBI, SBL, SED, SEN, SGI, SGM, SIN
+25034|PHY 126||Ali  Gelir|KMB|Salı |0830/1129 |D202 |50|0|MBI, SBL, SED, SEN, SGI, SIN
+25035|PHY 126L||Ali  Gelir|FEB|Cuma |1030/1229 |--- |50|0|MBI, SBL, SED, SEN, SGI, SGM, SIN
 25036|ENT 211E||Layıka Ney Ece Arıburun Kırca|MMBMMB|Salı Cuma |1330/1729 1400/1759 |--- --- |20|0|ENTE, EUT, EUTE, EUTM
 25037|ENT 324E||Özge  Çelikoğlu|MMB|Salı |0830/1129 |--- |35|0|ENTE, EUT, EUTE, EUTM, ICM
 25038|ENT 334E||Deniz  Leblebici Başar|MMB|Perşembe |1330/1629 |--- |35|0|ENTE, EUT, EUTE, EUTM, ICM, ISL, ISLE
 25039|ENT 335E||Sevgi  Özalp|MMB|Cuma |0830/1129 |--- |35|0|ENTE, EUT, EUTE, EUTM
 25040|ENT 343E||Koray  Gelmez|MMB|Pazartesi |1330/1629 |--- |35|0|ENTE, EUT, EUTE, EUTM, ICM
-25041|ENT 350E||Layıka Ney Ece Arıburun Kırca|MMB|Salı |0830/1129 |--- |35|0|ENTE, EUTE
-25042|ENT 356E||--|MMB|Salı |0830/1129 |--- |35|0|ENTE, EUTE
-25043|ENT 365E||Miray  Boğa|MMB|Cuma |0830/1129 |--- |35|0|ENTE, EUTE
+25041|ENT 350E||Layıka Ney Ece Arıburun Kırca|MMB|Salı |0830/1129 |--- |35|0|ENTE, EUT, EUTE, EUTM, ICM
+25042|ENT 356E||--|MMB|Salı |0830/1129 |--- |35|0|ENTE, EUT, EUTE, EUTM
+25043|ENT 365E||Miray  Boğa|MMB|Cuma |0830/1129 |--- |35|0|ENTE, EUTE, ICM, MIM, PEM, SBP
 25044|ICM 4032||Deniz  Çalışır Pençe|MMB|Cuma |1400/1559 |--- |20|0|EUT, ICM, PEM
-25045|ENT 429E||Elif  Küçüksayraç|MMB|Pazartesi |0830/1129 |--- |30|0|ENTE, EUTE
-25046|ENT 434E||Miray  Boğa|MMB|Perşembe |0830/1129 |--- |35|0|ENTE, EUTE
-25047|ENT 446E||Erdem  Demir|MMB|Perşembe |1330/1629 |--- |35|0|ENTE, EUTE
+25045|ENT 429E||Elif  Küçüksayraç|MMB|Pazartesi |0830/1129 |--- |30|0|ENTE, EUT, EUTE
+25046|ENT 434E||Miray  Boğa|MMB|Perşembe |0830/1129 |--- |35|0|ENTE, EUT, EUTE, EUTM, ICM
+25047|ENT 446E||Erdem  Demir|MMB|Perşembe |1330/1629 |--- |35|0|ENTE, EUT, EUTE, EUTM
 25048|ICM 4014||Belgin  Görgün|MMB|Salı |0830/1029 |--- |20|0|ICM, PEM
-25049|ENT 447E||Pınar  Çevikayak Yelmi|MMB|Perşembe |1330/1629 |--- |35|0|ENTE, EUTE
-25050|ENT 448E||Pınar  Özdemir Çağlayan|MMB|Pazartesi |1330/1629 |--- |35|0|ENTE, EUTE
+25049|ENT 447E||Pınar  Çevikayak Yelmi|MMB|Perşembe |1330/1629 |--- |35|0|ENTE, EUT, EUTE, EUTM
+25050|ENT 448E||Fatma Pınar Özemir|MMB|Pazartesi |1330/1629 |--- |35|0|ENTE, EUT, EUTE, EUTM, PEME
 25051|ICM 4035E||Emine  Görgül|MMB|Çarşamba |1330/1529 |--- |40|0|EUT, ICM, MIM, PEM, SBP
+25052|MIM 106||Halet Almıla Büyüktaşkın, Haluk  Sesigür|MMBMMB|Çarşamba Çarşamba |1030/1229 1330/1529 |--- --- |160|0|ICM, MIM
+25053|MIM 106E||Cenk  Üstündağ|MMBMMB|Çarşamba Çarşamba |1030/1229 1330/1529 |--- --- |80|0|ARC, ENTE, EUTE, MIME
+25054|MIM 106E||Gülseren  Erol Soyöz|MMBMMB|Çarşamba Çarşamba |1030/1229 1330/1529 |--- --- |80|0|ARC, ENTE, EUTE, ICM, MIM, MIME
+25055|MIM 209||Aygül  Ağır, Vesile Gül Cephanecigil|MMB|Salı |1330/1629 |--- |105|0|MIM
+25056|MIM 209E||Zeynep  Kuban Tokgöz, Bilge  Ar|MMB|Salı |1330/1629 |--- |105|0|ARC, MIM, MIME
+25057|MIM 210E||Nejat Turgut Saner|MMB|Pazartesi |0930/1229 |--- |40|0|MIM, MIME
+25058|MIM 304||Vesile Gül Cephanecigil|MMB|Cuma |1430/1729 |--- |105|0|MIM
+25059|MIM 304E||Mehmet Murat Gül, Miyuki Aoki Girardelli|MMB|Cuma |1430/1729 |--- |105|0|MIM, MIME
+25060|MIM 213||Oğuz Cem Çelik, Necdet  Torunbalcı|MMBMMB|Salı Cuma |1030/1229 1030/1229 |--- --- |105|0|MIM
+25062|MIM 213E||Cenk  Üstündağ, Haluk  Sesigür|MMBMMB|Salı Cuma |0830/1029 0830/1029 |--- --- |105|0|MIM, MIME
+25063|MIM 4010||Emine  Görgül|MMB|Perşembe |0930/1229 |--- |25|0|MIM
+25064|MIM 4010E||Yüksel  Demir|MMB|Perşembe |0930/1229 |--- |25|0|MIM, MIME
+25065|MIM 4017||Leyla  Tanaçan|MMB|Salı |1330/1529 |--- |25|0|MIM
+25066|MIM 4018||İffet Hülya Arı|MMB|Perşembe |0930/1129 |--- |25|0|MIM
+25067|MIM 4021||Hakan  Tong|MMB|Perşembe |0930/1229 |--- |25|0|MIM
+25068|MIM 4022||Gülten  Manioğlu|MMB|Salı |0930/1229 |--- |25|0|MIM
+25069|MIM 4023||Seda  Erdem|MMB|Pazartesi |0930/1229 |--- |25|0|MIM
+25070|MIM 4049E||Mehmet Cem Altun|MMB|Cuma |0930/1229 |--- |25|0|MIM, MIME
+25071|MIM 4014||Nizam Onur Sönmez|MMB|Perşembe |0930/1129 |--- |25|0|MIM
+25072|MIM 4050E||Sıdıka Aslıhan Şenel|MMB|Perşembe |0930/1229 |--- |25|0|MIM, MIME
+25073|MIM 4025||Mehmet Serkan Yatağan|MMB|Salı |1330/1629 |--- |25|0|MIM
+25074|MIM 4053E||Halet Almıla Büyüktaşkın|MMB|Salı |1330/1529 |--- |25|0|MIM, MIME
+25076|MIM 4029||Gül  Koçlar Oral, Şule Filiz Akşit|MMB|Salı |0930/1229 |--- |25|0|MIM
