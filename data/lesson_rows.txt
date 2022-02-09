@@ -1221,9 +1221,9 @@
 21539|INS 458||Yıldır  Akkaya, Erol  Lale|INB|Cuma |1430/1729 |D202 |50|0|INS
 21540|INS 472E||Aslı  Yalçın Dayıoğlu|INB|Pazartesi |0930/1229 |A201 |50|0|AIN, INS, INSE
 21541|BLG 311E||Tolga  Ovatman|EEB|Çarşamba |1230/1529 |5104 |90|0|BLG, BLGE, YZVE
-21542|BLG 311E||Berk  Canberk|EEB|Çarşamba |0930/1229 |--- |90|0|BLG, BLGE, YZVE
+21542|BLG 311E||Berk  Canberk|EEB|Çarşamba |1230/1529 |--- |90|0|BLG, BLGE, YZVE
 21543|INS 490||Şevket  Çokgör|INB|Cuma |1430/1729 |D203 |50|0|INS
-21544|BLG 242E||İlkay  Öksüz|EEB|Cuma |1030/1229 |5204 |60|0|BLG, BLGE
+21544|BLG 242E||Ali  Çakmak|EEB|Cuma |1030/1229 |5204 |60|0|BLG, BLGE
 21545|INS 494E||İsmail  Duranyıldız|INB|Çarşamba |1230/1529 |A104 |50|0|AIN, INS, INSE
 21546|BLG 242E||İlkay  Öksüz|EEB|Cuma |1400/1559 |5304 |60|0|BLG, BLGE
 21547|BLG 242E||İlkay  Öksüz|EEB|Cuma |1600/1759 |--- |0|0|BLG, BLGE
@@ -1244,13 +1244,13 @@
 21562|BLG 354E||Hazım Kemal Ekenel|EEB|Pazartesi |0830/1129 |5104 |90|0|BLG, BLGE
 21563|BLG 374E||Esbie van Heerden|EEB|Perşembe |1430/1629 |--- |90|0|BLG, BLGE
 21564|BLG 374E||Esbie van Heerden|EEB|Cuma |1430/1629 |5104 |90|0|BLG, BLGE
-21565|BLG 454E||Islem  Rekik|EEB|Çarşamba |1230/1529 |6309 |100|0|BLG, BLGE, ECNE, YZVE
+21565|BLG 454E||Islem  Rekik|EEB|Çarşamba |0830/1129 |--- |100|0|BLG, BLGE, ECNE, YZVE
 21566|MUK 202E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|INBINB|Pazartesi Perşembe |1330/1629 0830/1029 |A201 A203 |50|0|INS, INSE
 21567|BLG 368E||--|EEB|Salı |1330/1629 |--- |0|0|BLG, BLGE, EHB, EHBE, ELE, KOM, KOME, TEL, YZVE
 21568|BLG 412E||Eşref  Adalı|EEB|Perşembe |1130/1229 |5302 |100|0|BLG, BLGE
 21570|BLG 435E||Sanem  Sarıel|EEB|Pazartesi |1430/1629 |2106 |60|0|BLG, BLGE
 21571|PHY 126||Hakan Özgür Özer|FEB|Çarşamba |0930/1229 |--- |50|0|MBI, SBL, SED, SEN, SGI, SIN
-21572|BLG 458E||Hayri Turgut Uyar|EEB|Çarşamba |1030/1229 |--- |60|0|BLG, BLGE
+21572|BLG 458E||Hayri Turgut Uyar|EEB|Cuma |1400/1559 |--- |60|0|BLG, BLGE
 21573|PHY 126L||Hakan Özgür Özer|FEB|Perşembe |0930/1129 |--- |50|0|MBI, SBL, SED, SEN, SGI, SGM, SIN
 21574|BLG 460E||Mehmet Tahir Sandıkkaya|EEB|Salı |1530/1729 |5204 |60|0|BLG, BLGE
 21575|ULP 103||Yılmaz  Akkaya|INB|Perşembe |1330/1629 |A203 |50|0|SIN
@@ -2027,7 +2027,7 @@
 22357|MTO 337E||Elçin  Tan|UUBUUB|Pazartesi Çarşamba |1530/1729 1130/1329 |D110 D214 |35|0|MTO
 22358|ISL 363E||İdil Vedia Evcimen|MED|Pazartesi |1430/1729 |A33 |80|0|ISL, ISLE
 22359|ISL 364E||Çiçek  Ersoy Kekevi, Özgür  Öztürk|MED|Cuma |0830/1129 |A32 |100|0|ISL, ISLE
-22360|ISL 374E||Çiğdem  Kaya Pazarbaşı, Deniz  Tunçalp|MED|Perşembe |1130/1429 |A16 |80|0|ISL, ISLE
+22360|ISL 374E||Deniz  Tunçalp, Çiğdem  Kaya Pazarbaşı|MED|Perşembe |1130/1429 |A16 |80|0|ISL, ISLE
 22361|ISL 384E|Çevrimiçi/Online|Hatice  Camgöz Akdağ|----|Salı |0830/1129 |---- |200|0|ISL, ISLE
 22362|ISL 432E||Tuncay  Özcan|MED|Perşembe |0830/1129 |A11 |100|0|ISL, ISLE
 22363|ISL 433||Ulaş  Baysal|MED|Çarşamba |1330/1529 |A13 |100|0|ISL, ISLE
@@ -2331,7 +2331,7 @@
 22677|GMI 270E||--|DZB|Pazartesi |1030/1229 |--- |0|0|GMI, GMIE
 22678|GMI 210||İsmail  Çiçek|DZB|Pazartesi |1030/1229 |--- |35|0|GMI
 22679|MRE 442||Fırat  Bolat|DZB|Pazartesi |1230/1529 |--- |10|0|SGM
-22680|GMI 270E||Müjgan  Özenir|DZB|Pazartesi |1330/1529 |--- |35|0|GMI, GMIE
+22680|GMI 270E||Müjgan  Özenir|DZB|Pazartesi |1330/1529 |--- |70|0|GMI, GMIE
 22681|GMI 115||Burak  Zincir|DZB|Pazartesi |1330/1629 |--- |50|0|GMI
 22682|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|DZB|Pazartesi |1330/1629 |--- |100|0|GMI
 22683|GMI 422E||Fırat  Bolat|DZB|Pazartesi |1530/1729 |--- |30|0|GMI, GMIE
@@ -3363,4 +3363,12 @@
 25092|MIM 4072E||Arzu İrem Mollaahmetoğlu|MMB|Pazartesi |0930/1129 |--- |25|0|ICM, MIM, MIME, SBP, SBPE
 25093|MIM 4074E||Gülseren  Erol Soyöz, Haluk  Sesigür|MMB|Perşembe |0930/1129 |--- |25|0|MIM, MIME
 25094|IML 322||Erdinç  Altuğ|MKB|Pazartesi |1030/1329 |--- |60|0|IML, IMLM
-25095|DFH 186||--|----|---- |---- |---- |0|0|DUI, DUIE
+25095|DFH 186||--|DZB|Pazartesi |1330/1529 |--- |0|0|DUI, DUIE
+25096|DAN 102||Ali  Çakmak|EEB|Çarşamba |1530/1729 |--- |100|0|BLG, BLGE
+25097|DAN 301||Mustafa Ersel Kamaşak|EEB|Çarşamba |1530/1729 |--- |100|0|BLG, BLGE
+25098|BLG 448E||Mustafa Ersel Kamaşak|EEB|Cuma |0830/1129 |--- |0|0|BLG, BLGE, ELE, KOM, KOME, TEL, YZVE
+25100|BLG 463E||Alper  Almelek|EEB|Perşembe |1030/1329 |--- |0|0|BLG, BLGE, YZVE
+25101|CAB 2117||Ayhan  Gunca|TMB|Pazartesi |1330/1529 |--- |10|0|CAB
+25102|MTR 305||Gülay  Karamahmutoğlu|TMB|Salı |1330/1529 |--- |10|0|MTR, MTRM
+25103|SES 373||Cengizhan  Sönmez|TMB|Perşembe |1330/1529 |--- |5|0|SES
+25104|THO 418||Serpil  Murtezaoğlu|TMB|Salı |1330/1729 |--- |5|0|THO
