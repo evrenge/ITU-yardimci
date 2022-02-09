@@ -1116,7 +1116,7 @@
 21416|BIO 301E|Çevrimiçi/Online|Deniz  Şahin|----|Çarşamba |0830/1129 |---- |55|0|BIOM, CEV, CEVE, CHZ, CHZE, DEN, EHB, EHBE, ELE, ELH, ELK, ELKE, FIZ, FIZE, GEM, GID, GIDE, INS, INSE, ISL, ISLE, JEO, JEOE, KIM, KIME, KMM, KMME, KOM, KOME, MAD, MADE, MET, METE, PET, PETE, TEL
 21417|BIO 301E|Çevrimiçi/Online|Deniz  Şahin|----|Çarşamba |1230/1529 |---- |55|0|BIOM, CEV, CEVE, CHZ, CHZE, DEN, EHB, EHBE, ELE, ELH, ELK, ELKE, FIZ, FIZE, GEM, GID, GIDE, INS, INSE, ISL, ISLE, JEO, JEOE, KIM, KIME, KMM, KMME, KOM, KOME, MAD, MADE, MET, METE, PET, PETE, TEL
 21418|BIO 342E||Fatma Neşe Kök|FEB|Pazartesi |0830/1129 |D105 |40|0|BIO, BIOE, BIOM
-21419|INS 462E||Hüseyin Onur Tezcan|INB|Pazartesi |0830/0929 |B103 |100|0|AIN, INS, INSE
+21419|INS 462E|Çevrimiçi/Online|Hüseyin Onur Tezcan|----|Pazartesi |0830/0929 |---- |100|0|AIN, INS, INSE
 21420|BIO 442E|Çevrimiçi/Online|Ceren  Çıracı, Ayça  Sayı Yazgan|----|Çarşamba |1230/1529 |---- |40|0|BIO, BIOE, BIOM
 21421|FIZ 313EL||Neşe  Özdemir|FEB|Perşembe |1330/1529 |--- |0|0|FIZ, FIZE
 21422|BIO 462E|Çevrimiçi/Online|Gizem  Dinler Doğanay|----|Salı |1430/1729 |---- |40|0|BIO, BIOE, BIOM
@@ -1131,7 +1131,7 @@
 21432|FIZ 321E||Ali  Yıldız|FEBFEBFEB|Salı Perşembe Cuma |0830/1029 0830/1029 0930/1029 |D105 D103 D102 |75|0|FIZ, FIZE
 21433|BIO 106EL||Bülent  Balta, Börte  Köse|FEB|Salı |1030/1329 |BIOL3 |45|0|BIO, BIOE, BIOM
 21434|BIO 106EL||Bülent  Balta, Börte  Köse|FEB|Salı |1430/1729 |BIOL3 |45|0|BIO, BIOE, BIOM
-21435|INS 341E||Mehmet Emre Bayraktar|INB|Pazartesi |1130/1429 |A104 |55|0|AIN, INS, INSE
+21435|INS 341E||Mehmet Emre Bayraktar|INB|Pazartesi |1030/1329 |A104 |55|0|AIN, INS, INSE
 21436|FIZ 362E||Meltem  Güngörmez|FEBFEB|Perşembe Cuma |1530/1729 1430/1729 |D205 D205 |55|0|FIZ, FIZE
 21437|BIO 212E||Sibel  Uğur İşeri|FEB|Perşembe |0830/1129 |D102 |80|0|BIO, BIOE, BIOM
 21438|BIO 328E||Nevin  Gül Karagüler|MED|Salı |0830/1129 |A33 |80|0|BIO, BIOE
@@ -1296,7 +1296,7 @@
 21615|INS 344E||Barlas Özden Çağlayan|INBINB|Salı Çarşamba |1330/1529 1230/1429 |A303 A303 |40|0|AIN, INS, INSE
 21616|INS 344E||Cüneyt  Vatansever|INBINB|Salı Çarşamba |1330/1529 1230/1429 |B306 B306 |40|0|AIN, INS, INSE
 21617|INS 344E||Ömer Tuğrul Turan|INBINB|Salı Perşembe |1530/1729 0830/1029 |A302 A302 |40|0|AIN, INS, INSE
-21618|INS 430E||Şevket  Çokgör|INB|Pazartesi |0930/1229 |A202 |45|0|AIN, INS, INSE
+21618|INS 430E||Şevket  Çokgör|INB|Cuma |0930/1229 |A102 |45|0|AIN, INS, INSE
 21619|INS 409E||Deniz  Artan|INB|Salı |1330/1529 |A304 |40|0|AIN, INS, INSE
 21620|INS 459||Nihal  Eratlı|INB|Çarşamba |0930/1229 |A201 |30|0|INS
 21621|INS 4901||Mehmet Emre Bayraktar|INB|---- |/ |--- |500|0|INS
@@ -1782,7 +1782,7 @@
 22103|CAB 154||Göknil Bişak Özdemir|TMB|Pazartesi |1330/1529 |--- |5|0|CGM6, CGM7, CGM8, MTR, MUT, MUZ, MZT, SES
 22104|MAK 4004||Süreyya Ergün  Bozdağ|MKB|Pazartesi |1030/1329 |D359 |50|0|MAK
 22105|MAK 4018E||Ali  Gökşenli|MKB|Pazartesi |1030/1329 |D360 |50|0|IML, IMLE, MAK, MAKE
-22106|MAK 4029E||İlyas Bedii Özdemir|MOB|Pazartesi |1030/1329 |212 |50|0|MAKE
+22106|MAK 4029E||İlyas Bedii Özdemir|MOB|Pazartesi |1030/1329 |212 |50|0|MAK, MAKE
 22107|MAK 4038E||Ayşegül  Abuşoğlu|MKB|Pazartesi |1030/1329 |D361A |50|0|MAK, MAKE
 22108|MAK 4070E||Osman Akın  Kutlar|MOB|Pazartesi |1030/1329 |--- |50|0|MAK, MAKE, MAKM
 22109|CAB 154||Birol  Yayla|TMB|Pazartesi |1330/1529 |--- |5|0|CGM6, CGM7, CGM8, MTR, MUT, MUZ, MZT, SES
@@ -1798,7 +1798,7 @@
 22119|MAK 4030||Vedat  Temiz|MKB|Cuma |0830/1129 |D376 |50|0|MAK
 22120|CAB 158||Adnan  Koç|TMB|Pazartesi |1330/1529 |--- |5|0|CGM1, CGM6, CGM7, CGM8, MTR, MUT, MUZ, MZT, SES, THO
 22121|MAK 4042||Erkan  Ayder|MKB|Cuma |0830/1129 |A101 |50|0|MAK
-22122|MAK 4062E||Osman Taha Şen|MOB|Cuma |0830/1129 |--- |50|0|MAKE
+22122|MAK 4062E||Osman Taha Şen|MOB|Cuma |0830/1129 |--- |50|0|MAK, MAKE
 22123|CAB 158||Erdoğan  Eskimez|TMB|Pazartesi |1330/1529 |--- |5|0|CGM1, CGM6, CGM7, CGM8, MTR, MUT, MUZ, MZT, SES, THO
 22124|MAK 4066||Kubilay  Yay|MOB|Cuma |0830/1129 |--- |50|0|MAK
 22125|MAK 4068||İlker Murat Koç|MKB|Cuma |0830/1129 |D359 |50|0|IML, MAK, MAKM
@@ -2058,7 +2058,7 @@
 22388|BUS 322||İdil Vedia Evcimen|ISB|Perşembe |1330/1629 |--- |15|0|SIS
 22389|DAN 102|Çevrimiçi/Online|Ömer Faruk Beyca|----|Çarşamba |1530/1729 |---- |300|0|END, ENDE
 22390|MET 435||Özgül  Keleş|KMB|Çarşamba |0830/1029 |D301 |20|0|MET
-22391|MAK 4058E||Osman Taha Şen|MOB|Pazartesi |1030/1329 |--- |50|0|MAKE
+22391|MAK 4058E||Osman Taha Şen|MOB|Pazartesi |1030/1329 |--- |50|0|MAK, MAKE
 22392|MAK 4061||Barış  Doğru|MOB|Salı |1130/1429 |--- |50|0|MAK
 22393|MAK 210E||Adem  Candaş|MKBMKB|Çarşamba Perşembe |1330/1529 1330/1529 |R354 R354 |80|0|IML, IMLE, MAK, MAKE
 22394|TUR 101|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Perşembe |0830/1029 |---- |0|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEN, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EEE, EFN, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MMD, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
@@ -3305,3 +3305,4 @@
 25014|ITA 101|Çevrimiçi/Online|Lina  Calogera|----|Perşembe |0830/1229 |---- |20|0|Tüm Lisans ve Lisansüstü Programlar
 25017|ULP 104||Yasemin  Yılmaz Yüksek|ISB|Perşembe |1130/1429 |--- |10|0|SED
 25018|CEV 466|Çevrimiçi/Online|Kadir  Alp|----|Perşembe |1030/1229 |---- |30|0|CEV
+25030|DAN 301||--|----|---- |---- |---- |0|0|AIN, BIOE, BLG, BLGE, CEV, CEVE, CHZ, DEN, DUI, ECNE, EHB, EHBE, ELK, ELKE, END, ENDE, ENTE, EUTE, FIZ, GEM, GEO, GEOE, GID, GMI, ICM, IML, INS, INSE, ISL, ISLE, JEF, JEO, KIM, KMM, KOM, KOME, MAD, MAK, MAT, MET, METE, MIM, MIME, MTO, PEME, PETE, SBP, SBPE, SIN, TEKE, UCK, UZBE
