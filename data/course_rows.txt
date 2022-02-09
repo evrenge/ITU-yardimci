@@ -2399,7 +2399,7 @@ EUT 212|Ürün Tasarımı IV (Serglm Tsrm)|EUT 211 MIN DDveya EUT 211E MIN DDvey
 EUT 213E|Industrial Product Design I|EUT 124E MIN DDveya TES 121E MIN DD|Yok
 EUT 214E|Industrial Product Design II|EUT 213E MIN DDveya TES 211E MIN DDveya EUT 211E MIN DD|Yok
 EUT 214|Endüstriyel Ürün Tasarımı II|EUT 213E MIN DDveya TES 211E MIN DDveya EUT 211E MIN DD|Yok
-EUT 220E|Industrial Design Studio I|EUT 213E MIN DDveya TES 211E MIN DDveya EUT 211E MIN DD|Yok
+EUT 220E|Industrial Design Studio I|EUT 213E MIN DDveya TES 211E MIN DDveya EUT 211E MIN DDveya ENT 211E MIN DD|Yok
 EUT 221|Teknoloji Tarihi|Yok  |Yok
 EUT 222E|History of Art|Yok  |Yok
 EUT 222|Sanat Tarihi|Yok  |Yok
@@ -2466,7 +2466,7 @@ EUT 349E|Intr.to3Dim.Anm.Tec.inInds.Dsg|Yok  |Yok
 EUT 349|Endtry Tsrm 3Byt Anmys Tek Grş|Yok  |Yok
 EUT 350E|Contemporary Furniture Design|Yok  |Yok
 EUT 351|Atölye III|Yok  |Yok
-EUT 352E|Project Management in Design|Yok  |Yok
+EUT 352E|Strategic Design &amp; Management|Yok  |Yok
 EUT 353E|His. Int. of Mod.  Art and Des|Yok  |Yok
 EUT 354E|Emotional Design|Yok  |Yok
 EUT 355E|Space Organization|Yok  |Yok
@@ -2518,6 +2518,7 @@ EUT 460E|Visual Merchndising&amp;Retail Dsn|Yok  |Yok
 EUT 4902E|Graduation Project|EUT 413 MIN DDveya EUT 413E MIN DDveya EUT 411 MIN DDveya EUT 411E MIN DDveya EUT 419E MIN DDve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|Yok
 EUT 492E|Graduation Project|EUT 413 MIN DDveya EUT 413E MIN DDveya EUT 411 MIN DDveya EUT 411E MIN DDveya EUT 419E MIN DD <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 EUT 492|Bitirme Çalışması|EUT 413 MIN DDveya EUT 413E MIN DDveya EUT 411 MIN DDveya EUT 411E MIN DDveya EUT 419E MIN DD <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
+EUT YLT|Tez Çalışması|Yok  |Yok
 FIZ 101EL|Physics I Laboratory|Yok  |Yok
 FIZ 101E|Physics I|Yok  |Yok
 FIZ 101L|Fizik I Lab|Yok  |Yok
@@ -4848,8 +4849,8 @@ MAK 229|Akışkanlar Mekaniği II|MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 208
 MAK 230E|Alg.Dev.&amp; Comp.App.with Python|(MAT 104 MIN DDveya MAT 104E MIN DD)ve (MAK 114 MIN DDveya MAK 114E MIN DD)ve (MAK 101 MIN DDveya MAK 101E MIN DDveya IML 110 MIN DDveya IML 110E MIN DD)|Yok
 MAK 311E|Heat Transfer|(MAK 212E MIN DDveya MAK 212 MIN DDveya TEK 314 MIN DDveya FIZ 331 MIN DDveya FIZ 331E MIN DDveya PET 311E MIN DD)ve (MAT 201E MIN DDveya MAT 201 MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)|Yok
 MAK 311|Isı Geçişi|(MAK 212 MIN DDveya MAK 212E MIN DDveya TEK 314 MIN DDveya FIZ 331 MIN DDveya PET 311E MIN DD)ve (MAT 201 MIN DDveya MAT 201E MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)|Yok
-MAK 312E|Measurement Systems|(MUK 209 MIN DDveya MUK 209E MIN DDveya MUK 205 MIN DDveya MUK 205E MIN DDveya MEK 205 MIN DDveya MEK 205E MIN DDveya MEK 207 MIN DDveya MEK 207E MIN DDveya MAK 219 MIN DDveya MAK 219E MIN DD)ve (TER 205 MIN DDveya TER 205E MIN DDveya IML 205 MIN DDveya IML 205E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 216 MIN DDveya MAK 216E MIN DDveya MAK 218 MIN DDveya MAK 218E MIN DDveya MAK 215 MIN DDveya MAK 215E MIN DD)ve (MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 208 MIN DDveya AKM 208E MIN DDveya IML 206 MIN DDveya IML 206E MIN DD)ve (MAK 211 MIN DDveya MAK 211E MIN DDveya MAT 271 MIN DDveya MAT 271E MIN DD)|Yok
-MAK 312|Ölçme Değerlendirme|(MUK 209 MIN DDveya MUK 209E MIN DDveya MUK 205 MIN DDveya MUK 205E MIN DDveya MEK 205 MIN DDveya MEK 205E MIN DDveya MEK 207 MIN DDveya MEK 207E MIN DDveya MAK 219 MIN DDveya MAK 219E MIN DD)ve (TER 205 MIN DDveya TER 205E MIN DDveya IML 205 MIN DDveya IML 205E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 216 MIN DDveya MAK 216E MIN DDveya MAK 218 MIN DDveya MAK 218E MIN DDveya MAK 215 MIN DDveya MAK 215E MIN DD)ve (MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DDveya AKM 208 MIN DDveya AKM 208E MIN DDveya IML 206 MIN DDveya IML 206E MIN DD)ve (MAK 211 MIN DDveya MAK 211E MIN DDveya MAT 271 MIN DDveya MAT 271E MIN DD)|Yok
+MAK 312E|Measurement Systems|(MUK 209 MIN DDveya MUK 209E MIN DDveya MUK 205 MIN DDveya MUK 205E MIN DDveya MEK 205 MIN DDveya MEK 205E MIN DDveya MEK 207 MIN DDveya MEK 207E MIN DDveya MAK 219 MIN DDveya MAK 219E MIN DD)ve (TER 205 MIN DDveya TER 205E MIN DDveya IML 205 MIN DDveya IML 205E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 216 MIN DDveya MAK 216E MIN DDveya MAK 218 MIN DDveya MAK 218E MIN DDveya MAK 215 MIN DDveya MAK 215E MIN DD)ve (MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 208 MIN DDveya AKM 208E MIN DDveya IML 206 MIN DDveya IML 206E MIN DD)|Yok
+MAK 312|Ölçme Değerlendirme|(MUK 209 MIN DDveya MUK 209E MIN DDveya MUK 205 MIN DDveya MUK 205E MIN DDveya MEK 205 MIN DDveya MEK 205E MIN DDveya MEK 207 MIN DDveya MEK 207E MIN DDveya MAK 219 MIN DDveya MAK 219E MIN DD)ve (TER 205 MIN DDveya TER 205E MIN DDveya IML 205 MIN DDveya IML 205E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 216 MIN DDveya MAK 216E MIN DDveya MAK 218 MIN DDveya MAK 218E MIN DDveya MAK 215 MIN DDveya MAK 215E MIN DD)ve (MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DDveya AKM 208 MIN DDveya AKM 208E MIN DDveya IML 206 MIN DDveya IML 206E MIN DD)|Yok
 MAK 313E|Heat Transfer|(MAT 201E MIN DDveya MAT 201 MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)ve (TER 206 MIN DDveya TER 206E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 226 MIN DDveya MAK 226E MIN DD)ve (AKM 208 MIN DDveya AKM 208E MIN DDveya AKM 204 MIN DDveya AKM 204E MIN DDveya MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DD)|Yok
 MAK 313|Isı Geçişi|(MAT 201E MIN DDveya MAT 201 MIN DDveya MAK 210 MIN DDveya MAK 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)ve (TER 206 MIN DDveya TER 206E MIN DDveya MAK 212 MIN DDveya MAK 212E MIN DDveya MAK 226 MIN DDveya MAK 226E MIN DD)ve (AKM 208 MIN DDveya AKM 208E MIN DDveya AKM 204 MIN DDveya AKM 204E MIN DDveya MAK 228 MIN DDveya MAK 228E MIN DDveya AKM 205 MIN DDveya AKM 205E MIN DD)|Yok
 MAK 314E|Biomaterials and Biomechanical|(MAK 224 MIN DDveya MAK 224E MIN DDveya MAK 214 MIN DDveya MAK 214E MIN DD)ve (MAK 220 MIN DDveya MAK 220E MIN DDveya MUK 210 MIN DDveya MUK 210E MIN DD)|Yok
@@ -7092,8 +7093,11 @@ PEM 152|Doğal Sistemler ile Tasarım|Yok  |Yok
 PEM 205E|Comp. Aided Landscape Arch.|Yok  |Yok
 PEM 206E|Urban Design|Yok  |Yok
 PEM 207E|Statistics|Yok  |Yok
-PEM 212E|Landscape Design I|MIM 211 MIN DCveya MIM 211E MIN DCveya TES 211E MIN DD|Yok
-PEM 212|Peyzaj Mimarlığı Projesi I|MIM 211 MIN DCveya MIM 211E MIN DCveya TES 211E MIN DD|Yok
+PEM 209E|Landform &amp; Built Envir.Studio|TES 121 MIN DDveya TES 121E MIN DDveya MIM 116E MIN DDveya MIM 112 MIN DDveya MIM 112E MIN DD|Yok
+PEM 210E|Planting Design Studio|(PEM 134E MIN DDveya PEM 134 MIN DDveya PEM 132 MIN DDveya PEM 132E MIN DD)ve (PEM 231 MIN DDveya PEM 231E MIN DDveya PEM 232 MIN DDveya PEM 232E MIN DD)|Yok
+PEM 212E|Landscape Design I|MIM 211 MIN DCveya MIM 211E MIN DCveya TES 211E MIN DDveya PEM 209E MIN DC|Yok
+PEM 212|Peyzaj Mimarlığı Projesi I|MIM 211 MIN DCveya MIM 211E MIN DCveya TES 211E MIN DDveya PEM 209E MIN DC|Yok
+PEM 214E|Resilient Urban Design|Yok  |Yok
 PEM 222E|Soil Science|Yok  |Yok
 PEM 222|Toprak Bilgisi|Yok  |Yok
 PEM 223E|His.of Landscape Architec. II|Yok  |Yok
@@ -7116,6 +7120,9 @@ PEM 252E|Landscape Construct.&amp;Materials|Yok  |Yok
 PEM 253E|Landscape Construction I|Yok  |Yok
 PEM 254E|Landscape Construction II|Yok  |Yok
 PEM 256E|Planting Design Studio|(PEM 132 MIN DDveya PEM 132E MIN DDveya PEM 134E MIN DD)ve (PEM 231 MIN DDveya PEM 231E MIN DD)|Yok
+PEM 303E|Int.to Geographical Inf.Sys.|Yok  |Yok
+PEM 305E|Landscape Construction II|Yok  |Yok
+PEM 307E|Urbanism &amp; Planning Law|Yok  |Yok
 PEM 311E|Landscape Design II|PEM 212 MIN DCveya PEM 212E MIN DC|Yok
 PEM 311|Peyzaj Mimarlığı Projesi II|PEM 212 MIN DCveya PEM 212E MIN DC|Yok
 PEM 312E|Landscape Design III|PEM 311 MIN DCveya PEM 311E MIN DC|Yok
@@ -7128,7 +7135,7 @@ PEM 318E|Urban Landscape Plan.&amp;Design|Yok  |Yok
 PEM 320E|Comp.Aided Landscape Architec.|Yok  |Yok
 PEM 322E|Urban Design|Yok  |Yok
 PEM 322|Kentsel Tasarım|Yok  |Yok
-PEM 324E|Landscape Management|PEM 242 MIN DDveya PEM 242E MIN DD|Yok
+PEM 324E|Landscape Management|Yok  |Yok
 PEM 327E|Adv.Rendering Tech.inLandscape|Yok  |Yok
 PEM 327|Pey.Mim.da İleri Anlatım Tek.|Yok  |Yok
 PEM 330E|Infrastructure Planning&amp;Dev.|Yok  |Yok
@@ -7140,8 +7147,8 @@ PEM 335E|Urban Visual Analysis|Yok  |Yok
 PEM 340E|Urban Sociology|Yok  |Yok
 PEM 341E|Planting Design|Yok  |Yok
 PEM 341|Bitkilendirme Tasarımı|Yok  |Yok
-PEM 342E|Rural Landscape Planning|PEM 242 MIN DDveya PEM 242E MIN DD|Yok
-PEM 342|Kırsal Peyzaj Planlaması|PEM 242 MIN DDveya PEM 242E MIN DD|Yok
+PEM 342E|Rural Landscape Planning|Yok  |Yok
+PEM 342|Kırsal Peyzaj Planlaması|Yok  |Yok
 PEM 343E|Landscape Construction III|Yok  |Yok
 PEM 344E|Landscape Construction IV|Yok  |Yok
 PEM 345E|Computer.App.in Plan.&amp;Design|Yok  |Yok
@@ -7150,27 +7157,42 @@ PEM 350E|Urban Design &amp; Preservation|Yok  |Yok
 PEM 351E|Int.to Geographical Inf.Sys.|Yok  |Yok
 PEM 352E|Lanscape Engineering|Yok  |Yok
 PEM 353E|Int.to Geographical Inf.Sys.|Yok  |Yok
-PEM 356E|Rural Landscape Plan.&amp;Design|PEM 242 MIN DDveya PEM 242E MIN DD|Yok
+PEM 356E|Rural Landscape Plan.&amp;Design|Yok  |Yok
 PEM 368E|Dig.Repres.Tech.for Lands.Dsgn|Yok  |Yok
+PEM 4011E|Environmental Aesthetics|Yok  |Yok
+PEM 4012E|Adv.Rendering Tech.inLands.|Yok  |Yok
+PEM 4013E|Computer.App.in Plan.&amp;Design|Yok  |Yok
+PEM 4014E|Dig.Repres.Tech.for Lands.Dsgn|Yok  |Yok
+PEM 4015E|Experim.Studies on Place&amp;Desg|Yok  |Yok
+PEM 4016E|Infrastructure Planning&amp;Dev.|Yok  |Yok
+PEM 4017E|Land Resource Inf.Systems|Yok  |Yok
+PEM 4018E|Landscape and Art|Yok  |Yok
+PEM 4019E|Social Asspect of Landsc.Arch.|Yok  |Yok
+PEM 4020E|Topics in Landscape Urbanism|Yok  |Yok
+PEM 4021E|Urban Design &amp; Preservation|Yok  |Yok
+PEM 4022E|Urban Furniture and Space|Yok  |Yok
+PEM 4023E|Urban Visual Analysis|Yok  |Yok
 PEM 405E|Const.Drawi.Tch.in Landsc.Dsgn|Yok  |Yok
+PEM 406E|Professional Practice &amp; Ethics|Yok  |Yok
+PEM 407E|Const.Drawi.Tch.in Landsc.Dsgn|PEM 253E MIN DDveya PEM 243E MIN DDveya PEM 352E MIN DD|Yok
 PEM 410E|Landscape and Art|Yok  |Yok
 PEM 410|Peyzaj ve Sanat|Yok  |Yok
 PEM 411E|Landscape Design IV|PEM 312 MIN DCveya PEM 312E MIN DC|Yok
 PEM 411|Peyzaj Mimarlığı Projesi IV|PEM 312E MIN DCveya PEM 312 MIN DC|Yok
 PEM 415E|Environmental Aesthetics|Yok  |Yok
-PEM 419E|Landscape Management|PEM 242E MIN DDveya PEM 242 MIN DD|Yok
+PEM 419E|Landscape Management|Yok  |Yok
 PEM 420E|Prfs.Prct.&amp;Ethc.in Lndsc.Arch.|Yok  |Yok
 PEM 421E|Landscape Application Techniqu|Yok  |Yok
 PEM 421|Peyzaj Uygulama Teknikleri|Yok  |Yok
 PEM 422E|Professional Practice &amp; Ethics|Yok  |Yok
-PEM 425E|Land Resource Inf.Systems|PEM 351E MIN DDveya PEM 353E MIN DD|Yok
+PEM 425E|Land Resource Inf.Systems|Yok  |Yok
 PEM 427E|Art in Nature|Yok  |Yok
 PEM 427|Doğada Sanat|Yok  |Yok
 PEM 429E|Landscape and Law|Yok  |Yok
 PEM 429|Peyzaj ve Hukuk|Yok  |Yok
 PEM 431E|Experim.Studies on Place&amp;Desg|Yok  |Yok
 PEM 433E|Topics in Landscape Urbanism|Yok  |Yok
-PEM 4902E|Graduation Project|(PEM 411 MIN DDveya PEM 411E MIN DD)ve (PEM 405E MIN DDveya PEM 344 MIN DDveya PEM 344E MIN DDveya PEM 331 MIN DDveya PEM 331E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|Yok
+PEM 4902E|Graduation Project|(PEM 411 MIN DCveya PEM 411E MIN DC)ve (PEM 407E MIN DDveya PEM 405E MIN DDveya PEM 344E MIN DDveya PEM 421 MIN DDveya PEM 421E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|Yok
 PEM 492E|Graduation Project|PEM 411 MIN DCveya PEM 411E MIN DCve (PEM 405E MIN DDveya PEM 344 MIN DDveya PEM 344E MIN DDveya PEM 331 MIN DDveya PEM 331E MIN DD) <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 PEM 492|Bitirme Çalışması|PEM 411 MIN DCveya PEM 411E MIN DCve (PEM 405E MIN DDveya PEM 344 MIN DDveya PEM 344E MIN DDveya PEM 331 MIN DDveya PEM 331E MIN DD) <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 PET 111E|Intro to Pet &amp; Nat Gas Eng|Yok  |Yok
@@ -8076,8 +8098,8 @@ TEK 221|Temel İplikçilik|TEK 112 MIN DDveya TEK 112E MIN DDveya TEK 114E MIN D
 TEK 231E|Yarn Technology I|TEK 112 MIN DDveya TEK 112E MIN DDveya TEK 114E MIN DD|Yok
 TEK 232E|Weaving Technology I|TEK 221 MIN DDveya TEK 231E MIN DD|Yok
 TEK 232|Dokuma Teknolojisi I|TEK 221 MIN DDveya TEK 231E MIN DD|Yok
-TEK 233E|Yarn Technology I|TEK 112 MIN DDveya TEK 112E MIN DDveya TEK 114E MIN DD|Yok
-TEK 234E|Weaving Technology I|TEK 221 MIN DDveya TEK 231E MIN DDveya TEK 233E MIN DD|Yok
+TEK 233E|Introduction to Yarn Spinning|TEK 112 MIN DDveya TEK 112E MIN DDveya TEK 114E MIN DD|Yok
+TEK 234E|Weaving Preparation|TEK 221 MIN DDveya TEK 231E MIN DDveya TEK 233E MIN DD|Yok
 TEK 242|Örme Teknolojisi|TEK 221 MIN DDveya TEK 221E MIN DD|Yok
 TEK 252E|Knitting Technology|TEK 221 MIN DDveya TEK 231E MIN DD|Yok
 TEK 252|Örme Teknolojisi|TEK 221 MIN DDveya TEK 231E MIN DD|Yok
