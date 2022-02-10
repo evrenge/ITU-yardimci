@@ -3240,19 +3240,24 @@ HUK 217|AR-GE Hukuku|Yok  |Yok
 HUK 218|Ticaret Hukuku|Yok  |Yok
 ICM 101E|Digital Media in Spatial Des.|Yok  |Yok
 ICM 103E|Concep.in Hist.of Architecture|Yok  |Yok
+ICM 104|İç Mimarlıkta Tarih ve Kuram I|Yok  |Yok
 ICM 119E|Int.to Interior Archit.&amp;Ethics|Yok  |Yok
 ICM 121E|History of Art and Culture|Yok  |Yok
 ICM 121|Sanat ve Kültür Tarihi|Yok  |Yok
 ICM 122|Mimarlık Tarihi I|Yok  |Yok
 ICM 126E|His.,Thry &amp;Cr.in Int. Arch. I|Yok  |Yok
 ICM 126|Iç Mim.Tarih,Kuram &amp; Eleştri I|Yok  |Yok
+ICM 204|İç Mimarlıkta Tarih &amp; Kuram II|ICM 104 MIN DDveya ICM 126 MIN DDveya ICM 126E MIN DD|Yok
+ICM 205|İç Mimarlıkta Tarih &amp;Kuram III|ICM 104 MIN DDveya ICM 126 MIN DDveya ICM 126E MIN DD|Yok
 ICM 206E|Surv andRepr.Tch.in Intr.Arch.|Yok  |Yok
+ICM 209E|Inter.Arch.Design Fund.Studio|TES 121 MIN DDveya TES 121E MIN DDveya EUT 124E MIN DDveya SBP 112 MIN DDveya SBP 112E MIN DDveya MIM 112 MIN DDveya MIM 112E MIN DDveya MIM 116 MIN DDveya MIM 116E MIN DD|Yok
 ICM 211E|Architectural Design III|MIM 115 MIN DDveya MIM 115E MIN DDveya MIM 116 MIN DDveya MIM 116E MIN DD|Yok
 ICM 211|Mimari Proje III|MIM 115 MIN DDveya MIM 115E MIN DDveya MIM 116 MIN DDveya MIM 116E MIN DD|Yok
 ICM 212|İç Mimarlık Projesi I|MIM 211 MIN DDveya MIM 211E MIN DD|Yok
 ICM 215E|Prncpl. Of Loadbearing Struct.|(MIM 152 MIN DDveya MIM 152E MIN DD)veya (MIM 113 MIN DDve MIM 103 MIN DD)veya (MIM 113E MIN DDve MIM 103 MIN DD)veya (MIM 113 MIN DDve MIM 103E MIN DD)veya (MIM 113E MIN DDve MIM 103E MIN DD)veya STA 204 MIN DDveya STA 204E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DD|Yok
 ICM 215|Taşıyıcı Sistem İlkeleri|(MIM 152 MIN DDveya MIM 152E MIN DD)veya (MIM 113 MIN DDve MIM 103 MIN DD)veya (MIM 113 MIN DDve MIM 103E MIN DD)veya (MIM 113E MIN DDve MIM 103 MIN DD)veya (MIM 113E MIN DDve MIM 103E MIN DD)veya STA 204 MIN DDveya STA 204E MIN DDveya MIM 126 MIN DDveya MIM 126E MIN DD|Yok
 ICM 217E|Intr.to Interior Architecture|Yok  |Yok
+ICM 219|Tasarım Araştırmalarına Giriş|Yok  |Yok
 ICM 221|Mimarlık Tarihi II|Yok  |Yok
 ICM 222|Rölöve|Yok  |Yok
 ICM 224E|His.,Thry &amp;Cr.in Int.Arch. III|Yok  |Yok
@@ -3272,8 +3277,8 @@ ICM 233|Yapı Malzemesi|Yok  |Yok
 ICM 242E|Advanced Representation Tech.|Yok  |Yok
 ICM 244E|Interior Arch. Design Studio I|ICM 211 MIN DDveya ICM 211E MIN DDveya TES 211E MIN DDveya MIM 211 MIN DDveya MIM 211E MIN DD|Yok
 ICM 244|Iç Mimarlık Projesi I|ICM 211 MIN DDveya ICM 211E MIN DDveya TES 211E MIN DDveya MIM 211 MIN DDveya MIM 211E MIN DD|Yok
-ICM 246E|Interior Arch. Design Studio I|TES 211E MIN DDveya TES 211 MIN DDveya MIM 211 MIN DDveya MIM 211E MIN DDveya ICM 211 MIN DDveya ICM 211E MIN DD|Yok
-ICM 246|Iç Mimarlık Projesi I|TES 211E MIN DDveya MIM 211 MIN DDveya MIM 211E MIN DDveya ICM 211 MIN DDveya ICM 211E MIN DD|Yok
+ICM 246E|Interior Arch. Design Studio I|TES 211E MIN DDveya TES 211 MIN DDveya MIM 211 MIN DDveya MIM 211E MIN DDveya ICM 211 MIN DDveya ICM 211E MIN DDveya ICM 209E MIN DD|Yok
+ICM 246|Iç Mimarlık Projesi I|TES 211E MIN DDveya MIM 211 MIN DDveya MIM 211E MIN DDveya ICM 211 MIN DDveya ICM 211E MIN DDveya ICM 209E MIN DD|Yok
 ICM 251|Taşıyıcı Sistem İlkeleri|MIM 152 MIN DDveya MIM 152E MIN DDveya (MIM 103 MIN DDve MIM 113 MIN DD)veya (MIM 103E MIN DDve MIM 113E MIN DD)veya (MIM 103 MIN DDve MIM 113E MIN DD)veya (MIM 103E MIN DDve MIM 113 MIN DD)veya STA 204 MIN DDveya STA 204E MIN DD|Yok
 ICM 301E|Lighting Design For Int.Spaces|Yok  |Yok
 ICM 302E|Model Making in Int.Arch.|Yok  |Yok
@@ -3331,6 +3336,39 @@ ICM 366E|Interior Arch.Desgn Studio III|ICM 343 MIN DDveya ICM 343E MIN DDveya I
 ICM 368E|Dsgn Prins of Intr. Fins. Sys|Yok  |Yok
 ICM 374E|Profesional Practice|Yok  |Yok
 ICM 374|Meslek Pratiği|Yok  |Yok
+ICM 4011E|Advanced Representation Tech.|Yok  |Yok
+ICM 4012E|Building Biology and Ecology|Yok  |Yok
+ICM 4013E|Environmental Psychology|Yok  |Yok
+ICM 4013|Cevresel Psikoloji|Yok  |Yok
+ICM 4014E|Textile in Interior Design|Yok  |Yok
+ICM 4014|İç Mimarlıkta Tekstil|Yok  |Yok
+ICM 4015|Mağaza Tasarımında Kimlik|Yok  |Yok
+ICM 4016E|Design Culture|Yok  |Yok
+ICM 4016|Tasarım Kültürü|Yok  |Yok
+ICM 4017|Uygulamalı Sanat Atölyeleri|Yok  |Yok
+ICM 4018E|Concepts in History of Arch.|Yok  |Yok
+ICM 4020E|Digital Media in Spatial Des.|Yok  |Yok
+ICM 4021E|Dig.Repres.Tech.for Inter.Des.|Yok  |Yok
+ICM 4023E|Exhibition Design|Yok  |Yok
+ICM 4024E|FirmDev.inInter.Arch.&amp;CaseStd.|Yok  |Yok
+ICM 4025E|Health and Design|Yok  |Yok
+ICM 4026E|History of Art and Culture|Yok  |Yok
+ICM 4026|Sanat ve Ku?ltu?r Tarihi|Yok  |Yok
+ICM 4027E|Identity in Retail Design|Yok  |Yok
+ICM 4028E|Interior Space - Form&amp;Design|Yok  |Yok
+ICM 4029E|Interior Space in Cinema|Yok  |Yok
+ICM 4030E|Lightn. Desig.for Inter.Spaces|Yok  |Yok
+ICM 4031E|Mater.&amp;Finish.in Furnit.Design|Yok  |Yok
+ICM 4032|Mimari Üsluplar|Yok  |Yok
+ICM 4033E|Model Making in Interior Arch.|Yok  |Yok
+ICM 4035E|Social Transform.,Gender&amp;Space|Yok  |Yok
+ICM 4036E|Soc.Clt.Life&amp;Sp.intheOtt.Emp.|Yok  |Yok
+ICM 4037E|Spatial Mapping|Yok  |Yok
+ICM 4038E|Styles in Interior Architect.|Yok  |Yok
+ICM 4039E|Sustainability in Inter.Arch.|Yok  |Yok
+ICM 4040E|Textile in Interior Design|Yok  |Yok
+ICM 4041E|Urban Interiors|Yok  |Yok
+ICM 4042E|Yacht Interioris Design|Yok  |Yok
 ICM 408E|Comm Design In Interior Arch.|Yok  |Yok
 ICM 411|İç Mimarlık Projesi IV|ICM 312E MIN DDveya ICM 312 MIN DDveya ICM 344E MIN DD|Yok
 ICM 421|Meslek Pratiği ve Etiği|Yok  |Yok
