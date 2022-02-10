@@ -2997,6 +2997,7 @@ GMI 202E|Marine Electrotechnics|FIZ 102E MIN DD|Yok
 GMI 202|Gemi Elektrotekniği|FIZ 102E MIN DD|Yok
 GMI 205E|Workshop|Yok  |Yok
 GMI 205|Atölye|Yok  |Yok
+GMI 206|Atölye|Yok  |Yok
 GMI 209|Bilg. Destekli Katı Modelleme|Yok  |Yok
 GMI 210|Titreşimin Temelleri|Yok  |Yok
 GMI 211E|Thermodynamics I|Yok  |Yok
@@ -3015,6 +3016,7 @@ GMI 223|Makine Elemanları|Yok  |Yok
 GMI 224E|Marine Electronics|FIZ 102E MIN DDveya FIZ 102 MIN DD|Yok
 GMI 224|Gemi Elektroniği|FIZ 102E MIN DDveya FIZ 102 MIN DD|Yok
 GMI 225|Gemi Dizel Makineleri I|Yok  |Yok
+GMI 228|Temel Elektronik|Yok  |Yok
 GMI 231E|Num. Analysis of Eng. Sys.|(MAT 103E MIN DDveya MAT 103 MIN DD)ve (MAT 104E MIN DDveya MAT 104 MIN DD)|Yok
 GMI 231|Müh. Sistem. Nümerik Analizi|(MAT 103 MIN DDveya MAT 103E MIN DD)ve (MAT 104 MIN DDveya MAT 104E MIN DD)|Yok
 GMI 232E|Marine Diesel Engines I|Yok  |Yok
@@ -3032,6 +3034,7 @@ GMI 253E|Marine Auxiliary MachineryI|Yok  |Yok
 GMI 253|Gemi Yardımcı Makineleri I|Yok  |Yok
 GMI 254|Gemi Yardımcı Makineleri I|Yok  |Yok
 GMI 255|Gemi Elektrotekniği I|FIZ 102 MIN DDveya FIZ 102E MIN DD|Yok
+GMI 256|Elektroteknik|Yok  |Yok
 GMI 261E|Fluid Mechanics|MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DD|Yok
 GMI 270E|Maritime English II|Yok  |Yok
 GMI 271E|Maritime Eng.for Mar. Eng. I|Yok  |Yok
@@ -3065,7 +3068,7 @@ GMI 361E|Fluid Mechanics|Yok  |Yok
 GMI 371E|Maritime Eng.for Mar. Eng. III|Yok  |Yok
 GMI 381E|Engine Room Simulator (ERS) I|GMI 232E MIN DDve GMI 271E MIN DDve GMI 272E MIN DDve (GMI 201 MIN DDveya GMI 201E MIN DD)ve (GMI 252 MIN DDveya GMI 252E MIN DD)|Yok
 GMI 383E|Engine Room Simulator (ERS) I|(GMI 232 MIN DDveya GMI 232E MIN DD)ve (GMI 233 MIN DDveya GMI 233E MIN DD)ve (GMI 253 MIN DDveya GMI 253E MIN DD)|Yok
-GMI 384E|Engine Room Simulator (ERS) I|(GMI 233 MIN DDveya GMI 233E MIN DD)ve (GMI 253 MIN DDveya GMI 253E MIN DDveya GMI 254 MIN DDveya GMI 254E MIN DD)|Yok
+GMI 384E|Engine Room Simulator (ERS) I|GMI 253 MIN DDveya GMI 253E MIN DDveya GMI 254 MIN DDveya GMI 254E MIN DD|Yok
 GMI 391E|Long Term Sea Traning|(GMI 101 MIN DDveya GMI 101E MIN DD)ve (GMI 121 MIN DDveya GMI 121E MIN DDveya GMI 108 MIN DD)ve (GMI 221 MIN DDveya GMI 221E MIN DD)ve (GMI 222 MIN DDveya GMI 222E MIN DD)ve (DFH 292 MIN DDveya DFH 292E MIN DD)ve GMI 331E MIN DDve (GMI 311 MIN DDveya GMI 311E MIN DD)ve GMI 381E MIN DD|Yok
 GMI 392E|Long Term Sea Training|(DFH 111 MIN DDveya DFH 111E MIN DD)ve (GMI 322 MIN DDveya GMI 322E MIN DDveya GMI 324 MIN DDveya GMI 324E MIN DD)ve (GMI 383E MIN DDveya GMI 384E MIN DD)|Yok
 GMI 401E|Propeller and Shafting|Yok  |Yok
@@ -3114,7 +3117,7 @@ GMI 451E|Auxiliary Machinery II|GMI 252 MIN DDveya GMI 252E MIN DD|Yok
 GMI 451|Gemi Yardımcı Makineleri II|GMI 252 MIN DDveya GMI 252E MIN DD|Yok
 GMI 453E|Marine Auxiliary MachineryII|GMI 392E MIN DD|Yok
 GMI 453|Gemi Yardımcı Makineleri II|GMI 392E MIN DD|Yok
-GMI 454|Gemi Yardımcı Makineleri II|GMI 392E MIN DD|Yok
+GMI 454|Gemi Yardımcı Makineleri II|GMI 392E MIN DDveya GMI 393E MIN DD|Yok
 GMI 455|Gemi Elektrotekniği II|Yok  |Yok
 GMI 456E|Ship Electrical Systems|Yok  |Yok
 GMI 461E|Oper. of Steam &amp; Gas Turbines|GMI 392E MIN DD|Yok
@@ -3123,10 +3126,10 @@ GMI 463E|Deck Machinery|Yok  |Yok
 GMI 463|Güverte Makineleri|Yok  |Yok
 GMI 464E|Deck Machinery|Yok  |Yok
 GMI 472E|Maritime Eng.for Mar. Eng. IV|Yok  |Yok
-GMI 473|Gemi Dizel Makineleri III|GMI 392E MIN DD|Yok
+GMI 473|Gemi Dizel Makineleri III|GMI 392E MIN DDveya GMI 393E MIN DD|Yok
 GMI 482E|Engine Room Simulator (ERS) II|GMI 381E MIN DDve GMI 441E MIN DD|Yok
 GMI 483E|Engine Room Simulator (ERS) II|GMI 392E MIN DD|Yok
-GMI 484E|Engine Room Simulator (ERS) II|GMI 392E MIN DD|Yok
+GMI 484E|Engine Room Simulator (ERS) II|GMI 392E MIN DDveya GMI 393E MIN DD|Yok
 GMI 4901|Gemi Mak. İşl. Müh. Tasarımı I|GMI 384E MIN DDve ders planının ilk 3 yarıyılında bulunan derslerin tamamından (ITB ve/veya SNT seçmeli paket dersleri hariç) başarılı olmak|3.Sınıf ,4.Sınıf
 GMI 4902|Gemi Mak. İşl. Müh.Tasarımı II|GMI 4901 MIN BBveya GMI 4901E MIN BB|Yok
 GMI 491E|Maritime English III|Yok  |Yok
