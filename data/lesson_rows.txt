@@ -1922,7 +1922,6 @@
 22251|CAB 436||Zeynep  Barut|TMB|---- |/ |--- |5|0|CAB, CEB
 22252|CAB 438||Onur  Özkaya|TMB|---- |/ |--- |5|0|CAB, CEB
 22253|CAB 440||Ferhan  Yeprem|TMB|---- |/ |--- |5|0|CAB, CEB
-22254|CAB 442||--|TMB|---- |/ |--- |0|0|CAB, CEB
 22255|CAB 446||Safinaz  Rizeli|TMB|---- |/ |--- |5|0|CAB, CEB
 22256|CAB 450||Tolgahan  Çoğulu|TMB|---- |/ |--- |5|0|CAB, CEB
 22257|CAB 4636||Hatice  Doğan Sevinç|TMB|---- |/ |--- |5|0|CAB
@@ -2076,7 +2075,7 @@
 22409|MAD 436E||Cüneyt Atilla Öztürk|MDB|Perşembe |0830/1029 |A201 |60|0|MADE
 22410|ETK 101||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MDB|Çarşamba |1130/1229 |A201 |60|0|JEO
 22411|ETK 101E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MDB|Perşembe |1630/1729 |A201 |70|0|JEO, JEOE, MAD, MADE
-22412|JEO 218||Murat  Budakoğlu|MDB|Cuma |1430/1729 |A101 |0|0|JEO
+22412|JEO 218||Murat  Budakoğlu|MDB|Cuma |1430/1629 |A101 |60|0|JEO
 22413|MAL 201E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MED|Çarşamba |1230/1529 |A16 |0|0|PET, PETE
 22414|ILT 101E||İbrahim Metin Mıhçakan|MDB|Cuma |1430/1629 |A202 |80|0|PETE
 22415|PET 212E||Murat  Çınar|MDB|Çarşamba |0830/1129 |A105 |80|0|JEF, PET, PETE, PETM
@@ -2559,82 +2558,82 @@
 22941|EHB 208E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Cuma |1430/1729 |--- |130|0|EHB, EHBE, TEL
 22942|EHB 208E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Cuma |1430/1729 |2106 |0|0|EHB, EHBE, TEL
 22943|EHB 208E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Cuma |1430/1729 |5307 |0|0|EHB, EHBE, TEL
-22944|EHB 211||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |--- |160|0|BLG, EHB, ELE, ELK, KOM, MKN, TEL
-22945|EHB 211||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |2104 |0|0|BLG, EHB, ELE, ELK, KOM, MKN, TEL
-22946|EHB 211||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |2106 |0|0|BLG, EHB, ELE, ELK, KOM, MKN, TEL
+22944|EHB 211||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |--- |160|0|EHB, ELE, ELK, KOM, MKN, TEL
+22945|EHB 211||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |2104 |0|0|EHB, ELE, ELK, KOM, MKN, TEL
+22946|EHB 211||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |2106 |0|0|EHB, ELE, ELK, KOM, MKN, TEL
 22947|MAT 202||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |--- |140|0|EHB, ELE, ELH, ELK, KOM, KON, TEL
 22948|MAT 202||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |2102 |0|0|EHB, ELE, ELH, ELK, KOM, KON, TEL
-22949|EHB 211E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |4102 |70|0|BLG, BLGE, EHB, EHBE, ELE, ELK, ELKE, KOM, KOME, TEL
+22949|EHB 211E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |4102 |70|0|EHB, EHBE, ELE, ELK, ELKE, KOM, KOME, TEL
 22950|MAT 202||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |2104 |0|0|EHB, ELE, ELH, ELK, KOM, KON, TEL
 22951|MAT 202E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |--- |140|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
 22952|MAT 202E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |2106 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
 22953|MAT 202E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |4102 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
-22954|EHB 212||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |--- |280|0|BLG, EHB, ELE, ELH, ELK, KOM, TEL, UZB
+22954|EHB 212||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |--- |280|0|EHB, ELE, ELH, ELK, KOM, TEL
 22955|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |--- |180|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
 22956|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |5203 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
 22957|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |5205 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
-22958|EHB 212||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |2106 |0|0|BLG, EHB, ELE, ELH, ELK, KOM, TEL, UZB
+22958|EHB 212||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |2106 |0|0|EHB, ELE, ELH, ELK, KOM, TEL
 22959|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |5207 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
 22960|MAT 281||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |--- |210|0|EHB, ELE, ELK, KOM, TEL
 22961|MAT 281||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5202 |0|0|EHB, ELE, ELK, KOM, TEL
 22962|MAT 281||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |4104 |0|0|EHB, ELE, ELK, KOM, TEL
-22963|EHB 212||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |4104 |0|0|BLG, EHB, ELE, ELH, ELK, KOM, TEL, UZB
+22963|EHB 212||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |4104 |0|0|EHB, ELE, ELH, ELK, KOM, TEL
 22964|MAT 281E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |--- |210|0|EHB, EHBE, ELE, ELK, ELKE, KOM, KOME, TEL
 22965|MAT 281E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5204 |0|0|EHB, EHBE, ELE, ELK, ELKE, KOM, KOME, TEL
-22966|EHB 212||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5202 |0|0|BLG, EHB, ELE, ELH, ELK, KOM, TEL, UZB
+22966|EHB 212||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5202 |0|0|EHB, ELE, ELH, ELK, KOM, TEL
 22967|MAT 281E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5102 |0|0|EHB, EHBE, ELE, ELK, ELKE, KOM, KOME, TEL
 22968|MAT 281E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5104 |0|0|EHB, EHBE, ELE, ELK, ELKE, KOM, KOME, TEL
-22969|EHB 212||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5204 |0|0|BLG, EHB, ELE, ELH, ELK, KOM, TEL, UZB
-22970|EHB 212E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |--- |280|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, SEH, TEL, UCKE, UZBE
-22971|EHB 212E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5104 |0|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, SEH, TEL, UCKE, UZBE
-22972|EHB 212E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5302 |0|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, SEH, TEL, UCKE, UZBE
-22973|EHB 212E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5304 |0|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, SEH, TEL, UCKE, UZBE
-22974|EHB 212E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5307 |0|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, SEH, TEL, UCKE, UZBE
-22975|EHB 221||Bora  Döken|EEB|Cuma |0830/1029 |--- |40|0|BLG, EHB, ELE, TEL
-22976|EHB 221||Bora  Döken|EEB|Çarşamba |1230/1429 |--- |40|0|BLG, EHB, ELE, TEL
-22977|EHB 221E||Hasan Bülent Yağcı|EEB|Perşembe |1030/1229 |--- |40|0|BLGE, EHB, EHBE, ELE, TEL
-22978|EHB 221E||Hasan Bülent Yağcı|EEB|Cuma |1030/1229 |--- |40|0|BLGE, EHB, EHBE, ELE, TEL
-22979|EHB 221E||Hasan Bülent Yağcı|EEB|Perşembe |0830/1029 |--- |40|0|BLGE, EHB, EHBE, ELE, TEL
-22980|EHB 221E||İbrahim  Çatalkaya|EEB|Pazartesi |1030/1229 |--- |40|0|BLGE, EHB, EHBE, ELE, TEL
-22981|EHB 221E||Yüksel  Çakır|EEB|Pazartesi |0830/1029 |--- |40|0|BLGE, EHB, EHBE, ELE, TEL
-22982|EHB 222||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |0830/1129 |2102 |80|0|BLG, ELE, ELH, ELK, KOM, MKN, TEL
-22983|EHB 222E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |0830/1129 |--- |210|0|BLG, BLGE, ELE, ELH, ELK, ELKE, KOM, KOME, MKN, PETE, TEL
-22984|EHB 222E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |0830/1129 |2104 |0|0|BLG, BLGE, ELE, ELH, ELK, ELKE, KOM, KOME, MKN, PETE, TEL
-22985|EHB 222E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |0830/1129 |2106 |0|0|BLG, BLGE, ELE, ELH, ELK, ELKE, KOM, KOME, MKN, PETE, TEL
-22986|EHB 222E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |0830/1129 |4102 |0|0|BLG, BLGE, ELE, ELH, ELK, ELKE, KOM, KOME, MKN, PETE, TEL
+22969|EHB 212||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5204 |0|0|EHB, ELE, ELH, ELK, KOM, TEL
+22970|EHB 212E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |--- |280|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, TEL
+22971|EHB 212E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5104 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, TEL
+22972|EHB 212E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5302 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, TEL
+22973|EHB 212E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5304 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, TEL
+22974|EHB 212E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |5307 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, TEL
+22975|EHB 221||Bora  Döken|EEB|Cuma |0830/1029 |--- |40|0|EHB, ELE, TEL
+22976|EHB 221||Bora  Döken|EEB|Çarşamba |1230/1429 |--- |40|0|EHB, ELE, TEL
+22977|EHB 221E||Hasan Bülent Yağcı|EEB|Perşembe |1030/1229 |--- |40|0|EHB, EHBE, ELE, TEL
+22978|EHB 221E||Hasan Bülent Yağcı|EEB|Cuma |1030/1229 |--- |40|0|EHB, EHBE, ELE, TEL
+22979|EHB 221E||Hasan Bülent Yağcı|EEB|Perşembe |0830/1029 |--- |40|0|EHB, EHBE, ELE, TEL
+22980|EHB 221E||İbrahim  Çatalkaya|EEB|Pazartesi |1030/1229 |--- |40|0|EHB, EHBE, ELE, TEL
+22981|EHB 221E||Yüksel  Çakır|EEB|Pazartesi |0830/1029 |--- |40|0|EHB, EHBE, ELE, TEL
+22982|EHB 222||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |0830/1129 |2102 |80|0|ELE, ELH, ELK, KOM, MKN, TEL
+22983|EHB 222E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |0830/1129 |--- |210|0|ELE, ELH, ELK, ELKE, KOM, KOME, MKN, PETE, TEL
+22984|EHB 222E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |0830/1129 |2104 |0|0|ELE, ELH, ELK, ELKE, KOM, KOME, MKN, PETE, TEL
+22985|EHB 222E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |0830/1129 |2106 |0|0|ELE, ELH, ELK, ELKE, KOM, KOME, MKN, PETE, TEL
+22986|EHB 222E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |0830/1129 |4102 |0|0|ELE, ELH, ELK, ELKE, KOM, KOME, MKN, PETE, TEL
 22987|EHB 231E||Onur  Kurt|EEB|Pazartesi |0830/1129 |5202 |80|0|EHB, EHBE, ELE
-22988|EHB 232||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |--- |210|0|BLG, EHB, ELE, ELH, ELK, TEL
+22988|EHB 232||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |--- |210|0|EHB, ELE, ELH, ELK, TEL
 22989|BLG 212E||Tankut  Akgül|EEB|Perşembe |0830/1129 |2102 |50|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME
 22990|BLG 231||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |0830/1129 |5305 |50|0|ELK, KOM, MKN
 22991|BLG 231||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |0830/1129 |5307 |50|0|ELK, KOM, MKN
 22992|BLG 231E||Ali Sinan Çabuk|EEB|Cuma |0830/1129 |5205 |50|0|ELK, ELKE, KOM, KOME, MKN
 22993|BLG 252E||Tankut  Akgül|EEB|Salı |0830/1129 |4102 |70|0|EHB, EHBE, ELE, KOM, KOME, TEL
-22994|EHB 232||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |4102 |0|0|BLG, EHB, ELE, ELH, ELK, TEL
-22995|EHB 232||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |--- |0|0|BLG, EHB, ELE, ELH, ELK, TEL
+22994|EHB 232||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |4102 |0|0|EHB, ELE, ELH, ELK, TEL
+22995|EHB 232||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |--- |0|0|EHB, ELE, ELH, ELK, TEL
 22996|EHN 101||Tayfun  Akgül|EEB|Salı |1130/1229 |1303 |30|0|EHN, SEH
-22997|EHB 232||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |--- |0|0|BLG, EHB, ELE, ELH, ELK, TEL
-22998|EHB 232E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |--- |280|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, TEL
+22997|EHB 232||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |--- |0|0|EHB, ELE, ELH, ELK, TEL
+22998|EHB 232E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |--- |280|0|EHB, EHBE, ELE, ELH, ELK, ELKE, TEL
 22999|EHN 105||Serkan  Şimşek|EEB|Perşembe |0830/1229 |1303 |30|0|EHN, SEH
-23000|EHB 232E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |--- |0|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, TEL
+23000|EHB 232E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |--- |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, TEL
 23001|EHN 121||İsmail Serdar Özoğuz|EEB|Pazartesi |1230/1429 |1303 |30|0|EHN, SEH
 23002|EHN 313||İbrahim  Akduman|EEB|Salı |0830/1129 |1303 |30|0|EHN, SEH
-23003|EHB 232E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |5204 |0|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, TEL
+23003|EHB 232E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |5204 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, TEL
 23004|EHN 314||Mustafa Berke Yelten|EEB|Çarşamba |0830/1129 |1303 |30|0|EHN, SEH
 23005|EHN 334||Mehmet Ertuğrul Çelebi|EEB|Çarşamba |1230/1529 |1303 |30|0|EHN, SEH
-23006|EHB 232E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |5102 |0|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, TEL
+23006|EHB 232E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |5102 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, TEL
 23007|EHN 351||Ender Mete Ekşioğlu|EEB|Perşembe |0830/1129 |1305 |30|0|EHN, SEH
-23008|EHB 232E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |5104 |0|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, TEL
+23008|EHB 232E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |5104 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, TEL
 23009|MTH 271||Hakan Ali Çırpan|EEB|Cuma |0830/1129 |1303 |30|0|EHN, SEH
-23010|EHB 252||İsa  Yıldırım|EEB|Perşembe |1230/1529 |5302 |70|0|EHB, ELE, ELH, KOM, MKN, TEL, UZB
-23011|EHB 252E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |--- |210|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, MKN, SEH, TEL, UCKE, UZBE
+23010|EHB 252||İsa  Yıldırım|EEB|Perşembe |1230/1529 |5302 |70|0|EHB, ELE, ELH, KOM, MKN, TEL
+23011|EHB 252E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |--- |210|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, MKN, TEL
 23012|DAN 102||Funda  Akleman Yapar|EEB|Çarşamba |1530/1729 |--- |300|0|EHB, EHBE
 23013|DAN 102||Suat  İlhan|EEB|Çarşamba |1530/1729 |--- |300|0|ELK, ELKE
-23014|EHB 252E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5304 |0|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, MKN, SEH, TEL, UCKE, UZBE
+23014|EHB 252E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5304 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, MKN, TEL
 23015|DAN 102||İlker  Üstoğlu|EEB|Çarşamba |1530/1729 |--- |300|0|KOM, KOME
-23016|EHB 252E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |6309 |0|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, MKN, SEH, TEL, UCKE, UZBE
+23016|EHB 252E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |6309 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, MKN, TEL
 23017|DAN 301||Mustafa Berke Yelten|EEB|Çarşamba |1530/1729 |--- |300|0|EHB, EHBE
 23018|DAN 301||Salih Barış Öztürk|EEB|Çarşamba |1530/1729 |--- |300|0|ELK, ELKE
-23019|EHB 252E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5207 |0|0|BLG, BLGE, EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, MKN, SEH, TEL, UCKE, UZBE
+23019|EHB 252E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5207 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, MKN, TEL
 23020|DAN 301||Volkan  Sezer|EEB|Çarşamba |1530/1729 |--- |300|0|KOM, KOME
 23021|EHB 262||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |0830/1129 |--- |140|0|EHB, ELE
 23022|EHB 262||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |0830/1129 |4104 |0|0|EHB, ELE
@@ -2652,19 +2651,19 @@
 23042|PAZ 108||Nazan  Okur|MKB|Çarşamba |0930/1229 |402 |30|0|STP
 23043|PAZ 110||Şükriye  Yüksel Filiz, Belgin  Görgün|MKB|Cuma |0930/1229 |D374 |30|0|STP
 23044|PAZ 214||Canan  Sarıçam|MKB|Cuma |1400/1659 |D380A |0|0|STP
-23045|EHB 262E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |0830/1129 |--- |140|0|EHB, EHBE, ELE, SEH
+23045|EHB 262E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |0830/1129 |--- |140|0|EHB, EHBE, ELE
 23046|PAZ 210||Hale  Karakaş|MKB|Çarşamba |0830/1229 |D380B |30|0|STP
-23047|EHB 262E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |0830/1129 |5202 |0|0|EHB, EHBE, ELE, SEH
+23047|EHB 262E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |0830/1129 |5202 |0|0|EHB, EHBE, ELE
 23048|PAZ 216||Nazan  Okur|MKB|Cuma |0830/1229 |D378 |30|0|STP
-23049|EHB 262E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |0830/1129 |5204 |0|0|EHB, EHBE, ELE, SEH
+23049|EHB 262E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |0830/1129 |5204 |0|0|EHB, EHBE, ELE
 23050|PAZ 208||Osman Bülent Özipek|MKB|Perşembe |1330/1729 |D381B |30|0|STP
 23051|PAZ 231||Ahmet Atıl Aşıcı|MKB|Perşembe |1330/1629 |D381A |30|0|SMT, STP
-23052|EHB 311E||Hasan Bülent Yağcı|EEB|Çarşamba |0830/1029 |--- |40|0|BLGE, EHBE, KOME, SEH
-23053|EHB 311E||İbrahim  Çatalkaya|EEB|Pazartesi |1530/1729 |--- |40|0|BLGE, EHBE, KOME, SEH
+23052|EHB 311E||Hasan Bülent Yağcı|EEB|Çarşamba |0830/1029 |--- |40|0|EHB, EHBE, KOM, KOME
+23053|EHB 311E||İbrahim  Çatalkaya|EEB|Pazartesi |1530/1729 |--- |40|0|EHB, EHBE, KOM, KOME
 23054|MOD 134||Gizem  Turan|MKB|Salı |1330/1729 |455 |40|0|SMT
-23055|EHB 311E||Hasan Bülent Yağcı|EEB|Çarşamba |1030/1229 |--- |40|0|BLGE, EHBE, KOME, SEH
+23055|EHB 311E||Hasan Bülent Yağcı|EEB|Çarşamba |1030/1229 |--- |40|0|EHB, EHBE, KOM, KOME
 23056|MOD 127||Şükriye  Yüksel Filiz|MKBMKB|Pazartesi Çarşamba |1330/1629 0930/1229 |453 453 |40|0|SMT
-23057|EHB 322||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |5203 |70|0|BLG, EHB, ELE, ELH
+23057|EHB 322||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |5203 |70|0|EHB, ELE, ELH
 23058|MOD 162||Nihan  Topaloğlu, Elif  Taşel|MKBMKB|Pazartesi Perşembe |0930/1229 1330/1629 |451 451 |40|0|SMT
 23059|MOD 125||Gizem  Turan, Merve Gizem  Ogan Yazgan|MKB|Salı |0930/1229 |451 |40|0|SMT
 23060|MOD 270||Ömer Berk Berkalp|MKB|Cuma |1400/1759 |D381A |0|0|SMT
@@ -2688,12 +2687,12 @@
 23079|EHB 324E||Ali  Bahadır|EEB|Çarşamba |1030/1229 |--- |30|0|EHB, EHBE, TEL
 23080|EHB 324E||Ali  Bahadır|EEB|Çarşamba |0830/1029 |--- |30|0|EHB, EHBE, TEL
 23081|EHB 332||Ece Olcay Güneş|EEB|Pazartesi |0830/1129 |5101 |50|0|EHB, ELE, ELH
-23082|EHB 334E||Mustafa  Ergen|EEB|Cuma |1430/1729 |5301 |70|0|EHB, EHBE, SEH, TEL
+23082|EHB 334E||Mustafa  Ergen|EEB|Cuma |1430/1729 |5301 |70|0|EHB, EHBE, TEL
 23083|EHB 352||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5105 |70|0|EHB, TEL
 23084|KIM 232||Okan  Sirkecioğlu|FEB|Perşembe |0830/1229 |L400 |60|0|KIM
-23085|EHB 352E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |--- |140|0|EHB, EHBE, ELH, SEH, TEL
-23086|EHB 352E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5107 |0|0|EHB, EHBE, ELH, SEH, TEL
-23087|EHB 352E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5206 |0|0|EHB, EHBE, ELH, SEH, TEL
+23085|EHB 352E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |--- |140|0|EHB, EHBE, ELH, TEL
+23086|EHB 352E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5107 |0|0|EHB, EHBE, ELH, TEL
+23087|EHB 352E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5206 |0|0|EHB, EHBE, ELH, TEL
 23088|EHB 362||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |--- |120|0|EHB, ELE, ELH, TEL
 23089|EHB 362||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |5305 |0|0|EHB, ELE, ELH, TEL
 23090|EHB 362||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |4104 |0|0|EHB, ELE, ELH, TEL
@@ -2702,14 +2701,14 @@
 23093|EHB 362E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |5202 |0|0|EHB, EHBE, ELE, ELH, TEL
 23094|EHB 405E||Metin  Yazgı|EEB|Salı |1230/1529 |5201 |50|0|EHB, EHBE, ELE, ELH
 23095|EHB 408E||İbraheem  Shayea|EEB|Pazartesi |0830/1129 |5105 |50|0|EHB, EHBE, TEL
-23096|EHB 420E||İsa  Yıldırım|EEB|Cuma |1400/1659 |5305 |50|0|EHB, EHBE, ELE, ELH, END, ENDE, TEL
-23097|EHB 425E||Sıddıka Berna Örs Yalçın|EEB|Pazartesi |0830/1129 |5301 |25|0|EHBE
-23098|EHB 427E||Ahmet Can Erten|EEB|Çarşamba |0830/1129 |5305 |50|0|EHBE
+23096|EHB 420E||İsa  Yıldırım|EEB|Cuma |1400/1659 |5305 |50|0|EHB, EHBE, ELE, ELH, TEL
+23097|EHB 425E||Sıddıka Berna Örs Yalçın|EEB|Pazartesi |0830/1129 |5301 |25|0|EHB, EHBE
+23098|EHB 427E||Ahmet Can Erten|EEB|Çarşamba |0830/1129 |5305 |50|0|EHB, EHBE
 23099|EHB 431E||Hakan Ali Çırpan|EEB|Pazartesi |1230/1629 |5306 |20|0|EHB, EHBE, TEL
 23100|EHB 431E||Semiha  Tedik Başaran|EEB|Perşembe |0830/1229 |5306 |20|0|EHB, EHBE, TEL
 23101|EHB 433||Müştak Erhan Yalçın|EEB|Salı |0830/1129 |5305 |60|0|EHB, ELE, KOM
 23102|EHB 437||Zümray  Ölmez|EEB|Perşembe |1230/1529 |--- |60|0|EHB, ELE, ELH
-23103|EHB 440E||Onur  Ergen|EEB|Salı |1230/1529 |5305 |50|0|EHBE
+23103|EHB 440E||Onur  Ergen|EEB|Salı |1230/1529 |5305 |50|0|EHB, EHBE
 23104|EHB 445||Tamer  Ölmez|EEB|Salı |1230/1629 |5301 |20|0|EHB, ELE
 23105|EHB 456E||Mehmet  Çayören|EEB|Cuma |0830/1129 |5305 |50|0|EHB, EHBE, TEL
 23107|EHB 463||Semiha  Tedik Başaran|EEB|Çarşamba |1230/1529 |5204 |50|0|EHB, ELH, TEL
@@ -3330,7 +3329,7 @@
 25055|MIM 209||Aygül  Ağır, Vesile Gül Cephanecigil|MMB|Salı |1330/1629 |--- |105|0|MIM
 25056|MIM 209E||Zeynep  Kuban Tokgöz, Bilge  Ar|MMB|Salı |1330/1629 |--- |105|0|ARC, MIM, MIME
 25057|MIM 210E||Nejat Turgut Saner|MMB|Pazartesi |0930/1229 |--- |40|0|MIM, MIME
-25058|MIM 304||Vesile Gül Cephanecigil|MMB|Cuma |1430/1729 |--- |105|0|MIM
+25058|MIM 304||Aygül  Ağır, Vesile Gül Cephanecigil|MMB|Cuma |1430/1729 |--- |105|0|MIM
 25059|MIM 304E||Mehmet Murat Gül, Miyuki Aoki Girardelli|MMB|Cuma |1430/1729 |--- |105|0|MIM, MIME
 25060|MIM 213||Oğuz Cem Çelik, Necdet  Torunbalcı|MMBMMB|Salı Cuma |1030/1229 1030/1229 |--- --- |105|0|MIM
 25062|MIM 213E||Cenk  Üstündağ, Haluk  Sesigür|MMBMMB|Salı Cuma |0830/1029 0830/1029 |--- --- |105|0|MIM, MIME
@@ -3357,7 +3356,7 @@
 25086|MIM 4039||Nejat Turgut Saner|MMB|Salı |1330/1529 |--- |25|0|MIM
 25087|MIM 4013||Suat  Apak|MMB|Pazartesi |0930/1129 |--- |25|0|MIM, SBP
 25088|MIM 4013E||Sevgi  Türkkan|MMB|Salı |0930/1129 |--- |25|0|MIM, MIME
-25089|MIM 4040||Atilla  Aydoğdu|MMB|Pazartesi |0930/1129 |--- |25|0|MIM
+25089|MIM 4040||Atilla  Aydoğdu|MMB|Salı |1330/1529 |--- |25|0|MIM
 25090|MIM 4070E||Derya  Güleç Özer|MMB|Salı |1330/1629 |--- |25|0|MIM, MIME
 25091|MIM 4041||Çiğdem  Eren|MMB|Salı |1330/1529 |--- |25|0|MIM
 25092|MIM 4072E||Arzu İrem Mollaahmetoğlu|MMB|Pazartesi |0930/1129 |--- |25|0|ICM, MIM, MIME, SBP, SBPE
