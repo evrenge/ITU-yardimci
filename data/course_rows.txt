@@ -7376,6 +7376,12 @@ SBP 142|Mimarlik Bilgisi|Yok  |Yok
 SBP 152E|Basic Design|Yok  |Yok
 SBP 152|Temel Tasarım|Yok  |Yok
 SBP 205E|Statistics|Yok  |Yok
+SBP 207E|Project III: Site Plan.&amp;Design|TES 121 MIN DDveya TES 121E MIN DDveya SBP 112 MIN DDveya SBP 112E MIN DD|Yok
+SBP 207|Proje III: Yöre Plan.&amp;Tas.|TES 121 MIN DDveya TES 121E MIN DDveya SBP 112 MIN DDveya SBP 112E MIN DD|Yok
+SBP 208E|Urban Economics|Yok  |Yok
+SBP 208|Şehir Ekonomisi|Yok  |Yok
+SBP 210E|Urban Sociology|Yok  |Yok
+SBP 210|Şehir Sosyolojisi|Yok  |Yok
 SBP 211E|Project III|SBP 112 MIN DDveya SBP 112E MIN DD|Yok
 SBP 211|Proje III|SBP 112 MIN DDveya SBP 112E MIN DD|Yok
 SBP 212E|Project IV|SBP 211 MIN DDveya SBP 211E MIN DD|Yok
@@ -7386,8 +7392,8 @@ SBP 214E|Geography|Yok  |Yok
 SBP 214|Coğrafya|Yok  |Yok
 SBP 216E|Project IV|SBP 213 MIN DDveya SBP 213E MIN DD|Yok
 SBP 216|Proje IV|SBP 213 MIN DDveya SBP 213E MIN DD|Yok
-SBP 218E|Project IV|TES 211E MIN DD|Yok
-SBP 218|Proje IV|TES 211E MIN DD|Yok
+SBP 218E|Prj.IV:Spat.Str.Plan.&amp;Pol.Mak.|TES 211 MIN DDveya TES 211E MIN DDveya SBP 207 MIN DDveya SBP 207E MIN DDveya SBP 211 MIN DDveya SBP 211E MIN DDveya SBP 213 MIN DDveya SBP 213E MIN DD|Yok
+SBP 218|Proje IV: Strat.Plan.&amp;Pol.Gel.|TES 211 MIN DDveya TES 211E MIN DDveya SBP 207 MIN DDveya SBP 207E MIN DDveya SBP 211 MIN DDveya SBP 211E MIN DDveya SBP 213 MIN DDveya SBP 213E MIN DD|Yok
 SBP 221E|Land Use Planning|Yok  |Yok
 SBP 222E|Urban Economics|Yok  |Yok
 SBP 222|Şehir Ekonomisi|Yok  |Yok
@@ -7419,12 +7425,16 @@ SBP 261|Fiziksel Çevre Kontrolü|Yok  |Yok
 SBP 262E|Landscape Planning and Design|Yok  |Yok
 SBP 262|Peyzaj Planlaması ve Tasarım|Yok  |Yok
 SBP 263E|Physical Environmental Control|Yok  |Yok
-SBP 311E|Project V|SBP 212 MIN DDveya SBP 212E MIN DDveya SBP 216 MIN DDveya SBP 216E MIN DDveya SBP 218 MIN DDveya SBP 218E MIN DD|Yok
-SBP 311|Proje V|SBP 212 MIN DDveya SBP 212E MIN DDveya SBP 216 MIN DDveya SBP 216E MIN DDveya SBP 218 MIN DDveya SBP 218E MIN DD|Yok
-SBP 312E|Project VI|SBP 311 MIN DDveya SBP 311E MIN DD|Yok
-SBP 312|Proje VI|SBP 311 MIN DDveya SBP 311E MIN DD|Yok
+SBP 311E|Prj.V:Spat.Str.Plan.&amp;Pol.Mak.|SBP 212 MIN DDveya SBP 212E MIN DDveya SBP 216 MIN DDveya SBP 216E MIN DDveya SBP 218 MIN DDveya SBP 218E MIN DD|Yok
+SBP 311|Proje V: Mekân.Plan.&amp;Kent.Gel.|SBP 212 MIN DDveya SBP 212E MIN DDveya SBP 216 MIN DDveya SBP 216E MIN DDveya SBP 218 MIN DDveya SBP 218E MIN DD|Yok
+SBP 312E|Proj.VI:Spatial Plan.in Act.|SBP 311 MIN DDveya SBP 311E MIN DD|Yok
+SBP 312|Prj.VI: Mekan.Geliş.&amp;Eyl.Plan.|SBP 311 MIN DDveya SBP 311E MIN DD|Yok
 SBP 315E|Human Culture &amp; Environment|Yok  |Yok
 SBP 316E|Systms Apprch &amp; Planning Mthds|Yok  |Yok
+SBP 317E|Regional Science and Planning|Yok  |Yok
+SBP 317|Bölge Bilimi ve Planlama|Yok  |Yok
+SBP 318E|Heritage Conservation&amp;Planning|Yok  |Yok
+SBP 318|Koruma ve Planlama|Yok  |Yok
 SBP 321E|Urban Design|Yok  |Yok
 SBP 321|Şehirsel Tasarım|Yok  |Yok
 SBP 322E|Transportation Planning|Yok  |Yok
@@ -7472,8 +7482,38 @@ SBP 375|Üç Boyutlu İfade Teknikleri|Yok  |Yok
 SBP 376E|Highway Engineering &amp; Design|Yok  |Yok
 SBP 377E|Tec.of 3 Dimen.Draw.&amp;Modl.Met.|Yok  |Yok
 SBP 379|Kentsel Mekan ve Kentsel Yaşam|Yok  |Yok
-SBP 411E|Project VII|SBP 312 MIN DDveya SBP 312E MIN DD|Yok
-SBP 411|Proje VII|SBP 312 MIN DDveya SBP 312E MIN DD|Yok
+SBP 4014E|Creative Cities|Yok  |Yok
+SBP 4015E|Disastr Mitigtion in Urbn Plan|Yok  |Yok
+SBP 4016|Göç ve Kent|Yok  |Yok
+SBP 4017E|Univ.Dsgn.for Urban Environm.|Yok  |Yok
+SBP 4017|Kentsel Çev.için Evrensel Tas.|Yok  |Yok
+SBP 4018E|Models &amp; Impl.of Urban Regenr.|Yok  |Yok
+SBP 4018|Kentsel Dönüşüm Mod. &amp; Uyg.|Yok  |Yok
+SBP 4019|Kentsel Kimlik ve İmge|Yok  |Yok
+SBP 4020|Konut Sorunu ve Politikaları|Yok  |Yok
+SBP 4021|Metropolitan Gelişme Dinamikl|Yok  |Yok
+SBP 4022E|Participation in Planning|Yok  |Yok
+SBP 4022|Planlamaya Katılım|Yok  |Yok
+SBP 4023|Sosyal Politika ve Planlama|Yok  |Yok
+SBP 4024|Taşınmaz Mal (Gyrm)Değerlemesi|Yok  |Yok
+SBP 4025E|Comparative Studies ofUrban Pl|Yok  |Yok
+SBP 4026E|Healthy Cities|Yok  |Yok
+SBP 4027E|Large Scale Urban Projects|Yok  |Yok
+SBP 4028E|Natural Hazards &amp; Urban Safety|Yok  |Yok
+SBP 4029E|Other Worlds|Yok  |Yok
+SBP 4030E|Pluralist Planning Approaches|Yok  |Yok
+SBP 4031E|Real Estate Economics|Yok  |Yok
+SBP 4032E|Role of Prof.in Sustainability|Yok  |Yok
+SBP 4033E|Rural Settlements and Problems|Yok  |Yok
+SBP 4034E|Sustainable Plan. and Developm|Yok  |Yok
+SBP 4035E|Systms Apprch &amp; Planning Mthds|Yok  |Yok
+SBP 4036E|Transformation of Urban Systms|Yok  |Yok
+SBP 4037E|Urban Ecology|Yok  |Yok
+SBP 4037|Kentsel Ekoloji|Yok  |Yok
+SBP 4038E|Urban Economic Geography|Yok  |Yok
+SBP 4039E|Urban Geography&amp;Inequalities|Yok  |Yok
+SBP 411E|Project VII: Urban Design|SBP 312 MIN DDveya SBP 312E MIN DD|Yok
+SBP 411|Proje VII: Kentsel Tasarım|SBP 312 MIN DDveya SBP 312E MIN DD|Yok
 SBP 412E|Disastr Mitigtion in Urbn Plan|Yok  |Yok
 SBP 417E|Urban Development Process|Yok  |Yok
 SBP 418E|Participation in Planning|Yok  |Yok
@@ -7512,10 +7552,10 @@ SBP 477E|Tourism and Environment|Yok  |Yok
 SBP 477|Turizm ve Çevre|Yok  |Yok
 SBP 487E|Planning&amp;Dsgn for Urban Space|Yok  |Yok
 SBP 487|Şehirsel Mekan Kurg Pln &amp; Tsrm|Yok  |Yok
-SBP 4902E|Graduation Project|(SBP 411 MIN DDveya SBP 411E MIN DD)ve (SBP 323 MIN DDveya SBP 323E MIN DDveya SBP 321 MIN DDveya SBP 321E MIN DD)ve (SBP 327 MIN DDveya SBP 327E MIN DDveya SBP 343 MIN DDveya SBP 343E MIN DDveya SBP 341 MIN DDveya SBP 341E MIN DD)ve (SBP 331 MIN DDveya SBP 331E MIN DD)ve (SBP 338 MIN DDveya SBP 338E MIN DDveya SBP 332 MIN DDveya SBP 332E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|Yok
-SBP 4902|Diploma Projesi|(SBP 411 MIN DDveya SBP 411E MIN DD)ve (SBP 323 MIN DDveya SBP 323E MIN DDveya SBP 321 MIN DDveya SBP 321E MIN DD)ve (SBP 327 MIN DDveya SBP 327E MIN DDveya SBP 343 MIN DDveya SBP 343E MIN DDveya SBP 341 MIN DDveya SBP 341E MIN DD)ve (SBP 331 MIN DDveya SBP 331E MIN DD)ve (SBP 338 MIN DDveya SBP 338E MIN DDveya SBP 332 MIN DDveya SBP 332E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|Yok
-SBP 492E|Final Project|(SBP 411 MIN DDveya SBP 411E MIN DD)ve (SBP 323 MIN DDveya SBP 323E MIN DDveya SBP 321 MIN DDveya SBP 321E MIN DD)ve (SBP 327 MIN DDveya SBP 327E MIN DDveya SBP 343 MIN DDveya SBP 343E MIN DDveya SBP 341 MIN DDveya SBP 341E MIN DD)ve (SBP 331 MIN DDveya SBP 331E MIN DD)ve (SBP 338 MIN DDveya SBP 338E MIN DDveya SBP 332 MIN DDveya SBP 332E MIN DD) <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
-SBP 492|Bitirme Çalışması|(SBP 411 MIN DDveya SBP 411E MIN DD)ve (SBP 323 MIN DDveya SBP 323E MIN DDveya SBP 321 MIN DDveya SBP 321E MIN DD)ve (SBP 327 MIN DDveya SBP 327E MIN DDveya SBP 343 MIN DDveya SBP 343E MIN DDveya SBP 341 MIN DDveya SBP 341E MIN DD)ve (SBP 331 MIN DDveya SBP 331E MIN DD)ve (SBP 338 MIN DDveya SBP 338E MIN DDveya SBP 332 MIN DDveya SBP 332E MIN DD) <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
+SBP 4902E|Graduation Project|(SBP 411 MIN DDveya SBP 411E MIN DD)ve (SBP 323 MIN DDveya SBP 323E MIN DDveya SBP 321 MIN DDveya SBP 321E MIN DD)ve (SBP 327 MIN DDveya SBP 327E MIN DDveya SBP 343 MIN DDveya SBP 343E MIN DDveya SBP 341 MIN DDveya SBP 341E MIN DD)ve (SBP 331 MIN DDveya SBP 331E MIN DDveya SBP 318 MIN DDveya SBP 318E MIN DD)ve (SBP 245 MIN DDveya SBP 245E MIN DDveya SBP 243 MIN DDveya SBP 243E MIN DDveya SBP 231 MIN DDveya SBP 231E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|Yok
+SBP 4902|Diploma Projesi|(SBP 411 MIN DDveya SBP 411E MIN DD)ve (SBP 323 MIN DDveya SBP 323E MIN DDveya SBP 321 MIN DDveya SBP 321E MIN DD)ve (SBP 327 MIN DDveya SBP 327E MIN DDveya SBP 343 MIN DDveya SBP 343E MIN DDveya SBP 341 MIN DDveya SBP 341E MIN DD)ve (SBP 331 MIN DDveya SBP 331E MIN DDveya SBP 318 MIN DDveya SBP 318E MIN DD)ve (SBP 245 MIN DDveya SBP 245E MIN DDveya SBP 243 MIN DDveya SBP 243E MIN DDveya SBP 231 MIN DDveya SBP 231E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|Yok
+SBP 492E|Final Project|(SBP 411 MIN DDveya SBP 411E MIN DD)ve (SBP 323 MIN DDveya SBP 323E MIN DDveya SBP 321 MIN DDveya SBP 321E MIN DD)ve (SBP 327 MIN DDveya SBP 327E MIN DDveya SBP 343 MIN DDveya SBP 343E MIN DDveya SBP 341 MIN DDveya SBP 341E MIN DD)ve (SBP 331 MIN DDveya SBP 331E MIN DDveya SBP 318 MIN DDveya SBP 318E MIN DD)ve (SBP 245 MIN DDveya SBP 245E MIN DDveya SBP 243 MIN DDveya SBP 243E MIN DDveya SBP 231 MIN DDveya SBP 231E MIN DD) <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
+SBP 492|Bitirme Çalışması|(SBP 411 MIN DDveya SBP 411E MIN DD)ve (SBP 323 MIN DDveya SBP 323E MIN DDveya SBP 321 MIN DDveya SBP 321E MIN DD)ve (SBP 327 MIN DDveya SBP 327E MIN DDveya SBP 343 MIN DDveya SBP 343E MIN DDveya SBP 341 MIN DDveya SBP 341E MIN DD)ve (SBP 331 MIN DDveya SBP 331E MIN DDveya SBP 318 MIN DDveya SBP 318E MIN DD)ve (SBP 245 MIN DDveya SBP 245E MIN DDveya SBP 243 MIN DDveya SBP 243E MIN DDveya SBP 231 MIN DDveya SBP 231E MIN DD) <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 SBP 497E|Rural Settlements and Problems|Yok  |Yok
 SBP 497|Kırsal Yerleşmeler ve Sorunlar|Yok  |Yok
 SES 105|Korrepetisyon I|Yok  |Yok
