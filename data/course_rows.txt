@@ -48,6 +48,7 @@ BIO 112|Genel Biyoloji II|BIO 111 MIN DDveya BIO 111E MIN DDveya BIO 301E MIN DD
 BIO 201E|Understanding Enzymes|BIO 323 MIN DDveya BIO 323E MIN DDveya BIO 215 MIN DDveya BIO 215E MIN DD|Yok
 BIO 207EL|Cell Biology Lab.|BIO 106EL MIN CCveya BIO 112E MIN DD|Yok
 BIO 207E|Cell Biology|BIO 111 MIN DDveya BIO 111E MIN DDveya BIO 105E MIN DD|Yok
+BIO 210E|Mathematics for Biologists|MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 287 MIN DDveya MAT 287E MIN DD|Yok
 BIO 211E|Cell Biology|BIO 111 MIN DDveya BIO 111E MIN DD|Yok
 BIO 212E|Genetics|BIO 111 MIN DDveya BIO 111E MIN DDveya BIO 105E MIN DDveya BIO 105 MIN DD|Yok
 BIO 212|Genetik|BIO 111 MIN DDveya BIO 111E MIN DD|Yok
@@ -63,6 +64,7 @@ BIO 222E|Systematic Biology|BIO 111 MIN DDveya BIO 111E MIN DDveya BIO 105E MIN 
 BIO 222|Sistematik Biyoloji|BIO 111 MIN DDveya BIO 111E MIN DD|Yok
 BIO 224E|Molecular Biology|Yok  |Yok
 BIO 224|Moleküler Biyoloji|Yok  |Yok
+BIO 232E|Organic Chem. for Biologists|KIM 101 MIN DDveya KIM 101E MIN DD|Yok
 BIO 301E|Fundamentals of Biology|Yok  |Yok
 BIO 302E|Fundamentals of Biotechnology|Yok  |Yok
 BIO 303E|Biomaterials|Yok  |Yok
@@ -100,7 +102,7 @@ BIO 412E|Recombinant DNA Technology|BIO 331E MIN DDveya BIO 331 MIN DDveya BIO 3
 BIO 415EL|Molecular Biology Lab.|BIO 207EL MIN CCveya BIO 331E MIN DD|Yok
 BIO 415E|Molecular Biology|BIO 331 MIN DDveya BIO 331E MIN DDveya BIO 317E MIN DD|Yok
 BIO 421E|Transport Phenomena|Yok  |Yok
-BIO 422E|Mathematical Biology|(MAT 271 MIN DDveya MAT 271E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DDveya BIO 106E MIN DD)ve (BIO 112 MIN DDveya BIO 112E MIN DDveya BIO 106E MIN DD)|Yok
+BIO 422E|Mathematical Biology|(MAT 271 MIN DDveya MAT 271E MIN DDveya BIO 210E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)ve (BIO 112 MIN DDveya BIO 112E MIN DDveya BIO 106E MIN DD)|Yok
 BIO 432E|Microbial Physiology|BIO 321 MIN DDveya BIO 321E MIN DDveya BIO 216E MIN DD|Yok
 BIO 441E|Modelling in Biological System|KIM 202 MIN DDveya KIM 202E MIN DDveya KIM 303 MIN DDveya KIM 303E MIN DD|Yok
 BIO 442E|Molecular Immunology|BIO 211 MIN DDveya BIO 211E MIN DDveya BIO 207E MIN DD|Yok
@@ -1689,6 +1691,7 @@ DUI 208E|Cargo&amp;Crew Safety|Yok  |Yok
 DUI 211E|Ship Construction &amp; Stability|Yok  |Yok
 DUI 212E|Cargo Handling and Stowage I|Yok  |Yok
 DUI 213E|Ship Constrct.and Stability|Yok  |Yok
+DUI 214|Astronomi|Yok  |Yok
 DUI 215E|Terrestrial Navigation|Yok  |Yok
 DUI 231EL|Marine Communication Lab.|Yok  |Yok
 DUI 231E|Marine Communication|Yok  |Yok
@@ -2515,7 +2518,7 @@ EUT 454|Geleneksel El Sanatları|Yok  |Yok
 EUT 456E|Fashion Accessories Design|Yok  |Yok
 EUT 456|Moda Aksesuarları Tasarımı|Yok  |Yok
 EUT 460E|Visual Merchndising&amp;Retail Dsn|Yok  |Yok
-EUT 4902E|Graduation Project|EUT 413 MIN DDveya EUT 413E MIN DDveya EUT 411 MIN DDveya EUT 411E MIN DDveya EUT 419E MIN DDve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|Yok
+EUT 4902E|Graduation Project|(EUT 413 MIN DDveya EUT 413E MIN DDveya EUT 411 MIN DDveya EUT 411E MIN DDveya EUT 419E MIN DD)ve (EUT 119 MIN DDveya EUT 119E MIN DD)ve (TES 111 MIN DDveya TES 111E MIN DD)ve (TES 112 MIN DDveya TES 112E MIN DD)ve (MAT 103 MIN DDveya MAT 103E MIN DD)ve (TES 113 MIN DDveya TES 113E MIN DD)ve (MIM 125 MIN DDveya MIM 125E MIN DD)ve DAN 101 MIN DDve ING 112 MIN DDve (TES 122 MIN DDveya TES 122E MIN DD)ve (TES 121 MIN DDveya TES 121E MIN DD)ve (EUT 128 MIN DDveya EUT 128E MIN DD)ve BIL 100E MIN DDve ING 201 MIN DDve (EUT 126 MIN DDveya EUT 126E MIN DD)ve (MIM 126 MIN DDveya MIM 126E MIN DD)ve (EUT 239 MIN DDveya EUT 239E MIN DD)ve (EUT 241 MIN DDveya EUT 241E MIN DD)ve (TES 211 MIN DDveya TES 211E MIN DD)ve (EUT 271 MIN DDveya EUT 271E MIN DD)ve (EUT 204 MIN DDveya EUT 204E MIN DD)ve (EUT 240 MIN DDveya EUT 240E MIN DD)ve (EUT 282 MIN DDveya EUT 282E MIN DD)ve (EUT 272 MIN DDveya EUT 272E MIN DD)ve (EUT 246 MIN DDveya EUT 246E MIN DD)ve (EUT 220 MIN DDveya EUT 220E MIN DD)ve (EUT 206 MIN DDveya EUT 206E MIN DD)ve ders planının ilk 4 yarıyılında bulunan derslerin tamamından başarılı olmak|Yok
 EUT 492E|Graduation Project|EUT 413 MIN DDveya EUT 413E MIN DDveya EUT 411 MIN DDveya EUT 411E MIN DDveya EUT 419E MIN DD <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 EUT 492|Bitirme Çalışması|EUT 413 MIN DDveya EUT 413E MIN DDveya EUT 411 MIN DDveya EUT 411E MIN DDveya EUT 419E MIN DD <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 EUT YLT|Tez Çalışması|Yok  |Yok
@@ -2549,10 +2552,11 @@ FIZ 142|Fizik II Laboratuvarı|Yok  |Yok
 FIZ 201E|Modern Physics|FIZ 102 MIN DDveya FIZ 102E MIN DDveya FIZ 106 MIN DDveya FIZ 106E MIN DD|Yok
 FIZ 201|Modern Fizik|FIZ 102 MIN DDveya FIZ 102E MIN DDveya FIZ 106 MIN DDveya FIZ 106E MIN DD|Yok
 FIZ 202E|Electronics II|FIZ 231E MIN DDveya FIZ 233 MIN DDveya FIZ 233E MIN DD|Yok
+FIZ 210|Matematiksel Yöntemler|MAT 104 MIN DDveya MAT 104E MIN DD|Yok
 FIZ 211E|Physics III|(FIZ 111 MIN DDveya FIZ 111E MIN DDveya FIZ 113 MIN DDveya FIZ 113E MIN DDveya FIZ 101 MIN DDveya FIZ 101E MIN DD)ve (FIZ 132 MIN DDveya FIZ 132E MIN DDveya FIZ 114 MIN DDveya FIZ 114E MIN DDveya FIZ 102 MIN DDveya FIZ 102E MIN DDveya FIZ 106 MIN DDveya FIZ 106E MIN DD)|Yok
 FIZ 211|Fizik III|(FIZ 111 MIN DDveya FIZ 111E MIN DDveya FIZ 113 MIN DDveya FIZ 113E MIN DDveya FIZ 101 MIN DDveya FIZ 101E MIN DD)ve (FIZ 132 MIN DDveya FIZ 132E MIN DDveya FIZ 114 MIN DDveya FIZ 114E MIN DDveya FIZ 102 MIN DDveya FIZ 102E MIN DDveya FIZ 106 MIN DDveya FIZ 106E MIN DD)|Yok
-FIZ 213EL|Electricity &amp; Magnetism Lab.|Yok  |Yok
-FIZ 213|Elektrik ve Manyetizma|FIZ 111 MIN DDveya FIZ 111E MIN DDveya FIZ 114 MIN DDveya FIZ 114E MIN DD|Yok
+FIZ 213EL|General Physics III Laboratory|Yok  |Yok
+FIZ 213|Genel Fizik III|FIZ 111 MIN DDveya FIZ 111E MIN DDveya FIZ 114 MIN DDveya FIZ 114E MIN DD|Yok
 FIZ 214EL|Wave Physics Laboratory|Yok  |Yok
 FIZ 214|Dalgalar Fiziği|FIZ 132 MIN DDveya FIZ 132E MIN DDveya FIZ 213 MIN DDveya FIZ 213E MIN DDveya FIZ 102 MIN DDveya FIZ 102E MIN DDveya FIZ 106 MIN DDveya FIZ 106E MIN DDveya FIZ 101 MIN DDveya FIZ 101E MIN DD|Yok
 FIZ 221E|Physics III Lab.|(FIZ 121E MIN DDveya FIZ 121 MIN DDveya FIZ 101EL MIN DDveya FIZ 101L MIN DD)ve (FIZ 142 MIN DDveya FIZ 142E MIN DDveya FIZ 102EL MIN DDveya FIZ 102L MIN DDveya FIZ 106L MIN DDveya FIZ 106EL MIN DD)|Yok
@@ -2568,16 +2572,17 @@ FIZ 252|Modern Fizik|FIZ 211 MIN DDveya FIZ 211E MIN DDveya FIZ 214 MIN DDveya F
 FIZ 262E|Modern Physics Lab.|FIZ 121 MIN DDveya FIZ 121E MIN DDveya FIZ 101L MIN DDveya FIZ 101EL MIN DDveya FIZ 142 MIN DDveya FIZ 142E MIN DDveya FIZ 102L MIN DDveya FIZ 102EL MIN DDveya FIZ 106L MIN DDveya FIZ 106EL MIN DDveya FIZ 114EL MIN DDveya FIZ 113EL MIN DD|Yok
 FIZ 262|Moden Fizik Lab|FIZ 121 MIN DDveya FIZ 121E MIN DDveya FIZ 101L MIN DDveya FIZ 101EL MIN DDveya FIZ 142 MIN DDveya FIZ 142E MIN DDveya FIZ 102L MIN DDveya FIZ 102EL MIN DDveya FIZ 106L MIN DDveya FIZ 106EL MIN DDveya FIZ 114EL MIN DDveya FIZ 113EL MIN DD|Yok
 FIZ 272E|Computatnl Methods in Physics|BIL 102 MIN DDveya BIL 102CE MIN DDveya BIL 102E MIN DDveya BIL 102FE MIN DDveya BIL 104E MIN DDveya BIL 105E MIN DDveya BIL 106E MIN DDveya BIL 108E MIN DDveya BIL 112E MIN DDveya KIM 219 MIN DDveya KIM 219E MIN DDveya BIL 110 MIN DDveya BIL 110E MIN DDveya BIL 113 MIN DDveya BIL 113E MIN DDveya MAK 104 MIN DDveya MAK 104E MIN DDveya EHB 110 MIN DDveya EHB 110E MIN DDveya KON 110 MIN DDveya KON 110E MIN DDveya MAT 115 MIN DDveya MAT 115E MIN DD|Yok
+FIZ 274|Termodinamik|Yok  |Yok
 FIZ 282E|Analytical Mechanics|(MAT 101E MIN DDveya MAT 101 MIN DDveya MAT 103E MIN DDveya MAT 103 MIN DD)ve (MAT 102E MIN DDveya MAT 102 MIN DDveya MAT 104E MIN DDveya MAT 104 MIN DD)ve (FIZ 111E MIN DDveya FIZ 111 MIN DDveya FIZ 101E MIN DDveya FIZ 101 MIN DDveya FIZ 113 MIN DDveya FIZ 113E MIN DD)|Yok
 FIZ 282|Analitik Mekanik|(MAT 101 MIN DDveya MAT 101E MIN DDveya MAT 103 MIN DDveya MAT 103E MIN DD)ve (MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DD)ve (FIZ 111 MIN DDveya FIZ 111E MIN DDveya FIZ 101 MIN DDveya FIZ 101E MIN DDveya FIZ 113 MIN DDveya FIZ 113E MIN DD)|Yok
-FIZ 284|Klasik Mekanik I|(MAT 101 MIN DDveya MAT 101E MIN DDveya MAT 103 MIN DDveya MAT 103E MIN DDveya MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DD)ve (FIZ 113 MIN DDveya FIZ 113E MIN DDveya FIZ 111 MIN DDveya FIZ 111E MIN DDveya FIZ 101E MIN DDveya FIZ 101 MIN DD)|Yok
+FIZ 284|Klasik Mekanik I|(MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 188 MIN DDveya MAT 188E MIN DD)ve (FIZ 113 MIN DDveya FIZ 113E MIN DDveya FIZ 111 MIN DDveya FIZ 111E MIN DDveya FIZ 101E MIN DDveya FIZ 101 MIN DD)|Yok
 FIZ 292E|Computer Aided Dsgn &amp; Modellng|Yok  |Yok
 FIZ 310|İstatistiksel Fizik &amp; Termodnk|FIZ 252 MIN DDveya FIZ 252E MIN DDveya FIZ 201 MIN DDveya FIZ 201E MIN DDveya FIZ 313 MIN DDveya FIZ 313E MIN DD|Yok
 FIZ 311E|Quantum Mechanics I|(FIZ 252E MIN DDveya FIZ 252 MIN DDveya FIZ 201 MIN DDveya FIZ 201E MIN DD)ve (MAT 261 MIN DDveya MAT 261E MIN DDveya MAT 281 MIN DDveya MAT 281E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)|Yok
 FIZ 311|Kuantum Mekaniği I|(FIZ 252 MIN DDveya FIZ 252E MIN DDveya FIZ 201 MIN DDveya FIZ 201E MIN DD)ve (MAT 261 MIN DDveya MAT 261E MIN DDveya MAT 281 MIN DDveya MAT 281E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)|Yok
 FIZ 313EL|Modern Physics Laboratory|FIZ 142 MIN DDveya FIZ 142E MIN DDveya FIZ 213EL MIN DDveya FIZ 102L MIN DDveya FIZ 102EL MIN DDveya FIZ 106L MIN DDveya FIZ 106EL MIN DD|Yok
 FIZ 313|Modern Fizik|FIZ 211 MIN DDveya FIZ 211E MIN DDveya FIZ 214 MIN DDveya FIZ 214E MIN DD|Yok
-FIZ 314|Kuantum Mekaniği I|(FIZ 252 MIN DDveya FIZ 252 MIN DDveya FIZ 313 MIN DDveya FIZ 313E MIN DDveya FIZ 201 MIN DDveya FIZ 201E MIN DD)ve (MAT 281 MIN DDveya MAT 281E MIN DDveya MAT 261 MIN DDveya MAT 261E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)|Yok
+FIZ 314|Kuantum Mekaniği I|(FIZ 252 MIN DDveya FIZ 252 MIN DDveya FIZ 313 MIN DDveya FIZ 313E MIN DDveya FIZ 201 MIN DDveya FIZ 201E MIN DD)ve (MAT 281 MIN DDveya MAT 281E MIN DDveya MAT 261 MIN DDveya MAT 261E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DDveya MAT 141 MIN DDveya MAT 141E MIN DDveya MAT 143 MIN DDveya MAT 143E MIN DD)|Yok
 FIZ 321E|Mathematical Mthds in Physc I|(MAT 101 MIN DDveya MAT 101E MIN DDveya MAT 103 MIN DDveya MAT 103E MIN DD)ve (MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DD)ve (MAT 201 MIN DDveya MAT 201E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)|Yok
 FIZ 321|Fizikte Matematiksel Yönteml I|(MAT 101 MIN DDveya MAT 101E MIN DDveya MAT 103 MIN DDveya MAT 103E MIN DD)ve (MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DD)ve (MAT 201 MIN DDveya MAT 201E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)|Yok
 FIZ 331EL|Stat. Phy.&amp;Thermodynamics Lab.|Yok  |Yok
@@ -2665,6 +2670,7 @@ FIZ 494E|General Relativity|FIZ 252 MIN DDveya FIZ 252E MIN DDveya FIZ 201 MIN D
 FIZ 494|Genel Relativite|FIZ 252 MIN DDveya FIZ 252E MIN DDveya FIZ 201 MIN DDveya FIZ 201E MIN DDveya FIZ 313 MIN DDveya FIZ 313E MIN DD|Yok
 FIZ 496E|Nuclear Physics II|FIZ 252 MIN DDveya FIZ 252E MIN DDveya FIZ 201 MIN DDveya FIZ 201E MIN DDveya FIZ 313 MIN DDveya FIZ 313E MIN DD|Yok
 FIZ 496|Nükleer Fizik II|FIZ 252 MIN DDveya FIZ 252E MIN DDveya FIZ 201 MIN DDveya FIZ 201E MIN DDveya FIZ 313 MIN DDveya FIZ 313E MIN DD|Yok
+FIZ YLT|Tez Çalışması|Yok  |Yok
 GED 001|Introduction to Philosophy|Yok  |Yok
 GED 037|Knowledge,Language and Logic|Yok  |Yok
 GED 101|Pers.on Hist. Society &amp; Hum. D|Yok  |Yok
@@ -4388,6 +4394,7 @@ KIM 252|Kimyasal Termodinamik|(MAT 103 MIN DDveya MAT 103E MIN DDveya MAT 101 MI
 KIM 262E|Int. Quantum Chemistry|(KIM 111 MIN DDveya KIM 111E MIN DD)ve (FIZ 101 MIN DDveya FIZ 101E MIN DD)ve (MAT 201 MIN DDveya MAT 201E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD)|Yok
 KIM 263E|Nuclear Chemistry|Yok  |Yok
 KIM 263|Nükleer Kimya|Yok  |Yok
+KIM 271|Kimyacılar için Matematik|MAT 104 MIN DDveya MAT 104E MIN DD|Yok
 KIM 301E|Physical Chemistry|KIM 101 MIN DDveya KIM 101E MIN DD|Yok
 KIM 301|Fiziksel Kimya|KIM 101 MIN DDveya KIM 101E MIN DD|Yok
 KIM 303E|Organic Chemistry I|KIM 101 MIN DDveya KIM 101E MIN DD|Yok
@@ -4473,6 +4480,7 @@ KIM 4901|Araştırma Projesi I|(KIM 231L MIN DDveya KIM 231EL MIN DD)ve (KIM 311
 KIM 4902|Araştırma Projesi II|KIM 4901 MIN BBveya KIM 4901E MIN BB|Yok
 KIM 492E|Graduation Project| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 KIM 492|Bitirme Çalışması| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
+KIM YLT|Tez Çalışması|Yok  |Yok
 KMM 102E|Intr. to Comp.Prog.in Python|Yok  |Yok
 KMM 111|Kimya Müh. Giriş ve Etik|Yok  |Yok
 KMM 112E|Intro.to Chemical Eng.|Yok  |Yok
@@ -5208,6 +5216,7 @@ MAT 148|Ayrık Matematik|Yok  |Yok
 MAT 175E|Abstract Mathematics|Yok  |Yok
 MAT 175|Soyut Matematik|Yok  |Yok
 MAT 185|Matematik I|Yok  |Yok
+MAT 186|Matematik II|MAT 101 MIN DDveya MAT 101E MIN DDveya MAT 103 MIN DDveya MAT 103E MIN DDveya MAT 112 MIN DDveya MAT 112E MIN DDveya MAT 187 MIN DDveya MAT 187E MIN DDveya MAT 185 MIN DDveya MAT 185E MIN DD|Yok
 MAT 187|Matematik I|Yok  |Yok
 MAT 188|Matematik II|MAT 101 MIN DDveya MAT 101E MIN DDveya MAT 103 MIN DDveya MAT 103E MIN DDveya MAT 112 MIN DDveya MAT 112E MIN DDveya MAT 187 MIN DDveya MAT 187E MIN DD|Yok
 MAT 201E|Differential Equations|MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DD|Yok
@@ -5226,8 +5235,8 @@ MAT 214|Matematik IV|MAT 213 MIN DDveya MAT 213E MIN DDveya MAT 104 MIN DDveya M
 MAT 221E|Probability Theory|Yok  |Yok
 MAT 221|Olasılık Teorisi|Yok  |Yok
 MAT 226|Veri Yapıları|BIL 104E MIN DDveya BIL 110E MIN DDveya MAT 115 MIN DDveya MAT 115E MIN DDveya BIL 100E MIN DDveya BIL 112E MIN DDveya BIL 113E MIN DD|Yok
-MAT 232E|Differential Equations|MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 112 MIN DDveya MAT 112E MIN DDveya MAT 188 MIN DDveya MAT 188E MIN DD|Yok
-MAT 232|Diferansiyel Denklemler|MAT 112 MIN DDveya MAT 112E MIN DDveya MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 188 MIN DDveya MAT 188E MIN DD|Yok
+MAT 232E|Differential Equations|MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 112 MIN DDveya MAT 112E MIN DDveya MAT 188 MIN DDveya MAT 188E MIN DDveya MAT 186 MIN DDveya MAT 186E MIN DD|Yok
+MAT 232|Diferansiyel Denklemler|MAT 112 MIN DDveya MAT 112E MIN DDveya MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 188 MIN DDveya MAT 188E MIN DDveya MAT 186 MIN DDveya MAT 186E MIN DD|Yok
 MAT 234|Kısmi Diferansiyel Denklemler|MAT 201 MIN DDveya MAT 201E MIN DDveya MAT 232 MIN DDveya MAT 232E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD|Yok
 MAT 242E|Statistics|MAT 221 MIN DDveya MAT 221E MIN DD|Yok
 MAT 242|İstatistik|MAT 221 MIN DDveya MAT 221E MIN DD|Yok
@@ -5239,14 +5248,14 @@ MAT 263E|Computational Linear Algebra|MAT 143 MIN DDveya MAT 143E MIN DDveya MAT
 MAT 264E|Computational  Mathematics|MAT 263 MIN DDveya MAT 263E MIN DDveya MAT 142 MIN DDveya MAT 142E MIN DDveya MAT 202 MIN DDveya MAT 202E MIN DD|Yok
 MAT 271E|Probability and Statistics|Yok  |Yok
 MAT 271|Olasılık ve İstatistik|Yok  |Yok
-MAT 272E|Advanced Mathematics|MAT 188 MIN DDveya MAT 188E MIN DDveya MAT 213 MIN DDveya MAT 213E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 102 MIN DDveya MAT 102E MIN DD|Yok
+MAT 272E|Advanced Mathematics|MAT 188 MIN DDveya MAT 188E MIN DDveya MAT 213 MIN DDveya MAT 213E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 186 MIN DDveya MAT 186E MIN DD|Yok
 MAT 281E|Linear Algebra and Applicat.|Yok  |Yok
 MAT 281|Lineer Cebir ve Uygulamaları|Yok  |Yok
-MAT 287|Matematik III|MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 188 MIN DDveya MAT 188E MIN DDveya MAT 211 MIN DDveya MAT 211E MIN DDveya MAT 213 MIN DDveya MAT 213E MIN DD|Yok
+MAT 287|Matematik III|MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 188 MIN DDveya MAT 188E MIN DDveya MAT 211 MIN DDveya MAT 211E MIN DDveya MAT 213 MIN DDveya MAT 213E MIN DDveya MAT 186 MIN DDveya MAT 186E MIN DD|Yok
 MAT 288E|Real Analysis I|MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DDveya MAT 188 MIN DDveya MAT 211 MIN DDveya MAT 188E MIN DDveya MAT 213 MIN DDveya MAT 211E MIN DDveya MAT 213E MIN DD|Yok
 MAT 291E|Statistics|Yok  |Yok
 MAT 291|İstatistik|Yok  |Yok
-MAT 303E|Dynamics|(MAT 101 MIN DDveya MAT 101E MIN DDveya MAT 103 MIN DDveya MAT 103E MIN DDveya MAT 111 MIN DDveya MAT 111E MIN DDveya MAT 187 MIN DDveya MAT 187E MIN DD)ve (FIZ 101 MIN DDveya FIZ 101E MIN DD)|Yok
+MAT 303E|Dynamics|(MAT 101 MIN DDveya MAT 101E MIN DDveya MAT 103 MIN DDveya MAT 103E MIN DDveya MAT 111 MIN DDveya MAT 111E MIN DDveya MAT 185 MIN DDveya MAT 185E MIN DDveya MAT 187 MIN DDveya MAT 187E MIN DD)ve (FIZ 101 MIN DDveya FIZ 101E MIN DD)|Yok
 MAT 310|Briç|Yok  |Yok
 MAT 322E|Algebra|MAT 175 MIN DDveya MAT 175E MIN DD|Yok
 MAT 324|Cebir|MAT 175 MIN DDveya MAT 175E MIN DD|Yok
