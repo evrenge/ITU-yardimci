@@ -589,7 +589,7 @@
 20861|GEO 312E|Çevrimiçi/Online|Hande  Demirel|----|Salı |1430/1729 |---- |70|0|GEO, GEOE
 20862|GEO 317|Çevrimiçi/Online|Ahmet Özgür Doğru|----|Salı |1130/1429 |---- |60|0|GEO
 20863|GEO 317E|Çevrimiçi/Online|Uğur  Algancı|----|Salı |1130/1429 |---- |60|0|GEO, GEOE
-20864|GEO 382||--|INBINB|Cuma Cuma |0830/1129 1430/1729 |--- --- |200|0|GEO
+20864|GEO 382||--|INBINB|Cuma Cuma |0830/1129 1430/1729 |--- --- |200|0|GEO, JDF
 20865|BIL 113E|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Cuma |1430/1729 |---- |100|0|ECNE
 20866|ECN 102E||Mete Han Yağmur|MED|Cuma |0830/1229 |A13 |100|0|ECNE, ECNM
 20868|ECN 105E||Mete Han Yağmur|INB|Çarşamba |0830/1229 |B101 |100|0|ECNE, ECNM
@@ -599,10 +599,10 @@
 20872|ECN 210E||Yusuf  Aytürk|MED|Perşembe |0830/1129 |A35 |100|0|ECNE
 20873|ECN 302E||Ayşegül  Kayaoğlu Yılmaz|EEB|Çarşamba |0830/1229 |5102 |100|0|ECNE, ECNM
 20874|ECN 308E||Shourjo  Chakravorty, Çiçek  Ersoy Kekevi|MED|Perşembe |0830/1129 |A36 |100|0|ECNE
-20875|GEO 382||Nebiye  Musaoğlu|INBINB|Cuma Cuma |0830/1129 1430/1729 |A101 A101 |0|0|GEO
-20876|GEO 382||Dursun Zafer Şeker|INBINB|Cuma Cuma |0830/1129 1430/1729 |A105 A105 |0|0|GEO
-20877|GEO 382||Zaide  Duran|INBINB|Cuma Cuma |0830/1129 1430/1729 |A201 A201 |0|0|GEO
-20878|GEO 382||Orhan  Akyılmaz|INBINB|Cuma Cuma |0830/1129 1430/1729 |A301 A301 |0|0|GEO
+20875|GEO 382||Nebiye  Musaoğlu|INBINB|Cuma Cuma |0830/1129 1430/1729 |A101 A101 |0|0|GEO, JDF
+20876|GEO 382||Dursun Zafer Şeker|INBINB|Cuma Cuma |0830/1129 1430/1729 |A105 A105 |0|0|GEO, JDF
+20877|GEO 382||Zaide  Duran|INBINB|Cuma Cuma |0830/1129 1430/1729 |A201 A201 |0|0|GEO, JDF
+20878|GEO 382||Orhan  Akyılmaz|INBINB|Cuma Cuma |0830/1129 1430/1729 |A301 A301 |0|0|GEO, JDF
 20879|ECN 312E||Serdar  Altay|MED|Cuma |1430/1729 |A13 |100|0|ECNE, ECNM
 20880|GEO 382E||--|INBINB|Cuma Cuma |0830/1129 1430/1729 |--- --- |200|0|GEOE
 20881|ECN 314E||Resul  Aydemir|MDB|Salı |1130/1429 |A101 |100|0|ECNE
@@ -683,7 +683,6 @@
 20992|CEV 202||İsmail  Toröz, Börte  Köse|INB|Pazartesi |0930/1229 |B305 |40|0|CEV
 20994|CEV 202E||Tuğba  Ölmez Hancı, Serdar  Doğruel|INB|Pazartesi |0930/1229 |B307 |40|0|CEV, CEVE
 20996|CEV 202E||Onur Yılmaz Özcan, Derya Yüksel İmer|INB|Perşembe |0930/1229 |B307 |40|0|CEV, CEVE
-21002|CEV 202EL||Tuğba  Ölmez Hancı, Derya Yüksel İmer|INB|Perşembe |1530/1729 |--- |25|0|CEVE
 21004|CEV 202EL||Serdar  Doğruel|INB|Salı |1230/1429 |--- |25|0|CEVE
 21006|CEV 202EL||Derya Yüksel İmer|INB|Cuma |1030/1229 |--- |25|0|CEVE
 21010|CEV 202L||Serdar  Doğruel|INB|Pazartesi |1330/1529 |--- |25|0|CEV
@@ -839,7 +838,7 @@
 21172|END 339E|Çevrimiçi/Online|Ayşe Elvan  Bayraktaroğlu|----|Salı |0830/1129 |---- |45|0|END, ENDE, ISL, ISLE
 21173|END 344|Çevrimiçi/Online|Cahit Ali Bayraktar|----|Salı |1430/1729 |---- |40|0|END, IML
 21174|END 374|Çevrimiçi/Online|Cahit Ali Bayraktar|----|Salı |1130/1429 |---- |40|0|END
-21175|END 381E|Çevrimiçi/Online|Murat  Durucu|----|Cuma |0930/1229 |---- |50|0|END, ENDE
+21175|END 381E|Çevrimiçi/Online|Murat  Durucu|----|Perşembe |1430/1729 |---- |50|0|END, ENDE
 21176|END 382|Çevrimiçi/Online|Hüsnü Bülent Cerit|----|Cuma |0930/1229 |---- |60|0|END
 21177|END 382E|Çevrimiçi/Online|Esra  Baş|----|Pazartesi |0830/1129 |---- |70|0|END, ENDE
 21178|END 412||Seçkin  Polat|MED|Çarşamba |1230/1529 |A34 |85|0|END
@@ -856,8 +855,8 @@
 21189|KIM 102E||Özgül  Sağlam|FEB|Pazartesi |0830/1129 |D206 |40|0|KIMM, PET, PETE
 21190|KIM 102EL||Özgül  Sağlam|FEB|Perşembe |1230/1429 |LAB-E |40|0|PETE
 21191|KIM 102EL||Ozan Sanlı Şentürk|FEB|Perşembe |1230/1429 |LAB-F |40|0|PETE
-21192|KIM 104||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|FEB|Çarşamba |1230/1529 |D106 |45|0|GID, KIMM, KMM
-21193|KIM 104||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|FEB|Çarşamba |1230/1529 |D206 |45|0|GID, KIMM, KMM
+21192|KIM 104||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|KMB|Çarşamba |1230/1529 |D103 |45|0|GID, KIMM, KMM
+21193|KIM 104||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|KMB|Çarşamba |1230/1529 |D104 |45|0|GID, KIMM, KMM
 21195|KIM 104||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|FEB|Çarşamba |1230/1529 |D105 |45|0|GID, KIMM, KMM
 21196|KIM 104L||Nilgün  Kızılcan, Yeşim  Gürsel|FEB|Pazartesi |1330/1529 |LAB-D |60|0|GID, KMM
 21197|KIM 104L||Hacer Ayşen Önen, Okan  Sirkecioğlu|FEB|Pazartesi |1530/1729 |LAB-D |60|0|GID, KMM
@@ -940,7 +939,7 @@
 21274|KIM 436|Çevrimiçi/Online|Birsen  Öztürk|----|Salı |1430/1729 |---- |20|0|KIM, KIMM
 21275|END 482E|Çevrimiçi/Online|Şeyda  Serdar Asan|----|Pazartesi |1130/1429 |---- |40|0|END, ENDE
 21276|KIM 471||Ayşe  Özdemir|FEB|Pazartesi |1130/1429 |D105 |30|0|KIM, KIMM
-21277|KIM 472E||Belkız  Ustamehmetoğlu|FEBFEB|Perşembe Perşembe |0830/1029 1030/1229 |D201 D201 |0|0|KIM, KIMM
+21277|KIM 472E||Belkız  Ustamehmetoğlu|FEB|Perşembe |0830/1129 |D201 |0|0|KIM, KIMM
 21278|KIM 473E||Turan  Öztürk|FEB|Çarşamba |0830/1129 |D201 |35|0|KIM
 21279|KIM 481E||Demet  Çolak|FEB|Pazartesi |1430/1729 |D205 |30|0|KIM
 21280|KIM 482E||Gürkan  Hızal|FEB|Çarşamba |1230/1529 |D101 |40|0|KIM
@@ -1078,7 +1077,7 @@
 21425|BIO 492E|Çevrimiçi/Online|Bülent  Balta|----|---- |/ |---- |100|0|BIO, BIOE
 21426|BIO 451E|Çevrimiçi/Online|Börte  Köse|----|Salı Cuma |1330/1429 1030/1229 |---- |40|0|BIO, BIOE
 21428|BIO 490E|Çevrimiçi/Online|Ceren  Çıracı|----|Cuma |1430/1729 |---- |40|0|BIO, BIOE
-21429|FIZ 314E||Haluk  Özbek|FEBFEBFEB|Pazartesi Çarşamba Cuma |0830/1029 0830/1029 0830/0929 |D104 D202 D202 |75|0|FIZ
+21429|FIZ 314E||Haluk  Özbek|FEBFEBFEB|Pazartesi Çarşamba Cuma |0830/1029 0830/1029 0830/0929 |D104 D202 D202 |75|0|FIZ, FIZE, FIZM
 21430|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|FEB|Çarşamba |1230/1529 |D102 |80|0|BIO, BIOE
 21431|BIO 106E||Bülent  Balta, Börte  Köse|MEDMED|Salı Perşembe |0830/1029 1230/1329 |A32 A36 |90|0|BIO, BIOE, BIOM
 21432|FIZ 321E||Ali  Yıldız|FEBFEBFEB|Salı Perşembe Cuma |0830/1029 0830/1029 0930/1029 |D105 D103 D102 |75|0|FIZ, FIZE
@@ -1180,7 +1179,7 @@
 21544|BLG 242E||Ali  Çakmak|EEB|Cuma |1030/1229 |5204 |60|0|BLG, BLGE
 21545|INS 494E||İsmail  Duranyıldız|INB|Çarşamba |1230/1529 |A104 |50|0|AIN, INS, INSE
 21546|BLG 242E||İlkay  Öksüz|EEB|Cuma |1400/1559 |5304 |60|0|BLG, BLGE
-21547|BLG 242E||İlkay  Öksüz|EEB|Cuma |1600/1759 |--- |0|0|BLG, BLGE
+21547|BLG 242E||İlkay  Öksüz|EEB|Perşembe |1330/1529 |--- |0|0|BLG, BLGE
 21548|INS 499E||Mehmet Cüneyd Demirel|INB|Perşembe |0830/1129 |A305 |50|0|INS, INSE
 21549|BLG 336E||İlkay  Öksüz|EEB|Salı |0830/1129 |6309 |90|0|BLG, BLGE, YZVE
 21550|MAT 202E|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Çarşamba |0830/1129 |---- |60|0|CEV, CEVE, INS, INSE
@@ -1757,7 +1756,7 @@
 22127|MAK 4079||Mert  Gür|MKB|Cuma |0830/1129 |D360 |50|0|MAK
 22128|MAK 4040||Yakup Erhan Böke|MKB|Perşembe |1330/1629 |D368A |50|0|MAK
 22129|CAB 160||Osman  Kırklıkçı|TMB|Pazartesi |1330/1529 |--- |5|0|CGM4, CGM6, CGM7, CGM8, MTR, MUT, MUZ, MZT, SES
-22130|MEK 205||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MKB|Pazartesi |0930/1229 |D368A |100|0|END, IML, ISL, MAKM
+22130|MEK 205||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MKB|Salı |1430/1729 |D331 |100|0|END, IML, ISL, MAKM
 22131|CAB 160||Sarper  Eroğlu|TMB|Pazartesi |1330/1529 |--- |6|0|CGM4, CGM6, CGM7, CGM8, MTR, MUT, MUZ, MZT, SES
 22132|MEK 205E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MKB|Perşembe |0830/1129 |A363 |100|0|END, ENDE, IMLE, ISL, ISLE
 22133|MEK 207||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MKBMKB|Pazartesi Salı |1330/1529 1430/1729 |D368A D368A |100|0|IML, MAKM
@@ -1789,7 +1788,7 @@
 22161|CAB 194||Ünal  Yürük|TMB|Pazartesi |1330/1529 |--- |5|0|MUZ, THO
 22162|ICM 449E||Ervin  Garip|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|ICM
 22163|CAB 196||Cenk  Öztürk|TMB|Pazartesi |1330/1529 |--- |5|0|MTR, MUT, MUZ, MZT
-22164|ICM 449E||--|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |0|0|ICM
+22164|ICM 449E||Ethem  Gürer|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|ICM
 22165|ICM 449E||Sema  Yalçıntaş|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|ICM
 22166|CAB 2014||Zeynep  Barut|TMB|Pazartesi |1530/1729 |--- |5|0|MTR, MUT, MUZ, MZT
 22167|ICM 408E||Seniye Banu Garip|MMB|Salı |1030/1229 |--- |80|0|ICM
@@ -1835,7 +1834,7 @@
 22210|CAB 380||Serhat Tansu Altuğ|TMB|Çarşamba |1030/1229 |--- |5|0|CGM6, CGM7, CGM8, MTR
 22211|CAB 386||Tufan  Kurdoğlu|TMB|Çarşamba |1030/1229 |--- |5|0|CGM2, CGM6, CGM7, CGM8, MTR
 22212|CAB 396||Gülyar  Say|TMB|Çarşamba |1030/1229 |--- |5|0|MTR
-22213|CAB 4102||İbragım  Orazov|TMB|Çarşamba |1330/1529 |--- |5|0|MTR
+22213|CAB 4102||İbragım  Orazov|TMB|Perşembe |1330/1529 |--- |5|0|MTR
 22214|CAB 452||Ayşegül  Kostak Toksoy|TMB|Çarşamba |1330/1529 |--- |5|0|CGM3, CGM6, CGM7, CGM8, MTR, SES
 22215|CAB 452||Safinaz  Rizeli|TMB|Çarşamba |1330/1529 |--- |5|0|CGM3, CGM6, CGM7, CGM8, MTR, SES
 22216|CAB 454||Birol  Yayla|TMB|Çarşamba |1330/1529 |--- |5|0|CGM6, CGM7, CGM8, MTR, SES
@@ -1884,7 +1883,7 @@
 22261|MTO 4902||Ahmet Duran Şahin|UUB|---- |/ |--- |500|0|MTO
 22262|MTO 460E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|UUB|Perşembe |1430/1729 |D209 |10|0|MTO, MTOE
 22263|ETK 101||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|UUB|Çarşamba |1430/1529 |D210 |70|0|MTO
-22264|TEK 116E||İkilem  Göcek, Meltem  Yanılmaz|MKB|Perşembe |0830/1129 |D374 |35|0|TEKE
+22264|TEK 116E||İkilem  Göcek, Meltem  Yanılmaz|MKB|Çarşamba |1230/1529 |D374 |35|0|TEKE
 22265|TEK 116E||Alper  Gürarslan|MKB|Perşembe |0830/1129 |D360 |35|0|TEKE
 22266|MTO 214E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|UUBUUB|Pazartesi Salı |1130/1329 1230/1429 |D108 D108 |35|0|MTO, MTOE
 22267|DAN 102||Nazan  Okur|MKB|Çarşamba |1530/1729 |--- |100|0|TEK, TEKE
@@ -1929,7 +1928,7 @@
 22306|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MKB|Cuma |0830/1129 |D380A |45|0|TEK, TEKE
 22307|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MKB|Çarşamba |0830/1129 |D361B |45|0|TEK, TEKE
 22308|CEV 243E||Umut Kıvanç Şahin|MKB|Pazartesi |0830/1129 |D357 |30|0|TEK, TEKE
-22309|TEK 354E||Berdan  Kalav|MKB|Pazartesi |0830/1129 |D380B |30|0|TEK, TEKE
+22309|TEK 354E||Berdan  Kalav|MKB|Perşembe |1330/1629 |D351 |30|0|TEK, TEKE
 22310|TEK 414E||Ali  Kılıç|MKB|Perşembe |1330/1629 |D380A |30|0|TEK, TEKE
 22311|TEK 418E||İpek  Yalçın Eniş|MKB|Perşembe |0830/1129 |D380A |30|0|TEK, TEKE
 22312|TEK 419E||Hande  Sezgin|MKB|Cuma |0830/1129 |D381B |30|0|TEK, TEKE
@@ -1995,15 +1994,15 @@
 22374|BIL 113E|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Perşembe |0830/1129 |---- |65|0|ISL, ISLE
 22375|DAN 102|Çevrimiçi/Online|Derya  Karakaş, Kaya  Tokmakçıoğlu|----|Çarşamba |1530/1729 |---- |300|0|ISL, ISLE
 22376|BUS 112||Ayşe Aylin Bayar|ISB|Pazartesi |0930/1229 |--- |35|0|SEK, SIS
-22377|BUS 102||Çiçek  Ersoy Kekevi|ISB|Salı |1330/1629 |--- |35|0|SIS
+22377|BUS 102||Çiçek  Ersoy Kekevi|KMB|Salı |1330/1629 |D205 |35|0|SIS
 22379|MTH 106||Nalan  Antar|FEB|Salı |0830/1129 |--- |40|0|SEK, SIS
 22380|ESL 102||Şadiye  Saraç|ISB|Cuma |1400/1659 |--- |20|0|SEK, SIS
-22382|BUS 311||Elif  Karaosmanoğlu|ISB|Salı |0930/1229 |--- |35|0|SIS
+22382|BUS 311||Elif  Karaosmanoğlu|GDB|Salı |0930/1229 |D304 |35|0|SIS
 22383|STI 102||Tolga  Kaya|ISB|Perşembe |0930/1229 |--- |35|0|SEK, SIS
 22384|BUS 207||Cumhur Enis Ekinci|ISB|Çarşamba |0930/1229 |--- |35|0|SIS
 22385|BUS 209||Tuncay  Özcan|ISB|Pazartesi |1330/1629 |--- |35|0|SIS
-22386|BUS 202||Oktay  Taş|ISB|Salı |1330/1629 |--- |15|0|SIS
-22387|BUS 315||Ulaş  Baysal|ISB|Cuma |1330/1629 |--- |15|0|SIS
+22386|BUS 202||Oktay  Taş|MED|Salı |1330/1629 |B211 |15|0|SIS
+22387|BUS 315||Ulaş  Baysal|MED|Cuma |1330/1629 |B211 |15|0|SIS
 22388|BUS 322||İdil Vedia Evcimen|ISB|Perşembe |1330/1629 |--- |15|0|SIS
 22389|DAN 102|Çevrimiçi/Online|Ömer Faruk Beyca|----|Çarşamba |1530/1729 |---- |300|0|END, ENDE
 22390|MET 435||Özgül  Keleş|KMB|Çarşamba |0830/1029 |D301 |20|0|MET
@@ -2200,7 +2199,7 @@
 22597|GEM 424E||Ahmet  Ergin|GDB|Pazartesi |1530/1729 |D308 |0|0|GEM, GEME, GEMK, GEMM
 22598|GEM 418E||Metin  Taylan|GDB|Pazartesi |1530/1729 |410 |25|0|GEM, GEME, GEMK, GEMM
 22599|GEM 426E||Devrim Bülent Danışman|GDB|Pazartesi |1530/1729 |D309 |25|0|GEM, GEME, GEMK
-22600|GEM 4902||Ömer  Gören, Ahmet  Ergin, Barış  Barlas, Devrim Bülent Danışman, Ertekin  Bayraktarkatal, Osman Azmi Özsoysal, Selma  Ergin, Uğur Oral Ünal, Yalçın  Ünsan, İsmail  Yalçın|GDBGDB|Çarşamba Perşembe |1030/1329 1630/1929 |--- --- |0|0|GEM
+22600|GEM 4902||Ömer  Gören, Ahmet  Ergin, Barış  Barlas, Devrim Bülent Danışman, Ertekin  Bayraktarkatal, Osman Azmi Özsoysal, Selma  Ergin, Uğur Oral Ünal, Yalçın  Ünsan, İsmail  Yalçın|GDBGDB|Çarşamba Perşembe |1030/1329 1630/1929 |--- --- |80|0|GEM
 22602|GEM 422E||Emin  Korkut|GDB|Çarşamba |1030/1229 |R402 |10|0|GEME, GEMK
 22603|GEM 438E||Metin  Taylan|GDB|Çarşamba |0830/1029 |D303 |25|0|GEM, GEME, GEMK
 22604|GEM 426||Ömer  Gören|GDB|Cuma |1030/1229 |D308 |25|0|GEM
@@ -2255,7 +2254,7 @@
 22658|MAT 271||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MDB|Pazartesi |0830/1129 |B208 |50|0|MAD
 22659|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|DZB|Cuma |0830/1129 |--- |45|0|DUI
 22660|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|DZB|Cumartesi |1430/1729 |--- |45|0|DUI
-22661|DFH 112||Yusuf Nejat Koçar|DZB|Cuma |1500/1759 |--- |0|0|DUI, GMI
+22661|DFH 112||Yusuf Nejat Koçar|DZB|Cuma |1500/1759 |--- |120|0|DUI, GMI
 22662|DFH 172E||Halime Ceren Göktaş|DZB|Cuma |0830/1029 |--- |30|0|DUI
 22663|DFH 172E||Halime Ceren Göktaş|DZB|Cuma |1030/1229 |--- |30|0|DUI
 22664|DFH 172E||Halime Ceren Göktaş|DZB|Cuma |1330/1529 |--- |25|0|DUI
@@ -2497,19 +2496,19 @@
 22944|EHB 211||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |--- |160|0|EHB, ELE, ELK, KOM, MKN, TEL
 22945|EHB 211||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |2104 |0|0|EHB, ELE, ELK, KOM, MKN, TEL
 22946|EHB 211||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |2106 |0|0|EHB, ELE, ELK, KOM, MKN, TEL
-22947|MAT 202||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |--- |140|0|EHB, ELE, ELH, ELK, KOM, KON, TEL
-22948|MAT 202||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |2102 |0|0|EHB, ELE, ELH, ELK, KOM, KON, TEL
+22947|MAT 202||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |--- |140|0|EHB, ELE, ELH, ELK, KOM, TEL
+22948|MAT 202||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |2102 |0|0|EHB, ELE, ELH, ELK, KOM, TEL
 22949|EHB 211E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |4102 |70|0|EHB, EHBE, ELE, ELK, ELKE, KOM, KOME, TEL
-22950|MAT 202||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |2104 |0|0|EHB, ELE, ELH, ELK, KOM, KON, TEL
-22951|MAT 202E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |--- |140|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
-22952|MAT 202E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |2106 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
-22953|MAT 202E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |4102 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
+22950|MAT 202||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |2104 |0|0|EHB, ELE, ELH, ELK, KOM, TEL
+22951|MAT 202E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |--- |140|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, TEL
+22952|MAT 202E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |2106 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, TEL
+22953|MAT 202E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Salı |1230/1529 |4102 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, TEL
 22954|EHB 212||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |--- |280|0|EHB, ELE, ELH, ELK, KOM, TEL
-22955|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |--- |180|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
-22956|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |5203 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
-22957|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |5205 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
+22955|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |--- |180|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, TEL
+22956|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |5203 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, TEL
+22957|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |5205 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, TEL
 22958|EHB 212||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |0830/1129 |2106 |0|0|EHB, ELE, ELH, ELK, KOM, TEL
-22959|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |5207 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, KON, KONE, TEL
+22959|MAT 271E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Çarşamba |1230/1529 |5207 |0|0|EHB, EHBE, ELE, ELH, ELK, ELKE, KOM, KOME, TEL
 22960|MAT 281||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |--- |210|0|EHB, ELE, ELK, KOM, TEL
 22961|MAT 281||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |5202 |0|0|EHB, ELE, ELK, KOM, TEL
 22962|MAT 281||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Perşembe |1230/1529 |4104 |0|0|EHB, ELE, ELK, KOM, TEL
@@ -2577,7 +2576,7 @@
 23025|TEL 492E||İsmail Serdar Özoğuz|EEB|---- |/ |--- |500|0|TEL
 23026|ELE 492||İsmail Serdar Özoğuz|EEB|---- |/ |--- |500|0|ELE
 23027|ELE 492E||İsmail Serdar Özoğuz|EEB|---- |/ |--- |500|0|ELE
-23028|TER 201||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Cuma |1430/1729 |5107 |50|0|KOM, KON
+23028|TER 201||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Cuma |1430/1729 |5107 |50|0|KOM
 23029|GEM 332E||--|GDB|Perşembe |1030/1229 |--- |0|0|GEME, GEMK
 23038|PAZ 132||Fatma  Kalaoğlu|MKB|Salı |1330/1629 |D381A |30|0|STP
 23039|PAZ 104||Cevza  Candan, Fatma  Kalaoğlu|MKB|Pazartesi |1330/1729 |D381B |30|0|STP
@@ -2601,7 +2600,7 @@
 23057|EHB 322||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |5203 |70|0|EHB, ELE, ELH
 23058|MOD 162||Nihan  Topaloğlu, Elif  Taşel|MKBMKB|Pazartesi Perşembe |0930/1229 1330/1629 |451 451 |40|0|SMT
 23059|MOD 125||Gizem  Turan, Merve Gizem  Ogan Yazgan|MKB|Salı |0930/1229 |451 |40|0|SMT
-23060|MOD 270||Ömer Berk Berkalp|MKB|Cuma |1400/1759 |D381A |0|0|SMT
+23060|MOD 270||Ömer Berk Berkalp|MKB|Cuma |1400/1759 |D381A |40|0|SMT
 23061|EHB 322E||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|EEB|Pazartesi |1230/1529 |--- |280|0|BLG, BLGE, EHB, EHBE, ELE, ELH
 23062|LAT 245||Şükriye  Yüksel Filiz, Belgin  Görgün|MKB|Perşembe |0930/1229 |451 |40|0|SMT
 23063|PAZ 217||--|MKB|Cuma |0830/1129 |451 |0|0|SMT, STP
@@ -2819,17 +2818,15 @@
 23499|MIM 321E||Miyuki Aoki Girardelli|MMB|Çarşamba |1330/1529 |--- |40|0|MIM, MIME
 23500|MIM 322E||Umut  Almaç|MMB|Cuma |1030/1229 |--- |40|0|MIM, MIME
 23502|MIM 333E||Emrah  Acar|MMB|Cuma |1030/1229 |--- |40|0|MIM, MIME
-23506|MIM 361||--|MMB|Cuma |1400/1759 |--- |75|0|MIM
-23508|MIM 361||Yegan  Kahya Sayar|MMB|Cuma |1400/1759 |--- |0|0|MIM
-23509|MIM 361||Gülsüm  Tanyeli|MMB|Cuma |1400/1759 |--- |0|0|MIM
+23508|MIM 361||Yegan  Kahya Sayar|MMB|Cuma |1400/1759 |--- |22|0|MIM
+23509|MIM 361||Gülsüm  Tanyeli|MMB|Cuma |1400/1759 |--- |22|0|MIM
 23510|MIM 351||İffet Hülya Arı|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|MIM
-23511|MIM 361||Sakine Yıldız Salman|MMB|Cuma |1400/1759 |--- |0|0|MIM
-23512|MIM 361E||--|MMB|Cuma |1400/1759 |--- |75|0|MIM, MIME
-23513|MIM 361E||Deniz  Mazlum|MMB|Cuma |1400/1759 |--- |0|0|MIM, MIME
+23511|MIM 361||Sakine Yıldız Salman|MMB|Cuma |1400/1759 |--- |22|0|MIM
+23513|MIM 361E||Deniz  Mazlum|MMB|Cuma |1400/1759 |--- |22|0|MIME
 23514|MIM 351||Hakan  Tong|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|MIM
-23515|MIM 361E||Zeynep  Eres Özdoğan|MMB|Cuma |1400/1759 |--- |0|0|MIM, MIME
+23515|MIM 361E||Zeynep  Eres Özdoğan|MMB|Cuma |1400/1759 |--- |22|0|MIME
 23516|MIM 351||Tan Kamil Gürer|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|MIM
-23517|MIM 361E||Işıl  Polat Pekmezci|MMB|Cuma |1400/1759 |--- |0|0|MIM, MIME
+23517|MIM 361E||Işıl  Polat Pekmezci|MMB|Cuma |1400/1759 |--- |22|0|MIME
 23519|MIM 351||Gökhan  Ülken|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|MIM
 23520|MIM 351E||Leman Figen Gül|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|MIM, MIME
 23522|MIM 351E||Nizam Onur Sönmez|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |2|0|MIM, MIME
@@ -2953,7 +2950,7 @@
 24237|PHY 108L||Banu  Tansel Büyükçelebi|DZB|Çarşamba |1130/1329 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, NAE
 24238|MST 102||Levent  Beden|DZB|Perşembe |0830/1229 |--- |30|0|DUIK, GMIK, MEN, MTM
 24239|MST 102||Levent  Beden|DZB|Perşembe |1330/1729 |--- |30|0|DUIK, GMIK, MEN, MTM
-24240|TDW 102||Burak  Zincir|DZB|Cuma |1430/1629 |--- |0|0|DUIK, GEMK, GMIK, MEN, MTM, NAE, NAEM
+24240|TDW 102||Burak  Zincir|DZB|Cuma |1430/1729 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, NAE, NAEM
 24241|ENR 112||Vural  Ateş|DZB|Pazartesi |0830/1229 |--- |60|0|GEMK, GMIK, MEN, MENM, NAE
 24242|ENR 102||Yasin  Arslanoğlu|DZB|Pazartesi |1230/1429 |--- |60|0|GEMK, GMIK, MEN, MENM, NAE
 24243|MTM 122||Tuba  Keçeci|DZB|Pazartesi |0830/1129 |--- |60|0|DUIK, MTM, MTTM
@@ -2968,7 +2965,7 @@
 24304|MEN 331||Cumali Seçkin Mengeçin|DZB|---- |/ |--- |60|0|GMIK, MEN
 24305|MTM 211||Selim  Aksoy|DZB|---- |/ |--- |60|0|DUIK, MTM
 24306|MST 252||Alaaddin Yıldıray Ertaş|DZB|Perşembe |1530/1829 |--- |0|0|DUIK, GEMK, GMIK, MEN, MTM, NAE
-24307|MST 211||Burak  Zincir|DZB|Çarşamba |1230/1429 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, MTTM, NAE
+24307|MST 211||--|DZB|Çarşamba |1330/1529 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, MTTM, NAE
 24308|MEN 302||Cumali Seçkin Mengeçin|DZB|---- |/ |--- |60|0|GMIK, MEN, MENM
 24309|MEN 202||Cumali Seçkin Mengeçin|DZB|Pazartesi |0830/1129 |--- |60|0|GMIK, MEN, MENM
 24310|HSS 202||Halime Ceren Göktaş|DZB|Perşembe |1030/1229 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, NAE
@@ -2994,7 +2991,7 @@
 24330|MEN 402||Cumali Seçkin Mengeçin|DZB|---- |/ |--- |60|0|GMIK, MEN
 24331|MST 472||Cemil  Yurtören|DZB|Salı |0830/1029 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, NAE
 24332|MTM 412||Cemil  Yurtören|DZBDZB|Salı Cuma |1030/1329 1130/1229 |--- --- |60|0|DUIK, MTM, MTTM
-24333|MST 402||Yunus Emre Şenol|DZB|Cuma |1630/1829 |--- |0|0|DUIK, GMIK, MEN, MENM, MTM, MTTM
+24333|MST 402||Yunus Emre Şenol|DZB|Cuma |1730/1929 |--- |0|0|DUIK, GMIK, MEN, MENM, MTM, MTTM
 24334|MST 432||Emre  Akyüz|DZB|Perşembe |1530/1729 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, NAE
 24335|ENR 401||Gazi  Koçak|DZB|Perşembe |1230/1429 |--- |60|0|GEMK, GMIK, MEN, NAE
 24336|MST 422||Nuri Koray Kurun|DZB|Çarşamba |0830/1129 |--- |60|0|DUIK, GEMK, GMIK, MEN, MTM, NAE
@@ -3235,20 +3232,20 @@
 25034|PHY 126||Ali  Gelir|KMB|Salı |0830/1129 |D202 |50|0|MBI, SBL, SED, SEN, SGI, SIN
 25035|PHY 126L||Ali  Gelir|FEB|Cuma |1030/1229 |--- |50|0|MBI, SBL, SED, SEN, SGI, SGM, SIN
 25036|ENT 211E||Layıka Ney Ece Arıburun Kırca|MMBMMB|Salı Cuma |1330/1729 1400/1759 |--- --- |20|0|ENTE, EUT, EUTE, EUTM
-25037|ENT 324E||Özge  Çelikoğlu|MMB|Salı |0830/1129 |--- |35|0|ENTE, EUT, EUTE, EUTM, ICM
-25038|ENT 334E||Deniz  Leblebici Başar|MMB|Perşembe |1330/1629 |--- |35|0|ENTE, EUT, EUTE, EUTM, ICM, ISL, ISLE
-25039|ENT 335E||Sevgi  Özalp|MMB|Cuma |0830/1129 |--- |35|0|ENTE, EUT, EUTE, EUTM
-25040|ENT 343E||Koray  Gelmez|MMB|Pazartesi |1330/1629 |--- |35|0|ENTE, EUT, EUTE, EUTM, ICM
-25041|ENT 350E||Layıka Ney Ece Arıburun Kırca|MMB|Salı |0830/1129 |--- |35|0|ENTE, EUT, EUTE, EUTM, ICM
-25042|ENT 356E||Gülname  Turan|MMB|Salı |0830/1129 |--- |35|0|ENTE, EUT, EUTE, EUTM
-25043|ENT 365E||Miray  Boğa|MMB|Cuma |0830/1129 |--- |35|0|ENTE, EUTE, ICM, MIM, PEM, SBP
+25037|ENT 324E|Çevrimiçi/Online|Özge  Çelikoğlu|----|Salı |0830/1129 |---- |35|0|ENTE, EUT, EUTE, EUTM, ICM
+25038|ENT 334E|Çevrimiçi/Online|Deniz  Leblebici Başar|----|Perşembe |1330/1629 |---- |35|0|ENTE, EUT, EUTE, EUTM, ICM, ISL, ISLE
+25039|ENT 335E|Çevrimiçi/Online|Sevgi  Özalp|----|Cuma |0830/1129 |---- |35|0|ENTE, EUT, EUTE, EUTM
+25040|ENT 343E|Çevrimiçi/Online|Koray  Gelmez|----|Pazartesi |1330/1629 |---- |35|0|ENTE, EUT, EUTE, EUTM, ICM
+25041|ENT 350E|Çevrimiçi/Online|Layıka Ney Ece Arıburun Kırca|----|Salı |0830/1129 |---- |35|0|ENTE, EUT, EUTE, EUTM, ICM
+25042|ENT 356E|Çevrimiçi/Online|Gülname  Turan|----|Salı |0830/1129 |---- |35|0|ENTE, EUT, EUTE, EUTM
+25043|ENT 365E|Çevrimiçi/Online|Miray  Boğa|----|Cuma |0830/1129 |---- |35|0|ENTE, EUTE, ICM, MIM, PEM, SBP
 25044|ICM 4032|Çevrimiçi/Online|Deniz  Çalışır Pençe|----|Cuma |1400/1559 |---- |20|0|EUT, ICM, PEM
-25045|ENT 429E||Elif  Küçüksayraç|MMB|Pazartesi |0830/1129 |--- |30|0|ENTE, EUT, EUTE
-25046|ENT 434E||Miray  Boğa|MMB|Perşembe |0830/1129 |--- |35|0|ENTE, EUT, EUTE, EUTM, ICM
-25047|ENT 446E||Erdem  Demir|MMB|Perşembe |1330/1629 |--- |35|0|ENTE, EUT, EUTE, EUTM
+25045|ENT 429E|Çevrimiçi/Online|Elif  Küçüksayraç|----|Pazartesi |0830/1129 |---- |30|0|ENTE, EUT, EUTE
+25046|ENT 434E|Çevrimiçi/Online|Miray  Boğa|----|Perşembe |0830/1129 |---- |35|0|ENTE, EUT, EUTE, EUTM, ICM
+25047|ENT 446E|Çevrimiçi/Online|Erdem  Demir|----|Perşembe |1330/1629 |---- |35|0|ENTE, EUT, EUTE, EUTM
 25048|ICM 4014|Çevrimiçi/Online|Belgin  Görgün|----|Salı |0830/1029 |---- |20|0|ICM, PEM
-25049|ENT 447E||Pınar  Çevikayak Yelmi|MMB|Perşembe |1330/1629 |--- |35|0|ENTE, EUT, EUTE, EUTM
-25050|ENT 448E||Fatma Pınar Özemir|MMB|Pazartesi |1330/1629 |--- |35|0|ENTE, EUT, EUTE, EUTM, PEME
+25049|ENT 447E|Çevrimiçi/Online|Pınar  Çevikayak Yelmi|----|Perşembe |1330/1629 |---- |35|0|ENTE, EUT, EUTE, EUTM
+25050|ENT 448E|Çevrimiçi/Online|Fatma Pınar Özemir|----|Pazartesi |1330/1629 |---- |35|0|ENTE, EUT, EUTE, EUTM, PEME
 25051|ICM 4035E|Çevrimiçi/Online|Emine  Görgül|----|Çarşamba |1330/1529 |---- |40|0|EUT, ICM, MIM, PEM, SBP
 25052|MIM 106||Halet Almıla Büyüktaşkın, Haluk  Sesigür|MMBMMB|Çarşamba Çarşamba |1030/1229 1330/1529 |--- --- |160|0|ICM, MIM
 25053|MIM 106E||Cenk  Üstündağ|MMBMMB|Çarşamba Çarşamba |1030/1229 1330/1529 |--- --- |80|0|ARC, ENTE, EUTE, MIME
@@ -3260,40 +3257,40 @@
 25059|MIM 304E||Mehmet Murat Gül, Miyuki Aoki Girardelli|MMB|Cuma |1430/1729 |--- |105|0|MIM, MIME
 25060|MIM 213||Oğuz Cem Çelik, Necdet  Torunbalcı|MMBMMB|Salı Cuma |1030/1229 1030/1229 |--- --- |105|0|MIM
 25062|MIM 213E||Cenk  Üstündağ, Haluk  Sesigür|MMBMMB|Salı Cuma |0830/1029 0830/1029 |--- --- |105|0|MIM, MIME
-25063|MIM 4010||Emine  Görgül|MMB|Perşembe |0930/1229 |--- |25|0|ICM, MIM, PEM, SBP
-25064|MIM 4010E||Yüksel  Demir|MMB|Perşembe |0930/1229 |--- |25|0|ENTE, EUTE, ICM, MIM, MIME, PEM, PEME, SBP, SBPE
-25065|MIM 4017||Leyla  Tanaçan|MMB|Salı |1330/1529 |--- |25|0|ICM, MIM
-25066|MIM 4018||İffet Hülya Arı|MMB|Perşembe |0930/1129 |--- |25|0|MIM
-25067|MIM 4021||Hakan  Tong|MMB|Perşembe |0930/1229 |--- |25|0|MIM
-25068|MIM 4022||Gülten  Manioğlu|MMB|Salı |0930/1229 |--- |25|0|ICM, MIM
-25069|MIM 4023||Seda  Erdem|MMB|Pazartesi |0930/1229 |--- |25|0|ICM, MIM
-25070|MIM 4049E||Mehmet Cem Altun|MMB|Cuma |0930/1229 |--- |25|0|MIM, MIME
-25071|MIM 4014||Nizam Onur Sönmez|MMB|Perşembe |0930/1129 |--- |25|0|ICM, MIM
-25072|MIM 4050E||Sıdıka Aslıhan Şenel|MMB|Perşembe |0930/1229 |--- |25|0|MIM, MIME
-25073|MIM 4025||Mehmet Serkan Yatağan|MMB|Salı |1330/1629 |--- |25|0|MIM
-25074|MIM 4053E||Halet Almıla Büyüktaşkın|MMB|Salı |1330/1529 |--- |25|0|MIM, MIME
-25076|MIM 4029||Gül  Koçlar Oral, Şule Filiz Akşit|MMB|Salı |0930/1229 |--- |25|0|MIM
-25079|MIM 4031||Aras  Neftçi|MMB|Pazartesi |0930/1129 |--- |25|0|ICM, MIM
-25080|MIM 4055E||Arzu İrem Mollaahmetoğlu|MMB|Salı |1330/1529 |--- |25|0|ENTE, EUTE, MIM, MIME, PEM, PEME, SBP, SBPE
-25081|MIM 4056E||Sema  Alaçam|MMB|Salı |0930/1229 |--- |25|0|ENTE, EUTE, ICM, MIM, MIME, SBP, SBPE
-25082|MIM 4058E||Emine  Görgül|MMB|Salı |1330/1529 |--- |25|0|ICM, MIM, MIME
-25083|MIM 4061E||Hakan Tüzün Şengün|MMB|Salı |1330/1529 |--- |25|0|ICM, MIM, MIME
-25084|MIM 4063E||Sakine Yıldız Salman|MMB|Salı |0930/1229 |--- |25|0|MIM, MIME
-25085|MIM 4066E||Cemile  Tiftik|MMB|Salı |0930/1129 |--- |25|0|MIM, MIME
-25086|MIM 4039||Nejat Turgut Saner|MMB|Salı |1330/1529 |--- |25|0|MIM
-25087|MIM 4013||Suat  Apak|MMB|Pazartesi |0930/1129 |--- |25|0|MIM, SBP
-25088|MIM 4013E||Sevgi  Türkkan|MMB|Salı |0930/1129 |--- |25|0|MIM, MIME
-25089|MIM 4040||Atilla  Aydoğdu|MMB|Salı |1330/1529 |--- |25|0|MIM
-25090|MIM 4070E||Derya  Güleç Özer|MMB|Salı |1330/1629 |--- |25|0|MIM, MIME
-25091|MIM 4041||Çiğdem  Eren|MMB|Salı |1330/1529 |--- |25|0|MIM
-25092|MIM 4072E||Arzu İrem Mollaahmetoğlu|MMB|Pazartesi |0930/1129 |--- |25|0|ICM, MIM, MIME, SBP, SBPE
-25093|MIM 4074E||Gülseren  Erol Soyöz, Haluk  Sesigür|MMB|Perşembe |0930/1129 |--- |25|0|MIM, MIME
+25063|MIM 4010|Çevrimiçi/Online|Emine  Görgül|----|Perşembe |0930/1229 |---- |25|0|ICM, MIM, PEM, SBP
+25064|MIM 4010E|Çevrimiçi/Online|Yüksel  Demir|----|Perşembe |0930/1229 |---- |25|0|ENTE, EUTE, ICM, MIM, MIME, PEM, PEME, SBP, SBPE
+25065|MIM 4017|Çevrimiçi/Online|Leyla  Tanaçan|----|Salı |1330/1529 |---- |25|0|ICM, MIM
+25066|MIM 4018|Çevrimiçi/Online|İffet Hülya Arı|----|Perşembe |0930/1129 |---- |25|0|MIM
+25067|MIM 4021|Çevrimiçi/Online|Hakan  Tong|----|Perşembe |0930/1229 |---- |25|0|MIM
+25068|MIM 4022|Çevrimiçi/Online|Gülten  Manioğlu|----|Salı |0930/1229 |---- |25|0|ICM, MIM
+25069|MIM 4023|Çevrimiçi/Online|Seda  Erdem|----|Pazartesi |0930/1229 |---- |25|0|ICM, MIM
+25070|MIM 4049E|Çevrimiçi/Online|Mehmet Cem Altun|----|Cuma |0930/1229 |---- |25|0|MIM, MIME
+25071|MIM 4014|Çevrimiçi/Online|Nizam Onur Sönmez|----|Perşembe |0930/1129 |---- |25|0|ICM, MIM
+25072|MIM 4050E|Çevrimiçi/Online|Sıdıka Aslıhan Şenel|----|Perşembe |0930/1229 |---- |25|0|MIM, MIME
+25073|MIM 4025|Çevrimiçi/Online|Mehmet Serkan Yatağan|----|Salı |1330/1629 |---- |25|0|MIM
+25074|MIM 4053E|Çevrimiçi/Online|Halet Almıla Büyüktaşkın|----|Salı |1330/1529 |---- |25|0|MIM, MIME
+25076|MIM 4029|Çevrimiçi/Online|Gül  Koçlar Oral, Şule Filiz Akşit|----|Salı |0930/1229 |---- |25|0|MIM
+25079|MIM 4031|Çevrimiçi/Online|Aras  Neftçi|----|Pazartesi |0930/1129 |---- |25|0|ICM, MIM
+25080|MIM 4055E|Çevrimiçi/Online|Arzu İrem Mollaahmetoğlu|----|Salı |1330/1529 |---- |25|0|ENTE, EUTE, MIM, MIME, PEM, PEME, SBP, SBPE
+25081|MIM 4056E|Çevrimiçi/Online|Sema  Alaçam|----|Salı |0930/1229 |---- |25|0|ENTE, EUTE, ICM, MIM, MIME, SBP, SBPE
+25082|MIM 4058E|Çevrimiçi/Online|Emine  Görgül|----|Salı |1330/1529 |---- |25|0|ICM, MIM, MIME
+25083|MIM 4061E|Çevrimiçi/Online|Hakan Tüzün Şengün|----|Salı |1330/1529 |---- |25|0|ICM, MIM, MIME
+25084|MIM 4063E|Çevrimiçi/Online|Sakine Yıldız Salman|----|Salı |0930/1229 |---- |25|0|MIM, MIME
+25085|MIM 4066E|Çevrimiçi/Online|Cemile  Tiftik|----|Salı |0930/1129 |---- |25|0|MIM, MIME
+25086|MIM 4039|Çevrimiçi/Online|Nejat Turgut Saner|----|Salı |1330/1529 |---- |25|0|MIM
+25087|MIM 4013|Çevrimiçi/Online|Suat  Apak|----|Pazartesi |0930/1129 |---- |25|0|MIM, SBP
+25088|MIM 4013E|Çevrimiçi/Online|Sevgi  Türkkan|----|Salı |0930/1129 |---- |25|0|MIM, MIME
+25089|MIM 4040|Çevrimiçi/Online|Atilla  Aydoğdu|----|Salı |1330/1529 |---- |25|0|MIM
+25090|MIM 4070E|Çevrimiçi/Online|Derya  Güleç Özer|----|Salı |1330/1629 |---- |25|0|MIM, MIME
+25091|MIM 4041|Çevrimiçi/Online|Çiğdem  Eren|----|Salı |1330/1529 |---- |25|0|MIM
+25092|MIM 4072E|Çevrimiçi/Online|Arzu İrem Mollaahmetoğlu|----|Pazartesi |0930/1129 |---- |25|0|ICM, MIM, MIME, SBP, SBPE
+25093|MIM 4074E|Çevrimiçi/Online|Gülseren  Erol Soyöz, Haluk  Sesigür|----|Perşembe |0930/1129 |---- |25|0|MIM, MIME
 25094|IML 322||Erdinç  Altuğ|MKB|Pazartesi |1030/1329 |--- |60|0|IML, IMLM
 25095|DFH 186||Orhan  Gönel|DZB|Cuma |1430/1729 |--- |20|0|DUI, DUIE
-25096|DAN 102||Ali  Çakmak|EEB|Çarşamba |1530/1729 |--- |100|0|BLG, BLGE
-25097|DAN 301||Mustafa Ersel Kamaşak|EEB|Çarşamba |1530/1729 |--- |100|0|BLG, BLGE
-25098|BLG 448E||Mustafa Ersel Kamaşak|EEB|Cuma |0830/1129 |--- |0|0|BLG, BLGE, ELE, KOM, KOME, TEL, YZVE
-25100|BLG 463E||Alper  Almelek|EEB|Perşembe |1030/1329 |--- |0|0|BLG, BLGE, YZVE
+25096|DAN 102||Ali  Çakmak|EEB|Çarşamba |1530/1729 |--- |300|0|BLG, BLGE
+25097|DAN 301||Mustafa Ersel Kamaşak|EEB|Çarşamba |1530/1729 |--- |300|0|BLG, BLGE
+25098|BLG 448E||Mustafa Ersel Kamaşak|EEB|Cuma |0830/1129 |--- |80|0|BLG, BLGE, ELE, KOM, KOME, TEL, YZVE
+25100|BLG 463E||Alper  Almelek|EEB|Perşembe |1030/1329 |--- |40|0|BLG, BLGE, YZVE
 25101|CAB 2117||Ayhan  Gunca|TMB|Pazartesi |1330/1529 |--- |10|0|CAB
 25102|MTR 305||Gülay  Karamahmutoğlu|TMB|Salı |1330/1529 |--- |10|0|MTR, MTRM
 25103|SES 373||Cengizhan  Sönmez|TMB|Perşembe |1330/1529 |--- |5|0|SES
@@ -3301,33 +3298,33 @@
 25105|GEM 492||Barış  Barlas|GDB|---- |/ |--- |100|0|GEM
 25106|INS 325E||Sabahat  Topuz Kiremitçi|INB|Çarşamba |1330/1529 |A305 |60|0|AIN, INS, INSE
 25107|ELK 343||Murat  İmeryüz|EEB|Salı |1230/1529 |5302 |40|0|ELK
-25112|SBP 207E||Funda  Yirmibeşoğlu|MMBMMB|Salı Cuma |1330/1729 1400/1759 |--- --- |0|0|SBP, SBPE
-25113|SBP 208||Emine Ferhan Gezici Korten|MMB|Salı |0930/1229 |--- |65|0|SBP
-25114|SBP 208E||Elif  Alkay|MMB|Salı |0930/1229 |--- |65|0|SBP, SBPE
+25112|SBP 207E||Funda  Yirmibeşoğlu|MMBMMB|Salı Cuma |1330/1729 1400/1759 |--- --- |10|0|SBP, SBPE
+25113|SBP 208||Emine Ferhan Gezici Korten|MMB|Salı |0930/1229 |--- |65|0|SBP, SBPM
+25114|SBP 208E||Elif  Alkay|MMB|Salı |0930/1229 |--- |65|0|SBPE, SBPM
 25115|PEM 209E||Fatma Ayçim Türer Başkaya|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |3|0|PEM, PEME
-25116|SBP 210||Eda  Yücesoy|MMB|Cuma |0930/1229 |--- |65|0|SBP
-25117|SBP 210E||Elvan  Gülöksüz|MMB|Cuma |0930/1229 |--- |65|0|SBP, SBPE
+25116|SBP 210||Eda  Yücesoy|MMB|Cuma |0930/1229 |--- |65|0|SBP, SBPM
+25117|SBP 210E||Elvan  Gülöksüz|MMB|Cuma |0930/1229 |--- |65|0|SBPE, SBPM
 25118|PEM 209E||Meltem  Erdem Kaya|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |3|0|PEM, PEME
-25119|SBP 4035E|Çevrimiçi/Online|Turgay Kerem Koramaz|----|Perşembe |1030/1229 |---- |30|0|SBP, SBPE
+25119|SBP 4035E|Çevrimiçi/Online|Turgay Kerem Koramaz|----|Perşembe |1030/1229 |---- |30|0|SBP, SBPE, SBPM
 25120|SBP 365|Çevrimiçi/Online|Eren  Kürkçüoğlu|----|Pazartesi |1030/1229 |---- |30|0|SBP, SBPM
-25121|SBP 4037|Çevrimiçi/Online|Özlem  Özçevik|----|Perşembe |1330/1529 |---- |30|0|SBP
+25121|SBP 4037|Çevrimiçi/Online|Özlem  Özçevik|----|Perşembe |1330/1529 |---- |30|0|SBP, SBPM
 25122|PEM 209E||Meliz  Akyol|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |3|0|PEM, PEME
-25123|SBP 4039E|Çevrimiçi/Online|Eda  Beyazıt|----|Perşembe |1530/1729 |---- |30|0|SBP, SBPE
-25124|SBP 4027E|Çevrimiçi/Online|Başak  Demireş Özkul|----|Pazartesi |1330/1529 |---- |30|0|SBP, SBPE
+25123|SBP 4039E|Çevrimiçi/Online|Eda  Beyazıt|----|Perşembe |1530/1729 |---- |30|0|ENTE, EUTE, ICM, MIM, MIME, PEME, SBP, SBPE, SBPM
+25124|SBP 4027E|Çevrimiçi/Online|Başak  Demireş Özkul|----|Pazartesi |1330/1529 |---- |30|0|SBP, SBPE, SBPM
 25125|PEM 214E||Melih  Bozkurt|MMB|Perşembe |0830/1229 |--- |75|0|PEM, PEME
 25126|PEM 305E||Mert  Ekşi|MMB|Çarşamba |0830/1229 |--- |75|0|PEM, PEME
-25127|SBP 4031E|Çevrimiçi/Online|Hüseyin Murat Çelik|----|Pazartesi |1030/1229 |---- |30|0|SBP, SBPE
+25127|SBP 4031E|Çevrimiçi/Online|Hüseyin Murat Çelik|----|Pazartesi |1030/1229 |---- |30|0|ENTE, EUTE, ICM, MIM, MIME, PEME, SBP, SBPE, SBPM
 25128|PEM 210E||Meliz  Akyol|MMB|Salı |0830/1229 |--- |35|0|PEM, PEME
 25129|PEM 210E||Hayriye  Eşbah Tunçay|MMB|Salı |0830/1229 |--- |35|0|PEM, PEME
-25130|SBP 4029E|Çevrimiçi/Online|Kerem Yavuz Arslanlı|----|Perşembe |1030/1229 |---- |30|0|SBP, SBPE
+25130|SBP 4029E|Çevrimiçi/Online|Kerem Yavuz Arslanlı|----|Perşembe |1030/1229 |---- |30|0|SBP, SBPE, SBPM
 25131|PEM 4014E|Çevrimiçi/Online|Ikhwan  Kim|----|Cuma |1400/1659 |---- |25|0|ENTE, EUTE, ICM, MIM, MIME, PEM, PEME, SBP, SBPE
-25132|SBP 4022|Çevrimiçi/Online|Engin Eyüp Eyuboğlu|----|Perşembe |1330/1629 |---- |30|0|SBP
-25133|SBP 4022E|Çevrimiçi/Online|İmge  Akçakaya Waite|----|Pazartesi |1330/1629 |---- |30|0|SBP, SBPE
+25132|SBP 4022|Çevrimiçi/Online|Engin Eyüp Eyuboğlu|----|Perşembe |1330/1629 |---- |30|0|ICM, MIM, SBP, SBPM
+25133|SBP 4022E|Çevrimiçi/Online|İmge  Akçakaya Waite|----|Pazartesi |1330/1629 |---- |30|0|MIME, PEME, SBPE, SBPM
 25134|PEM 4016E|Çevrimiçi/Online|Gülşen  Aytaç|----|Salı |0930/1129 |---- |25|0|ENTE, EUTE, ICM, MIM, MIME, PEM, PEME, SBP, SBPE
-25135|SBP 4017E|Çevrimiçi/Online|Hatice  Ayataç|----|Pazartesi |1330/1629 |---- |30|0|SBP, SBPE
-25136|SBP 4018|Çevrimiçi/Online|Özlem  Özçevik|----|Pazartesi |1030/1229 |---- |30|0|SBP
+25135|SBP 4017E|Çevrimiçi/Online|Hatice  Ayataç|----|Pazartesi |1330/1629 |---- |30|0|MIM, MIME, PEME, SBP, SBPE, SBPM
+25136|SBP 4018|Çevrimiçi/Online|Özlem  Özçevik|----|Pazartesi |1030/1229 |---- |30|0|ICM, MIM, SBP, SBPM
 25137|PEM 4011E|Çevrimiçi/Online|Meliz  Akyol|----|Perşembe |0930/1129 |---- |20|0|ENTE, EUTE, ICM, MIM, MIME, PEM, PEME, SBP, SBPE
-25138|SBP 4033E|Çevrimiçi/Online|Aliye Ahu Akgün|----|Perşembe |0830/1029 |---- |30|0|SBP, SBPE
+25138|SBP 4033E|Çevrimiçi/Online|Aliye Ahu Akgün|----|Perşembe |0830/1029 |---- |30|0|PEME, SBP, SBPE, SBPM
 25139|PEM 406E||Ebru  Erbaş Gürler|MMB|Salı |1330/1529 |--- |40|0|PEM, PEME
 25140|DAN 102||Ethem  Gürer|MMB|Çarşamba |1530/1729 |--- |300|0|ICM
 25141|DUI 241||Emre  Akyüz|DZB|---- |/ |--- |5|0|DUI
@@ -3361,14 +3358,14 @@
 25241|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |0830/1029 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25242|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |1030/1229 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25243|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Çarşamba |0830/1029 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
-25244|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |1130/1329 |---- |30|0|MBI, MCB, SBL, SCE, SDU, SED, SEK, SEN, SGI, SGM, SIN, SIS, SMT, STP
+25244|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |1130/1329 |---- |30|0|MBI, MCB, SBL, SCE, SED, SEK, SEN, SGI, SIN, SIS, SMT, STP
 25245|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |1330/1529 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25246|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Perşembe |1330/1529 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25247|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Perşembe |1530/1729 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25248|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Cuma |1030/1229 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25249|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Cuma |1400/1559 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25251|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Pazartesi |1330/1529 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
-25252|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |1130/1329 |---- |30|0|MBI, MCB, SBL, SCE, SDU, SED, SEK, SEN, SGI, SGM, SIN, SIS, SMT, STP
+25252|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |1130/1329 |---- |30|0|MBI, MCB, SBL, SCE, SED, SEK, SEN, SGI, SIN, SIS, SMT, STP
 25253|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |1330/1529 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25254|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |1530/1729 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25255|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Çarşamba |1030/1229 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
@@ -3380,12 +3377,12 @@
 25261|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Perşembe |1530/1729 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25262|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Pazartesi |1330/1529 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25263|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Pazartesi |1530/1729 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
-25264|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |1130/1329 |---- |30|0|MBI, MCB, SBL, SCE, SDU, SED, SEK, SEN, SGI, SGM, SIN, SIS, SMT, STP
+25264|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |1130/1329 |---- |30|0|MBI, MCB, SBL, SCE, SED, SEK, SEN, SGI, SIN, SIS, SMT, STP
 25265|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Perşembe |1030/1229 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25266|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Perşembe |1330/1529 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25267|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Perşembe |1530/1729 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25268|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |0830/1029 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
-25269|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |1130/1329 |---- |30|0|MBI, MCB, SBL, SCE, SDU, SED, SEK, SEN, SGI, SGM, SIN, SIS, SMT, STP
+25269|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Salı |1130/1329 |---- |30|0|MBI, MCB, SBL, SCE, SED, SEK, SEN, SGI, SIN, SIS, SMT, STP
 25270|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Perşembe |0830/1029 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25272|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Perşembe |1030/1229 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
 25273|TUR 122|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Cuma |0830/1029 |---- |80|0|BIO, BIOE, BLG, BLGE, BST, CAB, CEB, CEV, CEVE, CHZ, CHZE, DEN, DENE, DUI, DUIE, ECNE, EHB, EHBE, EHN, ELE, ELH, ELK, ELKE, END, ENDE, ENTE, EUT, EUTE, FIZ, FIZE, GEM, GEME, GEMK, GEO, GEOE, GID, GIDE, GMI, GMIE, ICM, IML, IMLE, INS, INSE, ISL, ISLE, JDF, JEF, JEFE, JEO, JEOE, KIM, KIME, KMM, KMME, KMP, KOM, KOME, MAD, MADE, MAK, MAKE, MAT, MATE, MET, METE, MIM, MIME, MTO, MTOE, MTR, MUT, MUZ, MUZE, MZT, PEM, PEME, PET, PETE, SBP, SBPE, SEH, SES, TEK, TEKE, TEL, THO, UCK, UCKE, UZB, UZBE, YZVE
@@ -3394,6 +3391,13 @@
 25277|TUR 122||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|DZB|Salı |1530/1729 |--- |50|0|DUI, DUIE, GMI, GMIE
 25278|TUR 122||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|DZB|Çarşamba |0830/1029 |--- |10|0|SDU, SGM
 25279|TUR 122||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|DZB|Perşembe |0830/1029 |--- |10|0|SDU, SGM
-25280|CHE 301||--|KMBFEB|Pazartesi Perşembe |0830/1129 0830/1029 |D305 LAB-B |0|0|MBI
+25280|CHE 301||Altuğ Mert Sevim|KMBFEB|Pazartesi Perşembe |0830/1129 0830/1029 |D305 LAB-B |30|0|MBI
 25281|TUR 122||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|DZB|Perşembe |1030/1229 |--- |10|0|SDU, SGM
 25282|BIO 101||Deniz  Şahin|MOBGAM|Perşembe |1030/1329 |--- |30|0|MBI
+25283|BUS 321||Hatice  Camgöz Akdağ|MED|Salı |1330/1629 |B31 |15|0|SIS
+25284|BIL 109||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|TMB|Cuma |1030/1229 |--- |15|0|BST, CAB, CEB, KMP, MTR, MUT, MUZ, MZT, SES, THO
+25285|SES 381||Gülşah  Sönmez|TMBTMB|Salı Çarşamba |0830/1029 1030/1229 |--- --- |5|0|SES
+25286|JEO 112||Kürşad Kadir Eriş|MDB|Cuma |0830/1129 |--- |60|0|MAD, MADM
+25287|MAD 319||Deniz  Tumaç|MDB|Pazartesi |0930/1129 |--- |20|0|MAD, MADM
+25288|KMP 402||Oğuzhan  Balcı|TMB|Çarşamba |0830/1029 |--- |5|0|BST, KMP
+25291|ICM 366E||Ethem  Gürer|MMBMMB|Pazartesi Perşembe |1330/1729 1330/1729 |--- --- |17|0|ICM

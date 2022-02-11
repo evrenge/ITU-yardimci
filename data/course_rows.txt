@@ -2796,14 +2796,26 @@ GEO 208E|Remote Sensing I|Yok  |Yok
 GEO 208|Uzaktan Algılama I|Yok  |Yok
 GEO 209E|Real Estate's Law|Yok  |Yok
 GEO 209|Taşınmaz Hukuku|Yok  |Yok
-GEO 210E|Fundamentals of Levelling|GEO 104 MIN DDveya GEO 104E MIN DDveya JDF 211 MIN DDveya JDF 211E MIN DD|Yok
-GEO 210|Yükseklik Ölçmeleri|GEO 104 MIN DDveya GEO 104E MIN DDveya JDF 211 MIN DDveya JDF 211E MIN DD|Yok
+GEO 210E|Fundamentals of Levelling|GEO 104 MIN DDveya GEO 104E MIN DDveya JDF 211 MIN DDveya JDF 211E MIN DDveya GEO 114 MIN DDveya GEO 114E MIN DD|Yok
+GEO 210|Yükseklik Ölçmeleri|GEO 104 MIN DDveya GEO 104E MIN DDveya JDF 211 MIN DDveya JDF 211E MIN DDveya GEO 114 MIN DDveya GEO 114E MIN DD|Yok
 GEO 211E|Num. Meth. for Geomatics Eng.|Yok  |Yok
+GEO 212E|Engineering Surveying|GEO 213 MIN DDveya GEO 213E MIN DDveya JDF 211 MIN DDveya JDF 211E MIN DD|Yok
+GEO 212|Mühendislik Ölçmeleri|GEO 213 MIN DDveya GEO 213E MIN DDveya JDF 211 MIN DDveya JDF 211E MIN DD|Yok
 GEO 213E|Positioning Method and Systems|GEO 103 MIN DDveya GEO 103E MIN DDveya JDF 122 MIN DDveya JDF 122E MIN DD|Yok
 GEO 213|Konum Bel. Yönt. ve Sist.|GEO 103 MIN DDveya GEO 103E MIN DDveya JDF 122 MIN DDveya JDF 122E MIN DD|Yok
 GEO 215E|Prob.and Stat. for Geom. Eng.|Yok  |Yok
+GEO 216E|Computer Aided Map Design|Yok  |Yok
+GEO 216|Bilgisayar Dest. Harita Tas.|Yok  |Yok
+GEO 220E|Mathematics for Geomatics Eng.|MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DD|Yok
+GEO 220|Geomatik Müh.İçin Müh. Mat.|MAT 102 MIN DDveya MAT 102E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DD|Yok
+GEO 221E|Num. Meth. for Geomatics Eng.|Yok  |Yok
+GEO 225E|Prob.and Stat. for Geom. Eng.|Yok  |Yok
+GEO 227E|Labor Law,Occupati.Health&amp;Saf.|Yok  |Yok
+GEO 227|İş Hukuku,İşçi Sağl.&amp;İş Güv.|Yok  |Yok
 GEO 282E|Geomatics Project II|GEO 182 MIN DDveya GEO 182E MIN DDveya JDF 182 MIN DDveya JDF 182E MIN DDveya GEO 213 MIN DDveya GEO 213E MIN DDveya JDF 211 MIN DDveya JDF 211E MIN DD|Yok
 GEO 282|Geomatik Projesi II|GEO 182 MIN DDveya GEO 182E MIN DDveya JDF 182 MIN DDveya JDF 182E MIN DDveya GEO 213 MIN DDveya GEO 213E MIN DDveya JDF 211 MIN DDveya JDF 211E MIN DD|Yok
+GEO 292E|Geomatics Project 10|(GEO 103 MIN DDveya GEO 103E MIN DD)ve (GEO 213 MIN DDveya GEO 213E MIN DD)|Yok
+GEO 292|Geomatik Projesi 10|(GEO 103 MIN DDveya GEO 103E MIN DD)ve (GEO 213 MIN DDveya GEO 213E MIN DD)|Yok
 GEO 301E|Special Surveying Applications|GEO 104 MIN DDveya GEO 104E MIN DDveya JDF 112 MIN DDveya JDF 112E MIN DDveya JDF 182 MIN DDveya JDF 182E MIN DD|Yok
 GEO 301|Özel Ölçme Uygulamaları|GEO 104 MIN DDveya GEO 104E MIN DDveya JDF 112 MIN DDveya JDF 112E MIN DDveya JDF 182 MIN DDveya JDF 182E MIN DD|Yok
 GEO 302E|Land Management|GEO 303 MIN DDveya GEO 303E MIN DDveya JDF 361 MIN DDveya JDF 361E MIN DD|Yok
@@ -2830,6 +2842,9 @@ GEO 313E|Digital Image Processing|GEO 208 MIN DDveya GEO 208E MIN DDveya JDF 321
 GEO 315E|Fund. of Geographic Inf. Sys.|Yok  |Yok
 GEO 317E|Terrain Modelling|GEO 104 MIN DDveya GEO 104E MIN DDveya JDF 242 MIN DDveya JDF 242E MIN DDveya JDF 211 MIN DDveya JDF 211E MIN DDveya GEO 206 MIN DDveya GEO 206E MIN DD|Yok
 GEO 317|Arazi Modelleme|GEO 104 MIN DDveya GEO 104E MIN DDveya JDF 242 MIN DDveya JDF 242E MIN DDveya JDF 211 MIN DDveya JDF 211E MIN DDveya GEO 206 MIN DDveya GEO 206E MIN DD|Yok
+GEO 325E|Databases in Engineering|Yok  |Yok
+GEO 327E|Terrain Modelling|Yok  |Yok
+GEO 327|Arazi Modelleme|Yok  |Yok
 GEO 382E|Geomatics Project III|(GEO 282 MIN DDveya GEO 282E MIN DDveya JDF 282 MIN DDveya JDF 282E MIN DD)ve (GEO 204 MIN DDveya GEO 204E MIN DDveya JDF 232 MIN DDveya JDF 232E MIN DD)ve (GEO 309 MIN DDveya GEO 309E MIN DDveya JDF 331 MIN DDveya JDF 331E MIN DD)ve (GEO 208 MIN DDveya GEO 208E MIN DDveya JDF 321 MIN DDveya JDF 321E MIN DD)|Yok
 GEO 382|Geomatik Projesi III|(GEO 282 MIN DDveya GEO 282E MIN DDveya JDF 282 MIN DDveya JDF 282E MIN DD)ve (GEO 204 MIN DDveya GEO 204E MIN DDveya JDF 232 MIN DDveya JDF 232E MIN DD)ve (GEO 309 MIN DDveya GEO 309E MIN DDveya JDF 331 MIN DDveya JDF 331E MIN DD)ve (GEO 208 MIN DDveya GEO 208E MIN DDveya JDF 321 MIN DDveya JDF 321E MIN DD)|Yok
 GEO 401E|Physical Geodesy|Yok  |Yok
@@ -2838,8 +2853,8 @@ GEO 403E|GIS Projects|GEO 312E MIN DDveya GEO 315 MIN DDveya GEO 315E MIN DD|Yok
 GEO 403|CBS Projeleri|GEO 312E MIN DDveya GEO 315 MIN DDveya GEO 315E MIN DD|Yok
 GEO 411E|Spatial Abstr. and General.|GEO 305 MIN DDveya GEO 305E MIN DD|Yok
 GEO 411|Konumsal Soy. Ve Genel.|GEO 305 MIN DDveya GEO 305E MIN DD|Yok
-GEO 413E|Navigation Sys. and Methods|GEO 106 MIN DDveya GEO 106E MIN DDveya BIL 104E MIN DD|Yok
-GEO 413|Nav. Sistem ve Yöntem.|GEO 106 MIN DDveya GEO 106E MIN DDveya BIL 104E MIN DD|Yok
+GEO 413E|Navigation Sys. and Methods|GEO 106 MIN DDveya GEO 106E MIN DDveya BIL 104E MIN DDveya GEO 108E MIN DD|Yok
+GEO 413|Nav. Sistem ve Yöntem.|GEO 106 MIN DDveya GEO 106E MIN DDveya BIL 104E MIN DDveya GEO 108E MIN DD|Yok
 GEO 415E|Geodetic Satellite|Yok  |Yok
 GEO 415|Jeodezik Uydular|Yok  |Yok
 GEO 417E|Geodetic Astronomy|Yok  |Yok
@@ -2876,7 +2891,7 @@ GEO 458E|City Planning|Yok  |Yok
 GEO 458|Şehircilik|Yok  |Yok
 GEO 460E|Road Design and Construction|Yok  |Yok
 GEO 460|Yol Planlaması ve İnşaatı|Yok  |Yok
-GEO 462E|Advance. Progr. in Geom. Eng.|GEO 106 MIN DDveya GEO 106E MIN DDveya BIL 104E MIN DD|Yok
+GEO 462E|Advance. Progr. in Geom. Eng.|GEO 106 MIN DDveya GEO 106E MIN DDveya BIL 104E MIN DDveya GEO 108E MIN DD|Yok
 GEO 464E|Eng. Spatial Sys. Design|Yok  |Yok
 GEO 466E|Deformation Measurements|Yok  |Yok
 GEO 466|Deformasyon Ölçmeleri|Yok  |Yok
@@ -2900,6 +2915,7 @@ GEO 491E|Design Project I|Yok  |Yok
 GEO 491|Tasarım Projesi I|Yok  |Yok
 GEO 492E|Design Project II|GEO 491 MIN DDveya GEO 491E MIN DD <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|Yok
 GEO 492|Tasarım Projesi II|GEO 491 MIN DDveya GEO 491E MIN DD <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|Yok
+GEO YLT|Tez Çalışması|Yok  |Yok
 GID 111E|Int.to Food Eng.and Ethics|Yok  |Yok
 GID 112E|Intro to Food Scnce &amp; Technlgs|Yok  |Yok
 GID 113E|Int.to Food Eng. and Ethics|Yok  |Yok
@@ -3786,6 +3802,7 @@ ISL 361|İşletme Hukuku|Yok  |Yok
 ISL 362|Uluslararası İktisat|ISL 242E MIN DD|Yok
 ISL 363E|Human Resources Management|ISL 234 MIN DDveya ISL 234E MIN DDveya ISL 332 MIN DDveya ISL 332E MIN DD|Yok
 ISL 363|İnsan Kaynakları Yönetimi|ISL 234 MIN DDveya ISL 234E MIN DDveya ISL 332 MIN DD|Yok
+ISL 364E|Business Law|Yok  |Yok
 ISL 364|İşletme Hukuku|Yok  |Yok
 ISL 374E|Management Eng. Design I|Yok  |3.Sınıf ,4.Sınıf
 ISL 374|İşletme Müh. Tasarımı I|Yok  |3.Sınıf ,4.Sınıf
@@ -3851,6 +3868,7 @@ ISL 4902E|Manage. Engin. Design Proj.II|ISL 4901 MIN BBveya ISL 4901E MIN BB|Yok
 ISL 4902|İşletme Müh.Tasarım Projesi II|ISL 4901 MIN BBveya ISL 4901E MIN BB|Yok
 ISL 492E|Management Eng. Design Project| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 ISL 492|İşletme Müh. Tasarım Prj.| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
+ISL YLT|Tez Çalışması|Yok  |Yok
 ITB 020E|Formations of Modernity|Yok  |Yok
 ITB 020|Modernitenin Oluşumu|Yok  |Yok
 ITB 037E|Knowledge, Language &amp; Logic|Yok  |Yok
@@ -8653,19 +8671,21 @@ UCK 492E|Graduation Project| <a class="link1" title="Dersin Önşartı İçin T�
 UCK 492|Bitirme Çalışması| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 UZB 101E|Int.to Astronaut.Eng. &amp; Ethics|Yok  |Yok
 UZB 104E|Astronaut. Eng.&amp;Des.|Yok  |Yok
+UZB 106E|Int.Astronaut. Eng.&amp;Des.|Yok  |Yok
 UZB 111E|Intro. to Space Eng. &amp; Ethics|Yok  |Yok
 UZB 111|Uzay Müh. Giriş ve Etik|Yok  |Yok
 UZB 112E|Computer Aided Drafting|Yok  |Yok
 UZB 112|Bilgisayarla Teknik Resim|Yok  |Yok
 UZB 218E|Int.to Partial Diff.Eq. in Eng|MAT 201 MIN DDveya MAT 201E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD|Yok
+UZB 220E|Mechanical Vibrations|Yok  |Yok
 UZB 232E|Heat Transfer|UCK 205 MIN DDveya UCK 205E MIN DDveya UCK 212 MIN DDveya UCK 212E MIN DD|Yok
 UZB 232|Isı Geçişi|UCK 205 MIN DDveya UCK 205E MIN DDveya UCK 212 MIN DDveya UCK 212E MIN DD|Yok
 UZB 242E|Basic Astronomy|Yok  |Yok
 UZB 317E|Heat Transfer|UCK 212 MIN DDveya UCK 212E MIN DDveya UCK 205 MIN DDveya UCK 205E MIN DD|Yok
 UZB 317|Isı Geçişi|UCK 212 MIN DDveya UCK 212E MIN DDveya UCK 205 MIN DDveya UCK 205E MIN DD|Yok
 UZB 318E|Finite Element Method|BIL 104E MIN DDveya BIL 104 MIN DDveya BIL 106E MIN DDveya BIL 106 MIN DDveya BIL 108E MIN DDveya BIL 108E MIN DDveya BIL 110E MIN DDveya BIL 112E MIN DDveya BIL 113E MIN DD|Yok
-UZB 331E|Aerospace Structures|MUK 204 MIN DDveya MUK 204E MIN DD|Yok
-UZB 331|Hava Uzay Yapıları|MUK 204 MIN DDveya MUK 204E MIN DD|Yok
+UZB 331E|Aerospace Structures|MUK 204 MIN DDveya MUK 204E MIN DDveya MUK 211 MIN DDveya MUK 211E MIN DD|Yok
+UZB 331|Hava Uzay Yapıları|MUK 204 MIN DDveya MUK 204E MIN DDveya MUK 211 MIN DDveya MUK 211E MIN DD|Yok
 UZB 332E|Communication Systems I|MAT 201 MIN DDveya MAT 201E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD|Yok
 UZB 332|İletişim Sistemleri  I|MAT 201 MIN DDveya MAT 201E MIN DDveya MAT 210 MIN DDveya MAT 210E MIN DD|Yok
 UZB 341E|Measurement Techniques|UCK 203 MIN DDveya UCK 203E MIN DDveya ELK 221 MIN DDveya ELK 221E MIN DD|Yok
