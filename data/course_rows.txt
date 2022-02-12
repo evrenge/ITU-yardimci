@@ -2790,8 +2790,8 @@ GEO 202E|Engineering Surveying|GEO 213 MIN DDveya GEO 213E MIN DDveya JDF 211 MI
 GEO 202|Mühendislik Ölçmeleri|GEO 213 MIN DDveya GEO 213E MIN DDveya JDF 211 MIN DDveya JDF 211E MIN DD|Yok
 GEO 203E|Coordinate Sys. and Geodesy I|Yok  |Yok
 GEO 203|Koord. Sist. Ve Jeodezi I|Yok  |Yok
-GEO 204E|Th.of Err. And Ad. C.|GEO 215 MIN DDveya GEO 215E MIN DDveya MAT 271 MIN DDveya MAT 271E MIN DDveya JDF 232 MIN DDveya JDF 232E MIN DD|Yok
-GEO 204|Hata Teo ve Dengeleme|GEO 215 MIN DDveya GEO 215E MIN DDveya MAT 271 MIN DDveya MAT 271E MIN DDveya JDF 232 MIN DDveya JDF 232E MIN DD|Yok
+GEO 204E|Th.of Err. And Ad. C.|GEO 215E MIN DDveya GEO 225E MIN DDveya MAT 271 MIN DDveya MAT 271E MIN DDveya JDF 232 MIN DDveya JDF 232E MIN DD|Yok
+GEO 204|Hata Teo ve Dengeleme|GEO 215E MIN DDveya GEO 225E MIN DDveya MAT 271 MIN DDveya MAT 271E MIN DDveya JDF 232 MIN DDveya JDF 232E MIN DD|Yok
 GEO 205E|Engineering Ethics|Yok  |Yok
 GEO 205|Mühendislik Etiği|Yok  |Yok
 GEO 206E|Computer Aided Map Design|Yok  |Yok

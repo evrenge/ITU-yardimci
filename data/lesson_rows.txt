@@ -1657,9 +1657,9 @@
 22035|MAK 219||Adil  Yücel|MKBMKB|Salı Perşembe |1330/1529 1530/1729 |D318 D318 |120|0|MAK, MKN
 22036|MAK 220||Emin  Sünbüloğlu|MKBMKB|Salı Perşembe |1330/1529 1530/1729 |A101 A101 |80|0|MAK, MKN
 22037|MAK 220||Süreyya Ergün  Bozdağ|MKBMKB|Salı Perşembe |1330/1529 1530/1729 |A363 A363 |80|0|MAK, MKN
-22038|MUK 205||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MKBMKB|Perşembe Cuma |0830/1129 0830/1029 |D361A D361A |60|0|IML, MAK, MAKM, MKN
+22038|MUK 205||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|MKBMKB|Perşembe Cuma |1530/1729 0830/1029 |--- D361A |60|0|IML, MAK, MAKM, MKN
 22039|MAK 224E||Alaeddin Burak İrez|MKB|Salı |1130/1329 |D351 |60|0|IML, MAK
-22040|MAK 224E||Ersan  Üstündağ|MKB|Salı |1130/1329 |D353 |60|0|IML, MAK
+22040|MAK 224E||Ersan  Üstündağ|MKB|Pazartesi |1130/1329 |--- |60|0|IML, MAK
 22041|MAK 224E||Levent  Trabzon|MKB|Salı |1130/1329 |D355 |60|0|IML, MAK
 22042|MAK 226||Yakup Erhan Böke|MKBMKB|Perşembe Cuma |1230/1329 1030/1229 |D351 D351 |90|0|MAK
 22043|MAK 226||Ersin  Sayar|MKBMKB|Perşembe Cuma |1230/1329 1030/1229 |D353 D353 |90|0|MAK
