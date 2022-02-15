@@ -2996,8 +2996,8 @@
 24387|ITB 020|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Çarşamba |1130/1429 |---- |35|0|BIO, BLG, BST, CAB, CEB, CEV, CHZ, DEN, EHB, ELE, ELH, ELK, END, EUT, FIZ, GEM, GEO, GID, ICM, INS, ISL, JDF, JEF, JEO, KIM, KMM, KMP, KOM, MAD, MAK, MAT, MET, MIM, MTO, MTR, MUT, MUZ, PEM, PET, SBP, SES, TEB, TEK, TEL, THO, UCK, UZB
 24388|CAB 786||Pınar  Tezişçi|TMBTMB|Pazartesi Cuma |1330/1529 0830/1029 |--- --- |10|0|CAB, CEB
 24389|ITB 020|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Çarşamba |0830/1129 |---- |35|0|BIO, BLG, BST, CAB, CEB, CEV, CHZ, DEN, EHB, ELE, ELH, ELK, END, EUT, FIZ, GEM, GEO, GID, ICM, INS, ISL, JDF, JEF, JEO, KIM, KMM, KMP, KOM, MAD, MAK, MAT, MET, MIM, MTO, MTR, MUT, MUZ, PEM, PET, SBP, SES, TEB, TEK, TEL, THO, UCK, UZB
-24390|DAN 301||Mert  Gür|MKB|Çarşamba |1530/1729 |--- |100|0|IML, MAK
-24391|DAN 102||Mert  Gür|MKB|Çarşamba |1530/1729 |--- |300|0|MAK
+24390|DAN 301||--|MKB|Çarşamba |1530/1729 |--- |0|0|IML, MAK
+24391|DAN 102||Mert  Gür|MKB|Çarşamba |1530/1729 |--- |300|0|IML, MAK
 24733|DAN 301||--|GDB|Çarşamba |1530/1729 |--- |0|0|GEM
 24734|MTH 132||Gülçin  Çivi|EEBEEB|Pazartesi Salı |1530/1729 0830/1129 |5101 2104 |30|0|EHN, SEH
 24735|PHY 124||Kazım Yavuz Ekşi|EEB|Salı |1430/1729 |5203 |30|0|EHN, SEH
