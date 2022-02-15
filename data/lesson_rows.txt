@@ -2170,7 +2170,7 @@
 22577|STA 201||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|GDB|Pazartesi |1430/1729 |D304 |30|0|GEM
 22578|GEM 112||Fuzuli Ağrı Akçay|GDBGDB|Çarşamba Perşembe |0930/1229 1330/1529 |R403 BGLAB |30|0|GEM
 22579|BIL 100E|Çevrimiçi/Online|<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|----|Perşembe |0930/1229 |---- |0|0|GEM
-22580|MUK 210||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|GDBGDB|Pazartesi Cuma |1030/1229 1030/1229 |D401 D401 |70|0|GEM
+22580|MUK 210||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|GDBGDB|Pazartesi Salı |1030/1229 1130/1329 |D401 R409 |70|0|GEM
 22583|MAT 271||<a title="21 Şubat 2022 tarihinde açıklanacaktır.">***</a>|GDB|Cuma |1400/1659 |D311 |70|0|GEM
 22584|GEM 214E||Emin  Korkut|GDB|Cuma |0930/1229 |409 |25|0|GEM, GEME, GEMK, PETE
 22585|GEM 216E||Selma  Ergin|GDB|Cuma |0930/1229 |410 |25|0|GEM, GEME, GEMK
