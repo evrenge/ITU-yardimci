@@ -1234,8 +1234,8 @@ CEV 328E|Water Supply&amp;Wastewater Dispo.|(INS 361 MIN DDveya INS 361E MIN DDv
 CEV 328|Su Temini&amp;Atıksuların Uzakl.|(INS 361 MIN DDveya INS 361E MIN DDveya INS 360 MIN DDveya INS 360E MIN DDveya INS 321 MIN DDveya INS 321E MIN DD)ve (CEV 242 MIN DDveya CEV 242E MIN DDveya INS 321 MIN DDveya INS 321E MIN DD)|Yok
 CEV 329E|Solid Waste Management|Yok  |Yok
 CEV 329|Katı Atık Yönetimi|Yok  |Yok
-CEV 330E|Water Treatment Plant Design|(CEV 347 MIN DDveya CEV 347E MIN DDveya CEV 311 MIN DDveya CEV 311E MIN DD)ve (CEV 327 MIN DDveya CEV 327E MIN DDveya CEV 301 MIN DDveya CEV 301E MIN DDveya CEV 311E MIN DDveya CEV 311E MIN DD)ve (INS 361 MIN DDveya INS 361E MIN DDveya INS 360 MIN DDveya INS 360E MIN DDveya CEV 311 MIN DDveya CEV 311E MIN DD)|Yok
-CEV 330|Su Arıtma Tesisi  Tasarımı|(CEV 347 MIN DDveya CEV 347E MIN DDveya CEV 311 MIN DDveya CEV 311E MIN DD)ve (CEV 327 MIN DDveya CEV 327E MIN DDveya CEV 301 MIN DDveya CEV 301E MIN DDveya CEV 311 MIN DDveya CEV 311E MIN DD)ve (INS 361 MIN DDveya INS 361E MIN DDveya INS 360 MIN DDveya INS 360E MIN DDveya CEV 311 MIN DDveya CEV 311E MIN DD)|Yok
+CEV 330E|Water Treatment Plant Design|(CEV 347 MIN DDveya CEV 347E MIN DDveya CEV 311 MIN DDveya CEV 311E MIN DD)ve (CEV 327 MIN DDveya CEV 327E MIN DDveya CEV 301 MIN DDveya CEV 301E MIN DD)ve (INS 361 MIN DDveya INS 361E MIN DDveya INS 360 MIN DDveya INS 360E MIN DD)|Yok
+CEV 330|Su Arıtma Tesisi  Tasarımı|(CEV 347 MIN DDveya CEV 347E MIN DDveya CEV 311 MIN DDveya CEV 311E MIN DD)ve (CEV 327 MIN DDveya CEV 327E MIN DDveya CEV 301 MIN DDveya CEV 301E MIN DD)ve (INS 361 MIN DDveya INS 361E MIN DDveya INS 360 MIN DDveya INS 360E MIN DD)|Yok
 CEV 331E|Water Quality|Yok  |Yok
 CEV 332E|Mng of Solid and Hazard Wastes|Yok  |Yok
 CEV 332|Katı &amp; Tehlikeli Atık Yönetimi|Yok  |Yok
@@ -2067,7 +2067,6 @@ ELH 492|Bitirme Çalışması| <a class="link1" title="Dersin Önşartı İçin 
 ELK 101E|Intr.to Electr. Eng.&amp;Eng.Eth.|Yok  |Yok
 ELK 101|Elektrik Müh. Giriş&amp;Müh. Etiği|Yok  |Yok
 ELK 107E|Int to Sci.&amp;Eng.Comp. (Python)|BIL 110 MIN DDveya BIL 110E MIN DD|Yok
-ELK 110E|Intr. to Prog. Language (C)|Yok  |Yok
 ELK 111E|Electrical Engineering&amp;Ethics|Yok  |Yok
 ELK 111|Elektrik Mühendisliği ve Etik|Yok  |Yok
 ELK 214E|Fund.of Electr. Energy Conver.|Yok  |Yok
@@ -2111,6 +2110,8 @@ ELK 356E|Electrical Machines|ELK 343 MIN DDveya ELK 343E MIN DDveya ELK 214 MIN 
 ELK 356|Elektrik Makinaları|ELK 343 MIN DDveya ELK 343E MIN DDveya ELK 214 MIN DDveya ELK 214E MIN DD|Yok
 ELK 361E|Engineering Drawing and Design|Yok  |Yok
 ELK 361|Mühendislikte Çizim ve Tasarım|Yok  |Yok
+ELK 363E|Engineering Drawing|Yok  |Yok
+ELK 363|Mühendislikte Çizim|Yok  |Yok
 ELK 364E|Fundmnt of Super Conductivity|Yok  |Yok
 ELK 371E|Illumination Techniques|Yok  |Yok
 ELK 371|Aydınlatma Tekniği|Yok  |Yok
@@ -2182,6 +2183,7 @@ ELK 495|Elek. Enrj Kalit. ve Harmnkler|Yok  |Yok
 ELK 496E|Power Sys.Dynamics &amp; Stability|Yok  |Yok
 ELK 497|Fırçasız Elektrik Motorları|(ELK 341 MIN DDve ELK 332 MIN DD)veya (ELK 341E MIN DDve ELK 332E MIN DD)veya (ELK 341 MIN DDve ELK 332E MIN DD)veya (ELK 341E MIN DDve ELK 332 MIN DD)veya ELK 356 MIN DDveya ELK 356E MIN DD|Yok
 ELK 498E|Photovoltaic Systems|ELK 331 MIN DDveya ELK 331E MIN DD|Yok
+ELK YLT|Tez Çalışması|Yok  |Yok
 END 111E|Intr.to Industrial Engineering|Yok  |Yok
 END 111|Endüstri Mühendisliğine Giriş|Yok  |Yok
 END 112E|Intr. to Manufacturing Systems|Yok  |Yok
@@ -4489,7 +4491,7 @@ KMM 211E|Mass and Energy Balances|Yok  |Yok
 KMM 211|Kütle ve Enerji Denklikleri|Yok  |Yok
 KMM 220|Akışkanlar Mekaniği|MAT 210 MIN DDveya MAT 210E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DD|Yok
 KMM 222E|Computati. Meth. in Chem. Eng.|MAT 210 MIN DDveya MAT 210E MIN DDveya MAT 104 MIN DDveya MAT 104E MIN DD|Yok
-KMM 224|Kimya Müh.Termodinamiği|(KIM 101 MIN DDveya KIM 101E MIN DD)ve (FIZ 101 MIN DDveya FIZ 101E MIN DD)ve (KMM 102E MIN DDveya BIL 108E MIN DD)|Yok
+KMM 224|Kimya Müh.Termodinamiği|(KIM 101 MIN DDveya KIM 101E MIN DD)ve (FIZ 101 MIN DDveya FIZ 101E MIN DD)|Yok
 KMM 305E|Heat and Mass Transfer|KMM 211 MIN DDve (KMM 224 MIN DDveya KMM 220 MIN DD)|Yok
 KMM 308E|Chem Reac Eng|KMM 224 MIN DDveya TER 203 MIN DD|Yok
 KMM 311E|Thermodynamics II|TER 201 MIN DDveya TER 201E MIN DDveya TER 203 MIN DDveya TER 203E MIN DD|Yok
@@ -4553,6 +4555,7 @@ KMM 4901|Kimya Mühendisliği Tasarımı I|(KMM 305E MIN DDveya KMM 331 MIN DD)v
 KMM 4902E|Chem. Eng. Design II|KMM 4901 MIN BBveya KMM 431 MIN DD|Yok
 KMM 492E|Graduation Project| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
 KMM 492|Bitirme Çalışması| <a class="link1" title="Dersin Önşartı İçin Tıklayınız." target="_blank" href="http://www.sis.itu.edu.tr/bitirme_onsart.htm"> Diğer Şartlar</a>|4.Sınıf
+KMM YLT|Tez Çalışması|Yok  |Yok
 KMP 101|Kompozisyon I|Yok  |Yok
 KMP 102|Kompozisyon II|Yok  |Yok
 KMP 1115|Kompozisyon I|Yok  |Yok
