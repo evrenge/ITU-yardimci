@@ -1148,8 +1148,8 @@
 21534|INS 441E||Tarkan  Erdik|INB|Pazartesi |1430/1729 |B103 |60|60|AIN, INS, INSE
 21535|INS 444||Cüneyt  Vatansever|INB|Salı |0930/1229 |B104 |50|15|INS
 21536|INS 454|Çevrimiçi/Online|Beyza  Taşkın|----|Pazartesi |0930/1229 |---- |60|60|INS
-21537|INS 456E|Çevrimiçi/Online|Kadir  Güler, Yasin  Fahjan|----|Salı |0830/1129 |---- |50|21|AIN, INSE
-21538|INS 457E||Cihan  Bayındır|INB|Salı |0930/1229 |A302 |50|8|AIN, INSE
+21537|INS 456E|Çevrimiçi/Online|Kadir  Güler, Yasin  Fahjan|----|Salı |0830/1129 |---- |50|21|AIN, INS, INSE
+21538|INS 457E||Cihan  Bayındır|INB|Salı |0930/1229 |A302 |50|8|AIN, INS, INSE
 21539|INS 458||Yıldır  Akkaya, Erol  Lale|INB|Cuma |1430/1729 |D202 |50|19|INS
 21540|INS 472E||Aslı  Yalçın Dayıoğlu|INB|Pazartesi |0930/1229 |A201 |50|21|AIN, INS, INSE
 21541|BLG 311E||Tolga  Ovatman|EEB|Çarşamba |1230/1529 |5104 |100|100|BLG, BLGE, YZVE
@@ -1297,7 +1297,7 @@
 21687|SES 362||Ayşe Esin Şentürk|TMB|Salı |0930/1229 |--- |10|0|SES
 21688|MTR 204||Ufuk  Biçak|TMBTMBTMB|Salı Çarşamba Cuma |0830/1029 1330/1529 1400/1559 |--- --- --- |30|21|MTR, MUT, MUZ, MZT, SES
 21689|MTR 202||Nurullah  Kanık|TMBTMBTMB|Salı Perşembe Cuma |1030/1229 1530/1729 1030/1229 |--- --- --- |40|16|MTR, MUT, MUZ, MZT, SES
-21690|INS 447E||Özgür  Ekincioğlu|INB|Cuma |1430/1729 |--- |20|11|AIN, INSE
+21690|INS 447E||Özgür  Ekincioğlu|INB|Cuma |1430/1729 |--- |20|11|AIN, INS, INSE
 21691|MTR 204||Mehmet  Özkan|TMBTMBTMB|Çarşamba Perşembe Cuma |1330/1529 1030/1229 0830/1029 |--- --- --- |30|11|MTR, MUT, MUZ, MZT, SES
 21692|MTR 206||Gülay  Karamahmutoğlu|TMB|Perşembe |1030/1229 |--- |30|24|MTR, MTRM
 21693|INS 433||Erol  Lale|INBINB|Salı Çarşamba |0830/1029 1030/1229 |B305 B305 |20|20|INS
