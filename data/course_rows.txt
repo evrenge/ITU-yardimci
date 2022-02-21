@@ -2333,7 +2333,7 @@ END 453E|Indus.4.0 &amp; Digital Transform.|Yok  |Yok
 END 454E|Energy Markets &amp; Optimization|END 331 MIN DDveya END 331E MIN DDveya ISL 323 MIN DDveya ISL 323E MIN DD|3.Sınıf ,4.Sınıf
 END 457E|Heuristic Optimization|END 331 MIN DDveya END 331E MIN DD|Yok
 END 457|Sezgisel Optimizasyon|END 331 MIN DDveya END 331E MIN DD|Yok
-END 458E|Nonlinear Optimization|END 331 MIN DDveya END 331E MIN DD|Yok
+END 458E|Nonlinear Optimization|END 331 MIN DDveya END 331E MIN DDveya ISL 323 MIN DDveya ISL 323E MIN DD|3.Sınıf ,4.Sınıf
 END 471E|Marketing &amp; CRM Analytics|END 311 MIN DDveya END 311E MIN DD|Yok
 END 472E|Advanced Spreadsheet Modeling|Yok  |Yok
 END 473E|Pricing and Revenue Management|(END 331 MIN DDveya END 331E MIN DD)ve (END 312 MIN DDveya END 312E MIN DD)|Yok
