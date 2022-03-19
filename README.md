@@ -1,5 +1,8 @@
-<div align="center">
+> :warning: Bu proje artık [ITU Helper](https://github.com/itu-helper) organizasyonu altında geliştiriliyor. Bu repoya destek kesilmiştir.
 
+<br>
+
+<div align="center">
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/evrenge/ITU-yardimci/pages%20build%20and%20deployment?label=Page%20Deployment&style=flat-square)](https://github.com/evrenge/ITU-yardimci/actions/workflows/pages/pages-build-deployment)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/evrenge/ITU-yardimci/Refresh%20Data?label=Refresh%20Data&style=flat-square)](https://github.com/evrenge/ITU-yardimci/actions/workflows/refresh_data.yml)
@@ -8,8 +11,8 @@
 ![GitHub](https://img.shields.io/github/license/evrenge/ITU-yardimci?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues-raw/evrenge/ITU-yardimci)
 
-
 # **İTÜ Yardımcı**
+
 </div>
     
 <div align="left">
@@ -19,11 +22,11 @@
 <div align="center">
 </br></br>
 
+_İTÜ'lüler için İTÜ'lülerden_
 
-*İTÜ'lüler için İTÜ'lülerden*
+_İTÜ Yardımcı_ önşart listelerini görselleştirme ve ders programı oluşturmaya yardımcı olmak amacıyla İTÜ'lüler tarafındana geliştirilmiş, açık kaynak
+bir web sitesidir.
 
-*İTÜ Yardımcı* önşart listelerini görselleştirme ve ders programı oluşturmaya yardımcı olmak amacıyla İTÜ'lüler tarafındana geliştirilmiş, açık kaynak bir web sitesidir.
-
-*İTÜ Yardımcı*'ya [*bu adresten*](https://evrenge.github.io/ITU-yardimci/) ulaşabilirsiniz.
+_İTÜ Yardımcı_'ya [_bu adresten_](https://evrenge.github.io/ITU-yardimci/) ulaşabilirsiniz.
 
 </div>
